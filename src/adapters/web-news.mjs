@@ -7,17 +7,19 @@ const registry = JSON.parse(readFileSync(new URL('../../catalog/news-feeds.json'
 const providers = JSON.parse(readFileSync(new URL('../../catalog/providers.json', import.meta.url), 'utf8'));
 const normalize = value => String(value ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').trim().replace(/\s+/g, ' ');
 const phrase = value => new RegExp(`\\b${value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replaceAll(' ', '\\s+')}\\b`, 'g');
-const ambiguous = new Set(['usc', 'osu', 'asu', 'isu', 'msu', 'miami', 'ut', 'uc', 'ui', 'mu', 'lu', 'cu', 'su', 'tu', 'um']);
+const ambiguous = new Set(['usc', 'osu', 'asu', 'isu', 'msu', 'miami', 'columbia', 'brown', 'ut', 'uc', 'ui', 'mu', 'lu', 'cu', 'su', 'tu', 'um']);
+const strongDefinitions = new Map();
 const definitions = new Map(membership.schools.map(school => {
-  const names = [school.name];
+  const names = [school.name], strongNames = [school.name];
   const records = providers.schools[school.slug]?.espn ?? {};
   for (const [sport, provider] of Object.entries(records)) if (provider.status === 'verified') {
     names.push(provider.espnName, ...(provider.verifiedNameAliases ?? []));
     const team = providers.leagues[sport]?.teams?.find(team => team.id === provider.espnId);
-    if (team) names.push(team.displayName);
+    if (team) { names.push(team.displayName); strongNames.push(team.displayName); }
   }
   // Full canonical names remain usable when a public provider has no mapping.
   const aliases = [...new Set(names.map(normalize).filter(name => name.length >= 3 && !ambiguous.has(name)))];
+  strongDefinitions.set(school.slug, new Set(strongNames.map(normalize)));
   return [school.slug, aliases];
 }));
 const aliasOwners = new Map();
@@ -41,16 +43,19 @@ function canonical(school, sport) {
 }
 
 /** Longest complete school names win: Arizona State never supplies Arizona evidence. */
-function schoolsMentioned(value) {
+function schoolsMentioned(value, requireStrong = false) {
   let text = normalize(value);
-  if (mentionCache.has(text)) return mentionCache.get(text);
-  const key = text;
+  const key = `${requireStrong ? 'strong' : 'title'}:${text}`;
+  if (mentionCache.has(key)) return mentionCache.get(key);
   const matches = new Set();
   for (const alias of allAliases) {
     const expression = phrase(alias);
     if (!expression.test(text)) continue;
     const owners = aliasOwners.get(alias);
-    if (owners.size === 1) matches.add([...owners][0]);
+    if (owners.size === 1) {
+      const slug = [...owners][0];
+      if (!requireStrong || strongDefinitions.get(slug).has(alias)) matches.add(slug);
+    }
     text = text.replace(phrase(alias), ' ');
   }
   if (mentionCache.size >= 10000) mentionCache.clear();
@@ -85,7 +90,10 @@ export function classifyWebNews(item, school, sport, definition) {
   const title = normalize(item.title), details = normalize(item.description), text = `${title} ${details}`;
   if (!title || BETTING.test(text) || (PROFESSIONAL.test(title) && !/\brecruit(?:ing|s|ed)?\b/.test(title))) return false;
   if (/\b(?:high school|prep|youth|little league)\b/.test(title) && !/\b(?:recruit|recruiting|commit|commits|commitment|offer|offers|signs)\b/.test(text)) return false;
-  const titleSchools = schoolsMentioned(title), detailSchools = schoolsMentioned(details);
+  // A location or athlete surname in a summary is not program identity. For
+  // description-only matches require the full institution or verified team
+  // name with its mascot; clear school mentions in headlines remain eligible.
+  const titleSchools = schoolsMentioned(title), detailSchools = schoolsMentioned(details, true);
   const directlyMentioned = titleSchools.has(school.slug) || detailSchools.has(school.slug);
   // A school feed does not turn a story explicitly about another team into a
   // target-school story. Matchups must also identify the requested program.

@@ -100,3 +100,37 @@ test('official (I)/(O) track menu suffixes map only the corresponding season', (
   assert.equal(matchNavigationSport("Women's Track & Field (I)", track.find(s => s.slug === 'mens-track-indoor'), school.sports), false);
   assert.equal(matchNavigationSport('Basketball (I)', men, school.sports), false);
 });
+
+test('explicit full basketball route and trailing gender labels preserve gender', () => {
+  const result = discoverSchoolSources('<a href="/sports/w-basketball/">Basketball</a><a href="/sports/mb/">Basketball - Men\'s</a>', school);
+  assert.equal(result.sports['womens-basketball'].homeUrl, 'https://sports.example.edu/sports/w-basketball/');
+  assert.equal(result.sports.basketball.homeUrl, 'https://sports.example.edu/sports/mb/');
+  assert.equal(matchSport("Basketball - Women's", men), false);
+  assert.equal(matchSport("Basketball - Men's", women), false);
+  assert.equal(matchSport('w-basketball', men), false);
+});
+
+test('observed combined track and cross-country labels scope only those families', () => {
+  const xc = ['men', 'women'].map(gender => ({ slug: `${gender}s-cross-country`, name: 'Cross Country', gender }));
+  const sponsored = [...school.sports, ...xc];
+  for (const label of ['Track & Field, XC', 'Cross Country/Track', 'Cross Country & Track']) {
+    const result = discoverSchoolSources(`<a href="/sports/xctrack">${label}</a><a href="/sports/xctrack/archives">News</a>`, { ...school, sports: sponsored });
+    for (const sport of [...track, ...xc]) assert.equal(result.sports[sport.slug].newsUrl, 'https://sports.example.edu/sports/xctrack/archives');
+    assert.equal(result.sports.basketball.newsUrl, null);
+    assert.equal(matchNavigationSport(`Women's ${label}`, xc[0], sponsored), false);
+    assert.equal(matchNavigationSport(`Women's ${label}`, xc[1], sponsored), true);
+    assert.equal(matchNavigationSport(`${label} Championships`, xc[0], sponsored), false);
+  }
+});
+
+test('short Track and gendered Swim navigation remain scoped and reject opposite-gender routes', () => {
+  const swim = ['men', 'women'].map(gender => ({ slug: `${gender}s-swimming-and-diving`, name: 'Swimming and Diving', gender }));
+  const sponsored = [...school.sports, ...swim];
+  const result = discoverSchoolSources('<a href="/sports/track-and-field">Track</a><a href="/sports/womens-swim">Women\'s Swim</a><a href="/sports/mens-swimming-and-diving">Swimming</a>', { ...school, sports: sponsored });
+  for (const sport of track) assert.equal(result.sports[sport.slug].newsUrl, 'https://sports.example.edu/sports/track-and-field');
+  assert.equal(result.sports['womens-swimming-and-diving'].newsUrl, 'https://sports.example.edu/sports/womens-swim');
+  assert.equal(result.sports['mens-swimming-and-diving'].newsUrl, 'https://sports.example.edu/sports/mens-swimming-and-diving');
+  const genderedRoute = discoverSchoolSources('<a href="/sports/mens-track-and-field">Track and Field</a><a href="/sports/mens-swimming-and-diving">Swimming</a>', { ...school, sports: sponsored });
+  assert.equal(genderedRoute.sports['womens-track-indoor'].newsUrl, null);
+  assert.equal(genderedRoute.sports['womens-swimming-and-diving'].newsUrl, null);
+});

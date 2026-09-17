@@ -35,6 +35,30 @@ test('ambiguous school acronyms and Miami do not establish national school ident
   assert.equal(classifyWebNews({title:'Miami Ohio football wins'}, miami, miami.sports.find(value=>value.slug==='football'), feed), false);
 });
 
+test('Columbia locations and Brown athlete surnames are not school identities', async () => {
+  const columbia = await getSchool('columbia-university-barnard-college');
+  const cb = columbia.sports.find(value => value.slug === 'basketball');
+  assert.equal(classifyWebNews({ title: 'Mark Mitchell returning to Missouri: Star forward will not attend Kentucky as he seeks fifth year', description: 'The forward is returning to Columbia for another season.' }, columbia, cb, cbs), false);
+  assert.equal(classifyWebNews({ title: 'Columbia Lions basketball announces its schedule' }, columbia, cb, cbs), true);
+  const brown = await getSchool('brown-university');
+  const bb = brown.sports.find(value => value.slug === 'basketball');
+  const gymnastics = brown.sports.find(value => value.slug === 'womens-gymnastics');
+  assert.equal(classifyWebNews({ title: 'Maliq Brown 2026 NCAA tournament highlights', description: 'The Duke forward enjoyed a successful tournament.' }, brown, bb, cbs), false);
+  assert.equal(classifyWebNews({ title: "Denver's Lynnzee Brown - Floor exercise at 2019 NCAA championships" }, brown, gymnastics, { sport: 'womens-gymnastics' }), false);
+  assert.equal(classifyWebNews({ title: 'Brown Bears basketball earns academic honors' }, brown, bb, cbs), true);
+});
+
+test('description-only national routing requires full institution or team identity', async () => {
+  for (const [slug, place] of [['university-of-texas-at-austin', 'Texas'], ['the-university-of-north-carolina-at-charlotte', 'Charlotte'], ['university-of-memphis', 'Memphis'], ['houston', 'Houston']]) {
+    const school = await getSchool(slug), sport = school.sports.find(value => value.slug === 'basketball');
+    assert.equal(classifyWebNews({ title: 'Duke basketball lands highly rated prospect', description: `The prospect grew up in ${place} and played at a local academy.` }, school, sport, cbs), false, `${place} is merely a place in the description`);
+  }
+  const texas = await getSchool('university-of-texas-at-austin'), basketball = texas.sports.find(value => value.slug === 'basketball');
+  assert.equal(classifyWebNews({ title: 'Texas basketball adds transfer guard' }, texas, basketball, cbs), true);
+  assert.equal(classifyWebNews({ title: 'Big tournament highlights', description: 'The Texas Longhorns basketball team advanced to the championship game.' }, texas, basketball, cbs), true);
+  assert.equal(classifyWebNews({ title: 'College roundup', description: 'University of Texas at Austin basketball announced its season schedule.' }, texas, basketball, cbs), true);
+});
+
 test('explicit gender outranks generic feed context and unscoped basketball stays ambiguous', () => {
   assert.equal(classifyWebNews({title:"Arizona women's basketball wins opener"}, school, men, cbs), false);
   assert.equal(classifyWebNews({title:"Arizona women's basketball wins opener"}, school, women, si), true);

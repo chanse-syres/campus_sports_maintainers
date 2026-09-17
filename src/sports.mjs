@@ -2,7 +2,7 @@
 // Headlines and arbitrary substrings are deliberately not sport classifiers.
 const UNGENDERED = new Set(['football', 'baseball', 'softball', 'field hockey', 'beach volleyball', 'stunt', 'acrobatics and tumbling']);
 const SHORT = {
-  basketball: ['bball', 'bb', 'bkb', '-baskbl'], soccer: ['soc', '-soccer'], volleyball: ['vball', 'vb', '-volley'],
+  basketball: ['bball', 'bb', 'bkb', '-baskbl', '-basketball'], soccer: ['soc', '-soccer'], volleyball: ['vball', 'vb', '-volley'],
   tennis: ['ten'], golf: ['golf'], lacrosse: ['lax'], fencing: ['fence', 'fen'],
   'cross country': ['xc', 'cross'], 'track and field': ['track', 'tf'],
   'indoor track and field': ['itrack', 'itf'], 'outdoor track and field': ['otrack', 'otf'],
@@ -14,6 +14,7 @@ const SHORT = {
 export function normalizeSportLabel(value) {
   if (typeof value !== 'string' || value.length > 200) return '';
   return value.toLowerCase().replace(/^(.*?)\s*\(([mw])\)\s*$/i, (_, label, gender) => `${gender === 'w' ? 'womens' : 'mens'} ${label}`)
+    .replace(/^(.*?)\s*[-–—]\s*(men['’]?s|women['’]?s)\s*$/i, (_, label, gender) => `${gender.startsWith('w') ? 'womens' : 'mens'} ${label}`)
     .replace(/[’']/g, '').replace(/&/g, ' and ')
     .replace(/[-_/]/g, ' ').replace(/\b(women|woman|female)\b/g, 'womens')
     .replace(/\b(men|man|male)\b/g, 'mens').replace(/[^a-z0-9 ]/g, ' ')
@@ -56,7 +57,7 @@ export function sportAliases(sport) {
   if (gender && gender !== 'coed') {
     const prefix = gender === 'womens' ? 'w' : 'm';
     for (const short of SHORT[base] ?? []) add(prefix + short);
-    if (base === 'swimming and diving') add(`${gender} swimming`);
+    if (base === 'swimming and diving') [ `${gender} swimming`, `${gender} swim` ].forEach(add);
     if (base === 'track and field') add(`${gender} track`);
     if (base === 'ice hockey') add(`${gender} hockey`);
     if (base === 'crew') [ `${gender} rowing`, `${prefix}row`, `${prefix}crew` ].forEach(add);
@@ -91,6 +92,7 @@ export function sportFamily(sport) {
     .replace(/^(?:heavyweight )?crew$/, 'rowing').replace(/^lightweight crew$/, 'lightweight rowing');
 }
 const COMBINED_FAMILIES = new Set(['track and field', 'cross country', 'swimming and diving', 'skiing', 'fencing', 'rifle', 'sailing']);
+const COMBINED_TRACK_XC_LABELS = new Set(['track and field xc', 'cross country track', 'cross country and track']);
 export function matchNavigationSport(label, sport, allSports) {
   // Official menus sometimes distinguish indoor/outdoor track with (I)/(O)
   // while both link to one combined program archive. Preserve any explicit
@@ -105,7 +107,15 @@ export function matchNavigationSport(label, sport, allSports) {
   }
   if (matchSport(label, sport)) return true;
   let normalized = normalizeSportLabel(label).replace(/^mens and womens |^womens and mens |^m and w /, '');
-  normalized = normalized.replace(/^track field$/, 'track and field').replace(/^swimming diving$/, 'swimming and diving')
+  const explicitGender = normalized.match(/^(mens|womens) /)?.[1];
+  const combined = normalized.replace(/^(mens|womens) /, '');
+  // Only complete, observed combined-program labels establish a shared
+  // cross-country/track route. Preserve explicit gender and sport family.
+  if (COMBINED_TRACK_XC_LABELS.has(combined)) {
+    return (!explicitGender || explicitGender === sportGender(sport))
+      && ['cross country', 'track and field'].includes(sportFamily(sport));
+  }
+  normalized = normalized.replace(/^track(?: field)?$/, 'track and field').replace(/^swimming diving$/, 'swimming and diving')
     .replace(/^swimming$/, 'swimming and diving')
     .replace(/^acrobatics tumbling$/, 'acrobatics and tumbling');
   const family = sportFamily(sport);

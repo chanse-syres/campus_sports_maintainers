@@ -36,12 +36,56 @@ test('Nuxt Sidearm and WMT map verified item sports and photos', () => {
   assert.deepEqual(parseOfficialNews(html, source, school, men).records.map(r => r.title), ['Men article']);
   assert.deepEqual(parseOfficialNews(html, source, school, women).records.map(r => r.title), ['Women article']);
 });
+test('duplicate visual cards preserve the structured publication date and available photo', () => {
+  const path = '/news/2026/9/16/mens-basketball-season-preview';
+  const structured = nuxt([{ sub_headline: '', title: 'Season preview', url: path, date: '2026-09-16T15:00:00', sport: { title: "Men's Basketball" }, image: { url: '/images/preview.jpg', alt_text: 'Team preview' } }]);
+  const card = `<article class="c-stories__item"><a class="c-stories__title" href="${path}">Season preview</a><abbr class="c-item-details__sport-text" title="Men's Basketball">MBB</abbr></article>`;
+  const result = parseOfficialNews(structured + card, source, school, men).records;
+  assert.equal(result.length, 1);
+  assert.equal(result[0].publishedAt, '2026-09-16T00:00:00.000Z');
+  assert.equal(result[0].publishedAtPrecision, 'day');
+  assert.equal(result[0].imageUrl, 'https://athletics.example.edu/images/preview.jpg');
+  assert.equal(result[0].imageAlt, 'Team preview');
+  const precise = structured.replace('2026-09-16T15:00:00', '2026-09-16T15:00:00Z');
+  const sparse = card.replace('</article>', '<time datetime="2026-09-16"></time><img src="/images/preview.jpg"></article>');
+  const merged = parseOfficialNews(precise + sparse, source, school, men).records[0];
+  assert.equal(merged.publishedAt, '2026-09-16T15:00:00.000Z');
+  assert.equal(merged.publishedAtPrecision, 'instant');
+  assert.equal(merged.imageAlt, 'Team preview');
+});
 test('explicit opposite gender wins over a shared archive route', () => {
   const sport = { slug: 'mens-cross-country', name: 'Cross Country', gender: 'men', routes: ['/sports/cross-country'], aliases: ['Cross Country'] };
   const html = script([story({ sport_title: "Women's Cross Country", story_path: '/news/2026/9/16/cross-country-women-win' }), story({ sport_title: 'Cross Country', story_path: '/news/2026/9/16/cross-country-teams-open' })]);
   const records = parseOfficialNews(html, source, school, sport).records;
   assert.equal(records.length, 1);
   assert.ok(records[0].url.endsWith('teams-open'));
+});
+test('primary team gender outranks cross-posted categories in classic and Nuxt archives', () => {
+  const mens = { slug: 'mens-squash', name: "Men's Squash", gender: 'men', code: 'MSQ' };
+  const womens = { slug: 'womens-squash', name: "Women's Squash", gender: 'women', code: 'WSQ' };
+  const title = "Men's Squash Advances to CSA Semifinals";
+  const path = '/news/2025/3/7/mens-squash-advances-to-csa-semifinals.aspx';
+  const primary = "Men's Squash", categories = "Men's Squash, Women's Squash";
+  const documents = [
+    script([story({ story_headline: title, story_path: path, sport_title: primary, sports_cats: categories })]),
+    nuxt([{ storyHeadline: title, storyPath: path, storyPostdate: '2025-03-07', sportTitle: primary, sportsCats: categories }]),
+  ];
+  for (const html of documents) {
+    assert.equal(parseOfficialNews(html, source, school, mens).records.length, 1);
+    assert.throws(() => parseOfficialNews(html, source, school, womens), /No recognizable/);
+    const crosspostedCard = `<article class="c-stories__item"><a class="c-stories__title" href="${path}">${title}</a><abbr class="c-item-details__sport-text" title="Women's Squash">WSQ</abbr></article>`;
+    assert.throws(() => parseOfficialNews(html + crosspostedCard, source, school, womens), /No recognizable/);
+    assert.equal(parseOfficialNews(html + crosspostedCard, source, school, mens).records.length, 1);
+  }
+  const shared = script([story({ sport_title: 'Squash', sports_cats: categories, story_path: '/news/2026/9/16/squash-teams-honored.aspx' })]);
+  assert.equal(parseOfficialNews(shared, source, school, mens).records.length, 1);
+  assert.equal(parseOfficialNews(shared, source, school, womens).records.length, 1);
+});
+test('verified combined labels match whole before comma-separated category fallback', () => {
+  const sport = { slug: 'mens-cross-country', name: 'Cross Country', gender: 'men', aliases: ['Track & Field, XC'] };
+  const html = script([story({ sport_title: 'Track & Field, XC', story_path: '/news/2026/9/16/team-honors' })]);
+  assert.equal(parseOfficialNews(html, source, school, sport).records.length, 1);
+  assert.throws(() => parseOfficialNews(html, source, school, { ...sport, aliases: [] }), /No recognizable/);
 });
 test('RSS categories establish sport; generic feeds never inherit requested scope', () => {
   const xml = '<rss><channel><item><title>Women win</title><link>https://athletics.example.edu/news/2026/9/16/win</link><category>Women\'s Basketball</category><pubDate>Wed, 16 Sep 2026 20:00:00 GMT</pubDate><enclosure type="image/jpeg" url="https://cdn.example.edu/photo.jpg" /></item></channel></rss>';

@@ -48,7 +48,7 @@ function labelsFor(graph, node) {
   return ['title', 'name', 'slug', 'shortname', 'shortName', 'abbreviation', 'abbrev', 'global_sport_name_slug', 'globalSportNameSlug']
     .map(key => graph.field(node, key)).filter(Boolean);
 }
-const labelsMatch = (labels, sport) => labels.some(label => String(label).split(/[,;]/).some(part => matchSport(part.trim(), sport)));
+const labelsMatch = (labels, sport) => labels.some(label => matchSport(label, sport) || String(label).split(/[,;]/).some(part => matchSport(part.trim(), sport)));
 function structuredSportMatches(graph, node, sport) {
   return labelsMatch(labelsFor(graph, node), sport);
 }
@@ -144,12 +144,15 @@ function seasonValue($, kind) {
 }
 
 export function parseOfficialNews(text, sourceUrl, school, sport) {
-  const { $, scopedUrl } = document(text, sourceUrl, school), graph = nuxt($), records = [];
+  const { $, scopedUrl } = document(text, sourceUrl, school), graph = nuxt($), records = [], excludedUrls = new Set();
   let candidates = 0;
-  const add = ({ title, path, date, image, alt, labels = [] }) => {
+  const add = ({ title, path, date, image, alt, labels = [], primaryLabels = [] }) => {
     ensureBudget(++candidates);
     const url = scopedUrl(path), plainTitle = tidy(title);
     if (!url || !plainTitle || url === sourceUrl || !/\/[a-z0-9][a-z0-9/_-]*/i.test(new URL(url).pathname)) return;
+    // Cross-posted categories must not override the publisher's explicit
+    // primary team (for example, a men's recap tagged for both squash teams).
+    if (labelConflicts(primaryLabels, sport)) { excludedUrls.add(url); return; }
     if (labelConflicts(labels, sport)) return;
     if (!labelsMatch(labels, sport) && !matchSportRoute(url, sport)) return;
     const imageUrl = image ? safeUrl(scalar(image), sourceUrl) : null;
@@ -164,14 +167,15 @@ export function parseOfficialNews(text, sourceUrl, school, sport) {
       if (!recordObject(story)) throw new Error('Invalid official story');
       add({ title: story.story_headline ?? story.title, path: story.story_path ?? story.url,
         date: story.story_postdate ?? story.date, image: story.story_image ?? story.image?.url, alt: story.image_alt_text,
-        labels: [story.sport_title, story.sports_cats, story.sport?.title, story.sport?.shortname].filter(Boolean) });
+        labels: [story.sport_title, story.sports_cats, story.sport?.title, story.sport?.shortname].filter(Boolean),
+        primaryLabels: [story.sport_title, story.sport?.title, story.sport?.shortname].filter(Boolean) });
     }
   }
   if (graph) for (const node of graph.nodes) {
     const f = key => graph.field(node, key);
     if (own(node, 'storyHeadline') && own(node, 'storyPath')) {
       add({ title: f('storyHeadline'), path: f('storyPath'), date: f('storyPostdate'), image: f('storyImage'),
-        labels: [f('sportsCats'), f('sportTitle')].filter(Boolean) });
+        labels: [f('sportsCats'), f('sportTitle')].filter(Boolean), primaryLabels: [f('sportTitle')].filter(Boolean) });
     } else if (own(node, 'published_at') && own(node, 'permalink')) {
       if (f('visibility') !== 'public') continue;
       const sports = graph.list(node, 'sports') ?? graph.list(node, 'orderedSports') ?? [], media = graph.object(node, 'image');
@@ -179,8 +183,9 @@ export function parseOfficialNews(text, sourceUrl, school, sport) {
         labels: sports.flatMap(item => labelsFor(graph, item)) });
     } else if (own(node, 'sub_headline') && own(node, 'url') && own(node, 'sport')) {
       const media = graph.object(node, 'image');
+      const primaryLabels = labelsFor(graph, graph.object(node, 'sport'));
       add({ title: f('title'), path: f('url'), date: f('date'), image: graph.field(media, 'url'), alt: graph.field(media, 'alt_text'),
-        labels: labelsFor(graph, graph.object(node, 'sport')) });
+        labels: primaryLabels, primaryLabels });
     }
   }
   // A generic RSS feed never inherits the requested sport. Each item's exact
@@ -205,7 +210,20 @@ export function parseOfficialNews(text, sourceUrl, school, sport) {
         labels: card.find('.sidearm-news-list-item-sport, .c-stories__sport, .c-item-details__sport-text, [data-sport], .content-heading .category').map((_, el) => $(el).attr('title') || $(el).attr('data-sport') || $(el).text()).get() });
     });
   }
-  return finish(records);
+  // One page can represent a story in structured data and a visual card.
+  // Sparse cards must not erase the publisher's known date or photograph.
+  const merged = new Map();
+  for (const record of records) {
+    if (excludedUrls.has(record.url)) continue;
+    const previous = merged.get(record.id);
+    const precision = { unknown: 0, day: 1, instant: 2 };
+    const dated = previous && precision[previous.publishedAtPrecision] > precision[record.publishedAtPrecision] ? previous : record;
+    const pictured = record.imageUrl ? record : previous?.imageUrl ? previous : record;
+    const imageAlt = pictured.imageAlt ?? (pictured.imageUrl === previous?.imageUrl ? previous.imageAlt : null);
+    merged.set(record.id, { ...record, publishedAt: dated.publishedAt, publishedAtPrecision: dated.publishedAtPrecision,
+      imageUrl: pictured.imageUrl, imageAlt });
+  }
+  return finish([...merged.values()]);
 }
 
 function requireSourceRoute(sourceUrl, sport, kind) {
