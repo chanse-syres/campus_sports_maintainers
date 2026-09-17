@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "academicYear": "2026-27",
+  "retrievedAt": "2026-09-17T02:01:39.502Z",
+  "sources": [
+    "https://web3.ncaa.org/directory/memberList?type=12&division=I",
+    "https://web3.ncaa.org/directory/api/directory/memberList?type=12&division=I",
+    "https://web3.ncaa.org/directory/api/common/sportList",
+    "https://www.ncaa.org/about-us/membership-directory/membership-composition-and-sport-sponsorship/"
+  ],
+  "rawDivisionISearchCount": 367,
+  "includedSchoolCount": 365,
+  "schoolStatusCounts": {
+    "active": 361,
+    "reclassifying": 4
+  },
+  "sponsorshipCount": 7080,
+  "distinctSportCount": 62,
+  "primaryConferenceCount": 32,
+  "sportGenderCounts": {
+    "coed": 31,
+    "men": 3115,
+    "women": 3934
+  },
+  "sportDivisionCounts": {
+    "FBS": 138,
+    "FCS": 128,
+    "I": 6814
+  },
+  "sportConferenceMissingCount": 0,
+  "sportAffiliateConferenceCount": 703,
+  "duplicateSchoolIds": 0,
+  "duplicateSchoolSlugs": 0,
+  "duplicateSchoolSportCodes": 0,
+  "repeatedSourceSportRows": [
+    {
+      "ncaaId": 37,
+      "identicalDuplicateRowsRemoved": 1,
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=37"
+    },
+    {
+      "ncaaId": 80,
+      "identicalDuplicateRowsRemoved": 5,
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=80"
+    },
+    {
+      "ncaaId": 83,
+      "identicalDuplicateRowsRemoved": 1,
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=83"
+    },
+    {
+      "ncaaId": 99,
+      "identicalDuplicateRowsRemoved": 1,
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=99"
+    },
+    {
+      "ncaaId": 172,
+      "identicalDuplicateRowsRemoved": 2,
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=172"
+    },
+    {
+      "ncaaId": 204,
+      "identicalDuplicateRowsRemoved": 6,
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=204"
+    },
+    {
+      "ncaaId": 275,
+      "identicalDuplicateRowsRemoved": 2,
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=275"
+    },
+    {
+      "ncaaId": 440,
+      "identicalDuplicateRowsRemoved": 2,
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=440"
+    },
+    {
+      "ncaaId": 469,
+      "identicalDuplicateRowsRemoved": 2,
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=469"
+    },
+    {
+      "ncaaId": 545,
+      "identicalDuplicateRowsRemoved": 2,
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=545"
+    },
+    {
+      "ncaaId": 603,
+      "identicalDuplicateRowsRemoved": 1,
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=603"
+    }
+  ],
+  "missingAthleticsSchoolIds": [],
+  "missingPrimaryConferenceSchoolIds": [],
+  "exclusions": [
+    {
+      "ncaaId": 600,
+      "name": "Saint Francis University",
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=600",
+      "reason": "Reclassifying out of Division I; all current sponsored sports are outside Division I.",
+      "currentDivision": "I",
+      "reclassifyingTo": 3,
+      "sponsoredSportCount": 22,
+      "sportDivisions": [
+        "III"
+      ]
+    },
+    {
+      "ncaaId": 30270,
+      "name": "EC University",
+      "sourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=30270",
+      "reason": "Directory entry has no athletics URL and no current sponsored sports; cannot establish a varsity athletics program.",
+      "sponsoredSportCount": 0
+    }
+  ],
+  "limitations": [
+    "NCAA directory sport sponsorship is self-reported institutional data; changes not yet reported to the NCAA may be absent.",
+    "The directory includes non-championship sports such as crew and sailing, but does not establish that every institution reports every varsity sport.",
+    "An absent sport conference is retained as null. It is not inferred from the primary institutional conference.",
+    "Athletics URL hostnames come directly from the NCAA directory; HTTPS is normalized but redirects are left for source discovery to verify."
+  ]
+}

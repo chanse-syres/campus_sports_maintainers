@@ -1,0 +1,24 @@
+{
+  "name": "campus-sports-maintainers",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Conference-organized public maintainers for NCAA Division I schools and varsity sports",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "scripts": {
+    "maintain": "node src/cli.mjs",
+    "test": "node --test",
+    "check": "node scripts/check.mjs",
+    "validate": "node scripts/validate-output.mjs",
+    "audit": "npm audit --omit=dev",
+    "catalog": "node scripts/catalog/import-ncaa.mjs",
+    "discover": "node scripts/discover-sources.mjs"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "cheerio": "1.2.0",
+    "ipaddr.js": "2.5.0"
+  }
+}

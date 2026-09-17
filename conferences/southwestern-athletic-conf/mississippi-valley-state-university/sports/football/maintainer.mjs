@@ -1,0 +1,3 @@
+// Generated from the reviewed NCAA catalog. Run from any working directory.
+import { run } from '../../../../../src/cli.mjs';
+await run([...["--school","mississippi-valley-state-university","--sport","football"], ...process.argv.slice(2)]);

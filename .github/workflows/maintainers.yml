@@ -1,0 +1,128 @@
+name: Maintain Division I news
+
+on:
+  schedule:
+    - cron: '23 */4 * * *'
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish validated news snapshots to the public data branch
+        required: true
+        default: false
+        type: boolean
+      rebootstrap:
+        description: Explicitly collect fresh data without previous snapshots (catalog/schema migration)
+        required: true
+        default: false
+        type: boolean
+
+permissions: {}
+
+concurrency:
+  group: national-maintainer-data
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    if: github.repository == 'chanse-syres/campus_sports_maintainers' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    outputs:
+      conferences: ${{ steps.matrix.outputs.conferences }}
+      data_commit: ${{ steps.data.outputs.commit }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - run: npm run check
+      - id: data
+        name: Resolve the public data commit once for every collector
+        run: node scripts/resolve-data-ref.mjs >> "$GITHUB_OUTPUT"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Report explicitly requested rebootstrap
+        if: github.event_name == 'workflow_dispatch' && inputs.rebootstrap == true
+        run: echo 'Manual rebootstrap was explicitly requested. This run will collect fresh news without preserving previous records. Publication still requires every conference to pass validation.' >> "$GITHUB_STEP_SUMMARY"
+      - id: matrix
+        name: Read reviewed conference inventory
+        run: node --input-type=module -e "import {listConferences} from './src/config.mjs'; console.log('conferences='+JSON.stringify((await listConferences()).map(c=>c.slug)));" >> "$GITHUB_OUTPUT"
+
+  collect:
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        conference: ${{ fromJSON(needs.prepare.outputs.conferences) }}
+    env:
+      CONFERENCE: ${{ matrix.conference }}
+      DATA_COMMIT: ${{ needs.prepare.outputs.data_commit }}
+      MAINTAINER_REBOOTSTRAP: ${{ github.event_name == 'workflow_dispatch' && inputs.rebootstrap == true }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+      - run: npm ci --ignore-scripts
+      - name: Load last published snapshots at a pinned data commit
+        run: |
+          if [ "$MAINTAINER_REBOOTSTRAP" = "true" ]; then
+            node scripts/download-previous.mjs --conference "$CONFERENCE" --output previous --commit "$DATA_COMMIT" --rebootstrap
+          else
+            node scripts/download-previous.mjs --conference "$CONFERENCE" --output previous --commit "$DATA_COMMIT"
+          fi
+      - name: Refresh every school and sport news section
+        run: node src/cli.mjs --conference "$CONFERENCE" --previous previous --output output
+      - name: Validate complete conference bundle
+        run: node scripts/publish.mjs --conference "$CONFERENCE" --output output --dry-run
+      - name: Report news source health
+        continue-on-error: true
+        run: node scripts/report-health.mjs --output output --conference "$CONFERENCE" --markdown >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: conference-${{ matrix.conference }}
+          path: output/v1/conferences/
+          if-no-files-found: error
+          retention-days: 7
+          include-hidden-files: false
+
+  publish:
+    needs: collect
+    if: github.repository == 'chanse-syres/campus_sports_maintainers' && github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.publish == true)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+      - run: npm ci --ignore-scripts
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          pattern: conference-*
+          merge-multiple: true
+          path: output/v1/conferences/
+      - name: Validate and atomically publish every conference
+        run: node scripts/publish.mjs --output output
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Report published news source health
+        continue-on-error: true
+        run: node scripts/report-health.mjs --output output --markdown >> "$GITHUB_STEP_SUMMARY"

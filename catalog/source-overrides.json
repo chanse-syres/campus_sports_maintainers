@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-17T12:43:50.728Z",
+  "schools": {
+    "arizona-state": {
+      "ncaaId": 28,
+      "originalUrl": "https://sundevils.com/",
+      "athleticsUrl": "https://thesundevils.com/news",
+      "evidenceUrl": "https://sundevils.com/",
+      "evidence": "Official homepage Drupal navigation and sport news links identify thesundevils.com/news as the athletics news archive."
+    },
+    "binghamton-university": {
+      "ncaaId": 62,
+      "originalUrl": "https://www.bubearcats.com/",
+      "athleticsUrl": "https://binghamtonbearcats.com/",
+      "evidenceUrl": "https://www.bubearcats.com/",
+      "evidence": "Public HTTP 301 Location points to the current official athletics website."
+    },
+    "colgate-university": {
+      "ncaaId": 153,
+      "originalUrl": "https://gocolgateraiders.com/",
+      "athleticsUrl": "https://colgateathletics.com/",
+      "evidenceUrl": "https://www.colgate.edu/athletics",
+      "evidence": "University athletics page links the current athletics domain and individual varsity sport pages."
+    },
+    "lsu-new-orleans": {
+      "ncaaId": 474,
+      "originalUrl": "https://www.unoprivateers.com/",
+      "athleticsUrl": "https://privateersports.com/",
+      "evidenceUrl": "https://www.unoprivateers.com/",
+      "evidence": "Public HTTP 301 Location points to the current official athletics website."
+    },
+    "texas-state-university": {
+      "ncaaId": 670,
+      "originalUrl": "https://txstatebobcats.com/",
+      "athleticsUrl": "https://txst.com/",
+      "evidenceUrl": "https://txstatebobcats.com/",
+      "evidence": "Public HTTP 301 Location points to the current official athletics website."
+    },
+    "university-of-missouri-columbia": {
+      "ncaaId": 434,
+      "originalUrl": "https://www.mutigers.com/",
+      "athleticsUrl": "https://mutigers.com/",
+      "evidenceUrl": "https://mutigers.com/",
+      "evidence": "NCAA athletics hostname without www serves the official university athletics site; www returns 404."
+    },
+    "university-of-nebraska-at-omaha": {
+      "ncaaId": 464,
+      "originalUrl": "https://www.omavs.com/",
+      "athleticsUrl": "https://omahamavs.com/",
+      "evidenceUrl": "https://omavs.com/",
+      "evidence": "NCAA athletics hostname without www redirects with HTTP 302 to the current official athletics site."
+    },
+    "wofford-college": {
+      "ncaaId": 2915,
+      "originalUrl": "https://www.wofford.edu/athletics",
+      "athleticsUrl": "https://woffordterriers.com/",
+      "evidenceUrl": "https://www.wofford.edu/athletics",
+      "evidence": "University athletics page redirects to woffordterriers.com; final HTTPS endpoint independently returned the official athletics site."
+    }
+  }
+}

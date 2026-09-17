@@ -1,0 +1,1520 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/chanse-syres/campus_sports_maintainers/schemas/snapshot.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "academicYear",
+    "conference",
+    "school",
+    "generatedAt",
+    "sports"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "academicYear": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "conference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slug",
+        "name"
+      ],
+      "properties": {
+        "slug": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        }
+      }
+    },
+    "school": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slug",
+        "ncaaId",
+        "name",
+        "athleticsUrl",
+        "membershipSourceUrl"
+      ],
+      "properties": {
+        "slug": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "ncaaId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "athleticsUrl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 10,
+              "maxLength": 2048,
+              "pattern": "^https://"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "membershipSourceUrl": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 2048,
+          "pattern": "^https://"
+        }
+      }
+    },
+    "generatedAt": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+    },
+    "sports": {
+      "type": "object",
+      "minProperties": 1,
+      "maxProperties": 60,
+      "patternProperties": {
+        "^[a-z0-9]+(?:-[a-z0-9]+)*$": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "sponsored",
+            "code",
+            "name",
+            "gender",
+            "conference",
+            "news",
+            "schedule",
+            "roster",
+            "recruitingAnnouncements",
+            "recruitingBoard",
+            "recruitingOffers"
+          ],
+          "properties": {
+            "sponsored": {
+              "const": true
+            },
+            "code": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 30
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "gender": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 30
+            },
+            "conference": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "slug",
+                "name"
+              ],
+              "properties": {
+                "slug": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 160
+                }
+              }
+            },
+            "news": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "lastAttemptAt",
+                "lastSuccessAt",
+                "sourceUrl",
+                "season",
+                "reason",
+                "records",
+                "sources"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "ok",
+                    "empty",
+                    "stale",
+                    "unavailable",
+                    "unsupported"
+                  ]
+                },
+                "lastAttemptAt": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                },
+                "lastSuccessAt": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "sourceUrl": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 10,
+                      "maxLength": 2048,
+                      "pattern": "^https://"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "season": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 40
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "reason": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "records": {
+                  "type": "array",
+                  "maxItems": 1000,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "id",
+                      "title",
+                      "url",
+                      "discoverySourceUrl",
+                      "publishedAt",
+                      "publishedAtPrecision",
+                      "imageUrl",
+                      "imageAlt",
+                      "publisher"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 80
+                      },
+                      "title": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 300
+                      },
+                      "url": {
+                        "type": "string",
+                        "minLength": 10,
+                        "maxLength": 2048,
+                        "pattern": "^https://"
+                      },
+                      "discoverySourceUrl": {
+                        "type": "string",
+                        "minLength": 10,
+                        "maxLength": 2048,
+                        "pattern": "^https://"
+                      },
+                      "publishedAt": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "publishedAtPrecision": {
+                        "enum": [
+                          "day",
+                          "instant",
+                          "unknown"
+                        ]
+                      },
+                      "imageUrl": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 10,
+                            "maxLength": 2048,
+                            "pattern": "^https://"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "imageAlt": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 300
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "publisher": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 160
+                      }
+                    }
+                  }
+                },
+                "sources": {
+                  "type": "array",
+                  "maxItems": 20,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "status",
+                      "lastAttemptAt",
+                      "lastSuccessAt",
+                      "sourceUrl",
+                      "reason",
+                      "recordCount"
+                    ],
+                    "properties": {
+                      "status": {
+                        "enum": [
+                          "ok",
+                          "empty",
+                          "stale",
+                          "unavailable"
+                        ]
+                      },
+                      "lastAttemptAt": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                      },
+                      "lastSuccessAt": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "sourceUrl": {
+                        "type": "string",
+                        "minLength": 10,
+                        "maxLength": 2048,
+                        "pattern": "^https://"
+                      },
+                      "reason": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "recordCount": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 1000
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "schedule": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "lastAttemptAt",
+                "lastSuccessAt",
+                "sourceUrl",
+                "season",
+                "reason",
+                "records"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "ok",
+                    "empty",
+                    "stale",
+                    "unavailable",
+                    "unsupported"
+                  ]
+                },
+                "lastAttemptAt": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                },
+                "lastSuccessAt": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "sourceUrl": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 10,
+                      "maxLength": 2048,
+                      "pattern": "^https://"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "season": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 40
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "reason": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "records": {
+                  "type": "array",
+                  "maxItems": 400,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "id",
+                      "date",
+                      "name",
+                      "status",
+                      "venue",
+                      "homeAway",
+                      "opponent",
+                      "teamScore",
+                      "opponentScore",
+                      "url"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 80
+                      },
+                      "date": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 300
+                      },
+                      "status": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 80
+                      },
+                      "venue": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 300
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "homeAway": {
+                        "enum": [
+                          "home",
+                          "away",
+                          "neutral",
+                          null
+                        ]
+                      },
+                      "opponent": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 300
+                      },
+                      "teamScore": {
+                        "anyOf": [
+                          {
+                            "type": "number",
+                            "minimum": 0,
+                            "maximum": 999
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "opponentScore": {
+                        "anyOf": [
+                          {
+                            "type": "number",
+                            "minimum": 0,
+                            "maximum": 999
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "url": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 10,
+                            "maxLength": 2048,
+                            "pattern": "^https://"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "datePrecision": {
+                        "enum": [
+                          "day",
+                          "instant",
+                          "unknown"
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "roster": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "lastAttemptAt",
+                "lastSuccessAt",
+                "sourceUrl",
+                "season",
+                "reason",
+                "records"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "ok",
+                    "empty",
+                    "stale",
+                    "unavailable",
+                    "unsupported"
+                  ]
+                },
+                "lastAttemptAt": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                },
+                "lastSuccessAt": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "sourceUrl": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 10,
+                      "maxLength": 2048,
+                      "pattern": "^https://"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "season": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 40
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "reason": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "records": {
+                  "type": "array",
+                  "maxItems": 400,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "id",
+                      "name",
+                      "position",
+                      "jersey",
+                      "year",
+                      "imageUrl",
+                      "url"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 80
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 160
+                      },
+                      "position": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 30
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "jersey": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 10
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "year": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 40
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "imageUrl": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 10,
+                            "maxLength": 2048,
+                            "pattern": "^https://"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "url": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 10,
+                            "maxLength": 2048,
+                            "pattern": "^https://"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "recruitingAnnouncements": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "lastAttemptAt",
+                "lastSuccessAt",
+                "sourceUrl",
+                "season",
+                "reason",
+                "records"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "ok",
+                    "empty",
+                    "stale",
+                    "unavailable",
+                    "unsupported"
+                  ]
+                },
+                "lastAttemptAt": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                },
+                "lastSuccessAt": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "sourceUrl": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 10,
+                      "maxLength": 2048,
+                      "pattern": "^https://"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "season": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 40
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "reason": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "records": {
+                  "type": "array",
+                  "maxItems": 400,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "id",
+                      "title",
+                      "url",
+                      "discoverySourceUrl",
+                      "publishedAt",
+                      "publishedAtPrecision",
+                      "imageUrl",
+                      "imageAlt",
+                      "publisher"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 80
+                      },
+                      "title": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 300
+                      },
+                      "url": {
+                        "type": "string",
+                        "minLength": 10,
+                        "maxLength": 2048,
+                        "pattern": "^https://"
+                      },
+                      "discoverySourceUrl": {
+                        "type": "string",
+                        "minLength": 10,
+                        "maxLength": 2048,
+                        "pattern": "^https://"
+                      },
+                      "publishedAt": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "publishedAtPrecision": {
+                        "enum": [
+                          "day",
+                          "instant",
+                          "unknown"
+                        ]
+                      },
+                      "imageUrl": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 10,
+                            "maxLength": 2048,
+                            "pattern": "^https://"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "imageAlt": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 300
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "publisher": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 160
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "recruitingBoard": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "lastAttemptAt",
+                "lastSuccessAt",
+                "sourceUrl",
+                "season",
+                "reason",
+                "records"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "ok",
+                    "empty",
+                    "stale",
+                    "unavailable",
+                    "unsupported"
+                  ]
+                },
+                "lastAttemptAt": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                },
+                "lastSuccessAt": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "sourceUrl": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 10,
+                      "maxLength": 2048,
+                      "pattern": "^https://"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "season": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 40
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "reason": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "records": {
+                  "type": "array",
+                  "maxItems": 1000,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "id",
+                      "name",
+                      "classYear",
+                      "position",
+                      "status",
+                      "schoolId",
+                      "sport",
+                      "sourceUrl",
+                      "updatedAt",
+                      "profileUrl",
+                      "imageUrl",
+                      "schoolName",
+                      "hometown",
+                      "rating",
+                      "ratingSystem",
+                      "stars",
+                      "nationalRank",
+                      "positionRank",
+                      "stateRank",
+                      "rankingState",
+                      "rankingGroup"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 80
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 160
+                      },
+                      "classYear": {
+                        "type": "integer",
+                        "minimum": 2000,
+                        "maximum": 2100
+                      },
+                      "position": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 30
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "status": {
+                        "enum": [
+                          "offered",
+                          "committed",
+                          "signed",
+                          "enrolled",
+                          "unknown"
+                        ]
+                      },
+                      "schoolId": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
+                      },
+                      "sport": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
+                      },
+                      "sourceUrl": {
+                        "type": "string",
+                        "minLength": 10,
+                        "maxLength": 2048,
+                        "pattern": "^https://"
+                      },
+                      "updatedAt": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                      },
+                      "profileUrl": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 10,
+                            "maxLength": 2048,
+                            "pattern": "^https://"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "imageUrl": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 10,
+                            "maxLength": 2048,
+                            "pattern": "^https://"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "schoolName": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "hometown": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "rating": {
+                        "anyOf": [
+                          {
+                            "type": "number",
+                            "minimum": 0,
+                            "maximum": 100
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "ratingSystem": {
+                        "enum": [
+                          "247sports",
+                          null
+                        ]
+                      },
+                      "stars": {
+                        "anyOf": [
+                          {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 5
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "nationalRank": {
+                        "anyOf": [
+                          {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 100000
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "positionRank": {
+                        "anyOf": [
+                          {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 100000
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "stateRank": {
+                        "anyOf": [
+                          {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 100000
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "rankingState": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^[A-Z]{2}$"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "rankingGroup": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 40
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "recruitingOffers": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "lastAttemptAt",
+                "lastSuccessAt",
+                "sourceUrl",
+                "season",
+                "reason",
+                "records"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "ok",
+                    "empty",
+                    "stale",
+                    "unavailable",
+                    "unsupported"
+                  ]
+                },
+                "lastAttemptAt": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                },
+                "lastSuccessAt": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "sourceUrl": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 10,
+                      "maxLength": 2048,
+                      "pattern": "^https://"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "season": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 40
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "reason": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "records": {
+                  "type": "array",
+                  "maxItems": 1000,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "id",
+                      "name",
+                      "classYear",
+                      "position",
+                      "status",
+                      "schoolId",
+                      "sport",
+                      "sourceUrl",
+                      "updatedAt",
+                      "profileUrl",
+                      "imageUrl",
+                      "schoolName",
+                      "hometown",
+                      "rating",
+                      "ratingSystem",
+                      "stars",
+                      "nationalRank",
+                      "positionRank",
+                      "stateRank",
+                      "rankingState",
+                      "rankingGroup"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 80
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 160
+                      },
+                      "classYear": {
+                        "type": "integer",
+                        "minimum": 2000,
+                        "maximum": 2100
+                      },
+                      "position": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 30
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "status": {
+                        "enum": [
+                          "offered",
+                          "committed",
+                          "signed",
+                          "enrolled",
+                          "unknown"
+                        ]
+                      },
+                      "schoolId": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
+                      },
+                      "sport": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
+                      },
+                      "sourceUrl": {
+                        "type": "string",
+                        "minLength": 10,
+                        "maxLength": 2048,
+                        "pattern": "^https://"
+                      },
+                      "updatedAt": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+                      },
+                      "profileUrl": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 10,
+                            "maxLength": 2048,
+                            "pattern": "^https://"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "imageUrl": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 10,
+                            "maxLength": 2048,
+                            "pattern": "^https://"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "schoolName": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "hometown": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 160
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "rating": {
+                        "anyOf": [
+                          {
+                            "type": "number",
+                            "minimum": 0,
+                            "maximum": 100
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "ratingSystem": {
+                        "enum": [
+                          "247sports",
+                          null
+                        ]
+                      },
+                      "stars": {
+                        "anyOf": [
+                          {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 5
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "nationalRank": {
+                        "anyOf": [
+                          {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 100000
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "positionRank": {
+                        "anyOf": [
+                          {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 100000
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "stateRank": {
+                        "anyOf": [
+                          {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 100000
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "rankingState": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "pattern": "^[A-Z]{2}$"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "rankingGroup": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 40
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
