@@ -1,0 +1,2117 @@
+{
+  "schemaVersion": 1,
+  "academicYear": "2026-27",
+  "conference": {
+    "slug": "atlantic-coast",
+    "name": "Atlantic Coast Conference"
+  },
+  "school": {
+    "slug": "university-of-pittsburgh",
+    "ncaaId": "545",
+    "name": "University of Pittsburgh",
+    "athleticsUrl": "https://www.pittsburghpanthers.com/",
+    "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=545"
+  },
+  "generatedAt": "2026-09-17T13:18:49.593Z",
+  "sports": {
+    "baseball": {
+      "sponsored": true,
+      "code": "MBA",
+      "name": "Baseball",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "basketball": {
+      "sponsored": true,
+      "code": "MBB",
+      "name": "Men's Basketball",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "55ca5ec0a03dc40f460fd1bb",
+            "title": "Pitt, West Virginia Headline an Unforgettable Night of College Basketball",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/16/mens-basketball-pitt-west-virginia-headline-an-unforgettable-night-of-college-basketball",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/16/resize__1_.jpeg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "79ecaff3d6e695fa5f467cc0",
+            "title": "Under the Blue Lights, Eight Pitt Legends Take Their Place in the Hall of Fame",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/11/general-under-the-blue-lights-eight-pitt-legends-take-their-place-in-the-hall-of-fame",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/11/091126_HoF_JRG-108.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": null,
+            "recordCount": 2
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "football": {
+      "sponsored": true,
+      "code": "MFB",
+      "name": "Football",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "2899968beeda9044da0eda95",
+            "title": "ACC Unveils 2027 Football Conference Opponents",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/16/acc-unveils-2027-football-conference-opponents",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/16/27_ACC_Opponents_1920x1080.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "369977f03902f2f69daa1ae5",
+            "title": "Damon Ferguson Arrived Late. He Didn't Play Like It.",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/16/football-damon-ferguson-arrived-late-he-didn-t-play-like-it",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/16/FB_-_Damon_Ferguson.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "db8984583d805bf6682109c5",
+            "title": "Fan Information for Thursday Night on the North Shore",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/16/football-fan-information-for-thursday-night-on-the-north-shore",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/16/FB_Sportscenter_102424_MSH_0128.jpeg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "60e366cb1cc9dc90ac874011",
+            "title": "Babcock, Feguson Jr. Tabbed as PNC Achievers of the Week",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/15/general-babcock-feguson-jr-tabbed-as-pnc-achievers-of-the-week",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/15/PNC_AchieversOB__DFJ.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "555f3cfc53527634219bf354",
+            "title": "Pitt Football | Pitt 12, UCF 7 | Field Pass",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/15/pitt-football-pitt-12-ucf-7-field-pass",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/14/maxresdefault-4.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "fc4275ec9d85266313e4d166",
+            "title": "Game Week: Pitt Commences Conference Play with Syracuse on Thursday Night",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/14/football-game-week-pitt-commences-conference-play-with-syracuse-on-thursday-night",
+            "publishedAt": "2026-09-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/14/Sanford_A_26FB_UCF_ZL_6273.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "050d578ea317a84309ee9670",
+            "title": "Narduzzi Notebook: Pitt Turns the Page to Syracuse",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/14/football-narduzzi-notebook-pitt-turns-the-page-to-syracuse",
+            "publishedAt": "2026-09-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/14/notebook_9.14.png",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "b60c5d25355203e01c0f19bf",
+            "title": "GAME CENTRAL: Football vs. Syracuse",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/14/game-central-football-vs-syracuse",
+            "publishedAt": "2026-09-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/15/FB26_03-syr-preview_1920x1080_1.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "b960e5074bf56f3df5764a5f",
+            "title": "Pitt Homecoming Celebrates 100 Years of Cathedral of Learning with Four-Ticket Offer",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/13/football-pitt-homecoming-celebrates-100-years-of-cathedral-of-learning-with-four-ticket-offer",
+            "publishedAt": "2026-09-13T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/13/FB26_100yrsmeans4tix_1920x1080.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "34b8086b4bde2a173eb13fd1",
+            "title": "Pitt's Defense Flips the Script in Win Over UCF",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/13/football-pitts-defense-flips-the-script-in-win-over-ucf",
+            "publishedAt": "2026-09-13T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/12/Defense_Story.png",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "1f3b831549162e160e23a183",
+            "title": "Follow Live: FINAL Pitt Football 12 vs. UCF 7",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/12/follow-live-pitt-football-vs-ucf",
+            "publishedAt": "2026-09-12T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/12/NZ8_2620.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "29a5d6a20d3d2b80ac7e0f5f",
+            "title": "Pitt's Defense Delivers in 12-7 Win Over UCF",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/12/pitt-footballs-defense-delivers-in-12-7-win-over-ucf",
+            "publishedAt": "2026-09-12T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/12/F26_02-win-repeater.png",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "9885658199f0c318645be2df",
+            "title": "Under the Blue Lights, Eight Pitt Legends Take Their Place in the Hall of Fame",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/11/general-under-the-blue-lights-eight-pitt-legends-take-their-place-in-the-hall-of-fame",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/11/091126_HoF_JRG-108.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "82fb8d834a641184fe5d38cf",
+            "title": "To Whom Much Is Given: Elijah Lagg's Fight for Foster Kids",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/10/football-to-whom-much-is-given-elijah-laggs-fight-for-foster-kids",
+            "publishedAt": "2026-09-10T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/10/Elijah_Lagg_Feature.png",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": null,
+            "recordCount": 14
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-cross-country": {
+      "sponsored": true,
+      "code": "MCC",
+      "name": "Men's Cross Country",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-soccer": {
+      "sponsored": true,
+      "code": "MSO",
+      "name": "Men's Soccer",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "348dc47e7d476ea23e967b23",
+            "title": "Pitt Shuts Out No. 17 Cornell, 2-0",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/15/mens-soccer-pitt-shuts-out-no-17-cornell-2-0",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/15/msoc-cornell-4.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "27ab8affe8d4b332ce27da9e",
+            "title": "Panthers Host No. 18 Cornell Tuesday Night",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/14/mens-soccer-panthers-host-no-18-cornell-tuesday-night",
+            "publishedAt": "2026-09-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/14/ATH26_preview_1920x1080_cornell.png",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "3c592b0cb7bd2e77f7fbcd3a",
+            "title": "Panthers Drop ACC Opener to SMU",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/11/mens-soccer-panthers-drop-acc-opener-to-smu",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/11/NZ8_7386.JPG",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "1464f6707343594451a286f2",
+            "title": "Pitt Welcomes #7 SMU for Blackout Night in ACC Debut",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/10/mens-soccer-pitt-welcomes-7-smu-for-blackout-night-in-acc-debut",
+            "publishedAt": "2026-09-10T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/10/ATH26_preview_1920x1080_SMU.png",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": null,
+            "recordCount": 4
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-swimming-and-diving": {
+      "sponsored": true,
+      "code": "MSW",
+      "name": "Men's Swimming and Diving",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "311d5fb9372becf4c61c3d39",
+            "title": "Under the Blue Lights, Eight Pitt Legends Take Their Place in the Hall of Fame",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/11/general-under-the-blue-lights-eight-pitt-legends-take-their-place-in-the-hall-of-fame",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/11/091126_HoF_JRG-108.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": null,
+            "recordCount": 1
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-indoor": {
+      "sponsored": true,
+      "code": "MTI",
+      "name": "Men's Track, Indoor",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "dab1a59b2e93d3e7c15de0be",
+            "title": "Under the Blue Lights, Eight Pitt Legends Take Their Place in the Hall of Fame",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/11/general-under-the-blue-lights-eight-pitt-legends-take-their-place-in-the-hall-of-fame",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/11/091126_HoF_JRG-108.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": null,
+            "recordCount": 1
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-outdoor": {
+      "sponsored": true,
+      "code": "MTO",
+      "name": "Men's Track, Outdoor",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "56320c64cda4669236a3815c",
+            "title": "Under the Blue Lights, Eight Pitt Legends Take Their Place in the Hall of Fame",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/11/general-under-the-blue-lights-eight-pitt-legends-take-their-place-in-the-hall-of-fame",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/11/091126_HoF_JRG-108.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": null,
+            "recordCount": 1
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-wrestling": {
+      "sponsored": true,
+      "code": "MWR",
+      "name": "Men's Wrestling",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "softball": {
+      "sponsored": true,
+      "code": "WSB",
+      "name": "Softball",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-basketball": {
+      "sponsored": true,
+      "code": "WBB",
+      "name": "Women's Basketball",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "7d1705f8f3d9a810b2ecd90f",
+            "title": "Under the Blue Lights, Eight Pitt Legends Take Their Place in the Hall of Fame",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/11/general-under-the-blue-lights-eight-pitt-legends-take-their-place-in-the-hall-of-fame",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/11/091126_HoF_JRG-108.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": null,
+            "recordCount": 1
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-cross-country": {
+      "sponsored": true,
+      "code": "WCC",
+      "name": "Women's Cross Country",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-gymnastics": {
+      "sponsored": true,
+      "code": "WGY",
+      "name": "Women's Gymnastics",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/gymnastics-women/nc/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-lacrosse": {
+      "sponsored": true,
+      "code": "WLA",
+      "name": "Women's Lacrosse",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-soccer": {
+      "sponsored": true,
+      "code": "WSO",
+      "name": "Women's Soccer",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "fb7673ef2b05760a29401132",
+            "title": "Women's Soccer Welcomes Virginia Tech Thursday",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/16/womens-soccer-welcomes-virginia-tech-thursday",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/16/VT_PREVIEW.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "c906ffa5dbe49745d0972a2a",
+            "title": "Women's Soccer Drops ACC Opener at Louisville",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/12/womens-soccer-drops-acc-opener-at-louisville",
+            "publishedAt": "2026-09-12T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/12/WSOC_Dayton_09062026_ASM_3264.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          },
+          {
+            "id": "d31728399c854fa0eefa1924",
+            "title": "Women's Soccer Opens ACC Play at Louisville Saturday",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/11/womens-soccer-opens-acc-play-at-louisville-saturday",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/11/Louisville_Preview.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": null,
+            "recordCount": 3
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-swimming-and-diving": {
+      "sponsored": true,
+      "code": "WSW",
+      "name": "Women's Swimming and Diving",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "754856a44960e86e545ff8a6",
+            "title": "Under the Blue Lights, Eight Pitt Legends Take Their Place in the Hall of Fame",
+            "url": "https://www.pittsburghpanthers.com/news/2026/9/11/general-under-the-blue-lights-eight-pitt-legends-take-their-place-in-the-hall-of-fame",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.pittsburghpanthers.com/images/2026/9/11/091126_HoF_JRG-108.jpg",
+            "imageAlt": null,
+            "publisher": "University of Pittsburgh Athletics",
+            "discoverySourceUrl": "https://www.pittsburghpanthers.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": null,
+            "recordCount": 1
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-indoor": {
+      "sponsored": true,
+      "code": "WTI",
+      "name": "Women's Track, Indoor",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-outdoor": {
+      "sponsored": true,
+      "code": "WTO",
+      "name": "Women's Track, Outdoor",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-volleyball": {
+      "sponsored": true,
+      "code": "WVB",
+      "name": "Women's Volleyball",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.pittsburghpanthers.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    }
+  }
+}

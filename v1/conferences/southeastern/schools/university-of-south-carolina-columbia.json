@@ -1,0 +1,2015 @@
+{
+  "schemaVersion": 1,
+  "academicYear": "2026-27",
+  "conference": {
+    "slug": "southeastern",
+    "name": "Southeastern Conference"
+  },
+  "school": {
+    "slug": "university-of-south-carolina-columbia",
+    "ncaaId": "648",
+    "name": "University of South Carolina, Columbia",
+    "athleticsUrl": "https://gamecocksonline.com/",
+    "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=648"
+  },
+  "generatedAt": "2026-09-17T13:30:15.751Z",
+  "sports": {
+    "baseball": {
+      "sponsored": true,
+      "code": "MBA",
+      "name": "Baseball",
+      "gender": "men",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/baseball/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/baseball/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "basketball": {
+      "sponsored": true,
+      "code": "MBB",
+      "name": "Men's Basketball",
+      "gender": "men",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/mbball/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/mbball/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "football": {
+      "sponsored": true,
+      "code": "MFB",
+      "name": "Football",
+      "gender": "men",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/football/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [
+          {
+            "id": "ef17e6e99a6bb6a726d0bd8c",
+            "title": "South Carolina's Dylan Stewart, Jacarrius Peak probable vs. Mississippi State",
+            "url": "https://www.espn.com/college-football/story/_/id/49961522/south-carolina-dylan-stewart-jacarrius-peak-probable-vs-mississippi-state",
+            "publishedAt": "2026-09-17T01:51:56.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://a.espncdn.com/photo/2026/0917/r1717880_600x400_3-2.jpg",
+            "imageAlt": null,
+            "publisher": "ESPN",
+            "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100"
+          },
+          {
+            "id": "cb205f4fb8b6d4eb9d5a5cff",
+            "title": "South Carolina's Beamer on house divided, MS State QB Taylor's skill",
+            "url": "https://www.espn.com/video/clip/_/id/49953117/south-carolina-beamer-house-divided-ms-state-qb-taylor-skill",
+            "publishedAt": "2026-09-16T00:06:19.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0915/dm_260915_SEC_NCF_Presser_SC_Beamer_260915/dm_260915_SEC_NCF_Presser_SC_Beamer_260915.jpg",
+            "imageAlt": null,
+            "publisher": "ESPN",
+            "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100"
+          }
+        ],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/football/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 2
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-golf": {
+      "sponsored": true,
+      "code": "MGO",
+      "name": "Men's Golf",
+      "gender": "men",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/mgolf/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/mgolf/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-soccer": {
+      "sponsored": true,
+      "code": "MSO",
+      "name": "Men's Soccer",
+      "gender": "men",
+      "conference": {
+        "slug": "sun-belt",
+        "name": "Sun Belt Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/msoc/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/msoc/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-swimming-and-diving": {
+      "sponsored": true,
+      "code": "MSW",
+      "name": "Men's Swimming and Diving",
+      "gender": "men",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/swimming/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/swimming/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-tennis": {
+      "sponsored": true,
+      "code": "MTE",
+      "name": "Men's Tennis",
+      "gender": "men",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/mten/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/mten/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-indoor": {
+      "sponsored": true,
+      "code": "MTI",
+      "name": "Men's Track, Indoor",
+      "gender": "men",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/track/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/track/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-outdoor": {
+      "sponsored": true,
+      "code": "MTO",
+      "name": "Men's Track, Outdoor",
+      "gender": "men",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/track/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/track/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "softball": {
+      "sponsored": true,
+      "code": "WSB",
+      "name": "Softball",
+      "gender": "women",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/softball/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/softball/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-basketball": {
+      "sponsored": true,
+      "code": "WBB",
+      "name": "Women's Basketball",
+      "gender": "women",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/wbball/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [
+          {
+            "id": "ea2b20245a45b4311d2b7599",
+            "title": "Players Era women's hoops showcase to feature 7-figure NIL pool",
+            "url": "https://www.espn.com/womens-college-basketball/story/_/id/49782848/players-era-women-hoops-showcase-feature-7-figure-nil-pool",
+            "publishedAt": "2026-08-31T14:27:09.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://a.espncdn.com/photo/2026/0406/r1639146_600x400_3-2.jpg",
+            "imageAlt": null,
+            "publisher": "ESPN",
+            "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100"
+          }
+        ],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/wbball/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 1
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-beach-volleyball": {
+      "sponsored": true,
+      "code": "WSV",
+      "name": "Women's Beach Volleyball",
+      "gender": "women",
+      "conference": {
+        "slug": "big-12",
+        "name": "Big 12 Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/bvball/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/bvball/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/beach-volleyball/nc/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-cross-country": {
+      "sponsored": true,
+      "code": "WCC",
+      "name": "Women's Cross Country",
+      "gender": "women",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/wcross/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/wcross/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-equestrian": {
+      "sponsored": true,
+      "code": "WEQ",
+      "name": "Women's Equestrian",
+      "gender": "women",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/equestrian/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/equestrian/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-golf": {
+      "sponsored": true,
+      "code": "WGO",
+      "name": "Women's Golf",
+      "gender": "women",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/wgolf/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/wgolf/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-soccer": {
+      "sponsored": true,
+      "code": "WSO",
+      "name": "Women's Soccer",
+      "gender": "women",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/wsoc/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/wsoc/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-swimming-and-diving": {
+      "sponsored": true,
+      "code": "WSW",
+      "name": "Women's Swimming and Diving",
+      "gender": "women",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/swimming/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/swimming/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-tennis": {
+      "sponsored": true,
+      "code": "WTE",
+      "name": "Women's Tennis",
+      "gender": "women",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/wten/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/wten/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-indoor": {
+      "sponsored": true,
+      "code": "WTI",
+      "name": "Women's Track, Indoor",
+      "gender": "women",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/track/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/track/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-outdoor": {
+      "sponsored": true,
+      "code": "WTO",
+      "name": "Women's Track, Outdoor",
+      "gender": "women",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/track/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/track/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-volleyball": {
+      "sponsored": true,
+      "code": "WVB",
+      "name": "Women's Volleyball",
+      "gender": "women",
+      "conference": {
+        "slug": "southeastern",
+        "name": "Southeastern Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+        "sourceUrl": "https://gamecocksonline.com/sports/wvball/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://gamecocksonline.com/sports/wvball/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+            "lastSuccessAt": "2026-09-17T13:30:15.751Z",
+            "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:30:15.751Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    }
+  }
+}

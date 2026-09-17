@@ -1,0 +1,1538 @@
+{
+  "schemaVersion": 1,
+  "academicYear": "2026-27",
+  "conference": {
+    "slug": "northeast",
+    "name": "Northeast Conference"
+  },
+  "school": {
+    "slug": "central-connecticut-state-university",
+    "ncaaId": "127",
+    "name": "Central Connecticut State University",
+    "athleticsUrl": "https://www.ccsubluedevils.com/",
+    "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=127"
+  },
+  "generatedAt": "2026-09-17T13:28:01.288Z",
+  "sports": {
+    "baseball": {
+      "sponsored": true,
+      "code": "MBA",
+      "name": "Baseball",
+      "gender": "men",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/bsb/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/bsb/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "basketball": {
+      "sponsored": true,
+      "code": "MBB",
+      "name": "Men's Basketball",
+      "gender": "men",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/mbkb/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/mbkb/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "football": {
+      "sponsored": true,
+      "code": "MFB",
+      "name": "Football",
+      "gender": "men",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/fball/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/fball/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-cross-country": {
+      "sponsored": true,
+      "code": "MCC",
+      "name": "Men's Cross Country",
+      "gender": "men",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/mxc/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/mxc/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-soccer": {
+      "sponsored": true,
+      "code": "MSO",
+      "name": "Men's Soccer",
+      "gender": "men",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/msoc/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/msoc/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-indoor": {
+      "sponsored": true,
+      "code": "MTI",
+      "name": "Men's Track, Indoor",
+      "gender": "men",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/mtrack/2025-26/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/mtrack/2025-26/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-outdoor": {
+      "sponsored": true,
+      "code": "MTO",
+      "name": "Men's Track, Outdoor",
+      "gender": "men",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/mtrack/2025-26/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/mtrack/2025-26/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "softball": {
+      "sponsored": true,
+      "code": "WSB",
+      "name": "Softball",
+      "gender": "women",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/sball/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/sball/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-basketball": {
+      "sponsored": true,
+      "code": "WBB",
+      "name": "Women's Basketball",
+      "gender": "women",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/wbkb/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/wbkb/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-cross-country": {
+      "sponsored": true,
+      "code": "WCC",
+      "name": "Women's Cross Country",
+      "gender": "women",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/wxc/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/wxc/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-lacrosse": {
+      "sponsored": true,
+      "code": "WLA",
+      "name": "Women's Lacrosse",
+      "gender": "women",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/wlax/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/wlax/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-soccer": {
+      "sponsored": true,
+      "code": "WSO",
+      "name": "Women's Soccer",
+      "gender": "women",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/wsoc/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/wsoc/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-swimming-and-diving": {
+      "sponsored": true,
+      "code": "WSW",
+      "name": "Women's Swimming and Diving",
+      "gender": "women",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/wswimdive/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/wswimdive/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-indoor": {
+      "sponsored": true,
+      "code": "WTI",
+      "name": "Women's Track, Indoor",
+      "gender": "women",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/wtrack/2025-26/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/wtrack/2025-26/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-outdoor": {
+      "sponsored": true,
+      "code": "WTO",
+      "name": "Women's Track, Outdoor",
+      "gender": "women",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/wtrack/2025-26/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/wtrack/2025-26/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-volleyball": {
+      "sponsored": true,
+      "code": "WVB",
+      "name": "Women's Volleyball",
+      "gender": "women",
+      "conference": {
+        "slug": "northeast",
+        "name": "Northeast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+        "sourceUrl": "https://www.ccsubluedevils.com/sports/wvball/2026-27/news",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.ccsubluedevils.com/sports/wvball/2026-27/news",
+            "reason": "http-405",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+            "lastSuccessAt": "2026-09-17T13:28:01.288Z",
+            "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:28:01.288Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    }
+  }
+}

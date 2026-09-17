@@ -1,0 +1,1947 @@
+{
+  "schemaVersion": 1,
+  "academicYear": "2026-27",
+  "conference": {
+    "slug": "conference-usa",
+    "name": "Conference USA"
+  },
+  "school": {
+    "slug": "middle-tennessee-state-university",
+    "ncaaId": "419",
+    "name": "Middle Tennessee State University",
+    "athleticsUrl": "https://www.goblueraiders.com/",
+    "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=419"
+  },
+  "generatedAt": "2026-09-17T13:24:00.292Z",
+  "sports": {
+    "baseball": {
+      "sponsored": true,
+      "code": "MBA",
+      "name": "Baseball",
+      "gender": "men",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "basketball": {
+      "sponsored": true,
+      "code": "MBB",
+      "name": "Men's Basketball",
+      "gender": "men",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "53e1b7da106f85926983da39",
+            "title": "2026-27 MTSU Basketball Season Tickets Now on Sale",
+            "url": "https://www.goblueraiders.com/news/2026/9/10/mens-basketball-2026-27-mtsu-basketball-season-tickets-now-on-sale",
+            "publishedAt": "2026-09-10T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/10/16x9_-_Combined_Tix_on_Sale.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": null,
+            "recordCount": 1
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "football": {
+      "sponsored": true,
+      "code": "MFB",
+      "name": "Football",
+      "gender": "men",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "2d8c5a89afc95c80948c06a5",
+            "title": "Countdown to Kickoff Luncheon set for Friday ahead of Nevada game",
+            "url": "https://www.goblueraiders.com/news/2026/9/16/football-countdown-to-kickoff-luncheon-set-for-friday-ahead-of-nevada-game",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/16/16x9__2_.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "a359888208f4dd976d7dd7f9",
+            "title": "Bourgeois named CUSA Special Teams Player of the Week",
+            "url": "https://www.goblueraiders.com/news/2026/9/14/football-bourgeois-named-cusa-special-teams-player-of-the-week",
+            "publishedAt": "2026-09-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/14/Dom_CUSA_Week_2_16x9.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "287bb1d8faa680daea5fda35",
+            "title": "MTSU to host 44th annual Salute to Veterans and Armed Forces game Saturday",
+            "url": "https://www.goblueraiders.com/news/2026/9/14/football-mtsu-to-host-44th-annual-salute-to-veterans-and-armed-forces-game-saturday",
+            "publishedAt": "2026-09-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/14/1920x1080_-_Salute_to_Veterans_Graphic.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "0da932b158d900e362c601b8",
+            "title": "Blue Raiders fall on the road to Marshall",
+            "url": "https://www.goblueraiders.com/news/2026/9/12/football-blue-raiders-fall-on-the-road-to-marshall",
+            "publishedAt": "2026-09-12T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/12/Marshall_FB_RECAP.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "4e6e042ba622af13a169b2f3",
+            "title": "Blue Raiders hit the road to face Marshall on Saturday",
+            "url": "https://www.goblueraiders.com/news/2026/9/11/football-blue-raiders-hit-the-road-to-face-marshall-on-saturday",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/9/Marshall_Preview_z4jHY.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "7e66306f626bd3821b69e2fe",
+            "title": "Blue Raiders rout Murray State in highest scoring performance of Mason Era",
+            "url": "https://www.goblueraiders.com/news/2026/9/6/football-blue-raiders-rout-murray-state-in-highest-scoring-performance-of-mason-era",
+            "publishedAt": "2026-09-06T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/6/FB_G1_art.jpg",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": null,
+            "recordCount": 6
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-cross-country": {
+      "sponsored": true,
+      "code": "MCC",
+      "name": "Men's Cross Country",
+      "gender": "men",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "2add6e30efeadc5538ccbc2e",
+            "title": "Wambui, Kiplagat and Salonia earn Conference USA weekly honors",
+            "url": "https://www.goblueraiders.com/news/2026/9/15/mens-cross-country-and-track-field-wambui-kiplagat-and-salonia-earn-conference-usa-weekly-honors",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/15/Website_Cover_Art_Template__2_.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "959465783a610a44b2863d30",
+            "title": "Cross Country Heads to Knoxville for Tennessee Invitational",
+            "url": "https://www.goblueraiders.com/news/2026/9/10/mens-cross-country-and-track-field-cross-country-heads-to-knoxville-for-tennessee-invitational",
+            "publishedAt": "2026-09-10T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/10/tn_invitational_preview_2.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "adb50103330d1a7c2da45fe8",
+            "title": "Wambui and Kiplagat named Conference USA Athletes of the Week",
+            "url": "https://www.goblueraiders.com/news/2026/9/8/mens-cross-country-and-track-field-wambui-and-kiplagat-named-conference-usa-athletes-of-the-week",
+            "publishedAt": "2026-09-08T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/8/Website_Cover_Art_Template_Allan_Kiplagat__2_.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": null,
+            "recordCount": 3
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-golf": {
+      "sponsored": true,
+      "code": "MGO",
+      "name": "Men's Golf",
+      "gender": "men",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "eaa04dd1e4129a44370b6b5c",
+            "title": "Hopper takes home Grover Page Classic individual honors as Blue Raiders finish JT Poston Invitational",
+            "url": "https://www.goblueraiders.com/news/2026/9/15/mens-golf-hopper-takes-home-grover-page-classic-individual-honors-as-blue-raiders-finish-jt-poston-invitational",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/15/mg_9.15.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "73150f004f665a01ef5aa2d6",
+            "title": "Henry, Crowder lead the way for Blue Raider golf at JT Poston Invitational",
+            "url": "https://www.goblueraiders.com/news/2026/9/14/mens-golf-henry-crowder-lead-the-way-for-blue-raider-golf-at-jt-poston-invitational",
+            "publishedAt": "2026-09-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/14/MG_recap_9.14.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "d1ed94dd3d36055d2592830b",
+            "title": "Middle Tennessee closes out day one at JT Poston Invitational",
+            "url": "https://www.goblueraiders.com/news/2026/9/13/mens-golf-middle-tennessee-closes-out-day-one-at-jt-poston-invitational",
+            "publishedAt": "2026-09-13T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/13/MG_9.13_recap.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "193d1e7f10e693f9c2893123",
+            "title": "Middle Tennessee men's golf kicks off season with two tournaments",
+            "url": "https://www.goblueraiders.com/news/2026/9/12/mens-golf-middle-tennessee-mens-golf-kicks-off-season-with-two-tournaments",
+            "publishedAt": "2026-09-12T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/11/MG_Preview_9.11.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": null,
+            "recordCount": 4
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-tennis": {
+      "sponsored": true,
+      "code": "MTE",
+      "name": "Men's Tennis",
+      "gender": "men",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "1645f2041393a4744237e495",
+            "title": "Men’s Tennis unveils 2026 fall schedule",
+            "url": "https://www.goblueraiders.com/news/2026/9/7/mens-tennis-mens-tennis-unveils-2026-fall-schedule",
+            "publishedAt": "2026-09-07T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/7/mtenschedlue.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": null,
+            "recordCount": 1
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-indoor": {
+      "sponsored": true,
+      "code": "MTI",
+      "name": "Men's Track, Indoor",
+      "gender": "men",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-outdoor": {
+      "sponsored": true,
+      "code": "MTO",
+      "name": "Men's Track, Outdoor",
+      "gender": "men",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "softball": {
+      "sponsored": true,
+      "code": "WSB",
+      "name": "Softball",
+      "gender": "women",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-basketball": {
+      "sponsored": true,
+      "code": "WBB",
+      "name": "Women's Basketball",
+      "gender": "women",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-cross-country": {
+      "sponsored": true,
+      "code": "WCC",
+      "name": "Women's Cross Country",
+      "gender": "women",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "bfd9814225b856fd67c813e5",
+            "title": "Men’s Cross Country takes home first at Tennessee Invitational",
+            "url": "https://www.goblueraiders.com/news/2026/9/11/womens-cross-country-and-track-field-mens-cross-country-takes-home-first-at-tennessee-invitational",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/11/Website_Cover_Art_Template__2_.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": null,
+            "recordCount": 1
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-golf": {
+      "sponsored": true,
+      "code": "WGO",
+      "name": "Women's Golf",
+      "gender": "women",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-soccer": {
+      "sponsored": true,
+      "code": "WSO",
+      "name": "Women's Soccer",
+      "gender": "women",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "a37ccb4ac42ed06d05967666",
+            "title": "Phillips named Top Drawer Soccer Team of the Week Honorable Mention",
+            "url": "https://www.goblueraiders.com/news/2026/9/15/womens-soccer-phillips-named-top-drawer-soccer-team-of-the-week-honorable-mention",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/15/Website_Cover_Art_Template.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "a257f4e49405cb504c342c95",
+            "title": "Women's Soccer's Sunday match at Jackson State time changed to 1 p.m.",
+            "url": "https://www.goblueraiders.com/news/2026/9/15/womens-soccers-sunday-match-at-jackson-state-time-changed-to-1-pm",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/15/timechagnejacskonstate.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "77af1fa8e4eb0400d6ba391e",
+            "title": "Denham and Navetta power Women's Soccer past Tennessee Tech, 2-0",
+            "url": "https://www.goblueraiders.com/news/2026/9/13/denham-and-navetta-power-womens-soccer-past-tennessee-tech-2-0",
+            "publishedAt": "2026-09-13T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/13/ttechrecap.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "54ff54ee04d737d5b7305045",
+            "title": "Women's Soccer begins second three-match road trip of season at Tennessee Tech Sunday",
+            "url": "https://www.goblueraiders.com/news/2026/9/12/womens-soccer-begins-second-three-match-road-trip-of-season-at-tennessee-tech-sunday",
+            "publishedAt": "2026-09-12T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/12/socpreviewtech.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "cb4bef091b2782ecb50c9d58",
+            "title": "Phillips brace, Denham free kick lift Women's Soccer past Evansville, 3-1",
+            "url": "https://www.goblueraiders.com/news/2026/9/11/phillips-brace-denham-free-kick-lift-womens-soccer-past-evansville-3-1",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/11/Website_Cover_Art_Template.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "39d23ac2d00f29f942d16f46",
+            "title": "Women's Soccer welcomes Evansville for Thursday clash",
+            "url": "https://www.goblueraiders.com/news/2026/9/9/womens-soccer-welcomes-evansville-for-thursday-clash",
+            "publishedAt": "2026-09-09T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/9/EvansvillePreview.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "caab33bcce22bf7f8fdfc451",
+            "title": "Soccer downs Alabama A&M, 5-0, for sixth shutout",
+            "url": "https://www.goblueraiders.com/news/2026/9/6/womens-soccer-soccer-downs-alabama-am-5-0-for-sixth-shutout",
+            "publishedAt": "2026-09-06T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/6/recapaamu.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "b2e1a5a52a5672276f1f5165",
+            "title": "Women's Soccer hits road for Sunday match at Alabama A&M",
+            "url": "https://www.goblueraiders.com/news/2026/9/5/womens-soccer-hits-road-for-sunday-match-at-alabama-am",
+            "publishedAt": "2026-09-05T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/5/WSOCvsAAMUPreivew.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": null,
+            "recordCount": 8
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-tennis": {
+      "sponsored": true,
+      "code": "WTE",
+      "name": "Women's Tennis",
+      "gender": "women",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-indoor": {
+      "sponsored": true,
+      "code": "WTI",
+      "name": "Women's Track, Indoor",
+      "gender": "women",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-outdoor": {
+      "sponsored": true,
+      "code": "WTO",
+      "name": "Women's Track, Outdoor",
+      "gender": "women",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-volleyball": {
+      "sponsored": true,
+      "code": "WVB",
+      "name": "Women's Volleyball",
+      "gender": "women",
+      "conference": {
+        "slug": "conference-usa",
+        "name": "Conference USA"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+        "sourceUrl": "https://www.goblueraiders.com/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "6ef5e317916f652349cb373a",
+            "title": "Volleyball Closes Blue Raider Bash with Victory over Murray State",
+            "url": "https://www.goblueraiders.com/news/2026/9/12/womens-volleyball-volleyball-closes-blue-raider-bash-with-victory-over-murray-state",
+            "publishedAt": "2026-09-12T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/12/thumbnail_murray_stta_e.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "0c6f2105eb29b18f8dc32c1d",
+            "title": "Volleyball Splits Opening Matches at Blue Raider Bash",
+            "url": "https://www.goblueraiders.com/news/2026/9/11/womens-volleyball-volleyball-splits-opening-matches-at-blue-raider-bash",
+            "publishedAt": "2026-09-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/11/brb_recap_.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "1f853e6de3bd994ca3a5a63e",
+            "title": "Volleyball Hosting Blue Raider Bash in Opening Home Weekend",
+            "url": "https://www.goblueraiders.com/news/2026/9/10/womens-volleyball-volleyball-hosting-blue-raider-bash-in-opening-home-weekend",
+            "publishedAt": "2026-09-10T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/10/BRB_.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "fab0741f6a0af154b3e8ef42",
+            "title": "Volleyball Drops Tight, Five Set Contest to Belmont",
+            "url": "https://www.goblueraiders.com/news/2026/9/6/womens-volleyball-volleyball-drops-tight-five-set-contest-to-belmont",
+            "publishedAt": "2026-09-06T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/6/Bemont_tn_.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          },
+          {
+            "id": "ffe9f675fb8ae6080b78b8cc",
+            "title": "Volleyball Keeps Momentum, Defeats South Alabama at Belmont Invitational",
+            "url": "https://www.goblueraiders.com/news/2026/9/5/womens-volleyball-volleyball-keeps-momentum-defeats-south-alabama-at-belmont-invitational",
+            "publishedAt": "2026-09-05T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.goblueraiders.com/images/2026/9/5/USA_TN.png",
+            "imageAlt": null,
+            "publisher": "Middle Tennessee State University Athletics",
+            "discoverySourceUrl": "https://www.goblueraiders.com/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.goblueraiders.com/archives",
+            "reason": null,
+            "recordCount": 5
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+            "lastSuccessAt": "2026-09-17T13:24:00.292Z",
+            "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:24:00.292Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    }
+  }
+}

@@ -1,0 +1,2609 @@
+{
+  "schemaVersion": 1,
+  "academicYear": "2026-27",
+  "conference": {
+    "slug": "southland",
+    "name": "Southland Conference"
+  },
+  "school": {
+    "slug": "northwestern-state-university",
+    "ncaaId": "508",
+    "name": "Northwestern State University",
+    "athleticsUrl": "https://www.nsudemons.com/",
+    "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=508"
+  },
+  "generatedAt": "2026-09-17T13:31:49.967Z",
+  "sports": {
+    "baseball": {
+      "sponsored": true,
+      "code": "MBA",
+      "name": "Baseball",
+      "gender": "men",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/baseball/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://nsudemons.com/sports/baseball/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "basketball": {
+      "sponsored": true,
+      "code": "MBB",
+      "name": "Men's Basketball",
+      "gender": "men",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/mens-basketball/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://nsudemons.com/sports/mens-basketball/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "football": {
+      "sponsored": true,
+      "code": "MFB",
+      "name": "Football",
+      "gender": "men",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/football/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://nsudemons.com/sports/football/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-cross-country": {
+      "sponsored": true,
+      "code": "MCC",
+      "name": "Men's Cross Country",
+      "gender": "men",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/cross-country/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://nsudemons.com/sports/cross-country/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-indoor": {
+      "sponsored": true,
+      "code": "MTI",
+      "name": "Men's Track, Indoor",
+      "gender": "men",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/mens-track-and-field/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "1d7fec0a1164913d86dc8eb0",
+            "title": "NSU Fall Kickoff Event set for Saturday at Louisiana Sports Hall of Fame museum",
+            "url": "https://nsudemons.com/news/2026/8/18/demon-baseball-nsu-fall-kickoff-event-set-for-saturday-at-louisiana-sports-hall-of-fame-museum.aspx",
+            "publishedAt": "2026-08-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/8/18/Fall_Kickoff_Event.jpg",
+            "imageAlt": "Fall Kickoff Event 2026",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/mens-track-and-field/archives"
+          },
+          {
+            "id": "1cb94164b3b873d55817bfd6",
+            "title": "N-Club Hall of Fame voting open through July 17",
+            "url": "https://nsudemons.com/news/2026/7/2/demon-baseball-n-club-hall-of-fame-voting-open-through-july-17.aspx",
+            "publishedAt": "2026-07-02T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/10/4/001_.jpg",
+            "imageAlt": "N-Club Induction",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/mens-track-and-field/archives"
+          },
+          {
+            "id": "561d7bfa1bf9379326e471ec",
+            "title": "NSU Athletics announces Top of the Boot Music Festival",
+            "url": "https://nsudemons.com/news/2026/5/18/demon-baseball-nsu-athletics-announces-top-of-the-boot-music-festival.aspx",
+            "publishedAt": "2026-05-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/5/18/Top_Of_The_Boot_Logo.jpg",
+            "imageAlt": "Top of the Boot Festival logo",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/mens-track-and-field/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://nsudemons.com/sports/mens-track-and-field/archives",
+            "reason": null,
+            "recordCount": 3
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-outdoor": {
+      "sponsored": true,
+      "code": "MTO",
+      "name": "Men's Track, Outdoor",
+      "gender": "men",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/mens-track-and-field/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "25612f60462376fa4f0abe0c",
+            "title": "NSU Fall Kickoff Event set for Saturday at Louisiana Sports Hall of Fame museum",
+            "url": "https://nsudemons.com/news/2026/8/18/demon-baseball-nsu-fall-kickoff-event-set-for-saturday-at-louisiana-sports-hall-of-fame-museum.aspx",
+            "publishedAt": "2026-08-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/8/18/Fall_Kickoff_Event.jpg",
+            "imageAlt": "Fall Kickoff Event 2026",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/mens-track-and-field/archives"
+          },
+          {
+            "id": "6d7d96ffbea47c0f38ce1c6c",
+            "title": "N-Club Hall of Fame voting open through July 17",
+            "url": "https://nsudemons.com/news/2026/7/2/demon-baseball-n-club-hall-of-fame-voting-open-through-july-17.aspx",
+            "publishedAt": "2026-07-02T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/10/4/001_.jpg",
+            "imageAlt": "N-Club Induction",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/mens-track-and-field/archives"
+          },
+          {
+            "id": "cf6c784b09c8bbd26ed48325",
+            "title": "NSU Athletics announces Top of the Boot Music Festival",
+            "url": "https://nsudemons.com/news/2026/5/18/demon-baseball-nsu-athletics-announces-top-of-the-boot-music-festival.aspx",
+            "publishedAt": "2026-05-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/5/18/Top_Of_The_Boot_Logo.jpg",
+            "imageAlt": "Top of the Boot Festival logo",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/mens-track-and-field/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://nsudemons.com/sports/mens-track-and-field/archives",
+            "reason": null,
+            "recordCount": 3
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "softball": {
+      "sponsored": true,
+      "code": "WSB",
+      "name": "Softball",
+      "gender": "women",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/softball/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://nsudemons.com/sports/softball/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-basketball": {
+      "sponsored": true,
+      "code": "WBB",
+      "name": "Women's Basketball",
+      "gender": "women",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/womens-basketball/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "f64a81aa31550c4d72903509",
+            "title": "Basketball season tickets on sale Tuesday morning",
+            "url": "https://nsudemons.com/news/2026/8/31/demon-basketball-basketball-season-tickets-on-sale-tuesday-morning.aspx",
+            "publishedAt": "2026-08-31T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/8/31/landscape.jpg",
+            "imageAlt": "Graphic featuring men's basketball's Kordrick Turner and women's basketball Payton Miller announcing 2026-27 season tickets.",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "dc4339e84239872dc65bd7df",
+            "title": "NSU Fall Kickoff Event set for Saturday at Louisiana Sports Hall of Fame museum",
+            "url": "https://nsudemons.com/news/2026/8/18/demon-baseball-nsu-fall-kickoff-event-set-for-saturday-at-louisiana-sports-hall-of-fame-museum.aspx",
+            "publishedAt": "2026-08-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/8/18/Fall_Kickoff_Event.jpg",
+            "imageAlt": "Fall Kickoff Event 2026",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "6ee047649648bc277db76b04",
+            "title": "Lady Demons learn 2026-27 SLC schedule",
+            "url": "https://nsudemons.com/news/2026/8/13/womens-basketball-lady-demons-learn-slc-schedule.aspx",
+            "publishedAt": "2026-08-13T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/8/13/cf345c21-6826-4bc1-ab8f-45dee4936bf6.jpeg",
+            "imageAlt": "WBB SLC schedule graphic",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "480cd567fb25b574388649bb",
+            "title": "NSU announces 2026 N-Club Hall of Fame Class",
+            "url": "https://nsudemons.com/news/2026/8/12/demon-baseball-nsu-announces-2026-n-club-hall-of-fame-class.aspx",
+            "publishedAt": "2026-08-12T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/8/12/GEN_N_Club_2026.jpg",
+            "imageAlt": "Graphic announcing the 13-member N-Club Hall of Fame Class of 2026",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "02c9e964c995c40863f5215d",
+            "title": "Home game with LSU highlights strong Lady Demons non-conference slate",
+            "url": "https://nsudemons.com/news/2026/8/11/womens-basketball-home-game-with-lsu-highlights-strong-lady-demons-non-conference-slate.aspx",
+            "publishedAt": "2026-08-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/8/11/WBB_2627NCScheduArt.jpg",
+            "imageAlt": "WBB non-conference schedule graphic",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "aac0bc3e6114bebaadd8dd88",
+            "title": "NSU adds 11 newcomers to 2026-27 team",
+            "url": "https://nsudemons.com/news/2026/8/5/womens-basketball-nsu-adds-11-newcomers-to-2026-27-team.aspx",
+            "publishedAt": "2026-08-05T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/8/4/Flow_Series_-_Headline.jpg",
+            "imageAlt": "NSU WBB newcomer class graphic",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "f05288a45cb56f01b3145fed",
+            "title": "Spots open for annual DDW golf tournament",
+            "url": "https://nsudemons.com/news/2026/7/29/womens-basketball-spots-open-for-annual-ddw-golf-tournament.aspx",
+            "publishedAt": "2026-07-29T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/7/28/WBB_DDW_2026.jpg",
+            "imageAlt": "DDW graphic 2026",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "b19b1e083b820ff1bbaf5ca5",
+            "title": "N-Club HOF voting extended through Sunday",
+            "url": "https://nsudemons.com/news/2026/7/14/demon-baseball-n-club-hof-voting-extended-through-sunday.aspx",
+            "publishedAt": "2026-07-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/10/4/001_.jpg",
+            "imageAlt": "N-Club Induction",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "dd6a248cdc1054c32a51a98b",
+            "title": "Registration open for women's basketball Elite camps",
+            "url": "https://nsudemons.com/news/2026/7/14/womens-basketball-registration-open-for-womens-basketball-elite-camps.aspx",
+            "publishedAt": "2026-07-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/7/14/Flow_Series_-_Headline.jpg",
+            "imageAlt": "NSU women's basketball camp art",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "e5fcc51401535cbbc41162df",
+            "title": "N-Club Hall of Fame voting open through July 17",
+            "url": "https://nsudemons.com/news/2026/7/2/demon-baseball-n-club-hall-of-fame-voting-open-through-july-17.aspx",
+            "publishedAt": "2026-07-02T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/10/4/001_.jpg",
+            "imageAlt": "N-Club Induction",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "8a177ebb1f515b789d174071",
+            "title": "NSU places 130 on SLC Spring Commissioner's Honor Roll",
+            "url": "https://nsudemons.com/news/2026/6/24/demon-baseball-nsu-places-130-on-slc-spring-commissioners-honor-roll.aspx",
+            "publishedAt": "2026-06-24T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/5/14/018_.jpg",
+            "imageAlt": "2026 Spring Stole",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "0d3a5fbd943a09c5bd71af5a",
+            "title": "N-Club Hall of Fame nomination deadline extended to Sunday",
+            "url": "https://nsudemons.com/news/2026/6/3/demon-baseball-n-club-hall-of-fame-nomination-deadline-extended-to-sunday.aspx",
+            "publishedAt": "2026-06-03T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/10/4/001_.jpg",
+            "imageAlt": "N-Club Induction",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "0bb034bb9414151df20ba9aa",
+            "title": "Five earn Academic All-Southland Conference honors",
+            "url": "https://nsudemons.com/news/2026/5/29/womens-basketball-five-earn-academic-all-southland-conference-honors.aspx",
+            "publishedAt": "2026-05-29T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/5/29/Women_s_Basketball_Academic_All-SLC_-_Five_members_earn_Academic_All-Southland_Conference.jpg",
+            "imageAlt": "WBB Academic All-Conference",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "d5e688391d28d3cde1a50b21",
+            "title": "NSU Athletics announces Top of the Boot Music Festival",
+            "url": "https://nsudemons.com/news/2026/5/18/demon-baseball-nsu-athletics-announces-top-of-the-boot-music-festival.aspx",
+            "publishedAt": "2026-05-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/5/18/Top_Of_The_Boot_Logo.jpg",
+            "imageAlt": "Top of the Boot Festival logo",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "be4852112e7d1c7876b8bfe1",
+            "title": "Northwestern State Athletics celebrates 53 spring graduates",
+            "url": "https://nsudemons.com/news/2026/5/14/academics-student-athlete-development-northwestern-state-athletics-celebrates-53-spring-graduates.aspx",
+            "publishedAt": "2026-05-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/5/14/018_.jpg",
+            "imageAlt": "2026 Spring Stole",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "597ff2f34476bfb3b4650195",
+            "title": "Frey rounds out coaching staff with addition of Cook",
+            "url": "https://nsudemons.com/news/2026/4/28/womens-basketball-frey-rounds-out-coaching-staff-with-addition-of-cook.aspx",
+            "publishedAt": "2026-04-28T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/4/28/4548ad27-f5ec-44e2-b35a-2e8f24f0bc68.jpeg",
+            "imageAlt": "Harley Cook hire graphic",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "e2f148b4a007cbebb5f740f4",
+            "title": "Frey adds Morgan to coaching staff",
+            "url": "https://nsudemons.com/news/2026/4/21/womens-basketball-frey-adds-morgan-to-coaching-staff.aspx",
+            "publishedAt": "2026-04-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/4/21/kolbymorgan__1_.jpg",
+            "imageAlt": "Kolby Morgan intro graphic",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "559137217128b8398ab9f0fc",
+            "title": "Frey continues staff with addition of Belanger",
+            "url": "https://nsudemons.com/news/2026/4/20/lady-demon-basketball-frey-continues-staff-with-addition-of-belanger.aspx",
+            "publishedAt": "2026-04-20T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/4/20/51efaf52-41af-42b0-8673-69989f25e8aa.jpeg",
+            "imageAlt": "Britta Belanger hire graphic",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "f2a68121d854671330629a0b",
+            "title": "Atamah named First Team All-Louisiana",
+            "url": "https://nsudemons.com/news/2026/4/18/lady-demon-basketball-atamah-named-first-team-all-louisiana.aspx",
+            "publishedAt": "2026-04-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/4/17/WBB_VeeAllLA.jpg",
+            "imageAlt": "Vee Atamah All-Louisiana",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "a8c4ec7969c640db2e103757",
+            "title": "Frey starts coaching staff with addition of Frazier",
+            "url": "https://nsudemons.com/news/2026/4/17/lady-demon-basketball-frey-starts-coaching-staff-with-addition-of-frazier.aspx",
+            "publishedAt": "2026-04-17T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/4/17/alex__1__sINAd.jpg",
+            "imageAlt": "Alex Frazier hire graphic",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "8c8c0a2275c026c48503593c",
+            "title": "NSU announces 2026 Rhodes Properties and Development Demon Dream Home giveaway",
+            "url": "https://nsudemons.com/news/2026/4/8/demon-baseball-nsu-announces-2026-rhodes-properties-and-development-demon-dream-home-giveaway.aspx",
+            "publishedAt": "2026-04-08T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/4/8/Demon_Dream_Home.JPG",
+            "imageAlt": "Dream Home",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "75cec5740f16ce94ed8563cf",
+            "title": "NSU the right fit for new head coach Alan Frey",
+            "url": "https://nsudemons.com/news/2026/4/6/lady-demon-basketball-nsu-the-right-fit-for-new-head-coach-alan-frey.aspx",
+            "publishedAt": "2026-04-06T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/4/6/003_.jpg",
+            "imageAlt": "Alan Frey",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "70cddbeba83722390d57722f",
+            "title": "Alan Frey named NSU head women's basketball coach",
+            "url": "https://nsudemons.com/news/2026/4/1/lady-demon-basketball-alan-frey-named-nsu-head-womens-basketball-coach.aspx",
+            "publishedAt": "2026-04-01T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/4/1/WBB_FreyHire.jpg",
+            "imageAlt": "Alan Frey hire graphic",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "1cdb6a99d5518a947625c7b2",
+            "title": "Nimz resigns to take North Alabama head coaching position",
+            "url": "https://nsudemons.com/news/2026/3/26/lady-demon-basketball-nimz-resigns-to-take-north-alabama-head-coaching-position.aspx",
+            "publishedAt": "2026-03-26T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/3/12-21___043_NSU_Head_Coach_Anna_Nimz_ryvvf.jpg",
+            "imageAlt": "NSU Head Coach Anna Nimz",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "aa044c2bb70eedf00ff2a1dc",
+            "title": "Lady Demons can't withstand UTRGV second half surge in SLC Tournament loss",
+            "url": "https://nsudemons.com/news/2026/3/10/lady-demon-basketball-lady-demons-can-t-withstand-utrgv-second-half-surge-in-slc-tournament-loss.aspx",
+            "publishedAt": "2026-03-10T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/3/10/SLCWBBGame3_NSUvUTRGV_Cruz-26.jpg",
+            "imageAlt": "Nya Valentine 3-10 SLC Tournament",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "79f3e943af421d717e2a61a4",
+            "title": "Lady Demons use strong second half to down East Texas A&M",
+            "url": "https://nsudemons.com/news/2026/3/9/lady-demon-basketball-lady-demons-use-strong-second-half-to-down-east-texas-am.aspx",
+            "publishedAt": "2026-03-09T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/3/9/NSU_vs_ETAMU-35.jpg",
+            "imageAlt": "Vee Atamah 3-9 SLC Tournament",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "646fecbef0c47e04af7bac77",
+            "title": "Lady Demons aim to carry momentum into SLC Tournament against East Texas A&M",
+            "url": "https://nsudemons.com/news/2026/3/8/lady-demon-basketball-lady-demons-aim-to-carry-momentum-into-slc-tournament-against-east-texas-am.aspx",
+            "publishedAt": "2026-03-08T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/3/3/007_NSU_17_Carla_Celaya.jpg",
+            "imageAlt": "NSU 17 Carla Celaya",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "a99993e970d1cc36ce2efe39",
+            "title": "Atamah earns SLC Player of the Year, highlighting all-conference selections",
+            "url": "https://nsudemons.com/news/2026/3/6/lady-demon-basketball-atamah-earns-slc-player-of-the-year-highlighting-all-conference-selections.aspx",
+            "publishedAt": "2026-03-06T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/3/5/WBB_all-conf_Art.jpg",
+            "imageAlt": "Vee and Nya All-Conference",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "ae8eaa58652fcd58fbcbadca",
+            "title": "Atamah collects third SLC Player of the Week award of season",
+            "url": "https://nsudemons.com/news/2026/3/4/lady-demon-basketball-atamah-collects-third-slc-player-of-the-week-award-of-season.aspx",
+            "publishedAt": "2026-03-04T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/3/4/WBB_VeePotW.jpg",
+            "imageAlt": "Vee Atamah POW 3-4",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "1e512bd3721a5770e5e83da1",
+            "title": "Basketball tournament tickets on sale",
+            "url": "https://nsudemons.com/news/2026/3/3/lady-demon-basketball-basketball-tournament-tickets-on-sale.aspx",
+            "publishedAt": "2026-03-03T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/3/3/landscape.jpg",
+            "imageAlt": "SLC Tournament Tickets",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "31a1eb0ae3e113d8097aafb6",
+            "title": "Lady Demons collect 14th SLC win, their most in 23 years",
+            "url": "https://nsudemons.com/news/2026/3/3/lady-demon-basketball-lady-demons-collect-14th-slc-win-their-most-in-23-years.aspx",
+            "publishedAt": "2026-03-03T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/3/3/011_NSU_32_Vee_Atamah_UNO_12_Lauren_SeUDu.jpg",
+            "imageAlt": "NSU 32 Vee Atamah UNO 12 Lauren Banks",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "0f1e448b0e2290784355dd25",
+            "title": "Lady Demons aiming to finish regular season on high note against UNO",
+            "url": "https://nsudemons.com/news/2026/3/2/lady-demon-basketball-lady-demons-aiming-to-finish-regular-season-on-high-note-against-uno.aspx",
+            "publishedAt": "2026-03-02T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/24/044_NSU_0_Nya_Valentine.jpg",
+            "imageAlt": "NSU 0 Nya Valentine",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "72870e9c596fb636ccf94ea2",
+            "title": "Lady Demons defense sets program mark in dominant win at Texas A&M-Corpus Christi",
+            "url": "https://nsudemons.com/news/2026/2/28/lady-demon-basketball-defensive-sets-program-mark-in-dominant-win-at-texas-am-corpus-christi.aspx",
+            "publishedAt": "2026-02-28T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/24/039_NSU_32_Vee_Atamah.jpg",
+            "imageAlt": "NSU 32 Vee Atamah",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "f5524a0562abdffeea0fec07",
+            "title": "Celaya relishes role on team as hard-working defensive specialist",
+            "url": "https://nsudemons.com/news/2026/2/27/lady-demon-basketball-celaya-relishes-role-on-team-as-hard-working-defensive-specialist.aspx",
+            "publishedAt": "2026-02-27T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/24/2-19___019_NSU_17_Carla_Celaya.jpg",
+            "imageAlt": "NSU 17 Carla Celaya",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "aff2021603849bd7f038d79c",
+            "title": "Demons lock down UTRGV late in overtime road win",
+            "url": "https://nsudemons.com/news/2026/2/26/lady-demon-basketball-demons-lock-down-utrgv-late-in-overtime-road-win.aspx",
+            "publishedAt": "2026-02-26T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/26/022_NSU_20_Tiara_Abron_06LWD.jpg",
+            "imageAlt": "NSU 20 Tiara Abron",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "627902dce0bd710b7f7a1c97",
+            "title": "Lady Demons jockeying for SLC Tournament positioning when facing UTRGV",
+            "url": "https://nsudemons.com/news/2026/2/25/lady-demon-basketball-lady-demons-jockeying-for-slc-tournament-positioning-when-facing-utrgv.aspx",
+            "publishedAt": "2026-02-25T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/24/043_NSU_23_Dasia_Turner.jpg",
+            "imageAlt": "NSU 23 Dasia Turner",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "fd6600eacf23e1af8d5e5e53",
+            "title": "Atamah, seniors help lead Lady Demons to comeback win on Senior Day",
+            "url": "https://nsudemons.com/news/2026/2/21/lady-demon-basketball-atamah-seniors-help-lead-lady-demons-to-comeback-win-on-senior-day.aspx",
+            "publishedAt": "2026-02-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/21/013_NSU_23_Dasia_Turner_HCU_22_Dasia_Xu7yi.jpg",
+            "imageAlt": "NSU 23 Dasia Turner HCU 22 Dasia Hyams",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "61b1532ed5b0362abd98c744",
+            "title": "Five seniors to be honored on Senior Day as Lady Demons face HCU",
+            "url": "https://nsudemons.com/news/2026/2/20/lady-demon-basketball-five-seniors-to-be-honored-on-senior-day-as-lady-demons-face-hcu.aspx",
+            "publishedAt": "2026-02-20T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/20/007_NSU_17_Carla_Celaya.jpg",
+            "imageAlt": "NSU 17 Carla Celaya",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "0f8bd2610ad547db72a6bdc9",
+            "title": "Domination on boards, Atamah's career high can't help Lady Demons overcome cold shooting in loss to UIW",
+            "url": "https://nsudemons.com/news/2026/2/19/lady-demon-basketball-domination-on-boards-atamahs-career-high-can-t-help-lady-demons-overcome-cold-shooting-in-loss-to-uiw.aspx",
+            "publishedAt": "2026-02-19T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/19/013_NSU_32_Vee_Atamah_UIW_14_Gwendlym_McGrew_BtBQ6.jpg",
+            "imageAlt": "NSU 32 Vee Atamah UIW 14 Gwendlym McGrew",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "bbaed0be9afb48ad002d570b",
+            "title": "Lady Demons continue home stand with visit from UIW",
+            "url": "https://nsudemons.com/news/2026/2/18/lady-demon-basketball-lady-demons-continue-home-stand-with-visit-from-uiw.aspx",
+            "publishedAt": "2026-02-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/14/2-14___008_NSU_13_Stephie_Salumu_SLU_22_Taylor_Ross_pUNsr.jpg",
+            "imageAlt": "NSU 13 Stephie Salumu SLU 22 Taylor Ross",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "887eb1836df177ba14e4d2cd",
+            "title": "Lady Demons lean on defense to down East Texas A&M",
+            "url": "https://nsudemons.com/news/2026/2/16/lady-demon-basketball-lady-demons-lean-on-defense-to-down-east-texas-am.aspx",
+            "publishedAt": "2026-02-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/16/2-14___007_NSU_32_Vee_Atamah_ETAMU_32_Terrayah_mqZGM.jpg",
+            "imageAlt": "NSU 32 Vee Atamah ETAMU 32 Terrayah McCoy",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "0b17d5470bfb6f55b4f07814",
+            "title": "Lady Demons aim to continue momentum against East Texas A&M",
+            "url": "https://nsudemons.com/news/2026/2/15/lady-demon-basketball-lady-demons-aim-to-continue-momentum-against-east-texas-am.aspx",
+            "publishedAt": "2026-02-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/14/2-14___014_NSU_12_Payton_Miller_Y7TmX.jpg",
+            "imageAlt": "NSU 12 Payton Miller",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "a984bdc0fd70ae86632d8a3d",
+            "title": "Atamah's monster double-double lifts Lady Demons past SLU",
+            "url": "https://nsudemons.com/news/2026/2/14/lady-demon-basketball-atamahs-monster-double-double-lifts-lady-demons-past-slu.aspx",
+            "publishedAt": "2026-02-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/14/2-14___011_NSU_32_Vee_Atamah_fcxZY.jpg",
+            "imageAlt": "NSU 32 Vee Atamah",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "8b219f27a9c01a7817cf7d4b",
+            "title": "Lady Demons continue home stand with visit from Southeastern Louisiana",
+            "url": "https://nsudemons.com/news/2026/2/13/lady-demon-basketball-lady-demons-continue-home-stand-with-visit-from-southeastern-louisiana.aspx",
+            "publishedAt": "2026-02-13T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/12/004_NSU_32_Vee_Atamah_MSU_3_Allasia_Washington_wWHV0.jpg",
+            "imageAlt": "NSU 32 Vee Atamah MSU 3 Allasia Washington",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "22838bcd1c5e0ecb2edd621e",
+            "title": "Costly late turnovers loom large in hard-fought loss against league-leading McNeese",
+            "url": "https://nsudemons.com/news/2026/2/12/lady-demon-basketball-costly-late-turnovers-loom-large-in-hard-fought-loss-against-league-leading-mcneese.aspx",
+            "publishedAt": "2026-02-12T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/12/001_NSU_20_Tiara_1aF25.jpg",
+            "imageAlt": "NSU 20 Tiara Abron",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "3e5aa0a430bdac229b3dc84c",
+            "title": "Lady Demons begin five-game home stretch with league-leading McNeese for 'White Out' contest",
+            "url": "https://nsudemons.com/news/2026/2/11/lady-demon-basketball-lady-demons-begin-five-game-home-stretch-with-league-leading-mcneese-for-white-out-contest.aspx",
+            "publishedAt": "2026-02-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/5/1-29___024_NSU_20_Tiara_PlVMG.jpg",
+            "imageAlt": "NSU 20 Tiara Abron",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "f0cecbc3187539951ca697d1",
+            "title": "Cold-shooting NSU falls at East Texas A&M",
+            "url": "https://nsudemons.com/news/2026/2/7/lady-demon-basketball-cold-shooting-nsu-falls-at-east-texas-am.aspx",
+            "publishedAt": "2026-02-07T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/5/1-29___041_NSU_0_Nya_Valentine_ElDs4.jpg",
+            "imageAlt": "NSU 0 Nya Valentine",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "de844a217bb5bede8eb8b1b6",
+            "title": "Basketball alumni games set for Feb. 21 doubleheader vs. HCU",
+            "url": "https://nsudemons.com/news/2026/2/6/demon-basketball-basketball-alumni-games-set-for-feb-21-doubleheader-vs-hcu.aspx",
+            "publishedAt": "2026-02-06T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/6/Basketball_Reunion.jpg",
+            "imageAlt": "Basketball Reunion",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "fa87c323b3ab3e31309e0033",
+            "title": "Lady Demons travel to East Texas A&M to wrap up road trip",
+            "url": "https://nsudemons.com/news/2026/2/6/lady-demon-basketball-lady-demons-travel-to-east-texas-am-to-wrap-up-road-trip.aspx",
+            "publishedAt": "2026-02-06T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/2/5/1-29___043_NSU_15_Clarence_Djuela.jpg",
+            "imageAlt": "NSU 15 Clarence Djuela",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "73cc50926b7f42037b3dee28",
+            "title": "Lady Demons go cold in fourth quarter in loss at Lamar",
+            "url": "https://nsudemons.com/news/2026/2/5/lady-demon-basketball-lady-demons-go-cold-in-fourth-quarter-in-loss-at-lamar.aspx",
+            "publishedAt": "2026-02-05T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/29/005_NSU_32_Vee_Atamah_NICH_2_Anyra_Wilson_Xxfef.jpg",
+            "imageAlt": "NSU 32 Vee Atamah NICH 2 Anyra Wilson",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "0d76fcb672b1ee36a79c07e8",
+            "title": "Lady Demons continue road trip with visit to Lamar",
+            "url": "https://nsudemons.com/news/2026/2/4/lady-demon-basketball-lady-demons-continue-road-trip-with-visit-to-lamar.aspx",
+            "publishedAt": "2026-02-04T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/17/11-21___039_NSU_23_Dasia_Turner.jpg",
+            "imageAlt": "NSU 23 Dasia Turner",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "eda69b44919f64cf0a505d43",
+            "title": "Lady Demons use 3-point shot to cruise past New Orleans",
+            "url": "https://nsudemons.com/news/2026/1/31/lady-demon-basketball-lady-demons-use-3-point-shot-to-cruise-past-new-orleans.aspx",
+            "publishedAt": "2026-01-31T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/31/CH0A9800.JPG",
+            "imageAlt": "Nya Valentine at UNO 1-31",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "ad51051e4a6e5bd27a0ed492",
+            "title": "Lady Demons begin road trip with visit to New Orleans",
+            "url": "https://nsudemons.com/news/2026/1/30/lady-demon-basketball-lady-demons-begin-road-trip-with-visit-to-new-orleans.aspx",
+            "publishedAt": "2026-01-30T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/17/11-21___064_NSU_2_Mina_Kassim_RJ5Ja.jpg",
+            "imageAlt": "NSU 2 Mina Kassim",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "0805c6a6d305743fa6f13988",
+            "title": "Stifling defense, clutch late plays lift Lady Demons to win over Nicholls",
+            "url": "https://nsudemons.com/news/2026/1/29/lady-demon-basketball-stifling-defense-clutch-late-plays-lift-lady-demons-to-win-over-nicholls.aspx",
+            "publishedAt": "2026-01-29T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/29/001_NSU_15_Clarence_Djuela_NICH_30_Emani_OGdWR.jpg",
+            "imageAlt": "NSU 15 Clarence Djuela NICH 30 Emani Burks",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "a304ff830e458997147f0906",
+            "title": "Hoops contests vs. East Texas A&M rescheduled",
+            "url": "https://nsudemons.com/news/2026/1/28/demon-basketball-hoops-contests-vs-east-texas-am-rescheduled.aspx",
+            "publishedAt": "2026-01-28T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/28/Eclipse_-_Headline_1600x900__11_.jpg",
+            "imageAlt": "ETAM Rescheduled",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "7e6c8a3f3f832fdd8b6983d0",
+            "title": "Lady Demons host Nicholls for Blackout Prather game",
+            "url": "https://nsudemons.com/news/2026/1/28/lady-demon-basketball-lady-demons-host-nicholls-for-blackout-prather-game.aspx",
+            "publishedAt": "2026-01-28T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/17/11-21___068_NSU_13_Stephie_Salumu_45Ahz.jpg",
+            "imageAlt": "NSU 13 Stephie Salumu",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "e5fa9725061716a7455736ec",
+            "title": "Saturday's women's basketball game postponed; decision on men's game coming Friday",
+            "url": "https://nsudemons.com/news/2026/1/22/demon-basketball-saturdays-womens-basketball-game-postponed-decision-on-mens-game-coming-friday.aspx",
+            "publishedAt": "2026-01-22T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/22/Eclipse_-_Headline_1600x900__10_.jpg",
+            "imageAlt": "WBB Postponement",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "37eabdbf8a3845ba9f41fe59",
+            "title": "Atamah's double-double not enough as Lady Demons fall at Stephen F. Austin",
+            "url": "https://nsudemons.com/news/2026/1/22/lady-demon-basketball-atamahs-double-double-not-enough-as-lady-demons-fall-at-stephen-f-austin.aspx",
+            "publishedAt": "2026-01-22T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/20/1-10___048_NSU_32_Vee_Atamah_FEByw.jpg",
+            "imageAlt": "NSU 32 Vee Atamah",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "701014fbd7107d2ca1eaa143",
+            "title": "Lady Demons wrap up road swing with trip to SFA",
+            "url": "https://nsudemons.com/news/2026/1/21/lady-demon-basketball-lady-demons-wrap-up-road-swing-with-trip-to-sfa.aspx",
+            "publishedAt": "2026-01-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/20/1-8___020_NSU_11_Mika_Jarrett_wR15q.jpg",
+            "imageAlt": "NSU 11 Mika Jarrett",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "6be36b9e8716ce0dec290d47",
+            "title": "Inconsistent Demons fall at UIW",
+            "url": "https://nsudemons.com/news/2026/1/17/lady-demon-basketball-inconsistent-demons-fall-at-uiw.aspx",
+            "publishedAt": "2026-01-17T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/10/1-10___001_NSU_20_Tiara_Abron_TAMUCC_20_Torie_Sevier_L6IJz.jpg",
+            "imageAlt": "NSU 20 Tiara Abron TAMUCC 20 Torie Sevier",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "cca126a2fdb4c8cda0289def",
+            "title": "Lady Demons bring stingy defense into road battle with UIW",
+            "url": "https://nsudemons.com/news/2026/1/16/lady-demon-basketball-lady-demons-bring-stingy-defense-into-road-battle-with-uiw.aspx",
+            "publishedAt": "2026-01-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/8/1-3___024_NSU_17_Carla_Celaya_8TlFg.jpg",
+            "imageAlt": "NSU 17 Carla Celaya",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "c65942dcae4308c3faeac31a",
+            "title": "NSU holds off late rally to down Houston Christian",
+            "url": "https://nsudemons.com/news/2026/1/15/lady-demon-basketball-nsu-holds-off-late-rally-to-down-houston-christian.aspx",
+            "publishedAt": "2026-01-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/15/20250312_053109178_iOS.jpg",
+            "imageAlt": "Stephie Salumu vs. HCU 1-15",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "8f14f608a6b3f07caadc2eba",
+            "title": "Lady Demons start road swing with trip to Houston Christian",
+            "url": "https://nsudemons.com/news/2026/1/14/lady-demon-basketball-lady-demons-start-road-swing-with-trip-to-houston-christian.aspx",
+            "publishedAt": "2026-01-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/10/1-10___013_NSU_22_Joceline_oTRZj.jpg",
+            "imageAlt": "NSU 22 Joceline Geara",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "838bb058f5e070b1c1557302",
+            "title": "Abron scores 18 as Lady Demons use second half surge to beat AMCC",
+            "url": "https://nsudemons.com/news/2026/1/10/lady-demon-basketball-abron-scores-18-as-lady-demons-use-second-half-surge-to-beat-amcc.aspx",
+            "publishedAt": "2026-01-10T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/10/1-10___016_NSU_20_Tiara_I7uvv.jpg",
+            "imageAlt": "NSU 20 Tiara Abron",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "ef2678ab7ed1df52d94b339e",
+            "title": "Lady Demons host AMCC for annual Fork Cancer game",
+            "url": "https://nsudemons.com/news/2026/1/9/lady-demon-basketball-lady-demons-host-amcc-for-annual-fork-cancer-game.aspx",
+            "publishedAt": "2026-01-09T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/8/1-8___007_NSU_20_Tiara_Abron_UTRGV_0_Erin_Maguire_DEc0x.jpg",
+            "imageAlt": "NSU 20 Tiara Abron UTRGV 0 Erin Maguire",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "fb385435615b38e0fda00d1a",
+            "title": "Cold shooting second half dooms Lady Demons in loss to UTRGV",
+            "url": "https://nsudemons.com/news/2026/1/8/lady-demon-basketball-cold-shooting-second-half-dooms-lady-demons-in-loss-to-utrgv.aspx",
+            "publishedAt": "2026-01-08T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/8/1-8___011_NSU_0_Nya_Valentine_Ek4dV.jpg",
+            "imageAlt": "NSU 0 Nya Valentine",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "bfdc87aaad05e8ab95b5a031",
+            "title": "Lady Demons come home to face UTRGV",
+            "url": "https://nsudemons.com/news/2026/1/7/lady-demon-basketball-lady-demons-come-home-to-face-utrgv.aspx",
+            "publishedAt": "2026-01-07T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/3/12-21___039_NSU_12_Payton_Miller_a8rTy.jpg",
+            "imageAlt": "NSU 12 Payton Miller",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "1fb380ada5c00c4525c3d7fe",
+            "title": "Atamah, stingy defense lead Lady Demons to big win at Nicholls",
+            "url": "https://nsudemons.com/news/2026/1/3/lady-demon-basketball-atamah-stingy-defense-lead-lady-demons-to-big-win-at-nicholls.aspx",
+            "publishedAt": "2026-01-03T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/1/3/0V6A8923__1__SDrPt.JPG",
+            "imageAlt": "Vernell Atamah vs. NICH 1-3",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "b45284141d48f9e9924a3a43",
+            "title": "Lady Demons open new year with trip to Nicholls",
+            "url": "https://nsudemons.com/news/2026/1/2/lady-demon-basketball-lady-demons-open-new-year-with-trip-to-nicholls.aspx",
+            "publishedAt": "2026-01-02T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/21/12-21___013_NSU_17_Carla_Celaya_XJoXG.jpg",
+            "imageAlt": "NSU 17 Carla Celaya",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "cffaacf85bafbc4302d05214",
+            "title": "Lady Demons can't overcome turnovers in loss to SFA",
+            "url": "https://nsudemons.com/news/2025/12/31/lady-demon-basketball-lady-demons-can-t-overcome-turnovers-in-loss-to-sfa.aspx",
+            "publishedAt": "2025-12-31T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/31/12-31___009_NSU_0_Nya_Valentine_SFA_7_Lydia_Cajuste_i7obD.jpg",
+            "imageAlt": "NSU 0 Nya Valentine SFA 7 Lydia Cajuste",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "b72b6226756ae4fb91a42db1",
+            "title": "NSU concludes 2025 by hosting rival Stephen F. Austin",
+            "url": "https://nsudemons.com/news/2025/12/30/lady-demon-basketball-nsu-concludes-2025-by-hosting-rival-stephen-f-austin.aspx",
+            "publishedAt": "2025-12-30T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/21/12-21___012_NSU_24_Cimiya_Rideaux_l3Guh.jpg",
+            "imageAlt": "NSU 24 Cimiya Rideaux",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "50e5c21ed60784746868a877",
+            "title": "Valentine collects SLC Player of the Week",
+            "url": "https://nsudemons.com/news/2025/12/22/lady-demon-basketball-valentine-collects-slc-player-of-the-week.aspx",
+            "publishedAt": "2025-12-22T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/22/WBB_2526-Nya.jpg",
+            "imageAlt": "Nya Valentine POW 12-22",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "bccbcbb04eefb1426441cb39",
+            "title": "NSU's trio leads big comeback win over Lamar to improve to 3-0 in SLC play",
+            "url": "https://nsudemons.com/news/2025/12/21/lady-demon-basketball-nsus-trio-leads-big-comeback-win-over-lamar-to-improve-to-3-0-in-slc-play.aspx",
+            "publishedAt": "2025-12-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/21/12-21___011_NSU_0_Nya_Valentine_UtyeE.jpg",
+            "imageAlt": "NSU 0 Nya Valentine",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "eaf1e4cde2d574ed367996fc",
+            "title": "NSU opens SLC home schedule with Lamar",
+            "url": "https://nsudemons.com/news/2025/12/20/lady-demon-basketball-nsu-opens-slc-home-schedule-with-lamar.aspx",
+            "publishedAt": "2025-12-20T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/20/11-14___025_NSU_15_Clarence_Djuela.jpg",
+            "imageAlt": "NSU 15 Clarence Djuela",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "aaddefc7a70a50f5773091e1",
+            "title": "All-Americans, SLC champions highlight Fall 2025 graduating class",
+            "url": "https://nsudemons.com/news/2025/12/18/demon-baseball-all-americans-slc-champions-highlight-fall-2025-graduating-class.aspx",
+            "publishedAt": "2025-12-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/18/Stole_Ceremony_Fall_2025.jpg",
+            "imageAlt": "2025 Fall Stole Ceremony",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "c035838835ae2d7b156ebff7",
+            "title": "Specials set for remainder of December basketball schedules",
+            "url": "https://nsudemons.com/news/2025/12/18/demon-basketball-specials-set-for-remainder-of-december-basketball-schedules.aspx",
+            "publishedAt": "2025-12-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/18/December_Specials.jpg",
+            "imageAlt": "December Specials",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "ee7c8b4ef957f47b6631aa89",
+            "title": "'Southland Six Pack' flex pack on sale now for remainder of 25-26 hoops season",
+            "url": "https://nsudemons.com/news/2025/12/17/demon-basketball-southland-six-pack-flex-pack-on-sale-now-for-remainder-of-25-26-hoops-season.aspx",
+            "publishedAt": "2025-12-17T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/17/Bold_Title_1600x900__2_.jpg",
+            "imageAlt": "SLC 6 Pack",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "258911855280f1c895da168d",
+            "title": "NSU can't keep pace with No. 2 Texas in loss",
+            "url": "https://nsudemons.com/news/2025/12/17/lady-demon-basketball-nsu-can-t-keep-pace-with-no-2-texas-in-loss.aspx",
+            "publishedAt": "2025-12-17T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/17/11-21___010_NSU_15_Clarence_Djuela_Tw6I9.jpg",
+            "imageAlt": "NSU 15 Clarence Djuela",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "3038020a4a25c521671de7b7",
+            "title": "NSU faces No. 2 Texas to conclude non-conference slate",
+            "url": "https://nsudemons.com/news/2025/12/16/lady-demon-basketball-nsu-faces-no-2-texas-to-conclude-non-conference-slate.aspx",
+            "publishedAt": "2025-12-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/21/013_NSU_23_Dasia_Turner_SB07c.jpg",
+            "imageAlt": "NSU 23 Dasia Turner",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "8cf2a909f24349f09c0e67b6",
+            "title": "Atamah, Valentine combine for 39 points as NSU delivers big win at McNeese",
+            "url": "https://nsudemons.com/news/2025/12/15/lady-demon-basketball-atamah-valentine-combine-for-39-points-as-nsu-delivers-big-win-at-mcneese.aspx",
+            "publishedAt": "2025-12-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/15/DSC09301.jpeg",
+            "imageAlt": "Nya Valentine vs. McNeese 12-15",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "8a16fb58d08f8f11965f6ea2",
+            "title": "NSU aims for 2-0 SLC start when it travels to McNeese",
+            "url": "https://nsudemons.com/news/2025/12/14/lady-demon-basketball-nsu-aims-for-2-0-slc-start-when-it-travels-to-mcneese.aspx",
+            "publishedAt": "2025-12-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/21/015_NSU_11_Mika_Jarrett_7xaGL.jpg",
+            "imageAlt": "NSU 11 Mika Jarrett",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "d7eadeb52352a4967f3f9ffa",
+            "title": "NSU announces Leave Your Mark giving campaign",
+            "url": "https://nsudemons.com/news/2025/12/11/demon-baseball-nsu-announces-leave-your-mark-giving-campaign.aspx",
+            "publishedAt": "2025-12-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/11/LYM_FBE_121025_Bsovu.jpg",
+            "imageAlt": "Leave Your Mark",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "05e789c1c12cf2431645d31c",
+            "title": "Atamah takes home SLC Player of the Week",
+            "url": "https://nsudemons.com/news/2025/12/8/lady-demon-basketball-atamah-takes-home-slc-player-of-the-week.aspx",
+            "publishedAt": "2025-12-08T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/12/8/WBB_POTW_Vee2.jpg",
+            "imageAlt": "Vee POW 12-8",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "ecd1532613b0f53dd94dda25",
+            "title": "Atamah's monster performance pushes NSU to dominant victory in SLC opener",
+            "url": "https://nsudemons.com/news/2025/12/7/lady-demon-basketball-atamahs-monster-performance-pushes-nsu-to-dominant-victory-in-slc-opener.aspx",
+            "publishedAt": "2025-12-07T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/20/11-14___006_NSU_32_Vee_Atamah.jpg",
+            "imageAlt": "NSU 32 Vee Atamah",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "6bd21dd3d8610e75815ac375",
+            "title": "NSU heads to Southeastern Louisiana to open SLC play",
+            "url": "https://nsudemons.com/news/2025/12/6/lady-demon-basketball-nsu-heads-to-southeastern-louisiana-to-open-slc-play.aspx",
+            "publishedAt": "2025-12-06T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/20/11-14___026_NSU_0_Mya_Valentine_Jx9RR.jpg",
+            "imageAlt": "NSU 0 Nya Valentine",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "b0ad21a2fb2ccc665bf8a02d",
+            "title": "Atamah pours in 27, but NSU's comeback effort falls short",
+            "url": "https://nsudemons.com/news/2025/11/25/lady-demon-basketball-atamah-pours-in-27-but-nsus-comeback-effort-falls-short.aspx",
+            "publishedAt": "2025-11-25T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/25/thumbnail_1B6A2971_-_42.jpg",
+            "imageAlt": "Vernell Atamah 11-24",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "4a6409499f5184b030ca989d",
+            "title": "UVA's inside scoring too much for NSU to overcome in Emerald Coast Classic opener",
+            "url": "https://nsudemons.com/news/2025/11/24/lady-demon-basketball-uvas-inside-scoring-too-much-for-nsu-to-overcome-in-emerald-coast-classic-opener.aspx",
+            "publishedAt": "2025-11-24T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/24/thumbnail_1B6A2965_-_42.jpg",
+            "imageAlt": "Nya Valentine vs. UVA 11-24",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "16cb05dd5cae2a3625fd3437",
+            "title": "NSU focusing on defensive discipline as it heads to the Emerald Coast Classic",
+            "url": "https://nsudemons.com/news/2025/11/23/lady-demon-basketball-nsu-focusing-on-defensive-discipline-as-it-heads-to-the-emerald-coast-classic.aspx",
+            "publishedAt": "2025-11-23T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/21/003_NSU_20_Tiara_Abron_ABC_22_Isis_uVRav.jpg",
+            "imageAlt": "NSU 20 Tiara Abron ABC 22 Isis Woods",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "df281509a5c8366e05d165eb",
+            "title": "Atamah's 28 leads NSU to rout of Arkansas Baptist",
+            "url": "https://nsudemons.com/news/2025/11/21/lady-demon-basketball-atamahs-28-leads-nsu-to-rout-of-arkansas-baptist.aspx",
+            "publishedAt": "2025-11-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/21/012_NSU_32_Vee_Atamah.jpg",
+            "imageAlt": "NSU 32 Vee Atamah",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "8be108743840ef44968b139d",
+            "title": "Confident NSU hosts Arkansas Baptist",
+            "url": "https://nsudemons.com/news/2025/11/20/lady-demon-basketball-confident-nsu-hosts-arkansas-baptist.aspx",
+            "publishedAt": "2025-11-20T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/20/11-14___033_NSU_12_Payton_Miller_fi3h7.jpg",
+            "imageAlt": "NSU 12 Payton Miller",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "b21330738359bead16a6a577",
+            "title": "Nimz signs Louisiana product to begin 2026-27 recruiting class",
+            "url": "https://nsudemons.com/news/2025/11/17/lady-demon-basketball-louisiana-product-first-signing-of-nimzs-2026-27-recruiting-class.aspx",
+            "publishedAt": "2025-11-17T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/17/Multi-Format_Signing_Day_-_Landscape-2.jpg",
+            "imageAlt": "Stella Allison",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "c18d9cf2f3ea45051638bd88",
+            "title": "NSU buries school-record 18 3-pointers in historic victory",
+            "url": "https://nsudemons.com/news/2025/11/14/lady-demon-basketball-nsu-buries-school-record-18-3-pointers-in-historic-victory.aspx",
+            "publishedAt": "2025-11-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/14/007_NSU_23_Dasia_Turner_ECC_10_Lillie_Taylor_yQPFW.jpg",
+            "imageAlt": "NSU 23 Dasia Turner ECC 10 Lillie Taylor",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "e7264d2307d613a0a41d4455",
+            "title": "NSU faces Ecclesia for home opener",
+            "url": "https://nsudemons.com/news/2025/11/13/lady-demon-basketball-nsu-faces-ecclesia-for-home-opener.aspx",
+            "publishedAt": "2025-11-13T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/1/28/1-16___013_NSU_22_Joceline_Geara.jpg",
+            "imageAlt": "NSU 22 Joceline Geara",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "2c2d2226612a4e83812b29e4",
+            "title": "NSU has schedule altered; will host Ecclesia on Friday as part of DH with men",
+            "url": "https://nsudemons.com/news/2025/11/12/lady-demon-basketball-nsu-has-schedule-altered-will-host-ecclesia-on-friday-as-part-of-dh-with-men.aspx",
+            "publishedAt": "2025-11-12T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/12/thumbnail_WBB_EcclesiaChange_Web.jpg",
+            "imageAlt": "WBB schedule change",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "e649ab1c355c7ec611740021",
+            "title": "Atamah earns first SLC Player of the Week award of season",
+            "url": "https://nsudemons.com/news/2025/11/10/lady-demon-basketball-atamah-earns-first-slc-player-of-the-week-award-of-season.aspx",
+            "publishedAt": "2025-11-10T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/11/10/WBB_Vee_PotW_11-10.jpg",
+            "imageAlt": "Vee POW 11-10",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "6e9ae219cc2c7a8c9e618f41",
+            "title": "NSU's comeback bid falls short at Kansas",
+            "url": "https://nsudemons.com/news/2025/11/9/lady-demon-basketball-nsus-comeback-bid-falls-short-at-kansas.aspx",
+            "publishedAt": "2025-11-09T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/2/17/2-12___026_NSU_32_Vee_Atamah.jpg",
+            "imageAlt": "NSU 32 Vee Atamah",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "bd23775bfe8d901d8ea0ae84",
+            "title": "NSU heads to Kansas to wrap up Midwest road trip",
+            "url": "https://nsudemons.com/news/2025/11/8/lady-demon-basketball-nsu-heads-to-kansas-to-wrap-up-midwest-road-trip.aspx",
+            "publishedAt": "2025-11-08T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/1/9/1-2___057_NSU_15_Clarence_Djuela_6lnSM.jpg",
+            "imageAlt": "NSU 15 Clarence Djuela",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "173a64f2dccdec0a6e6d2331",
+            "title": "Fast start fuels Demons' program-first AAC road win",
+            "url": "https://nsudemons.com/news/2025/11/6/lady-demon-basketball-fast-start-fuels-demons-program-first-aac-road-win.aspx",
+            "publishedAt": "2025-11-06T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/3/10/3-1___033_NSU_15_Clarence_Djuela_HCU_11_Jo_Oly.jpg",
+            "imageAlt": "NSU 15 Clarence Djuela HCU 11 Jo Oly",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "8b35a3f5ae44ef26b89bd11a",
+            "title": "NSU eyes growth in trip to Wichita State",
+            "url": "https://nsudemons.com/news/2025/11/5/lady-demon-basketball-nsu-eyes-growth-in-trip-to-wichita-state.aspx",
+            "publishedAt": "2025-11-05T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/3/5/050_NSU_17_Carla_Celaya_rL1qF.jpg",
+            "imageAlt": "NSU 17 Carla Celaya",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          },
+          {
+            "id": "272e0fa19e79bbc1d2bbb644",
+            "title": "Atamah drops in 20, but NSU can't keep pace with Nebraska in opener",
+            "url": "https://nsudemons.com/news/2025/11/3/lady-demon-basketball-atamah-drops-in-20-but-nsu-can-t-keep-pace-with-nebraska-in-opener.aspx",
+            "publishedAt": "2025-11-03T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/3/10/3-1___042_NSU_32_Vee_Atamah.jpg",
+            "imageAlt": "NSU 32 Vee Atamah",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-basketball/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://nsudemons.com/sports/womens-basketball/archives",
+            "reason": null,
+            "recordCount": 100
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-cross-country": {
+      "sponsored": true,
+      "code": "WCC",
+      "name": "Women's Cross Country",
+      "gender": "women",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/cross-country/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://nsudemons.com/sports/cross-country/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-soccer": {
+      "sponsored": true,
+      "code": "WSO",
+      "name": "Women's Soccer",
+      "gender": "women",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/womens-soccer/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://nsudemons.com/sports/womens-soccer/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-tennis": {
+      "sponsored": true,
+      "code": "WTE",
+      "name": "Women's Tennis",
+      "gender": "women",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/womens-tennis/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://nsudemons.com/sports/womens-tennis/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-indoor": {
+      "sponsored": true,
+      "code": "WTI",
+      "name": "Women's Track, Indoor",
+      "gender": "women",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "6b4bdda45388e8ed7164424a",
+            "title": "NSU Fall Kickoff Event set for Saturday at Louisiana Sports Hall of Fame museum",
+            "url": "https://nsudemons.com/news/2026/8/18/demon-baseball-nsu-fall-kickoff-event-set-for-saturday-at-louisiana-sports-hall-of-fame-museum.aspx",
+            "publishedAt": "2026-08-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/8/18/Fall_Kickoff_Event.jpg",
+            "imageAlt": "Fall Kickoff Event 2026",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives"
+          },
+          {
+            "id": "08b3575dcdd5361715913c92",
+            "title": "N-Club Hall of Fame voting open through July 17",
+            "url": "https://nsudemons.com/news/2026/7/2/demon-baseball-n-club-hall-of-fame-voting-open-through-july-17.aspx",
+            "publishedAt": "2026-07-02T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/10/4/001_.jpg",
+            "imageAlt": "N-Club Induction",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives"
+          },
+          {
+            "id": "f5972d2dd13bfe6a90c79650",
+            "title": "NSU Athletics announces Top of the Boot Music Festival",
+            "url": "https://nsudemons.com/news/2026/5/18/demon-baseball-nsu-athletics-announces-top-of-the-boot-music-festival.aspx",
+            "publishedAt": "2026-05-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/5/18/Top_Of_The_Boot_Logo.jpg",
+            "imageAlt": "Top of the Boot Festival logo",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives"
+          },
+          {
+            "id": "5b532ba48984c640a9166768",
+            "title": "NSU women's track named an USTFCCCA All-Academic team; five student-athletes honored",
+            "url": "https://nsudemons.com/news/2025/7/24/track-and-field-nsu-womens-track-named-an-ustfccca-all-academic-team-five-student-athletes-honored.aspx",
+            "publishedAt": "2025-07-24T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/7/24/Multi_Player_Feature__15_.jpg",
+            "imageAlt": "All-Academic Track",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives",
+            "reason": null,
+            "recordCount": 4
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-outdoor": {
+      "sponsored": true,
+      "code": "WTO",
+      "name": "Women's Track, Outdoor",
+      "gender": "women",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "05f05c2786d6db4bc66156e1",
+            "title": "NSU Fall Kickoff Event set for Saturday at Louisiana Sports Hall of Fame museum",
+            "url": "https://nsudemons.com/news/2026/8/18/demon-baseball-nsu-fall-kickoff-event-set-for-saturday-at-louisiana-sports-hall-of-fame-museum.aspx",
+            "publishedAt": "2026-08-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/8/18/Fall_Kickoff_Event.jpg",
+            "imageAlt": "Fall Kickoff Event 2026",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives"
+          },
+          {
+            "id": "876e622f83b6bbfa00580014",
+            "title": "N-Club Hall of Fame voting open through July 17",
+            "url": "https://nsudemons.com/news/2026/7/2/demon-baseball-n-club-hall-of-fame-voting-open-through-july-17.aspx",
+            "publishedAt": "2026-07-02T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/10/4/001_.jpg",
+            "imageAlt": "N-Club Induction",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives"
+          },
+          {
+            "id": "9b3e89e35f46f1235f12649a",
+            "title": "NSU Athletics announces Top of the Boot Music Festival",
+            "url": "https://nsudemons.com/news/2026/5/18/demon-baseball-nsu-athletics-announces-top-of-the-boot-music-festival.aspx",
+            "publishedAt": "2026-05-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2026/5/18/Top_Of_The_Boot_Logo.jpg",
+            "imageAlt": "Top of the Boot Festival logo",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives"
+          },
+          {
+            "id": "cf53a1df8d2e9f21dbc674ae",
+            "title": "NSU women's track named an USTFCCCA All-Academic team; five student-athletes honored",
+            "url": "https://nsudemons.com/news/2025/7/24/track-and-field-nsu-womens-track-named-an-ustfccca-all-academic-team-five-student-athletes-honored.aspx",
+            "publishedAt": "2025-07-24T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://nsudemons.com/images/2025/7/24/Multi_Player_Feature__15_.jpg",
+            "imageAlt": "All-Academic Track",
+            "publisher": "Northwestern State University Athletics",
+            "discoverySourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://nsudemons.com/sports/womens-track-and-field/archives",
+            "reason": null,
+            "recordCount": 4
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-volleyball": {
+      "sponsored": true,
+      "code": "WVB",
+      "name": "Women's Volleyball",
+      "gender": "women",
+      "conference": {
+        "slug": "southland",
+        "name": "Southland Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+        "sourceUrl": "https://nsudemons.com/sports/womens-volleyball/archives",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://nsudemons.com/sports/womens-volleyball/archives",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+            "lastSuccessAt": "2026-09-17T13:31:49.967Z",
+            "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:31:49.967Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    }
+  }
+}

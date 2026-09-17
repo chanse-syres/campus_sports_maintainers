@@ -1,0 +1,1860 @@
+{
+  "schemaVersion": 1,
+  "academicYear": "2026-27",
+  "conference": {
+    "slug": "atlantic-coast",
+    "name": "Atlantic Coast Conference"
+  },
+  "school": {
+    "slug": "wake-forest-university",
+    "ncaaId": "749",
+    "name": "Wake Forest University",
+    "athleticsUrl": "https://www.godeacs.com/",
+    "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=749"
+  },
+  "generatedAt": "2026-09-17T13:18:49.593Z",
+  "sports": {
+    "baseball": {
+      "sponsored": true,
+      "code": "MBA",
+      "name": "Baseball",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "basketball": {
+      "sponsored": true,
+      "code": "MBB",
+      "name": "Men's Basketball",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "field-hockey": {
+      "sponsored": true,
+      "code": "WFH",
+      "name": "Field Hockey",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "671fd1ff684d8a11ffaa8fe3",
+            "title": "Wake Forest’s Bianca Rees-Gibbs Earns ACC Offensive Player of the Week",
+            "url": "https://www.godeacs.com/news/2026/9/15/field-hockey-wake-forests-bianca-rees-gibbs-earns-acc-offensive-player-of-the-week",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.godeacs.com/images/2026/9/15/260828_SRS_WAKEFH_vsIowa-100181.jpg",
+            "imageAlt": "Bianca Rees-Gibbs",
+            "publisher": "Wake Forest University Athletics",
+            "discoverySourceUrl": "https://www.godeacs.com/"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": null,
+            "recordCount": 1
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/fieldhockey/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "football": {
+      "sponsored": true,
+      "code": "MFB",
+      "name": "Football",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "2d74c4ad50d9f7046672d659",
+            "title": "ACC, Wake Forest Announce 2027 Opponents",
+            "url": "https://www.godeacs.com/news/2026/9/16/football-acc-wake-forest-announce-2027-opponents",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.godeacs.com/images/2026/9/16/2027Opponents16x9Updated.jpg",
+            "imageAlt": "2027 ACC Opponents",
+            "publisher": "Wake Forest University Athletics",
+            "discoverySourceUrl": "https://www.godeacs.com/"
+          },
+          {
+            "id": "1137440cfee223c50cd3313b",
+            "title": "Know Before You Go: No. 5 Miami",
+            "url": "https://www.godeacs.com/news/2026/9/16/football-know-before-you-go-no-5-miami",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.godeacs.com/images/2026/9/16/260903_SRS_WAKEFB_vsAkron-208734.jpg",
+            "imageAlt": "Deacon Walk",
+            "publisher": "Wake Forest University Athletics",
+            "discoverySourceUrl": "https://www.godeacs.com/"
+          },
+          {
+            "id": "64f4cdc9b632d712c012f1f4",
+            "title": "Pro Deacs: Week One",
+            "url": "https://www.godeacs.com/news/2026/9/15/football-pro-deacs-week-one",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.godeacs.com/images/2026/9/15/Kenneth_Walker.jfif",
+            "imageAlt": "Kenneth Walker",
+            "publisher": "Wake Forest University Athletics",
+            "discoverySourceUrl": "https://www.godeacs.com/"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": null,
+            "recordCount": 3
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-cross-country": {
+      "sponsored": true,
+      "code": "MCC",
+      "name": "Men's Cross Country",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-golf": {
+      "sponsored": true,
+      "code": "MGO",
+      "name": "Men's Golf",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "4b1cb3541396e5a8dec4d478",
+            "title": "Wake Forest Sports Hall of Famer John Gerring Passes Away",
+            "url": "https://www.godeacs.com/news/2026/9/16/mens-golf-wake-forest-sports-hall-of-famer-john-gerring-passes-away",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.godeacs.com/images/2026/9/16/IMG_6818.png",
+            "imageAlt": "John Gerring",
+            "publisher": "Wake Forest University Athletics",
+            "discoverySourceUrl": "https://www.godeacs.com/"
+          },
+          {
+            "id": "2d2b9d4d4b569b535b35b31f",
+            "title": "Deacs Wrap Up Final Day at Inverness Intercollegiate",
+            "url": "https://www.godeacs.com/news/2026/9/15/mens-golf-deacs-wrap-up-final-day-at-inverness-intercollegiate",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.godeacs.com/images/2026/9/15/BEN07003.jpg",
+            "imageAlt": "Nolan Harper",
+            "publisher": "Wake Forest University Athletics",
+            "discoverySourceUrl": "https://www.godeacs.com/"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": null,
+            "recordCount": 2
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-soccer": {
+      "sponsored": true,
+      "code": "MSO",
+      "name": "Men's Soccer",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-tennis": {
+      "sponsored": true,
+      "code": "MTE",
+      "name": "Men's Tennis",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [
+          {
+            "id": "057469c73dd70f85fa4ddf6a",
+            "title": "Wake Forest wins 2025 NCAA men's tennis championship | Match point",
+            "url": "https://www.ncaa.com/video/tennis-men/2025-05-19/wake-forest-wins-2025-ncaa-mens-tennis-championship-match-point",
+            "publishedAt": "2025-05-19T04:31:03.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://www.ncaa.com/_flysystem/public-s3/styles/large_16x9/public-s3/thumbnails/2025-05/wf-thumb2.jpg?h=c673cd1c&itok=zOOY1v4i",
+            "imageAlt": null,
+            "publisher": "NCAA.com",
+            "discoverySourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml"
+          },
+          {
+            "id": "7f1e62d7aff46575ac486595",
+            "title": "Wake Forest wins 2025 NCAA DI men's tennis championship",
+            "url": "https://www.ncaa.com/news/tennis-men/article/2025-05-18/wake-forest-wins-2025-ncaa-di-mens-tennis-championship",
+            "publishedAt": "2025-05-18T04:28:00.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://www.ncaa.com/_flysystem/public-s3/styles/large_16x9/public-s3/images/2025-05/wake-mens-tennis.jpg?h=ed27e282&itok=y4vpMpNv",
+            "imageAlt": null,
+            "publisher": "NCAA.com",
+            "discoverySourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml"
+          }
+        ],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 2
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-indoor": {
+      "sponsored": true,
+      "code": "MTI",
+      "name": "Men's Track, Indoor",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "mens-track-outdoor": {
+      "sponsored": true,
+      "code": "MTO",
+      "name": "Men's Track, Outdoor",
+      "gender": "men",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-basketball": {
+      "sponsored": true,
+      "code": "WBB",
+      "name": "Women's Basketball",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-cross-country": {
+      "sponsored": true,
+      "code": "WCC",
+      "name": "Women's Cross Country",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-golf": {
+      "sponsored": true,
+      "code": "WGO",
+      "name": "Women's Golf",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "52375225fad4bad5e8fa4d8d",
+            "title": "Wake Forest Finishes Runner-Up at Stephens Cup",
+            "url": "https://www.godeacs.com/news/2026/9/16/womens-golf-wake-forest-finishes-runner-up-at-stephens-cup",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.godeacs.com/images/2026/9/16/macy-114.jpg",
+            "imageAlt": "Vidhi Lakhawala",
+            "publisher": "Wake Forest University Athletics",
+            "discoverySourceUrl": "https://www.godeacs.com/"
+          },
+          {
+            "id": "ebded620d8b57136f554981e",
+            "title": "Pate Claims Consecutive Stephens Cup Title, Deacs Advance to Championship Match",
+            "url": "https://www.godeacs.com/news/2026/9/15/womens-golf-pate-claims-consecutive-stephens-cup-title-deacs-advance-to-championship-match",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.godeacs.com/images/2026/9/15/macy-92.jpg",
+            "imageAlt": "Macy Pate Stephens Cup",
+            "publisher": "Wake Forest University Athletics",
+            "discoverySourceUrl": "https://www.godeacs.com/"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": null,
+            "recordCount": 2
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-soccer": {
+      "sponsored": true,
+      "code": "WSO",
+      "name": "Women's Soccer",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "57086693f67f24cc33b1a906",
+            "title": "No. 3 Wake Forest Begins Road Stretch in California",
+            "url": "https://www.godeacs.com/news/2026/9/16/womens-soccer-no-3-wake-forest-begins-road-stretch-in-california",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.godeacs.com/images/2026/9/16/260912_MJP_WAKEWSOC_UVA_7058.jpg",
+            "imageAlt": "WSOC",
+            "publisher": "Wake Forest University Athletics",
+            "discoverySourceUrl": "https://www.godeacs.com/"
+          },
+          {
+            "id": "fc78d092f6b477300bc66695",
+            "title": "Amaral Earns ACC Goalkeeper of the Week",
+            "url": "https://www.godeacs.com/news/2026/9/15/womens-soccer-amaral-earns-acc-goalkeeper-of-the-week",
+            "publishedAt": "2026-09-15T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.godeacs.com/images/2026/9/15/260829_MJP_WAKE_WSOC_Portland_0047.jpg",
+            "imageAlt": "The Deacons&#39; game against the Portland Pilots on Saturday, August 29, 2026 at Spry Stadium in Winston-Salem, NC / Wake Forest Athletics",
+            "publisher": "Wake Forest University Athletics",
+            "discoverySourceUrl": "https://www.godeacs.com/"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": null,
+            "recordCount": 2
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-tennis": {
+      "sponsored": true,
+      "code": "WTE",
+      "name": "Women's Tennis",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-indoor": {
+      "sponsored": true,
+      "code": "WTI",
+      "name": "Women's Track, Indoor",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-track-outdoor": {
+      "sponsored": true,
+      "code": "WTO",
+      "name": "Women's Track, Outdoor",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "stale",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": "one-or-more-news-sources-degraded",
+        "records": [],
+        "sources": [
+          {
+            "status": "unavailable",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": null,
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": "source-format-changed",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    },
+    "womens-volleyball": {
+      "sponsored": true,
+      "code": "WVB",
+      "name": "Women's Volleyball",
+      "gender": "women",
+      "conference": {
+        "slug": "atlantic-coast",
+        "name": "Atlantic Coast Conference"
+      },
+      "news": {
+        "status": "ok",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+        "sourceUrl": "https://www.godeacs.com/",
+        "season": null,
+        "reason": null,
+        "records": [
+          {
+            "id": "015c5059c97c711479683479",
+            "title": "Wake Forest Primed for Nonconference Finales Against NC A&T and Wofford",
+            "url": "https://www.godeacs.com/news/2026/9/16/womens-volleyball-wake-forest-primed-for-nonconference-finales-against-nc-a-t-and-wofford",
+            "publishedAt": "2026-09-16T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.godeacs.com/images/2026/9/16/13092026_JBM_WAKEVB_ETSU-9.jpg",
+            "imageAlt": "Sanaa Williams and Laiya Ebo",
+            "publisher": "Wake Forest University Athletics",
+            "discoverySourceUrl": "https://www.godeacs.com/"
+          }
+        ],
+        "sources": [
+          {
+            "status": "ok",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.godeacs.com/",
+            "reason": null,
+            "recordCount": 1
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          },
+          {
+            "status": "empty",
+            "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+            "lastSuccessAt": "2026-09-17T13:18:49.593Z",
+            "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
+            "reason": "publisher-feed-filtered-school-and-sport",
+            "recordCount": 0
+          }
+        ]
+      },
+      "schedule": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "roster": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingAnnouncements": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingBoard": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      },
+      "recruitingOffers": {
+        "status": "unavailable",
+        "lastAttemptAt": "2026-09-17T13:18:49.593Z",
+        "lastSuccessAt": null,
+        "sourceUrl": null,
+        "season": null,
+        "reason": "disabled-news-only",
+        "records": []
+      }
+    }
+  }
+}
