@@ -26,8 +26,10 @@ export function officialHosts(athleticsUrl) {
 export function sourcePolicy(school) {
   const override = overrides.schools[school.slug];
   if (override && (override.ncaaId !== school.ncaaId || override.originalUrl !== school.athleticsUrl || !safeUrl(override.athleticsUrl) || !safeUrl(override.evidenceUrl))) throw new Error('Official source override identity mismatch');
+  const allowedHosts = [...new Set([...officialHosts(school.athleticsUrl), ...officialHosts(override?.athleticsUrl)])];
+  if (override?.newsFallbackUrl && (!safeUrl(override.newsFallbackUrl) || !allowedHosts.includes(new URL(override.newsFallbackUrl).hostname))) throw new Error('Official news fallback host mismatch');
   return { athleticsUrl: override?.athleticsUrl ?? school.athleticsUrl,
-    allowedHosts: [...new Set([...officialHosts(school.athleticsUrl), ...officialHosts(override?.athleticsUrl)])] };
+    newsFallbackUrl: override?.newsFallbackUrl ?? null, allowedHosts };
 }
 
 export function discoverEntrance(html, athleticsUrl) {
@@ -66,7 +68,7 @@ function officialLink(value, sourceUrl, hosts) {
 }
 export function discoverSchoolSources(html, school, sourceUrl = school.athleticsUrl) {
   if (typeof html !== 'string' || Buffer.byteLength(html, 'utf8') > 8_000_000) throw new Error('Invalid navigation document');
-  const allowedHosts = sourcePolicy(school).allowedHosts;
+  const policy = sourcePolicy(school), allowedHosts = policy.allowedHosts;
   if (!allowedHosts.includes(new URL(sourceUrl).hostname)) throw new Error('Navigation host mismatch');
   const $ = load(html), links = [];
   for (const anchor of $('a[href]').toArray().slice(0, 6000)) {
@@ -110,6 +112,12 @@ export function discoverSchoolSources(html, school, sourceUrl = school.athletics
     sports[sport.slug] = { homeUrl, newsUrl: find(/\/(?:archives|news)(?:\/|$)/i, /^(?:news|archives?)$/i) ?? homeUrl,
       rosterUrl: find(/\/roster(?:\/|$)/i, /^roster$/i), scheduleUrl: find(/\/schedule(?:\/|$)/i, /^schedule$/i),
       routes: sportPath ? [sportPath] : [], aliases: home ? [...new Set(matches.filter(inRoute).flatMap(link => [link.text, link.title, link.parentLabel]).filter(label => matchNavigationSport(label, sport, school.sports)))] : [], discoveryStatus: homeUrl ? 'discovered' : 'no-matching-official-navigation' };
+    // A reviewed all-sports collection supplies a retrieval URL only. Do not
+    // manufacture sport routes or aliases; each article still proves its scope.
+    if (!sports[sport.slug].newsUrl && policy.newsFallbackUrl) {
+      sports[sport.slug].newsUrl = policy.newsFallbackUrl;
+      sports[sport.slug].discoveryStatus = 'reviewed-shared-news-source';
+    }
   }
   return { athleticsUrl: school.athleticsUrl, allowedHosts, status: 'ok', sports };
 }

@@ -59,7 +59,7 @@ test('only an explicit same-origin entrance is followed from a splash page', () 
 });
 test('reviewed hostname override is bound to canonical school identity', () => {
   const canonical = { slug: 'binghamton-university', ncaaId: 62, athleticsUrl: 'https://www.bubearcats.com/' };
-  assert.ok(sourcePolicy(canonical).allowedHosts.includes('binghamtonbearcats.com'));
+  assert.ok(sourcePolicy(canonical).allowedHosts.some(host => host === 'binghamtonbearcats.com'));
   assert.throws(() => sourcePolicy({ ...canonical, ncaaId: 1 }), /identity mismatch/);
 });
 test('explicit lightweight navigation cannot be assigned to heavyweight crew from generic route', () => {
@@ -67,4 +67,36 @@ test('explicit lightweight navigation cannot be assigned to heavyweight crew fro
   const result = discoverSchoolSources('<a href="/sports/mens-rowing">Men\'s Rowing - Lightweight</a><a href="/sports/rowing">Men\'s Heavyweight Rowing</a>', { ...school, sports: [heavy, light] });
   assert.equal(result.sports['mens-crew'].homeUrl, 'https://sports.example.edu/sports/rowing');
   assert.equal(result.sports['mens-lightweight-crew'].homeUrl, 'https://sports.example.edu/sports/mens-rowing');
+});
+test('reviewed shared archive supplies retrieval URL without inventing sport scope', () => {
+  const canonical = { slug: 'university-of-pittsburgh', ncaaId: 545, athleticsUrl: 'https://www.pittsburghpanthers.com/', sports: [men, women] };
+  const result = discoverSchoolSources('<main><a href="/archives">View more stories in Story Archives</a></main>', canonical);
+  for (const sport of canonical.sports) {
+    assert.equal(result.sports[sport.slug].newsUrl, 'https://www.pittsburghpanthers.com/archives');
+    assert.equal(result.sports[sport.slug].homeUrl, null);
+    assert.equal(result.sports[sport.slug].discoveryStatus, 'reviewed-shared-news-source');
+    assert.deepEqual(result.sports[sport.slug].routes, []);
+    assert.deepEqual(result.sports[sport.slug].aliases, []);
+  }
+});
+test('unreviewed school homepage does not silently become a shared archive', () => {
+  const result = discoverSchoolSources('<main><a href="/archives">All news</a></main>', school);
+  assert.equal(result.sports.basketball.newsUrl, null);
+});
+test('reviewed feature-page entrance remains bound to its canonical school', () => {
+  const canonical = { slug: 'college-of-the-holy-cross', ncaaId: 285, athleticsUrl: 'https://goholycross.com/' };
+  assert.equal(sourcePolicy(canonical).athleticsUrl, 'https://goholycross.com/sports/2024/9/12/fb-guide.aspx');
+  assert.throws(() => sourcePolicy({ ...canonical, athleticsUrl: 'https://attacker.example/' }), /identity mismatch/);
+});
+test('official (I)/(O) track menu suffixes map only the corresponding season', () => {
+  const html = '<a href="/sports/track-and-field">Track &amp; Field (I)</a><a href="/sports/track-and-field">Track &amp; Field (O)</a><a href="/sports/track-and-field/archives">News</a>';
+  const result = discoverSchoolSources(html, school);
+  for (const sport of track) {
+    const source = result.sports[sport.slug];
+    assert.equal(source.newsUrl, 'https://sports.example.edu/sports/track-and-field/archives');
+    assert.deepEqual(source.aliases, [sport.slug.endsWith('indoor') ? 'Track & Field (I)' : 'Track & Field (O)']);
+  }
+  assert.equal(result.sports.basketball.newsUrl, null);
+  assert.equal(matchNavigationSport("Women's Track & Field (I)", track.find(s => s.slug === 'mens-track-indoor'), school.sports), false);
+  assert.equal(matchNavigationSport('Basketball (I)', men, school.sports), false);
 });

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-09-17T12:43:50.728Z",
+  "reviewedAt": "2026-09-17T13:03:28.191Z",
   "schools": {
     "arizona-state": {
       "ncaaId": 28,
@@ -9,12 +9,26 @@
       "evidenceUrl": "https://sundevils.com/",
       "evidence": "Official homepage Drupal navigation and sport news links identify thesundevils.com/news as the athletics news archive."
     },
+    "belmont-university": {
+      "ncaaId": 14927,
+      "originalUrl": "https://www.belmontbruins.com/",
+      "athleticsUrl": "https://belmontbruins.com/sports/wbball",
+      "evidenceUrl": "https://belmontbruins.com/sports/wbball",
+      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
     "binghamton-university": {
       "ncaaId": 62,
       "originalUrl": "https://www.bubearcats.com/",
       "athleticsUrl": "https://binghamtonbearcats.com/",
       "evidenceUrl": "https://www.bubearcats.com/",
       "evidence": "Public HTTP 301 Location points to the current official athletics website."
+    },
+    "chicago-state-university": {
+      "ncaaId": 136,
+      "originalUrl": "https://www.gocsucougars.com/",
+      "athleticsUrl": "https://www.gocsucougars.com/sports/mens-basketball/schedule",
+      "evidenceUrl": "https://www.gocsucougars.com/sports/mens-basketball/schedule",
+      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
     },
     "colgate-university": {
       "ncaaId": 153,
@@ -23,6 +37,27 @@
       "evidenceUrl": "https://www.colgate.edu/athletics",
       "evidence": "University athletics page links the current athletics domain and individual varsity sport pages."
     },
+    "college-of-the-holy-cross": {
+      "ncaaId": 285,
+      "originalUrl": "https://goholycross.com/",
+      "athleticsUrl": "https://goholycross.com/sports/2024/9/12/fb-guide.aspx",
+      "evidenceUrl": "https://goholycross.com/",
+      "evidence": "Official gameday page explicitly links this public stadium guide; the guide exposes current navigation for all 27 sponsored programs."
+    },
+    "east-tennessee-state-university": {
+      "ncaaId": 198,
+      "originalUrl": "https://www.etsubucs.com/",
+      "athleticsUrl": "https://etsubucs.com/sports/mens-basketball/coaches",
+      "evidenceUrl": "https://etsubucs.com/sports/mens-basketball/coaches",
+      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
+    "jacksonville-university": {
+      "ncaaId": 316,
+      "originalUrl": "https://www.judolphins.com/",
+      "athleticsUrl": "https://judolphins.com/sports/general",
+      "evidenceUrl": "https://judolphins.com/sports/general",
+      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
     "lsu-new-orleans": {
       "ncaaId": 474,
       "originalUrl": "https://www.unoprivateers.com/",
@@ -30,12 +65,63 @@
       "evidenceUrl": "https://www.unoprivateers.com/",
       "evidence": "Public HTTP 301 Location points to the current official athletics website."
     },
+    "middle-tennessee-state-university": {
+      "ncaaId": 419,
+      "originalUrl": "https://www.goblueraiders.com/",
+      "athleticsUrl": "https://www.goblueraiders.com/",
+      "newsFallbackUrl": "https://www.goblueraiders.com/archives",
+      "evidenceUrl": "https://www.goblueraiders.com/",
+      "evidence": "Official homepage All News link points to the public all-sports archive. Each article must independently identify the requested sport."
+    },
+    "mississippi-valley-state-university": {
+      "ncaaId": 432,
+      "originalUrl": "https://www.mvsusports.com/",
+      "athleticsUrl": "https://mvsusports.com/sports/mbball",
+      "evidenceUrl": "https://mvsusports.com/sports/mbball",
+      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
+    "oral-roberts-university": {
+      "ncaaId": 527,
+      "originalUrl": "https://www.oruathletics.com/",
+      "athleticsUrl": "https://oruathletics.com/schedule.aspx?path=mbball&season=2025-26",
+      "evidenceUrl": "https://oruathletics.com/schedule.aspx?path=mbball&season=2025-26",
+      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
+    "queens-university-of-charlotte": {
+      "ncaaId": 11504,
+      "originalUrl": "https://www.queensathletics.com/",
+      "athleticsUrl": "https://queensathletics.com/sports/mens-basketball/",
+      "evidenceUrl": "https://queensathletics.com/sports/mens-basketball/",
+      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
+    "south-carolina-state-university": {
+      "ncaaId": 647,
+      "originalUrl": "https://www.scsuathletics.com/index.aspx",
+      "athleticsUrl": "https://www.scsuathletics.com/sports/mens-basketball/schedule",
+      "evidenceUrl": "https://www.scsuathletics.com/sports/mens-basketball/schedule",
+      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
+    "tarleton-state-university": {
+      "ncaaId": 1395,
+      "originalUrl": "https://tarletonsports.com/",
+      "athleticsUrl": "https://tarletonsports.com/sports/mens-basketball",
+      "evidenceUrl": "https://tarletonsports.com/sports/mens-basketball",
+      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
     "texas-state-university": {
       "ncaaId": 670,
       "originalUrl": "https://txstatebobcats.com/",
       "athleticsUrl": "https://txst.com/",
       "evidenceUrl": "https://txstatebobcats.com/",
       "evidence": "Public HTTP 301 Location points to the current official athletics website."
+    },
+    "u-s-air-force-academy": {
+      "ncaaId": 721,
+      "originalUrl": "https://www.goairforcefalcons.com/",
+      "athleticsUrl": "https://www.goairforcefalcons.com/",
+      "newsFallbackUrl": "https://goairforcefalcons.com/archives",
+      "evidenceUrl": "https://www.goairforcefalcons.com/",
+      "evidence": "Official homepage News link explicitly targets the public all-sports archive through a same-site promotion redirect. Each article must independently identify the requested sport."
     },
     "university-of-missouri-columbia": {
       "ncaaId": 434,
@@ -50,6 +136,43 @@
       "athleticsUrl": "https://omahamavs.com/",
       "evidenceUrl": "https://omavs.com/",
       "evidence": "NCAA athletics hostname without www redirects with HTTP 302 to the current official athletics site."
+    },
+    "university-of-north-alabama": {
+      "ncaaId": 487,
+      "originalUrl": "https://www.roarlions.com/",
+      "athleticsUrl": "https://roarlions.com/sports/2026/9/12/game-day-information-bank-independent-stadium.aspx",
+      "evidenceUrl": "https://www.roarlions.com/",
+      "evidence": "Official feature-page navigation explicitly links this public game-day information page; it exposes current navigation for all 19 sponsored programs."
+    },
+    "university-of-pittsburgh": {
+      "ncaaId": 545,
+      "originalUrl": "https://www.pittsburghpanthers.com/",
+      "athleticsUrl": "https://www.pittsburghpanthers.com/",
+      "newsFallbackUrl": "https://www.pittsburghpanthers.com/archives",
+      "evidenceUrl": "https://www.pittsburghpanthers.com/",
+      "evidence": "Official homepage View more stories in Story Archives link points to the public all-sports archive. Each article must independently identify the requested sport."
+    },
+    "university-of-texas-at-el-paso": {
+      "ncaaId": 704,
+      "originalUrl": "https://www.utepminers.com/",
+      "athleticsUrl": "https://utepminers.com/sports/mens-basketball/schedule/2025-26",
+      "evidenceUrl": "https://utepminers.com/sports/mens-basketball/schedule/2025-26",
+      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
+    "virginia-commonwealth-university": {
+      "ncaaId": 740,
+      "originalUrl": "https://www.vcuathletics.com/",
+      "athleticsUrl": "https://vcuathletics.com/sports/mens-basketball/schedule/2026-27",
+      "evidenceUrl": "https://vcuathletics.com/sports/mens-basketball/schedule/2026-27",
+      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
+    "wake-forest-university": {
+      "ncaaId": 749,
+      "originalUrl": "https://www.godeacs.com/",
+      "athleticsUrl": "https://www.godeacs.com/",
+      "newsFallbackUrl": "https://www.godeacs.com/",
+      "evidenceUrl": "https://www.godeacs.com/",
+      "evidence": "Official homepage embeds a public recent-news collection with explicit sport metadata. Each article must independently identify the requested sport; absent sports remain unavailable."
     },
     "wofford-college": {
       "ncaaId": 2915,

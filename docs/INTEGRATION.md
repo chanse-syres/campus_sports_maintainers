@@ -58,6 +58,8 @@ Replace `<DATA_COMMIT_SHA>` with the SHA from `GET https://api.github.com/repos/
 
 `publishedAtPrecision` is `instant`, `day`, or `unknown`. Avoid displaying a fabricated time for day-only dates; unknown publication dates remain `null`. The snapshot collection timestamp is not the article publication date.
 
+Some schools publish one combined track, cross-country, swimming, or similar program feed. Those verified joint sources can populate multiple NCAA sponsorship sections. Explicit opposing-gender metadata takes precedence over a shared route. Keep this combined coverage visible in your routing model rather than treating duplicated entries across those related sections as separate articles.
+
 ## Operational checks
 
 ```sh

@@ -75,6 +75,15 @@ test('archive follows observed archive link once and preserves discovery provena
   const result = await collectOfficialNews(`<a href="${source}">News</a>`, home, school, men, async url => { assert.equal(url, source); return script([story()]); });
   assert.equal(result.records[0].discoverySourceUrl, home);
 });
+test('shared all-sports archives require per-article scope and do not confirm an absent sport empty', async () => {
+  const archive = 'https://athletics.example.edu/archives';
+  const html = script([story(), story({ story_headline: 'Women season', story_path: '/news/2026/9/16/women-season', sport_title: "Women's Basketball" })]);
+  const records = (await collectOfficialNews(html, archive, school, men, async () => { throw new Error('Unexpected network call'); })).records;
+  assert.equal(records.length, 1);
+  assert.equal(records[0].title, 'A new season');
+  await assert.rejects(collectOfficialNews(script([story({ sport_title: 'General' })]), archive, school, men, async () => { throw new Error('Unexpected network call'); }), /No recognizable/);
+  await assert.rejects(collectOfficialNews(script([]), archive, school, men, async () => { throw new Error('Unexpected network call'); }), /No recognizable/);
+});
 test('unsafe URLs, malformed JSON and giant documents fail closed', () => {
   assert.throws(() => parseOfficialNews(script([story()]), 'https://attacker.example/news', school, men), /outside school scope/);
   assert.throws(() => parseOfficialNews(script([story({ story_path: 'https://attacker.example/news/1' })]), source, school, men), /No recognizable/);

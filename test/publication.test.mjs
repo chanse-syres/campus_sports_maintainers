@@ -167,7 +167,7 @@ test('consumer pins one commit and rejects a mismatched school file', async t =>
   const f = await fixture(t), slug = f.schools[0].slug, requests = [];
   const fetchImpl = async url => {
     requests.push(url);
-    if (url.includes('api.github.com')) return new Response(JSON.stringify({ object: { sha: parentSha } }));
+    if (new URL(url).hostname === 'api.github.com') return new Response(JSON.stringify({ object: { sha: parentSha } }));
     if (url.endsWith('/manifest.json')) return new Response(f.manifestBytes);
     return new Response(f.schoolBytes.get(slug));
   };
