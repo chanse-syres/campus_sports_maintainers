@@ -105,6 +105,58 @@ test('WordPress news cards use their category without requiring a /news URL pref
   assert.equal(parseOfficialNews(html, source, school, men).records[0].url, 'https://athletics.example.edu/season-preview/');
   assert.throws(() => parseOfficialNews(html, source, school, women), /No recognizable/);
 });
+const wordpressCard = ({ title = 'Season preview', path = '/news/2026/9/16/season-preview', category = "Men's Basketball", date = 'September 16, 2026', image = '/images/preview.jpg' } = {}) =>
+  `<div class="video__item video-card"><div class="video-card__preview"><a href="${path}"><div class="background lazy" data-bg="${image}"></div></a></div><ul class="video-card__breadcrumbs"><li class="breadcrumbs__item breadcrumbs__item--category"><a>${category}</a></li><li class="breadcrumbs__item">${date}</li></ul><h3 class="video-card__title"><a href="${path}">${title}</a></h3></div>`;
+
+test('WordPress archive cards require their own sport evidence and reject unsafe links', () => {
+  const html = '<h1>Men\'s Basketball News</h1>' + wordpressCard()
+    + wordpressCard({ title: 'Other team', path: '/news/2026/9/16/other-team', category: "Women's Basketball" })
+    + wordpressCard({ title: "Men's Basketball headline without category", path: '/news/2026/9/16/no-category', category: '' })
+    + wordpressCard({ title: 'Different sport', path: '/news/2026/9/16/baseball-preview', category: 'Baseball' })
+    + wordpressCard({ path: 'https://attacker.example/article' })
+    + wordpressCard({ title: 'Route evidence', path: '/news/2026/9/16/mens-basketball-preview', category: '' })
+    + wordpressCard({ title: 'Unsafe image', path: '/news/2026/9/16/unsafe-image', image: 'javascript:alert(1)' });
+  const records = parseOfficialNews(html, source, school, men).records;
+  assert.deepEqual(records.map(record => record.title), ['Season preview', 'Route evidence', 'Unsafe image']);
+  assert.equal(records[0].imageUrl, 'https://athletics.example.edu/images/preview.jpg');
+  assert.equal(records[0].publishedAt, '2026-09-16T00:00:00.000Z');
+  assert.equal(records[0].publishedAtPrecision, 'day');
+  assert.equal(records[2].imageUrl, null);
+  assert.deepEqual(parseOfficialNews(html, source, school, women).records.map(record => record.title), ['Other team']);
+});
+
+test('WordPress dates require a complete valid calendar day without inventing year or timezone', () => {
+  for (const [date, expected] of [['February 29, 2024', '2024-02-29T00:00:00.000Z'], ['September 6, 2026', '2026-09-06T00:00:00.000Z'], ['February 29, 2026', null], ['September 31, 2026', null], ['September 16', null], ['Sept. 16, 2026', null], ['September 16, 2026 7:00 PM', null], ['', null]]) {
+    const record = parseOfficialNews(wordpressCard({ date }), source, school, men).records[0];
+    assert.equal(record.publishedAt, expected, date);
+    assert.equal(record.publishedAtPrecision, expected ? 'day' : 'unknown', date);
+  }
+});
+
+test('WordPress hero and slider cards keep category, date and photograph within their own story', () => {
+  const slide = (title, category, image = '/images/slide.jpg') => `<div class="swiper-slide"><a class="slider__image"><img data-src="${image}" alt="Slider team"></a><div class="slider__top-info"><a>${category}</a><time>September 15, 2026</time></div><h3><a href="/news/2026/9/15/${title}">${title}</a></h3></div>`;
+  const html = `<section class="hero hero--homepage"><div class="hero__background lazy" data-bg="/images/hero.jpg" aria-label="Main team"></div><div class="container"><div class="wrapper"><div class="hero-text"><div class="hero__top-info"><a>Women's Basketball</a><time>September 16, 2026</time></div><h1><a href="/news/2026/9/16/main-story">Main story</a></h1></div><div class="sponsor-logo"><img src="/sponsor.jpg"></div></div></div><div class="hero__slider"><div class="swiper-wrapper">${slide('women-story', "Women's Basketball")}${slide('men-story', "Men's Basketball")}${slide('unknown-story', '')}${slide('signed-image', "Women's Basketball", 'https://cdn.example.edu/image?token=private')}</div></div></section>`;
+  const womenRecords = parseOfficialNews(html, source, school, women).records;
+  assert.deepEqual(womenRecords.map(record => record.title), ['Main story', 'women-story', 'signed-image']);
+  assert.equal(womenRecords[0].imageUrl, 'https://athletics.example.edu/images/hero.jpg');
+  assert.equal(womenRecords[0].imageAlt, 'Main team');
+  assert.equal(womenRecords[0].publishedAt, '2026-09-16T00:00:00.000Z');
+  assert.equal(womenRecords[1].imageUrl, 'https://athletics.example.edu/images/slide.jpg');
+  assert.equal(womenRecords[1].publishedAt, '2026-09-15T00:00:00.000Z');
+  assert.equal(womenRecords[2].imageUrl, null);
+  assert.deepEqual(parseOfficialNews(html, source, school, men).records.map(record => record.title), ['men-story']);
+});
+
+test('WordPress duplicate cards preserve precise metadata and primary gender exclusions', () => {
+  const path = '/news/2026/9/16/season-preview';
+  const structured = script([story({ story_path: path, story_postdate: '2026-09-16T15:00:00Z', story_image: '/images/known.jpg' })]);
+  const record = parseOfficialNews(structured + wordpressCard({ image: '' }), source, school, men).records[0];
+  assert.equal(record.publishedAt, '2026-09-16T15:00:00.000Z');
+  assert.equal(record.publishedAtPrecision, 'instant');
+  assert.equal(record.imageUrl, 'https://athletics.example.edu/images/known.jpg');
+  assert.throws(() => parseOfficialNews(structured + wordpressCard({ category: "Women's Basketball" }), source, school, women), /No recognizable/);
+});
+
 test('archive client follows only its observed same-origin service with verified sport', async () => {
   const html = `<script>var sport_obj = ${JSON.stringify({ title: "Men's Basketball", shortname: 'mens-basketball' })}; $.get("/services/archives.ashx/stories", {});</script>`;
   let requested;

@@ -3,6 +3,7 @@ import { cleanText, safeUrl, stableId } from '../normalize.mjs';
 import { matchSport, matchSportRoute, sportGender, normalizeSportLabel } from '../sports.mjs';
 
 const MAX_BYTES = 8_000_000, MAX_RECORDS = 1000, MAX_SCALAR = 4096;
+const MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
 const host = url => new URL(url).hostname.toLowerCase().replace(/^www\./, '');
 const own = (object, key) => object != null && typeof object === 'object' && Object.hasOwn(object, key);
 const recordObject = value => value && typeof value === 'object' && !Array.isArray(value);
@@ -68,7 +69,10 @@ function dateValue(value) {
     if (Number.isFinite(ms)) return { publishedAt: new Date(ms).toISOString(), publishedAtPrecision: 'instant' };
   }
   const usDay = value.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})(?: |$)/);
-  const date = dayValue(usDay ? `${usDay[3]}-${usDay[1].padStart(2, '0')}-${usDay[2].padStart(2, '0')}` : value);
+  const namedDay = value.trim().replace(/\s+/g, ' ').match(/^([A-Za-z]+) (\d{1,2}), (\d{4})$/);
+  const month = namedDay ? MONTHS.indexOf(namedDay[1].toLowerCase()) + 1 : 0;
+  const date = dayValue(usDay ? `${usDay[3]}-${usDay[1].padStart(2, '0')}-${usDay[2].padStart(2, '0')}`
+    : month ? `${namedDay[3]}-${String(month).padStart(2, '0')}-${namedDay[2].padStart(2, '0')}` : value);
   return { publishedAt: date, publishedAtPrecision: date ? 'day' : 'unknown' };
 }
 
@@ -208,6 +212,29 @@ export function parseOfficialNews(text, sourceUrl, school, sport) {
       const image = card.find('img').first(), time = card.find('time').first();
       add({ title: anchor.text(), path: anchor.attr('href'), date: time.attr('datetime'), image: image.attr('data-src') || image.attr('src'), alt: image.attr('alt'),
         labels: card.find('.sidearm-news-list-item-sport, .c-stories__sport, .c-item-details__sport-text, [data-sport], .content-heading .category').map((_, el) => $(el).attr('title') || $(el).attr('data-sport') || $(el).text()).get() });
+    });
+    // Current WordPress archives and sport-home heroes carry sport and date
+    // metadata on each card. Page headings and adjacent cards supply no scope.
+    const wordpressCards = $('.video__item.video-card, section.hero .hero-text, .hero__slider .swiper-slide');
+    ensureBudget(wordpressCards.length);
+    wordpressCards.each((_, element) => {
+      const card = $(element), video = card.is('.video-card'), hero = card.is('.hero-text');
+      const heading = card.children(video ? 'h3.video-card__title' : hero ? 'h1' : 'h3');
+      const anchor = heading.children('a[href]');
+      if (anchor.length !== 1) return;
+      const metadata = card.children(video ? '.video-card__breadcrumbs' : hero ? '.hero__top-info' : '.slider__top-info');
+      const categories = video ? metadata.children('.breadcrumbs__item--category') : metadata.children('a');
+      const time = video ? metadata.children('.breadcrumbs__item:not(.breadcrumbs__item--category)').first() : metadata.children('time').first();
+      let image = video ? card.find('.video-card__preview img, .video-card__preview [data-bg]').first() : card.children('a.slider__image').find('img').first();
+      if (hero) {
+        const section = card.closest('section.hero');
+        // The hero background belongs only to its sole main headline, never
+        // to the separate slider stories or a nearby sponsor logo.
+        if (section.find('.hero-text').length === 1) image = section.children('.hero__background[data-bg]').first();
+      }
+      add({ title: anchor.text(), path: anchor.attr('href'), date: time.attr('datetime') || time.text(),
+        image: image.attr('data-src') || image.attr('src') || image.attr('data-bg'), alt: image.attr('alt') || image.attr('aria-label'),
+        labels: categories.map((_, el) => $(el).text().trim()).get() });
     });
   }
   // One page can represent a story in structured data and a visual card.

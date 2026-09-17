@@ -105,7 +105,7 @@ test('publication rejects fork, PR, wrong-workflow, and local contexts before re
 });
 test('publisher preserves other conference trees and advances the data ref without force', async t => {
   const f = await fixture(t), bundle = await loadPublicationBundle(f.root, conference), api = apiMock();
-  const result = await publishBundles([bundle], { env, request: api.request, pause: async () => {} });
+  const result = await publishBundles([bundle], { env, conference, request: api.request, pause: async () => {} });
   assert.deepEqual(result, { changed: true, sha: newCommit });
   const tree = api.calls.find(c => c.endpoint === 'git/trees');
   assert.equal(tree.body.base_tree, oldTree);
@@ -115,9 +115,25 @@ test('publisher preserves other conference trees and advances the data ref witho
   assert.deepEqual(api.calls.find(c => c.method === 'PATCH').body, { sha: newCommit, force: false });
   assert.equal(api.calls.filter(c => c.endpoint === 'git/ref/heads/main').length, 2);
 });
+test('scheduled publisher rejects a partial bundle before any remote operation', async t => {
+  const f = await fixture(t), bundle = await loadPublicationBundle(f.root, conference);
+  let calls = 0;
+  await assert.rejects(publishBundles([bundle], { env: { ...env, GITHUB_EVENT_NAME: 'schedule' }, request: async () => { calls++; throw new Error('Must not contact GitHub'); }, pause: async () => {} }), /Scheduled publication requires every conference/);
+  await assert.rejects(publishBundles([bundle], { env: { ...env, GITHUB_EVENT_NAME: 'schedule' }, conference, request: async () => { calls++; throw new Error('Must not contact GitHub'); }, pause: async () => {} }), /does not accept a conference selector/);
+  assert.equal(calls, 0);
+});
+test('manual partial publisher requires the exact explicitly requested catalog conference', async t => {
+  const f = await fixture(t), bundle = await loadPublicationBundle(f.root, conference);
+  let calls = 0;
+  const request = async () => { calls++; throw new Error('Must not contact GitHub'); };
+  await assert.rejects(publishBundles([bundle], { env, request }), /partial publication needs an explicit selector/);
+  await assert.rejects(publishBundles([bundle], { env, request, conference: 'southeastern' }), /exactly the requested conference/);
+  await assert.rejects(publishBundles([bundle], { env, request, conference: '../ivy-league' }), /Unknown publication conference selector/);
+  assert.equal(calls, 0);
+});
 test('first publication creates an orphan data branch from validated files only', async t => {
   const f = await fixture(t), api = apiMock({ initial: null });
-  await publishBundles([await loadPublicationBundle(f.root, conference)], { env, request: api.request, pause: async () => {} });
+  await publishBundles([await loadPublicationBundle(f.root, conference)], { env, conference, request: api.request, pause: async () => {} });
   assert.ok(!('base_tree' in api.calls.find(c => c.endpoint === 'git/trees').body));
   assert.deepEqual(api.calls.find(c => c.endpoint === 'git/commits').body.parents, []);
   assert.deepEqual(api.calls.find(c => c.endpoint === 'git/refs').body, { ref: 'refs/heads/data', sha: newCommit });
@@ -125,10 +141,10 @@ test('first publication creates an orphan data branch from validated files only'
 test('concurrent writers and code updates stop publication instead of force-overwriting', async t => {
   const f = await fixture(t), bundle = await loadPublicationBundle(f.root, conference);
   const conflict = apiMock({ failPatch: true });
-  await assert.rejects(publishBundles([bundle], { env, request: conflict.request, pause: async () => {} }), /Concurrent/);
+  await assert.rejects(publishBundles([bundle], { env, conference, request: conflict.request, pause: async () => {} }), /Concurrent/);
   assert.equal(conflict.calls.filter(c => c.method === 'PATCH').length, 1);
   const advanced = apiMock({ advanceMain: true });
-  await assert.rejects(publishBundles([bundle], { env, request: advanced.request, pause: async () => {} }), /Main advanced/);
+  await assert.rejects(publishBundles([bundle], { env, conference, request: advanced.request, pause: async () => {} }), /Main advanced/);
   assert.ok(!advanced.calls.some(c => c.method === 'PATCH'));
 });
 test('previous download permits only a missing branch, and validates all existing files before writing', async t => {

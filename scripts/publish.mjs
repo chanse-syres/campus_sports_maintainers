@@ -94,10 +94,19 @@ export function assertPublishContext(env) {
   assert.ok(typeof env.GITHUB_TOKEN === 'string' && env.GITHUB_TOKEN.length, 'Publication token unavailable');
 }
 
-export async function publishBundles(bundles, { env = process.env, request, pause = ms => new Promise(resolve => setTimeout(resolve, ms)), indexPath = new URL('../public-index.json', import.meta.url) } = {}) {
+export async function publishBundles(bundles, { env = process.env, request, conference, pause = ms => new Promise(resolve => setTimeout(resolve, ms)), indexPath = new URL('../public-index.json', import.meta.url) } = {}) {
   assertPublishContext(env);
   assert.ok(Array.isArray(bundles) && bundles.length && bundles.every(b => validatedBundles.has(b)), 'Publication requires validated bundles');
   assert.equal(new Set(bundles.map(b => b.manifest.conference.slug)).size, bundles.length, 'Duplicate conference bundle');
+  const selected = bundles.map(bundle => bundle.manifest.conference.slug).sort();
+  const configured = (await listConferences()).map(entry => entry.slug).sort();
+  if (env.GITHUB_EVENT_NAME === 'schedule') {
+    assert.equal(conference, undefined, 'Scheduled publication does not accept a conference selector');
+    assert.deepEqual(selected, configured, 'Scheduled publication requires every conference');
+  } else if (conference !== undefined) {
+    assert.ok(configured.includes(conference), 'Unknown publication conference selector');
+    assert.deepEqual(selected, [conference], 'Partial publication must match exactly the requested conference');
+  } else assert.deepEqual(selected, configured, 'National publication requires every conference; partial publication needs an explicit selector');
   const indexContent = await readFile(indexPath, 'utf8');
   await validatePublicIndex(parsePublicJson(indexContent));
   // Build this immutable file list before any remote mutation. Bodies never contain private data.
@@ -151,6 +160,6 @@ async function main() {
   if (values['dry-run']) { console.log(`Validated ${bundles.length} conferences and ${bundles.reduce((n, b) => n + b.manifest.schools.length, 0)} schools; no publication performed.`); return; }
   // National workflow publication must contain all conferences; partial manual jobs use an explicit selector.
   if (!values.conference) assert.deepEqual(selected.sort(), (await listConferences()).map(c => c.slug).sort(), 'National publication requires every conference');
-  console.log(JSON.stringify(await publishBundles(bundles)));
+  console.log(JSON.stringify(await publishBundles(bundles, { conference: values.conference })));
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main().catch(error => { console.error(`Publication stopped: ${error.message}`); process.exitCode = 1; });

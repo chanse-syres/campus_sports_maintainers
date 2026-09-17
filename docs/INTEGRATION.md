@@ -73,6 +73,14 @@ node scripts/report-health.mjs --output output --conference big-12
 
 For a full collection, use `--all` instead of `--conference`. For a single school or sport, use `--school <slug> [--sport <slug>]`; these are previews and cannot be published as a complete conference. Manual workflow runs default to validation-only unless `publish` is enabled. Scheduled runs publish automatically after every conference bundle validates. A failed conference collection prevents the national publication; the previously published data remains intact.
 
-After a reviewed schema or academic-year/catalog migration, an operator may explicitly enable the manual workflow's `rebootstrap` input (default `false`). That choice is recorded in the run summary and skips all prior snapshots for that run; it does not bypass output validation or automatically publish. Existing data errors never trigger rebootstrap automatically. The first run with a genuinely absent data branch initializes normally.
+To repair one reviewed conference after a code/source correction, run the existing **Maintain Division I news** workflow manually with `conference` set to its primary conference slug, such as `southeastern`. The default `all` still collects the entire national catalog. The prepare job rejects unknown slugs before it creates the matrix; school names and sport-affiliate conference names are not valid selectors. The validated scope appears in the run summary.
+
+```sh
+gh workflow run maintainers.yml --repo chanse-syres/campus_sports_maintainers --ref main -f conference=southeastern -f publish=true -f rebootstrap=false
+```
+
+The selected conference must still contain every one of its schools and their registered sports. Its previous data comes from the same pinned data commit mechanism. Publication uses the explicit `--conference` selector, preserves all other conference paths through the existing Git tree, and advances `data` with one non-forced commit. A partial refresh therefore leaves other conferences' existing generation timestamps intact. The scheduled workflow always refreshes all 32 conferences and cannot inherit a prior manual selection.
+
+After a reviewed schema or academic-year/catalog migration, an operator may explicitly enable the manual workflow's `rebootstrap` input (default `false`). That choice is recorded in the run summary and skips prior snapshots within the selected scope; it does not bypass output validation or automatically publish. Use `conference=all` for a national catalog/schema migration. Existing data errors never trigger rebootstrap automatically. The first run with a genuinely absent data branch initializes normally.
 
 Source outages retain prior data only from the same source and scope. Existing data download failures halt a workflow instead of silently replacing an unavailable previous snapshot. Every publication updates the `data` branch reference atomically and refuses to overwrite a concurrent writer or publish after the code branch advances.

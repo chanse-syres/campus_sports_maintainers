@@ -5,6 +5,11 @@ on:
     - cron: '23 */4 * * *'
   workflow_dispatch:
     inputs:
+      conference:
+        description: Primary conference slug to refresh, or all for the full national run
+        required: true
+        default: all
+        type: string
       publish:
         description: Publish validated news snapshots to the public data branch
         required: true
@@ -31,6 +36,7 @@ jobs:
       contents: read
     outputs:
       conferences: ${{ steps.matrix.outputs.conferences }}
+      conference: ${{ steps.matrix.outputs.conference }}
       data_commit: ${{ steps.data.outputs.commit }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -49,10 +55,12 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Report explicitly requested rebootstrap
         if: github.event_name == 'workflow_dispatch' && inputs.rebootstrap == true
-        run: echo 'Manual rebootstrap was explicitly requested. This run will collect fresh news without preserving previous records. Publication still requires every conference to pass validation.' >> "$GITHUB_STEP_SUMMARY"
+        run: echo 'Manual rebootstrap was explicitly requested. This run will collect fresh news without preserving previous records in the selected scope. Publication still requires every selected conference to pass validation.' >> "$GITHUB_STEP_SUMMARY"
       - id: matrix
-        name: Read reviewed conference inventory
-        run: node --input-type=module -e "import {listConferences} from './src/config.mjs'; console.log('conferences='+JSON.stringify((await listConferences()).map(c=>c.slug)));" >> "$GITHUB_OUTPUT"
+        name: Validate scope against the reviewed conference inventory
+        run: node scripts/resolve-run-scope.mjs >> "$GITHUB_OUTPUT"
+        env:
+          MAINTAINER_CONFERENCE: ${{ inputs.conference }}
 
   collect:
     needs: prepare
@@ -100,7 +108,7 @@ jobs:
           include-hidden-files: false
 
   publish:
-    needs: collect
+    needs: [prepare, collect]
     if: github.repository == 'chanse-syres/campus_sports_maintainers' && github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.publish == true)
     runs-on: ubuntu-24.04
     timeout-minutes: 30
@@ -119,9 +127,15 @@ jobs:
           pattern: conference-*
           merge-multiple: true
           path: output/v1/conferences/
-      - name: Validate and atomically publish every conference
-        run: node scripts/publish.mjs --output output
+      - name: Validate and atomically publish the selected scope
+        run: |
+          if [ -n "$CONFERENCE" ]; then
+            node scripts/publish.mjs --output output --conference "$CONFERENCE"
+          else
+            node scripts/publish.mjs --output output
+          fi
         env:
+          CONFERENCE: ${{ needs.prepare.outputs.conference }}
           GITHUB_TOKEN: ${{ github.token }}
       - name: Report published news source health
         continue-on-error: true
