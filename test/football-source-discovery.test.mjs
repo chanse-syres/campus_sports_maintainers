@@ -37,7 +37,7 @@ test('Tennessee Tech football reads the reviewed news archive without requesting
     if (feed) return `<rss version="2.0"><channel><title>${feed.feedTitle.replaceAll('&', '&amp;')}</title></channel></rss>`;
     throw new Error(`Unexpected fixture request: ${url}`);
   } });
-  assert.equal(calls.includes(oldSchedule), false);
+  assert.equal(calls.some(url => url === oldSchedule), false);
   assert.equal(calls.filter(url => url === archive).length, 1);
   const news = snapshot.sports.football.news;
   assert.equal(news.status, 'ok');
