@@ -52,6 +52,8 @@ node scripts/report-health.mjs --output output --conference big-12 --markdown
 
 The Actions run summary reports article and photo counts, empty schools/programs, and source failures. A successful publication confirms validated output, not complete news coverage. During the initial observation period, review these counts and individual source failures after each run.
 
+Football also has a [post-publication maintenance health check](docs/FOOTBALL_OPERATIONS.md). It covers every cataloged football program in the selected conference scope, fails visibly on missing snapshots or unsuccessful/overdue source observations, and reports old publisher content separately. Valid published data remains available when this health check fails.
+
 ## Updating membership and sources
 
 `scripts/catalog/import-ncaa.mjs` imports official NCAA membership and sport sponsorship. `scripts/discover-sources.mjs` reads observed official navigation. Provider imports and source discovery are maintenance commands, not automatic trust expansion during news runs. Review changes before regenerating the hierarchy with `node scripts/generate-hierarchy.mjs` and running all checks.

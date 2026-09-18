@@ -108,7 +108,11 @@ export function discoverSchoolSources(html, school, sourceUrl = school.athletics
     const sportPath = homeUrl ? sportRoute(homeUrl) : null;
     const inRoute = link => sportPath && (sportPath.includes('?') ? sportRoute(link.url) === sportPath : new URL(link.url).pathname === sportPath || new URL(link.url).pathname.startsWith(`${sportPath}/`));
     const scoped = links.filter(link => matches.includes(link) || inRoute(link));
-    const find = (pattern, label) => scoped.find(link => inRoute(link) && (pattern.test(new URL(link.url).pathname) || label.test(link.text)))?.url ?? null;
+    // Legacy index homes can link modern collection routes for the same sport.
+    // Require an observed sport route so a matching single news article cannot
+    // become the collection endpoint.
+    const collectionRoute = link => inRoute(link) || (sportRoute(link.url) && link.routeSports.has(sport.slug));
+    const find = (pattern, label) => scoped.find(link => collectionRoute(link) && (pattern.test(new URL(link.url).pathname) || label.test(link.text)))?.url ?? null;
     sports[sport.slug] = { homeUrl, newsUrl: find(/\/(?:archives|news)(?:\/|$)/i, /^(?:news|archives?)$/i) ?? homeUrl,
       rosterUrl: find(/\/roster(?:\/|$)/i, /^roster$/i), scheduleUrl: find(/\/schedule(?:\/|$)/i, /^schedule$/i),
       routes: sportPath ? [sportPath] : [], aliases: home ? [...new Set(matches.filter(inRoute).flatMap(link => [link.text, link.title, link.parentLabel]).filter(label => matchNavigationSport(label, sport, school.sports)))] : [], discoveryStatus: homeUrl ? 'discovered' : 'no-matching-official-navigation' };

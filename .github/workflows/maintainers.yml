@@ -140,3 +140,21 @@ jobs:
       - name: Report published news source health
         continue-on-error: true
         run: node scripts/report-health.mjs --output output --markdown >> "$GITHUB_STEP_SUMMARY"
+      - name: Check football source freshness after publication
+        id: football_health
+        run: |
+          if [ -n "$CONFERENCE" ]; then
+            node scripts/report-football-health.mjs --output output --conference "$CONFERENCE" --write-report --markdown --enforce >> "$GITHUB_STEP_SUMMARY"
+          else
+            node scripts/report-football-health.mjs --output output --write-report --markdown --enforce >> "$GITHUB_STEP_SUMMARY"
+          fi
+        env:
+          CONFERENCE: ${{ needs.prepare.outputs.conference }}
+      - name: Save football maintenance health
+        if: always() && steps.football_health.outcome != 'skipped'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: football-maintenance-health
+          path: output/football-health.json
+          if-no-files-found: warn
+          retention-days: 14
