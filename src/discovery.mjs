@@ -68,6 +68,8 @@ export async function discoverFromSitemap(school, get) {
   return { html: await get(pageUrl), sourceUrl: pageUrl };
 }
 function officialLink(value, sourceUrl, hosts) {
+  // Menu toggles and same-page anchors do not identify a collection endpoint.
+  if (typeof value !== 'string' || !value.trim() || value.trim().startsWith('#')) return null;
   const url = safeUrl(value, sourceUrl);
   if (!url || !hosts.includes(new URL(url).hostname)) return null;
   const parsed = new URL(url);
