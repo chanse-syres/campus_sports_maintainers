@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.winthropeagles.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=792"
   },
-  "generatedAt": "2026-09-18T13:10:23.184Z",
+  "generatedAt": "2026-09-18T19:16:10.819Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "Big South Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": "2026-09-18T13:10:23.184Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/baseball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "1ae28a481373c96496a5c752",
@@ -171,7 +171,8 @@
             "imageAlt": "Gabe Natividad",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/baseball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/baseball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "d5c46849d8b33d09a0639ddd",
@@ -183,7 +184,8 @@
             "imageAlt": "Baseball All Conference",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/baseball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/baseball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "d1e84fd8ef15bd86abd1d379",
@@ -195,7 +197,8 @@
             "imageAlt": "Alan Benhardt",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/baseball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/baseball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "682e8b6d270e2e35fee1462b",
@@ -207,7 +210,8 @@
             "imageAlt": "Baseball Huddle",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/baseball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/baseball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "4bccd41720f97bcd66bf3a8c",
@@ -219,7 +223,8 @@
             "imageAlt": "Chazz Grossington after hitting a home run",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/baseball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/baseball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "780a978596e63f20f06a7424",
@@ -1244,33 +1249,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
             "lastSuccessAt": "2026-09-18T13:10:23.184Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/baseball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1279,7 +1284,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1288,7 +1293,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1297,7 +1302,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1306,7 +1311,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1315,7 +1320,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1334,8 +1339,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives",
         "season": null,
         "reason": null,
@@ -1480,7 +1485,8 @@
             "imageAlt": "MBB Bench",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "a9ab20db6706e85af994fd61",
@@ -1492,7 +1498,8 @@
             "imageAlt": "MBB All-Conference Story",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "cc375f017bfbb08a908448fa",
@@ -1504,7 +1511,8 @@
             "imageAlt": "MBB Huddle",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "9ce1d0d6be65cdcda3b9b032",
@@ -1516,7 +1524,8 @@
             "imageAlt": "Kareem Rozier",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "a9df33250f003177a3299b01",
@@ -1528,7 +1537,8 @@
             "imageAlt": "Daylen Berry",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "2aace18c73ceb518dc9ded44",
@@ -2554,40 +2564,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/mens-basketball/archives",
             "reason": null,
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2596,7 +2606,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2605,7 +2615,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2614,7 +2624,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2623,7 +2633,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2632,7 +2642,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2651,8 +2661,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives",
         "season": null,
         "reason": null,
@@ -2797,7 +2807,8 @@
             "imageAlt": "Women's basketball bench",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "3e6cb76114c85a3cedd599db",
@@ -2809,7 +2820,8 @@
             "imageAlt": "Naomi Wilson",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "d6505843cc9755719209dc5e",
@@ -2821,7 +2833,8 @@
             "imageAlt": "Persais Williams Naomi Wilson",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "afc0f2907b1585773d5e3a98",
@@ -2833,7 +2846,8 @@
             "imageAlt": "Amourie Porter",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "c723856bf7dc5ecb8c5c8c2a",
@@ -2845,7 +2859,8 @@
             "imageAlt": "Ryiah Wilson",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "f27a89ad3f2d867ab8192c74",
@@ -3823,32 +3838,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/womens-basketball/archives",
             "reason": null,
             "recordCount": 96
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3857,7 +3872,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3866,7 +3881,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3875,7 +3890,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3884,7 +3899,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3893,7 +3908,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3911,12 +3926,12 @@
         "name": "Big South Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": "2026-09-18T13:10:23.184Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "2e0fa20e84ecc0e66b7a1028",
@@ -4058,7 +4073,8 @@
             "imageAlt": "Kayah Marques",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "56601c8f4b21bd5d4d896ed9",
@@ -4070,7 +4086,8 @@
             "imageAlt": "Ella Collins and Olivia Kemp",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "d1a3a8d19fa81479bef7f466",
@@ -4082,7 +4099,8 @@
             "imageAlt": "Comp Student Athlete of the Month Sept",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "a459f1663f5e4351a7c74849",
@@ -4094,7 +4112,8 @@
             "imageAlt": "Winthrop University men's and women's cross country teams compete in the Winthrop/Adidas Invitational at the Winthrop Farm Cross Country Course on Friday, September 26, 2025 in Rock Hill, South Carolina. Credit - Tim Cowie/Tim Cowie Photography @tjcowie",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "1bcd929a8fc51b553734ea1f",
@@ -4106,7 +4125,8 @@
             "imageAlt": "Men's Team Huddle",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "aa1f16be792693435a7fceec",
@@ -5071,25 +5091,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
             "lastSuccessAt": "2026-09-18T13:10:23.184Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/mens-cross-country/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 95
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5098,7 +5118,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5107,7 +5127,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5116,7 +5136,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5125,7 +5145,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5134,7 +5154,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5153,8 +5173,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/mens-golf/archives",
         "season": null,
         "reason": null,
@@ -5273,7 +5293,8 @@
             "imageAlt": "Waymon Thomas Teeing Off At Big South Championship",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-golf/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-golf/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "e764f4491f73ca995961375c",
@@ -5285,7 +5306,8 @@
             "imageAlt": "Ashton Eubanks Swinging On Tee Box",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-golf/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-golf/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "4165c6b193147950e08e38ab",
@@ -5297,7 +5319,8 @@
             "imageAlt": "Dylan Park Swinging Golf Club",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-golf/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-golf/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "e8251eb00349ce3064ca8fb2",
@@ -5309,7 +5332,8 @@
             "imageAlt": "Waymon Thomas Swinging Golf Club",
             "author": null,
             "publisher": "Winthrop University Athletics",
-            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-golf/archives"
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-golf/archives",
+            "metadataCheckedAt": "2026-09-18T19:16:10.819Z"
           },
           {
             "id": "673070f74a7e17b8e86df4db",
@@ -6371,24 +6395,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/mens-golf/archives",
             "reason": null,
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6397,7 +6421,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6406,7 +6430,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6415,7 +6439,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6424,7 +6448,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6433,7 +6457,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6452,12 +6476,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/mens-soccer/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "be5bf6caa8734d4a84c0e5cd",
+            "title": "BIG SOUTH OPENER: Eagles Travel To Radford Saturday",
+            "url": "https://www.winthropeagles.com/news/2026/9/18/mens-soccer-big-south-opener-eagles-travel-to-radford-saturday.aspx",
+            "publishedAt": "2026-09-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.winthropeagles.com/images/2026/9/18/MSOC_PREV_AT_RAD.png",
+            "imageAlt": "Euan Brindley",
+            "author": null,
+            "publisher": "Winthrop University Athletics",
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/mens-soccer/archives"
+          },
           {
             "id": "852d8fd5ce131e324512e1fe",
             "title": "Three Eagles Named To Big South Midseason Watch List",
@@ -7674,32 +7710,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/mens-soccer/archives",
             "reason": null,
-            "recordCount": 101
+            "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7708,7 +7744,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7717,7 +7753,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7726,7 +7762,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7735,7 +7771,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7744,7 +7780,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7763,8 +7799,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/mens-track-and-field/archives",
         "season": null,
         "reason": null,
@@ -8961,24 +8997,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/mens-track-and-field/archives",
             "reason": null,
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8987,7 +9023,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8996,7 +9032,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9005,7 +9041,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9014,7 +9050,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9023,7 +9059,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9042,8 +9078,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/mens-track-and-field/archives",
         "season": null,
         "reason": null,
@@ -10240,24 +10276,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/mens-track-and-field/archives",
             "reason": null,
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10266,7 +10302,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10275,7 +10311,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10284,7 +10320,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10293,7 +10329,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10302,7 +10338,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10321,8 +10357,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/softball/archives",
         "season": null,
         "reason": null,
@@ -11507,32 +11543,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/softball/archives",
             "reason": null,
             "recordCount": 98
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11541,7 +11577,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11550,7 +11586,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11559,7 +11595,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11568,7 +11604,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11577,7 +11613,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11595,12 +11631,12 @@
         "name": "Big South Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": "2026-09-18T13:10:23.184Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/womens-cross-country/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "bc8fe9b1d667713cc7760406",
@@ -11809,25 +11845,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
             "lastSuccessAt": "2026-09-18T13:10:23.184Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/womens-cross-country/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 17
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11836,7 +11872,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11845,7 +11881,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11854,7 +11890,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11863,7 +11899,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11872,7 +11908,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11891,8 +11927,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/womens-golf/archives",
         "season": null,
         "reason": null,
@@ -13077,24 +13113,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/womens-golf/archives",
             "reason": null,
             "recordCount": 98
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -13103,7 +13139,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13112,7 +13148,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13121,7 +13157,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13130,7 +13166,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13139,7 +13175,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13158,8 +13194,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/womens-lacrosse/archives",
         "season": null,
         "reason": null,
@@ -14368,24 +14404,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/womens-lacrosse/archives",
             "reason": null,
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -14394,7 +14430,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14403,7 +14439,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14412,7 +14448,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14421,7 +14457,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14430,7 +14466,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14449,12 +14485,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/womens-soccer/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "08d81a2b8359fc1311ef0ae2",
+            "title": "Women's Soccer Begins Conference Play Against Charleston Southern (Sat.)",
+            "url": "https://www.winthropeagles.com/news/2026/9/18/womens-soccer-begins-conference-play-against-charleston-southern-sat.aspx",
+            "publishedAt": "2026-09-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.winthropeagles.com/images/2026/9/17/kinsiekulig.png",
+            "imageAlt": "Kinsie Kulig",
+            "author": null,
+            "publisher": "Winthrop University Athletics",
+            "discoverySourceUrl": "https://www.winthropeagles.com/sports/womens-soccer/archives"
+          },
           {
             "id": "b125df7248297c45dfd7b503",
             "title": "Four Eagles Named to Big South Midseason Watch List",
@@ -15671,32 +15719,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/womens-soccer/archives",
             "reason": null,
-            "recordCount": 101
+            "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -15705,7 +15753,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15714,7 +15762,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15723,7 +15771,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15732,7 +15780,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15741,7 +15789,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15760,8 +15808,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/womens-track-and-field/archives",
         "season": null,
         "reason": null,
@@ -15962,24 +16010,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/womens-track-and-field/archives",
             "reason": null,
             "recordCount": 16
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -15988,7 +16036,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15997,7 +16045,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16006,7 +16054,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16015,7 +16063,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16024,7 +16072,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16043,8 +16091,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/womens-track-and-field/archives",
         "season": null,
         "reason": null,
@@ -16245,24 +16293,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/womens-track-and-field/archives",
             "reason": null,
             "recordCount": 16
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -16271,7 +16319,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16280,7 +16328,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16289,7 +16337,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16298,7 +16346,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16307,7 +16355,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16326,8 +16374,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-        "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+        "lastSuccessAt": "2026-09-18T19:16:10.819Z",
         "sourceUrl": "https://www.winthropeagles.com/sports/womens-volleyball/archives",
         "season": null,
         "reason": null,
@@ -17524,24 +17572,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.winthropeagles.com/sports/womens-volleyball/archives",
             "reason": null,
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:10:23.184Z",
-            "lastSuccessAt": "2026-09-18T13:10:23.184Z",
+            "lastAttemptAt": "2026-09-18T19:16:10.819Z",
+            "lastSuccessAt": "2026-09-18T19:16:10.819Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -17550,7 +17598,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17559,7 +17607,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17568,7 +17616,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17577,7 +17625,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17586,7 +17634,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:10:23.184Z",
+        "lastAttemptAt": "2026-09-18T19:16:10.819Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,

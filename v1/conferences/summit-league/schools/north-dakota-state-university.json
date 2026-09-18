@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.gobison.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=493"
   },
-  "generatedAt": "2026-09-18T13:36:47.489Z",
+  "generatedAt": "2026-09-18T19:46:43.339Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "The Summit League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": "2026-09-18T13:36:47.489Z",
         "sourceUrl": "https://www.gobison.com/sports/baseball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "b5d0a4a157db5ae02c137715",
@@ -164,33 +164,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
             "lastSuccessAt": "2026-09-18T13:36:47.489Z",
             "sourceUrl": "https://www.gobison.com/sports/baseball",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -199,7 +199,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -208,7 +208,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -217,7 +217,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -226,7 +226,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -235,7 +235,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -253,12 +253,12 @@
         "name": "The Summit League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": "2026-09-18T13:36:47.489Z",
         "sourceUrl": "https://www.gobison.com/sports/mens-basketball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "226f7ec8110bd1b6662936ba",
@@ -361,7 +361,8 @@
             "imageAlt": "Damari Wheeler-Thomas",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-basketball"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-basketball",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "acf5ccae8472754727455aa5",
@@ -399,7 +400,8 @@
             "imageAlt": "2026 MBB Summit League Awards",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-basketball"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-basketball",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "d63a83bee8f907c0d0ca1597",
@@ -424,7 +426,8 @@
             "imageAlt": "Grant Nelson",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-basketball"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-basketball",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "f6246d2909c65467544d35a3",
@@ -436,7 +439,8 @@
             "imageAlt": "Tay Smith",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-basketball"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-basketball",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "c9e468ae6b74ebf85b5d7a86",
@@ -448,46 +452,47 @@
             "imageAlt": "NDSU men&#39;s basketball huddle",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-basketball"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-basketball",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           }
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
             "lastSuccessAt": "2026-09-18T13:36:47.489Z",
             "sourceUrl": "https://www.gobison.com/sports/mens-basketball",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -496,7 +501,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -505,7 +510,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -514,7 +519,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -523,7 +528,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -532,7 +537,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -551,8 +556,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/football",
         "season": null,
         "reason": null,
@@ -683,7 +688,8 @@
             "imageAlt": "MW+ Launch",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/football"
+            "discoverySourceUrl": "https://www.gobison.com/sports/football",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "676eb6f27fa9df8b1c64374e",
@@ -695,7 +701,8 @@
             "imageAlt": "NDSU football helmet on Fargodome turf",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/football"
+            "discoverySourceUrl": "https://www.gobison.com/sports/football",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "5b9543f75a51d7ec64c2cf04",
@@ -707,7 +714,8 @@
             "imageAlt": "The Vegas Kickoff Classic logo featuring North Dakota State and Montana State logos over an image of Allegiant Stadium",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/football"
+            "discoverySourceUrl": "https://www.gobison.com/sports/football",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "94a985a1043cde4613a88e47",
@@ -719,7 +727,8 @@
             "imageAlt": "NDSU and Mountain West football logos",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/football"
+            "discoverySourceUrl": "https://www.gobison.com/sports/football",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "1d0363d41117bd75104283ea",
@@ -731,7 +740,8 @@
             "imageAlt": "Bryce Lance receiving a pass",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/football"
+            "discoverySourceUrl": "https://www.gobison.com/sports/football",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "a908777a333a3f2cbe07f6fc",
@@ -763,48 +773,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/football",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
@@ -813,7 +823,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -822,7 +832,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -831,7 +841,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -840,7 +850,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -849,7 +859,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -868,8 +878,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/womens-basketball",
         "season": null,
         "reason": null,
@@ -949,7 +959,8 @@
             "imageAlt": "Dylan Geissert",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/womens-basketball"
+            "discoverySourceUrl": "https://www.gobison.com/sports/womens-basketball",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "a21007c85c7c80ff06c8f342",
@@ -1026,7 +1037,8 @@
             "imageAlt": "WBB All-League",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/womens-basketball"
+            "discoverySourceUrl": "https://www.gobison.com/sports/womens-basketball",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "875322739cb94ba7f351b1b7",
@@ -1038,7 +1050,8 @@
             "imageAlt": "WBB Summit League Champions",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/womens-basketball"
+            "discoverySourceUrl": "https://www.gobison.com/sports/womens-basketball",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "83cb1a1ebde0008f4b32641a",
@@ -1050,7 +1063,8 @@
             "imageAlt": "2025-26 WBB Promo Schedule",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/womens-basketball"
+            "discoverySourceUrl": "https://www.gobison.com/sports/womens-basketball",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "ff64ff9b97dc2daca7b1dca3",
@@ -1062,38 +1076,39 @@
             "imageAlt": "WBB Preseason All-Summit League",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/womens-basketball"
+            "discoverySourceUrl": "https://www.gobison.com/sports/womens-basketball",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           }
         ],
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/womens-basketball",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1102,7 +1117,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1111,7 +1126,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1120,7 +1135,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1129,7 +1144,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1138,7 +1153,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1157,12 +1172,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/mens-cross-country",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "c4a8d2bee082224cf863cb0d",
+            "title": "Moe, NDSU Men Post Highest Finishes at Roy Griak Invitational",
+            "url": "https://www.gobison.com/news/2026/9/18/mens-cross-country-moe-ndsu-men-post-highest-finishes-at-roy-griak-invitational",
+            "publishedAt": "2026-09-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd2gwocjoqx54dn.cloudfront.net%2Fimages%2F2026%2F9%2F18%2FXC_Bismarck_Finals_30.jpg&width=540&height=303.75&type=webp",
+            "imageAlt": "Ethan Moe, Will Gerber, Quinn Roehl, Brady Goss",
+            "author": null,
+            "publisher": "North Dakota State University Athletics",
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-cross-country",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
+          },
           {
             "id": "5508177e3edca94d21fb9439",
             "title": "Bison Cross Country Races at Roy Griak Invitational Friday",
@@ -1264,7 +1292,8 @@
             "imageAlt": "Jacob Knodle",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-cross-country"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-cross-country",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "194937de56ff4d465ca15d08",
@@ -1289,7 +1318,8 @@
             "imageAlt": "Hunter Klimek",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-cross-country"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-cross-country",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "8e7fb5661d616a77b1b20a8f",
@@ -1301,7 +1331,8 @@
             "imageAlt": "NDSU Men&#39;s Cross Country Ranked 6th",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-cross-country"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-cross-country",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "eab2ae05a96c1110fe2e558f",
@@ -1313,7 +1344,8 @@
             "imageAlt": "Hunter Klimek",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-cross-country"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-cross-country",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "0c47393bf3f8a178e70f32c6",
@@ -1331,24 +1363,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/mens-cross-country",
             "reason": null,
-            "recordCount": 13
+            "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1357,7 +1389,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1366,7 +1398,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1375,7 +1407,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1384,7 +1416,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1393,7 +1425,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1412,8 +1444,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/mens-golf",
         "season": null,
         "reason": null,
@@ -1464,7 +1496,8 @@
             "imageAlt": "Carter White",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-golf"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-golf",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "086ed41293090aae4c296e1f",
@@ -1524,7 +1557,8 @@
             "imageAlt": "Andrew Ballou",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-golf"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-golf",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "88136fd1e77f735e76e642ce",
@@ -1536,7 +1570,8 @@
             "imageAlt": "Ekren Miller Summit League Coach of the Year 2025-26",
             "author": null,
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-golf"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-golf",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "d5f1ddb3007c33cfdb3846bf",
@@ -1544,11 +1579,12 @@
             "url": "https://www.gobison.com/news/2026/5/20/mens-golf-ndsu-mens-golf-closes-season-at-ncaa-regional-championship",
             "publishedAt": "2026-05-20T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": null,
-            "imageAlt": null,
-            "author": null,
+            "imageUrl": "https://images.sidearmdev.com/resize?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fgobison.sidearmsports.com%2Fimages%2F2026%2F5%2F20%2FRylin_Petry_SUM5061.JPG&width=1600&type=jpeg",
+            "imageAlt": "Rylin Petry",
+            "author": "Anna Montplaisir",
             "publisher": "North Dakota State University Athletics",
-            "discoverySourceUrl": "https://www.gobison.com/sports/mens-golf"
+            "discoverySourceUrl": "https://www.gobison.com/sports/mens-golf",
+            "metadataCheckedAt": "2026-09-18T19:46:43.339Z"
           },
           {
             "id": "3b18d9e4c7e4cbca6d11c3eb",
@@ -1602,24 +1638,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/mens-golf",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1628,7 +1664,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1637,7 +1673,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1646,7 +1682,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1655,7 +1691,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1664,7 +1700,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1683,8 +1719,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/mens-track-and-field",
         "season": null,
         "reason": null,
@@ -1885,24 +1921,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/mens-track-and-field",
             "reason": null,
             "recordCount": 16
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1911,7 +1947,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1920,7 +1956,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1929,7 +1965,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1938,7 +1974,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1947,7 +1983,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1966,8 +2002,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/mens-track-and-field",
         "season": null,
         "reason": null,
@@ -2168,24 +2204,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/mens-track-and-field",
             "reason": null,
             "recordCount": 16
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2194,7 +2230,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2203,7 +2239,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2212,7 +2248,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2221,7 +2257,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2230,7 +2266,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2249,8 +2285,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/wrestling",
         "season": null,
         "reason": null,
@@ -2427,16 +2463,16 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/wrestling",
             "reason": null,
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2445,7 +2481,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2454,7 +2490,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2463,7 +2499,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2472,7 +2508,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2481,7 +2517,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2500,8 +2536,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/softball",
         "season": null,
         "reason": null,
@@ -2654,32 +2690,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/softball",
             "reason": null,
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2688,7 +2724,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2697,7 +2733,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2706,7 +2742,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2715,7 +2751,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2724,7 +2760,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2743,12 +2779,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/womens-cross-country",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "a094de2a054ed32b9b282577",
+            "title": "Bison Women Take 3rd at Griak for Top Finish in D-I Era",
+            "url": "https://www.gobison.com/news/2026/9/18/womens-cross-country-bison-women-take-3rd-at-griak-for-top-finish-in-d-i-era",
+            "publishedAt": "2026-09-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd2gwocjoqx54dn.cloudfront.net%2Fimages%2F2026%2F9%2F18%2FXC_Bismarck_Finals_85.jpg&width=540&height=303.75&type=webp",
+            "imageAlt": "Jade Rypkema",
+            "author": null,
+            "publisher": "North Dakota State University Athletics",
+            "discoverySourceUrl": "https://www.gobison.com/sports/womens-cross-country"
+          },
           {
             "id": "d6e8bcf4e9b255098db3a358",
             "title": "Bison Cross Country Races at Roy Griak Invitational Friday",
@@ -2791,7 +2839,7 @@
             "url": "https://www.gobison.com/news/2026/9/8/womens-cross-country-bison-cross-country-headed-to-umary-marauders-opener-friday",
             "publishedAt": "2026-09-08T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd2gwocjoqx54dn.cloudfront.net%2Fimages%2F2026%2F9%2F8%2FMia_Hoffmann_Ethan_Moe.jpg&width=540&height=303.75&type=webp",
+            "imageUrl": "https://d2gwocjoqx54dn.cloudfront.net/images/2026/9/8/Mia_Hoffmann_Ethan_Moe.jpg",
             "imageAlt": "Mia Hoffmann &amp; Ethan Moe",
             "author": null,
             "publisher": "North Dakota State University Athletics",
@@ -2921,24 +2969,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/womens-cross-country",
             "reason": null,
-            "recordCount": 14
+            "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2947,7 +2995,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2956,7 +3004,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2965,7 +3013,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2974,7 +3022,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2983,7 +3031,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3002,12 +3050,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/womens-golf",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "c4efc0ef78f3fc66ee586f17",
+            "title": "NDSU Women’s Golf Prepared for Yellowstone Intercollegiate",
+            "url": "https://www.gobison.com/news/2026/9/18/womens-golf-ndsu-womens-golf-prepared-for-yellowstone-intercollegiate",
+            "publishedAt": "2026-09-18T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd2gwocjoqx54dn.cloudfront.net%2Fimages%2F2026%2F9%2F18%2FBelle_Kongshaug_20260908_WGLF_NDSU_Invitational_ZL061.jpg&width=540&height=303.75&type=webp",
+            "imageAlt": "Belle Kongshaug",
+            "author": "Rylan Swenson, Athletics Communication Student Assistant",
+            "publisher": "North Dakota State University Athletics",
+            "discoverySourceUrl": "https://www.gobison.com/sports/womens-golf"
+          },
           {
             "id": "4c8c603e1957ee43052dfefc",
             "title": "Bartels Guides Bison to NDSU Fall Invitational Title",
@@ -3204,24 +3264,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/womens-golf",
             "reason": null,
-            "recordCount": 16
+            "recordCount": 17
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3230,7 +3290,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3239,7 +3299,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3248,7 +3308,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3257,7 +3317,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3266,7 +3326,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3285,8 +3345,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/womens-soccer",
         "season": null,
         "reason": null,
@@ -3475,32 +3535,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/womens-soccer",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3509,7 +3569,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3518,7 +3578,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3527,7 +3587,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3536,7 +3596,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3545,7 +3605,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3564,8 +3624,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/womens-track-and-field",
         "season": null,
         "reason": null,
@@ -3742,24 +3802,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/womens-track-and-field",
             "reason": null,
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3768,7 +3828,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3777,7 +3837,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3786,7 +3846,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3795,7 +3855,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3804,7 +3864,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3823,8 +3883,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/womens-track-and-field",
         "season": null,
         "reason": null,
@@ -4001,24 +4061,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/womens-track-and-field",
             "reason": null,
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4027,7 +4087,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4036,7 +4096,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4045,7 +4105,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4054,7 +4114,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4063,7 +4123,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4082,8 +4142,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-        "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+        "lastSuccessAt": "2026-09-18T19:46:43.339Z",
         "sourceUrl": "https://www.gobison.com/sports/womens-volleyball",
         "season": null,
         "reason": null,
@@ -4236,24 +4296,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.gobison.com/sports/womens-volleyball",
             "reason": null,
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-09-18T13:36:47.489Z",
-            "lastSuccessAt": "2026-09-18T13:36:47.489Z",
+            "lastAttemptAt": "2026-09-18T19:46:43.339Z",
+            "lastSuccessAt": "2026-09-18T19:46:43.339Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4262,7 +4322,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4271,7 +4331,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4280,7 +4340,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4289,7 +4349,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4298,7 +4358,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-09-18T13:36:47.489Z",
+        "lastAttemptAt": "2026-09-18T19:46:43.339Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
