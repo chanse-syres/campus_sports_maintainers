@@ -74,6 +74,7 @@ export async function validateSnapshot(snapshot,expectedSlug, {partial=false}={}
         assert.equal(data.sourceUrl,data.sources[0]?.sourceUrl??null,'News primary source differs from source health');
       }
       for(const record of data.records) {
+        if(record.metadataCheckedAt)assert.ok(Date.parse(record.metadataCheckedAt)<=Date.parse(snapshot.generatedAt),'Metadata check exceeds snapshot');
         if('publishedAtPrecision'in record)assert.equal(record.publishedAt===null,record.publishedAtPrecision==='unknown','Publication precision mismatch');
         if(kind==='recruitingBoard'||kind==='recruitingOffers') {
           assert.equal(record.schoolId,school.slug);assert.equal(record.sport,slug);assert.equal(String(record.classYear),data.season);

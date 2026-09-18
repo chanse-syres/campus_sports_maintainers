@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-09-17T13:03:28.191Z",
+  "reviewedAt": "2026-09-17T23:30:45.518Z",
   "schools": {
     "arizona-state": {
       "ncaaId": 28,
@@ -8,6 +8,16 @@
       "athleticsUrl": "https://thesundevils.com/news",
       "evidenceUrl": "https://sundevils.com/",
       "evidence": "Official homepage Drupal navigation and sport news links identify thesundevils.com/news as the athletics news archive."
+    },
+    "arkansas-state-university": {
+      "ncaaId": 30,
+      "originalUrl": "https://www.astateredwolves.com/",
+      "athleticsUrl": "https://www.astateredwolves.com/",
+      "sportNewsUrls": {
+        "football": "https://www.astateredwolves.com/sports/football/archives"
+      },
+      "evidenceUrl": "https://www.astateredwolves.com/",
+      "evidence": "Official homepage Football: News link identifies the sport archive. The archive and its declared story service returned 99 parsed football stories on 2026-09-17."
     },
     "belmont-university": {
       "ncaaId": 14927,
@@ -41,8 +51,8 @@
       "ncaaId": 285,
       "originalUrl": "https://goholycross.com/",
       "athleticsUrl": "https://goholycross.com/sports/2024/9/12/fb-guide.aspx",
-      "evidenceUrl": "https://goholycross.com/",
-      "evidence": "Official gameday page explicitly links this public stadium guide; the guide exposes current navigation for all 27 sponsored programs."
+      "evidenceUrl": "https://goholycross.com/sports/2024/9/12/fb-guide.aspx",
+      "evidence": "Official gameday page explicitly links this public stadium guide; the guide exposes current navigation for all 27 sponsored programs. On 2026-09-18, the guide and football roster explicitly linked the football archive, roster, and schedule under /sports/football/. The legacy football index served a gameday promotion; the linked archive returned 99 football stories, latest dated 2026-09-17."
     },
     "east-tennessee-state-university": {
       "ncaaId": 198,
@@ -50,6 +60,16 @@
       "athleticsUrl": "https://etsubucs.com/sports/mens-basketball/coaches",
       "evidenceUrl": "https://etsubucs.com/sports/mens-basketball/coaches",
       "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
+    "idaho-state-university": {
+      "ncaaId": 294,
+      "originalUrl": "https://www.isubengals.com/",
+      "athleticsUrl": "https://www.isubengals.com/",
+      "sportNewsUrls": {
+        "womens-basketball": "https://www.isubengals.com/sports/womens-basketball/archives"
+      },
+      "evidenceUrl": "https://www.isubengals.com/",
+      "evidence": "Official homepage women's Basketball: News link identifies the sport archive. The archive and its declared story service returned 100 parsed women's basketball stories on 2026-09-17; the older wbball home route loops through redirects."
     },
     "jacksonville-university": {
       "ncaaId": 316,
@@ -70,8 +90,12 @@
       "originalUrl": "https://www.goblueraiders.com/",
       "athleticsUrl": "https://www.goblueraiders.com/",
       "newsFallbackUrl": "https://www.goblueraiders.com/archives",
+      "sportNewsUrls": {
+        "baseball": "https://goblueraiders.com/sports/baseball/archives",
+        "womens-basketball": "https://goblueraiders.com/sports/womens-basketball/archives"
+      },
       "evidenceUrl": "https://www.goblueraiders.com/",
-      "evidence": "Official homepage All News link points to the public all-sports archive. Each article must independently identify the requested sport."
+      "evidence": "Official homepage All News link points to the public all-sports archive. Reviewed sport archive URLs each returned a matching sport title and current structured official stories on 2026-09-17. Each article must independently identify the requested sport."
     },
     "mississippi-valley-state-university": {
       "ncaaId": 432,
@@ -86,6 +110,16 @@
       "athleticsUrl": "https://oruathletics.com/schedule.aspx?path=mbball&season=2025-26",
       "evidenceUrl": "https://oruathletics.com/schedule.aspx?path=mbball&season=2025-26",
       "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+    },
+    "purdue-university": {
+      "ncaaId": 559,
+      "originalUrl": "https://purduesports.com/",
+      "athleticsUrl": "https://purduesports.com/",
+      "sportNewsUrls": {
+        "womens-basketball": "https://purduesports.com/sports/womens-basketball/news"
+      },
+      "evidenceUrl": "https://purduesports.com/archives-1",
+      "evidence": "Official Archives page links the canonical women's basketball news collection with a year filter. The unfiltered collection returned the Women's Basketball News Archive title and 16 structured stories on 2026-09-17; the old /archives route returned 404."
     },
     "queens-university-of-charlotte": {
       "ncaaId": 11504,
@@ -108,6 +142,18 @@
       "evidenceUrl": "https://tarletonsports.com/sports/mens-basketball",
       "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
     },
+    "tennessee-technological-university": {
+      "ncaaId": 692,
+      "originalUrl": "https://www.ttusports.com/",
+      "athleticsUrl": "https://www.ttusports.com/",
+      "sportNewsUrls": {
+        "baseball": "https://www.ttusports.com/sports/bsb/headlines-featured",
+        "basketball": "https://www.ttusports.com/sports/mbkb/headlines-featured",
+        "womens-basketball": "https://www.ttusports.com/sports/wbkb/headlines-featured"
+      },
+      "evidenceUrl": "https://www.ttusports.com/sports/bsb/2025-26/schedule",
+      "evidence": "Official sport schedule navigation explicitly links each sport's headlines-featured collection. These three URLs returned 45 baseball, 44 men's basketball, and 43 women's basketball stories on 2026-09-17."
+    },
     "texas-state-university": {
       "ncaaId": 670,
       "originalUrl": "https://txstatebobcats.com/",
@@ -120,8 +166,12 @@
       "originalUrl": "https://www.goairforcefalcons.com/",
       "athleticsUrl": "https://www.goairforcefalcons.com/",
       "newsFallbackUrl": "https://goairforcefalcons.com/archives",
+      "sportNewsUrls": {
+        "basketball": "https://goairforcefalcons.com/sports/mens-basketball/archives/",
+        "womens-basketball": "https://goairforcefalcons.com/sports/womens-basketball/archives"
+      },
       "evidenceUrl": "https://www.goairforcefalcons.com/",
-      "evidence": "Official homepage News link explicitly targets the public all-sports archive through a same-site promotion redirect. Each article must independently identify the requested sport."
+      "evidence": "Official homepage News link targets the all-sports archive. Reviewed basketball archive URLs each returned the correct gender-specific sport title and 32 structured official stories on 2026-09-17. Each article must independently identify the requested sport."
     },
     "university-of-missouri-columbia": {
       "ncaaId": 434,
@@ -171,8 +221,13 @@
       "originalUrl": "https://www.godeacs.com/",
       "athleticsUrl": "https://www.godeacs.com/",
       "newsFallbackUrl": "https://www.godeacs.com/",
+      "sportNewsUrls": {
+        "baseball": "https://godeacs.com/sports/baseball/archives",
+        "basketball": "https://godeacs.com/sports/mens-basketball/archives/",
+        "womens-basketball": "https://godeacs.com/sports/womens-basketball/archives"
+      },
       "evidenceUrl": "https://www.godeacs.com/",
-      "evidence": "Official homepage embeds a public recent-news collection with explicit sport metadata. Each article must independently identify the requested sport; absent sports remain unavailable."
+      "evidence": "Official homepage embeds a recent-news collection with sport metadata. Reviewed baseball and basketball archive URLs each returned the correct sport title and 31-32 structured official stories on 2026-09-17. Each article must independently identify the requested sport; absent sports remain unavailable."
     },
     "wofford-college": {
       "ncaaId": 2915,

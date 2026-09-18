@@ -1,11 +1,64 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { discoverSchoolSources, discoverEntrance, sourcePolicy } from '../src/discovery.mjs';
+import { discoverSchoolSources, discoverEntrance, enrichSportSources, sourcePolicy } from '../src/discovery.mjs';
+import { getSchool } from '../src/config.mjs';
 import { matchSport, matchNavigationSport } from '../src/sports.mjs';
 const men = { slug: 'basketball', name: 'Basketball', code: 'MBB', gender: 'men' };
 const women = { slug: 'womens-basketball', name: 'Basketball', code: 'WBB', gender: 'women' };
 const track = ['men', 'women'].flatMap(gender => ['indoor', 'outdoor'].map(season => ({ slug: `${gender}s-track-${season}`, name: `${season} Track`, gender })));
 const school = { athleticsUrl: 'https://sports.example.edu/', sports: [men, women, ...track] };
+
+test('reviewed sport archives replace empty shared collections without manufacturing program navigation', async () => {
+  const targets = [
+    ['arkansas-state-university', { football: 'https://www.astateredwolves.com/sports/football/archives' }],
+    ['idaho-state-university', { 'womens-basketball': 'https://www.isubengals.com/sports/womens-basketball/archives' }],
+    ['tennessee-technological-university', { baseball: 'https://www.ttusports.com/sports/bsb/headlines-featured', basketball: 'https://www.ttusports.com/sports/mbkb/headlines-featured', 'womens-basketball': 'https://www.ttusports.com/sports/wbkb/headlines-featured' }],
+    ['u-s-air-force-academy', { basketball: 'https://goairforcefalcons.com/sports/mens-basketball/archives/', 'womens-basketball': 'https://goairforcefalcons.com/sports/womens-basketball/archives' }],
+    ['middle-tennessee-state-university', { baseball: 'https://goblueraiders.com/sports/baseball/archives', 'womens-basketball': 'https://goblueraiders.com/sports/womens-basketball/archives' }],
+    ['wake-forest-university', { baseball: 'https://godeacs.com/sports/baseball/archives', basketball: 'https://godeacs.com/sports/mens-basketball/archives/', 'womens-basketball': 'https://godeacs.com/sports/womens-basketball/archives' }],
+    ['purdue-university', { 'womens-basketball': 'https://purduesports.com/sports/womens-basketball/news' }],
+  ];
+  for (const [slug, expected] of targets) {
+    const canonical = await getSchool(slug), policy = sourcePolicy(canonical);
+    const discovered = discoverSchoolSources('<main>No sport navigation</main>', canonical);
+    assert.deepEqual(policy.sportNewsUrls, expected);
+    assert.deepEqual(policy.allowedHosts.sort(), [new URL(canonical.athleticsUrl).hostname.replace(/^www\./, ''), `www.${new URL(canonical.athleticsUrl).hostname.replace(/^www\./, '')}`].sort());
+    for (const [sport, url] of Object.entries(expected)) {
+      assert.equal(discovered.sports[sport].newsUrl, url);
+      assert.equal(discovered.sports[sport].homeUrl, null);
+      assert.equal(discovered.sports[sport].rosterUrl, null);
+      assert.deepEqual(discovered.sports[sport].routes, []);
+      assert.deepEqual(discovered.sports[sport].aliases, []);
+      assert.equal(discovered.sports[sport].discoveryStatus, 'reviewed-sport-news-source');
+    }
+    assert.throws(() => sourcePolicy({ ...canonical, ncaaId: 1 }), /identity mismatch/);
+    assert.throws(() => sourcePolicy({ ...canonical, sports: [] }), /scope mismatch/);
+    assert.throws(() => sourcePolicy({ ...canonical, athleticsUrl: 'https://other.example/' }), /identity mismatch/);
+  }
+});
+
+test('reviewed news route survives deep enrichment without replacing other program endpoints', async () => {
+  const canonical = await getSchool('purdue-university'), sport = canonical.sports.find(item => item.slug === 'womens-basketball');
+  const source = { homeUrl: 'https://purduesports.com/sports/womens-basketball', newsUrl: 'https://purduesports.com/sports/womens-basketball/news', rosterUrl: null, scheduleUrl: null, routes: ['/sports/womens-basketball'] };
+  const result = enrichSportSources('<a href="/sports/womens-basketball/archives">Old archive</a><a href="/sports/womens-basketball/roster">Roster</a>', canonical, sport, source, sourcePolicy(canonical).allowedHosts);
+  assert.equal(result.newsUrl, source.newsUrl);
+  assert.equal(result.homeUrl, source.homeUrl);
+  assert.equal(result.rosterUrl, 'https://purduesports.com/sports/womens-basketball/roster');
+});
+
+test('Presto featured-news collections stay separate from index homes and opposite gender', () => {
+  const html = `<a href="/sports/mbkb/schedule">Men's Basketball schedule</a>
+    <a href="/sports/mbkb/index">Men's Basketball</a><a href="/sports/mbkb/headlines-featured">Men's Basketball News</a>
+    <a href="/sports/wbkb/index">Women's Basketball</a><a href="/sports/wbkb/headlines-featured">Women's Basketball News</a>`;
+  const result = discoverSchoolSources(html, school);
+  assert.equal(result.sports.basketball.homeUrl, 'https://sports.example.edu/sports/mbkb/index');
+  assert.equal(result.sports.basketball.newsUrl, 'https://sports.example.edu/sports/mbkb/headlines-featured');
+  assert.equal(result.sports['womens-basketball'].homeUrl, 'https://sports.example.edu/sports/wbkb/index');
+  assert.equal(result.sports['womens-basketball'].newsUrl, 'https://sports.example.edu/sports/wbkb/headlines-featured');
+  assert.equal(result.sports.basketball.scheduleUrl, 'https://sports.example.edu/sports/mbkb/schedule');
+  const enriched = enrichSportSources('<a href="/sports/mbkb/headlines-featured">News</a><a href="/sports/wbkb/headlines-featured">News</a>', school, men, { homeUrl: 'https://sports.example.edu/sports/mbkb/index', routes: ['/sports/mbkb'] }, ['sports.example.edu']);
+  assert.equal(enriched.newsUrl, 'https://sports.example.edu/sports/mbkb/headlines-featured');
+});
 
 test('opposite-gender route outranks surrounding navigation labels', () => {
   const html = '<li><a href="/sports/mens-basketball">Men\'s Basketball</a><a href="/sports/womens-basketball">News</a></li>';

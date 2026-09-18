@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { safeUrl, cleanText } from './normalize.mjs';
 import { matchSport, matchSportRoute, matchNavigationSport, normalizeSportLabel } from './sports.mjs';
 
-const collectionPattern = /\/(?:roster|schedule|archives|news|coaches|stats|statistics)(?:\/|$)/i;
+const collectionPattern = /\/(?:roster|schedule|archives|news|headlines-featured|coaches|stats|statistics)(?:\/|$)/i;
 const overrides = JSON.parse(readFileSync(new URL('../catalog/source-overrides.json', import.meta.url), 'utf8'));
 function sportRoute(url) {
   const parsed = new URL(url), pathname = parsed.pathname;
@@ -28,8 +28,17 @@ export function sourcePolicy(school) {
   if (override && (override.ncaaId !== school.ncaaId || override.originalUrl !== school.athleticsUrl || !safeUrl(override.athleticsUrl) || !safeUrl(override.evidenceUrl))) throw new Error('Official source override identity mismatch');
   const allowedHosts = [...new Set([...officialHosts(school.athleticsUrl), ...officialHosts(override?.athleticsUrl)])];
   if (override?.newsFallbackUrl && (!safeUrl(override.newsFallbackUrl) || !allowedHosts.includes(new URL(override.newsFallbackUrl).hostname))) throw new Error('Official news fallback host mismatch');
+  const sportNewsUrls = override?.sportNewsUrls ?? {};
+  if (!sportNewsUrls || typeof sportNewsUrls !== 'object' || Array.isArray(sportNewsUrls)) throw new Error('Invalid official sport news overrides');
+  for (const [slug, value] of Object.entries(sportNewsUrls)) {
+    const sport = school.sports?.find(item => item.slug === slug);
+    const url = safeUrl(value);
+    if (!sport || !url || !allowedHosts.includes(new URL(url).hostname)
+      || !/^\/sports?\/[a-z][a-z0-9-]*\/(?:archives|news|headlines-featured)\/?$/.test(new URL(url).pathname)
+      || new URL(url).search || new URL(url).hash || !matchSportRoute(url, sport)) throw new Error('Official sport news override scope mismatch');
+  }
   return { athleticsUrl: override?.athleticsUrl ?? school.athleticsUrl,
-    newsFallbackUrl: override?.newsFallbackUrl ?? null, allowedHosts };
+    newsFallbackUrl: override?.newsFallbackUrl ?? null, sportNewsUrls, allowedHosts };
 }
 
 export function discoverEntrance(html, athleticsUrl) {
@@ -101,15 +110,19 @@ export function discoverSchoolSources(html, school, sourceUrl = school.athletics
       return routeMatch || [link.text, link.title, link.parentLabel, `${gender} ${link.parentLabel}`, `${gender} ${link.text}`].some(label => matchNavigationSport(label, sport, school.sports));
     });
     const routeCandidate = matches.filter(link => sportRoute(link.url));
-    const home = routeCandidate.find(link => !collectionPattern.test(new URL(link.url).pathname) && (/^\/sports?\/[^/]+\/?$/.test(new URL(link.url).pathname) || /^\/index\.aspx$/.test(new URL(link.url).pathname))) ?? routeCandidate[0];
+    const home = routeCandidate.find(link => !collectionPattern.test(new URL(link.url).pathname) && (/^\/sports?\/[^/]+(?:\/index)?\/?$/.test(new URL(link.url).pathname) || /^\/index\.aspx$/.test(new URL(link.url).pathname))) ?? routeCandidate[0];
     // Collection links establish a sport route, but a single article never
     // becomes an archive endpoint. Keep only URLs actually linked on the site.
     const homeUrl = home?.url ?? null;
     const sportPath = homeUrl ? sportRoute(homeUrl) : null;
     const inRoute = link => sportPath && (sportPath.includes('?') ? sportRoute(link.url) === sportPath : new URL(link.url).pathname === sportPath || new URL(link.url).pathname.startsWith(`${sportPath}/`));
     const scoped = links.filter(link => matches.includes(link) || inRoute(link));
-    const find = (pattern, label) => scoped.find(link => inRoute(link) && (pattern.test(new URL(link.url).pathname) || label.test(link.text)))?.url ?? null;
-    sports[sport.slug] = { homeUrl, newsUrl: find(/\/(?:archives|news)(?:\/|$)/i, /^(?:news|archives?)$/i) ?? homeUrl,
+    // Legacy index homes can link modern collection routes for the same sport.
+    // Require an observed sport route so a matching single news article cannot
+    // become the collection endpoint.
+    const collectionRoute = link => inRoute(link) || (sportRoute(link.url) && link.routeSports.has(sport.slug));
+    const find = (pattern, label) => scoped.find(link => collectionRoute(link) && (pattern.test(new URL(link.url).pathname) || label.test(link.text)))?.url ?? null;
+    sports[sport.slug] = { homeUrl, newsUrl: find(/\/(?:archives|news|headlines-featured)(?:\/|$)/i, /^(?:news|archives?)$/i) ?? homeUrl,
       rosterUrl: find(/\/roster(?:\/|$)/i, /^roster$/i), scheduleUrl: find(/\/schedule(?:\/|$)/i, /^schedule$/i),
       routes: sportPath ? [sportPath] : [], aliases: home ? [...new Set(matches.filter(inRoute).flatMap(link => [link.text, link.title, link.parentLabel]).filter(label => matchNavigationSport(label, sport, school.sports)))] : [], discoveryStatus: homeUrl ? 'discovered' : 'no-matching-official-navigation' };
     // A reviewed all-sports collection supplies a retrieval URL only. Do not
@@ -117,6 +130,12 @@ export function discoverSchoolSources(html, school, sourceUrl = school.athletics
     if (!sports[sport.slug].newsUrl && policy.newsFallbackUrl) {
       sports[sport.slug].newsUrl = policy.newsFallbackUrl;
       sports[sport.slug].discoveryStatus = 'reviewed-shared-news-source';
+    }
+    // Reviewed sport archives replace generic home/shared collections without
+    // inventing navigation, roster URLs, or article scope evidence.
+    if (policy.sportNewsUrls[sport.slug]) {
+      sports[sport.slug].newsUrl = policy.sportNewsUrls[sport.slug];
+      sports[sport.slug].discoveryStatus = 'reviewed-sport-news-source';
     }
   }
   return { athleticsUrl: school.athleticsUrl, allowedHosts, status: 'ok', sports };
@@ -132,9 +151,11 @@ export function enrichSportSources(html, school, sport, source, allowedHosts) {
     const pathname = new URL(url).pathname;
     const scoped = pathname.startsWith(`${homePath}/`) || matchSportRoute(url, { ...sport, routes: source.routes });
     if (!scoped) continue;
-    if (/\/archives\/?$/.test(pathname)) result.newsUrl = url;
+    if (/\/(?:archives|news|headlines-featured)\/?$/.test(pathname)) result.newsUrl = url;
     if (/\/roster\/?$/.test(pathname)) result.rosterUrl = url;
     if (/\/schedule\/?$/.test(pathname)) result.scheduleUrl = url;
   }
+  const reviewedNewsUrl = sourcePolicy(school).sportNewsUrls[sport.slug];
+  if (reviewedNewsUrl) result.newsUrl = reviewedNewsUrl;
   return result;
 }
