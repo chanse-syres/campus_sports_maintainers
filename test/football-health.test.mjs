@@ -88,10 +88,11 @@ test('stale snapshot and absent source observations are never healthy', () => {
 
 test('summary escapes untrusted provider diagnostics', () => {
   const snapshot = school();
-  Object.assign(snapshot.sports.football.news.sources[0], { status: 'stale', reason: '<script> | bad\nrow' });
+  Object.assign(snapshot.sports.football.news.sources[0], { status: 'stale', reason: '<ScRiPt> | bad\nrow' });
   const markdown = footballHealthMarkdown(check([snapshot]));
-  assert.doesNotMatch(markdown, /<script>/);
-  assert.match(markdown, /&lt;script&gt; &#124; bad row/);
+  assert.equal(markdown.includes('<'), false);
+  assert.equal(markdown.includes('>'), false);
+  assert.ok(markdown.includes('&lt;ScRiPt&gt; &#124; bad row'));
 });
 
 test('a missing output directory reports every expected football school instead of skipping it', async () => {
