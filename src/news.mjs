@@ -12,7 +12,10 @@ export function mergeNews(previous,current,school,sport) {
   const records=new Map();
   for(const item of [...previous,...current]) {
     const url=canonical(item.url),prior=records.get(url);
-    records.set(url,{...item,url,id:stableId(school.slug,sport.slug,url),imageUrl:item.imageUrl??prior?.imageUrl??null,imageAlt:item.imageAlt??prior?.imageAlt??null});
+    const imageUrl=item.imageUrl??prior?.imageUrl??null;
+    const imageAlt=item.imageUrl?item.imageAlt??(item.imageUrl===prior?.imageUrl?prior.imageAlt:null):prior?.imageAlt??null;
+    const metadataCheckedAt=[item.metadataCheckedAt,prior?.metadataCheckedAt].filter(Boolean).sort().at(-1);
+    records.set(url,{...item,url,id:stableId(school.slug,sport.slug,url),imageUrl,imageAlt,author:item.author??prior?.author??null,...(metadataCheckedAt?{metadataCheckedAt}:{})});
   }
   const titles=new Set();
   return [...records.values()].sort((a,b)=>(Date.parse(b.publishedAt)||0)-(Date.parse(a.publishedAt)||0)||a.url.localeCompare(b.url)).filter(item=>{

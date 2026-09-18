@@ -186,3 +186,26 @@ test('unsafe URLs, malformed JSON and giant documents fail closed', () => {
   assert.throws(() => parseOfficialNews('<script id="__NUXT_DATA__" type="application/json">oops</script>', source, school, men), /Malformed/);
   assert.throws(() => parseOfficialNews('x'.repeat(8_000_001), source, school, men), /size/);
 });
+
+test('Presto archive cards preserve scoped titles, dates and photos',()=>{
+ const card=(path,title)=>`<div class="card"><div class="entry-title"><a href="${path}">${title}</a></div><div class="entry-category">Baseball</div><span class="date">August 27, 2026</span><img src="/sports/bsb/photos/team.jpg"></div>`;
+ const sport={slug:'baseball',name:'Baseball',gender:'men'};
+ const data=parseOfficialNews(card('/sports/bsb/2026-27/releases/20260827abcd','Coaching staff announced')+card('/sports/wbkb/2026-27/releases/20260827abcd','Women win'), 'https://athletics.example.edu/sports/bsb/2026-27/news',school,sport);
+ assert.equal(data.records.length,1);assert.equal(data.records[0].publishedAt,'2026-08-27T00:00:00.000Z');assert.equal(data.records[0].imageUrl,'https://athletics.example.edu/sports/bsb/photos/team.jpg');
+});
+test('archive service accepts observed underscore sport tokens and either quote style',async()=>{
+ const html=`<script>var sport_obj = {"title":"Men's Basketball","shortname":"m_bkb"}; $.get('/services/archives.ashx/stories', {});</script>`;
+ const result=await collectOfficialNews(html,source,school,men,async url=>{assert.equal(new URL(url).searchParams.get('sport'),'m_bkb');return JSON.stringify({data:[story()]});});
+ assert.equal(result.records.length,1);
+});
+test('archive-specific mascot label requires canonical service sport metadata',async()=>{
+ const html=`<script>var sport_obj = {"title":"Demon Basketball","shortname":"mbball","global_sport_name_slug":"mens-basketball"}; $.get('/services/archives.ashx/stories', {});</script>`;
+ const result=await collectOfficialNews(html,source,school,men,async()=>JSON.stringify({data:[story({sport_title:'Demon Basketball'})]}));
+ assert.equal(result.records.length,1);
+ await assert.rejects(collectOfficialNews(html,source,school,women,async()=>{throw Error('Must not fetch');}),/No recognizable/);
+});
+test('promotional splash follows only a same-host explicitly labelled sport home link once',async()=>{
+ const home='https://athletics.example.edu/index.aspx?path=wbball';let calls=0;
+ const result=await collectOfficialNews(`<a href="${home}">Continue to Women's Basketball Home</a>`,'https://athletics.example.edu/sports/wbball',school,women,async url=>{calls++;assert.equal(url,home);return script([story({sport_title:"Women's Basketball"})]);});
+ assert.equal(calls,1);assert.equal(result.records.length,1);
+});
