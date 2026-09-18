@@ -1,5 +1,6 @@
 import { cleanText, safeUrl, isoDate, uniqueById, stableId } from '../normalize.mjs';
 import { ESPN_PATHS, requireProvider } from '../providers.mjs';
+import { cleanAuthor } from './article-metadata.mjs';
 
 export { ESPN_PATHS };
 export const teamId = (school, sport, provider) => requireProvider(school, sport, 'espn', provider).espnId;
@@ -60,7 +61,7 @@ export function parseEspnNews(text, school, sport, provider, observedAt) {
         break;
       }
     }
-    records.set(url, { id: stableId(school.slug, sport, url), title, url, publishedAt, publishedAtPrecision: publishedAt ? 'instant' : 'unknown', imageUrl, imageAlt, publisher: 'ESPN', discoverySourceUrl: scope.news.sourceUrl });
+    records.set(url, { id: stableId(school.slug, sport, url), title, url, publishedAt, publishedAtPrecision: publishedAt ? 'instant' : 'unknown', imageUrl, imageAlt,author:cleanAuthor(article.byline), publisher: 'ESPN', discoverySourceUrl: scope.news.sourceUrl });
   }
   return { records: [...records.values()].sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? '')), emptyConfirmed: true, season: null, reason: 'publisher-feed-filtered-verified-school-and-sport' };
 }

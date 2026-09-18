@@ -4,6 +4,9 @@ const date = { type: 'string', pattern: '^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d
 const url = { type: 'string', minLength: 10, maxLength: 2048, pattern: '^https://' };
 const object = properties => ({ type: 'object', additionalProperties: false, required: Object.keys(properties), properties });
 export const newsRecord = object({ id: text(80), title: text(), url, discoverySourceUrl: url, publishedAt: nullable(date), publishedAtPrecision: { enum: ['day', 'instant', 'unknown'] }, imageUrl: nullable(url), imageAlt: nullable(text()), publisher: text(160) });
+// Optional for compatibility with already-published immutable snapshots.
+newsRecord.properties.author = nullable(text());
+newsRecord.properties.metadataCheckedAt = date;
 const scheduleRecord = object({ id: text(80), date, name: text(), status: text(80), venue: nullable(text()), homeAway: { enum: ['home', 'away', 'neutral', null] }, opponent: text(), teamScore: nullable({ type: 'number', minimum: 0, maximum: 999 }), opponentScore: nullable({ type: 'number', minimum: 0, maximum: 999 }), url: nullable(url) });
 scheduleRecord.properties.datePrecision = { enum: ['day', 'instant', 'unknown'] };
 const rosterRecord = object({ id: text(80), name: text(160), position: nullable(text(30)), jersey: nullable(text(10)), year: nullable(text(40)), imageUrl: nullable(url), url: nullable(url) });

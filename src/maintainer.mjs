@@ -9,13 +9,15 @@ import { collectOfficialNews, parseOfficialRoster, parseOfficialSchedule } from 
 import { validateSnapshot } from './validate.mjs';
 import { sourcePolicy } from './discovery.mjs';
 import { webNewsSources } from './adapters/web-news.mjs';
+import { enrichOfficialNews } from './adapters/article-metadata.mjs';
 
 export const recruitingCycle = date => date.getUTCFullYear() + (date.getUTCMonth() >= 2 ? 1 : 0);
 const unavailable = (at, reason) => emptyDataset(at, 'unavailable', reason);
 const conference = value => ({slug:value.slug,name:value.name});
 
 /** One source request at a time per school; source errors remain dataset state. */
-export async function maintainSchool(slug, { now = new Date().toISOString(), previous = null, sport: selectedSport, get, sources, requestBudget = 180, full = false, sharedCache = new Map() } = {}) {
+export async function maintainSchool(slug, { now = new Date().toISOString(), previous = null, sport: selectedSport, get, sources, requestBudget = 180, full = false, sharedCache = new Map(), metadataBudget = 24, onMetadata = () => {} } = {}) {
+  if(!Number.isSafeInteger(metadataBudget)||metadataBudget<0||metadataBudget>100)throw new Error('Invalid metadata request budget');
   const school = await getSchool(typeof slug === 'string' ? slug : slug.slug);
   const catalog = await loadCatalog();
   if(previous) await validateSnapshot(previous, school.slug);
@@ -39,7 +41,11 @@ export async function maintainSchool(slug, { now = new Date().toISOString(), pre
     return selectedCache.get(url);
   };
   const result = {schemaVersion:1,academicYear:catalog.academicYear,conference:conference(school.conference),school:{slug:school.slug,ncaaId:String(school.ncaaId),name:school.name,athleticsUrl:school.athleticsUrl,membershipSourceUrl:school.sourceUrl},generatedAt:at,sports:{}};
-  const sports = selectedSport ? [getSport(school, selectedSport)] : school.sports;
+  // Keep enrichment bounded independently of the source request budget. Prioritize
+  // the four site sports, without changing their canonical inventory or scope.
+  const featured=new Set(['football','basketball','womens-basketball','baseball']);
+  const sports = selectedSport ? [getSport(school, selectedSport)] : [...school.sports].sort((a,b)=>Number(featured.has(b.slug))-Number(featured.has(a.slug)));
+  let metadataRequests=0;
   for(const sport of sports) {
     const source = official?.sports?.[sport.slug];
     const scopedSport = {...sport,routes:source?.routes ?? [],aliases:source?.aliases ?? []};
@@ -57,6 +63,10 @@ export async function maintainSchool(slug, { now = new Date().toISOString(), pre
     }
     newsSources.push(...supplemental.get(sport.slug));
     entry.news = await refreshNews({school,sport,at,previous:prior?.news,sources:newsSources,get:fetchSource});
+    // Read only official article URLs already established by the scoped collector.
+    // Failed/denied metadata never erases a story or advances its source health.
+    const limit=Math.min(5,metadataBudget-metadataRequests);
+    entry.news.records=await enrichOfficialNews(entry.news.records,officialSchool,async url=>{metadataRequests++;return fetchSource(url);},{limit,at,onResult:result=>onMetadata({...result,school:school.slug,sport:sport.slug})});
     if(!full) {
       for(const kind of COLLECTIONS.filter(k=>k!=='news')) entry[kind] = prior?.[kind]?.lastSuccessAt
         ? {...prior[kind],status:'stale',reason:'refresh-disabled-news-only'}

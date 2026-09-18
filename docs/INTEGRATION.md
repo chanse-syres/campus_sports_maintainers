@@ -2,7 +2,7 @@
 
 The national maintainer publishes normalized article metadata for NCAA Division I school/sport sections. The scheduled workflow runs every four hours. GitHub schedules can start late; use the timestamps and source health below instead of assuming a schedule guarantees freshness.
 
-Only news collection is enabled by default. Roster, schedule, and recruiting envelopes may be present for compatibility but are not a readiness claim for those features. The maintainer does not republish complete articles. A card contains its headline, publisher, original article URL, publication date when known, and a source-provided photo URL when available.
+Only news collection is enabled by default. Roster, schedule, and recruiting envelopes may be present for compatibility but are not a readiness claim for those features. The maintainer does not republish complete articles. A card contains its headline, publisher, original article URL, publication date when known, a source-provided photo URL when available, and an optional `author` byline (string or null; up to 300 characters). Older snapshots without `author` remain valid. A missing byline means the author was not supplied or could not be verified; the publisher is a separate field.
 
 ## Builder handoff
 
@@ -55,6 +55,10 @@ Replace `<DATA_COMMIT_SHA>` with the SHA from `GET https://api.github.com/repos/
 `sources` contains the per-source status and failure reason. A missing reviewed source differs from a temporarily blocked website. A green workflow confirms safe execution/publication; it does not mean all 7,080 sport sections have usable current news. Check workflow summaries and the health report during the initial observation period.
 
 `imageUrl: null` means no reliable source photo was available. Use your school's approved fallback image or a text-only card. Never substitute an unrelated athlete image. An external image URL is attribution/provenance metadata, not a license grant; use publisher imagery according to your display rights. A blocked or broken image should fall back gracefully.
+
+Official article metadata enrichment fills missing photos/bylines after verifying the requested article identity on the school's reviewed host. It preserves existing values and source health, prioritizes missing photos, and is limited to five article requests per sport and 24 per school/run inside the existing 180-request school budget. The four site sports are processed first. These limits mean historical metadata is recovered incrementally; absent metadata is not fabricated and a failed metadata request does not make the underlying news collection appear fresher.
+
+Optional `metadataCheckedAt` records the last bounded metadata attempt, including an unavailable photo/byline. It is internal retry bookkeeping, not the article publication date or news-source freshness. Attempts cool down for seven days; unattempted retained archive records are processed before expired attempts so permanently missing metadata cannot monopolize the budget. Merge operations preserve the timestamp even when a later feed item lacks metadata.
 
 `publishedAtPrecision` is `instant`, `day`, or `unknown`. Avoid displaying a fabricated time for day-only dates; unknown publication dates remain `null`. The snapshot collection timestamp is not the article publication date.
 

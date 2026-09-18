@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { load } from 'cheerio';
 import { cleanText, safeUrl, stableId } from '../normalize.mjs';
+import { cleanAuthor } from './article-metadata.mjs';
 
 const membership = JSON.parse(readFileSync(new URL('../../catalog/membership.json', import.meta.url), 'utf8'));
 const registry = JSON.parse(readFileSync(new URL('../../catalog/news-feeds.json', import.meta.url), 'utf8'));
@@ -185,7 +186,10 @@ function readFeed(text, definition) {
     const description = `${plain(descriptions.first().text(), 2000)} ${plain(categories, 500)}`;
     const date = publicationDate(item.children(rss ? 'pubDate' : 'published').first().text());
     const fragments = item.children().filter((_, node) => ['description', 'summary', 'content', 'content:encoded'].includes(node.tagName)).map((_, node) => $(node).text()).get();
-    entries.push({ title, description, url, ...date, ...imageFromItem($, item, definition, fragments) });
+    const creator=item.children('dc\\:creator').first();
+    const authorNode=item.children('author').first();
+    const author=cleanAuthor(creator.length?creator.text():authorNode.children('name').first().text()||authorNode.text());
+    entries.push({ title, description, url, ...date, ...imageFromItem($, item, definition, fragments),author });
   }
   cachedCharacters -= cached?.text.length ?? 0;
   documentCache.delete(definition.id);

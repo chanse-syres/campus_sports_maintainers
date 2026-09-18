@@ -1,6 +1,7 @@
 import { load } from 'cheerio';
 import { cleanText, safeUrl, stableId } from '../normalize.mjs';
 import { matchSport, matchSportRoute, sportGender, normalizeSportLabel } from '../sports.mjs';
+import { cleanAuthor } from './article-metadata.mjs';
 
 const MAX_BYTES = 8_000_000, MAX_RECORDS = 1000, MAX_SCALAR = 4096;
 const MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
@@ -110,10 +111,22 @@ export async function collectOfficialNews(text, sourceUrl, school, sport, get, f
   catch (error) {
     // Follow only the public JSON service declared in a verified sport archive.
     const { $, scopedUrl } = document(text, sourceUrl, school);
+    if (!followedArchive) {
+      const entrance = $('a[href]').toArray().find(element => {
+        const label = $(element).text().trim().match(/^Continue to (.+) Home$/i);
+        const destination = scopedUrl($(element).attr('href'));
+        return label && matchSport(label[1], sport) && destination && destination !== sourceUrl && matchSportRoute(destination, sport);
+      });
+      if (entrance) {
+        const destination=scopedUrl($(entrance).attr('href'));
+        const result=await collectOfficialNews(await get(destination),destination,school,sport,get,true);
+        return {...result,records:result.records.map(record=>({...record,discoverySourceUrl:sourceUrl}))};
+      }
+    }
     if (!matchSportRoute(sourceUrl, sport)) throw error;
-    if (!followedArchive && !/\/(?:archives|news)\/?$/.test(new URL(sourceUrl).pathname)) {
+    if (!followedArchive && !/\/(?:archives|news|headlines-featured)\/?$/.test(new URL(sourceUrl).pathname)) {
       const archive = $('a[href]').toArray().map(element => scopedUrl($(element).attr('href')))
-        .find(url => url && /\/(?:archives|news)\/?$/.test(new URL(url).pathname) && matchSportRoute(url, sport));
+        .find(url => url && /\/(?:archives|news|headlines-featured)\/?$/.test(new URL(url).pathname) && matchSportRoute(url, sport));
       if (archive) {
         const result = await collectOfficialNews(await get(archive), archive, school, sport, get, true);
         return { ...result, records: result.records.map(record => ({ ...record, discoverySourceUrl: sourceUrl })) };
@@ -121,9 +134,9 @@ export async function collectOfficialNews(text, sourceUrl, school, sport, get, f
     }
     for (const element of $('script').toArray().slice(0, 200)) {
       const script = $(element).text();
-      if (!script.includes('"/services/archives.ashx/stories"')) continue;
+      if (!/["']\/services\/archives\.ashx\/stories["']/.test(script)) continue;
       const metadata = jsonAssignment(script, 'sport_obj');
-      if (!metadata || ![metadata.title, metadata.shortname].some(label => matchSport(label, sport)) || !/^[a-z][a-z0-9-]{0,79}$/.test(metadata.shortname)) throw error;
+      if (!metadata || ![metadata.title, metadata.shortname, metadata.global_sport_name_slug].some(label => matchSport(label, sport)) || !/^[a-z][a-z0-9_-]{0,79}$/.test(metadata.shortname)) throw error;
       const apiUrl = new URL('/services/archives.ashx/stories', sourceUrl);
       apiUrl.search = new URLSearchParams({ index: '1', page_size: '100', sport: metadata.shortname, season: '0', search: '' });
       const payload = JSON.parse(await get(apiUrl.href));
@@ -131,7 +144,8 @@ export async function collectOfficialNews(text, sourceUrl, school, sport, get, f
       if (!payload.data.length) return { records: [], season: null, emptyConfirmed: true };
       // Pass only the public record data through the same strict field mapper.
       const escaped = JSON.stringify({ type: 'stories', data: payload.data }).replaceAll('<', '\\u003c');
-      return parseOfficialNews(`<script>var obj = ${escaped};</script>`, sourceUrl, school, sport);
+      const declaredSport={...sport,aliases:[...(sport.aliases??[]),metadata.title].filter(Boolean)};
+      return parseOfficialNews(`<script>var obj = ${escaped};</script>`, sourceUrl, school, declaredSport);
     }
     throw error;
   }
@@ -150,7 +164,7 @@ function seasonValue($, kind) {
 export function parseOfficialNews(text, sourceUrl, school, sport) {
   const { $, scopedUrl } = document(text, sourceUrl, school), graph = nuxt($), records = [], excludedUrls = new Set();
   let candidates = 0;
-  const add = ({ title, path, date, image, alt, labels = [], primaryLabels = [] }) => {
+  const add = ({ title, path, date, image, alt, author, labels = [], primaryLabels = [] }) => {
     ensureBudget(++candidates);
     const url = scopedUrl(path), plainTitle = tidy(title);
     if (!url || !plainTitle || url === sourceUrl || !/\/[a-z0-9][a-z0-9/_-]*/i.test(new URL(url).pathname)) return;
@@ -161,7 +175,7 @@ export function parseOfficialNews(text, sourceUrl, school, sport) {
     if (!labelsMatch(labels, sport) && !matchSportRoute(url, sport)) return;
     const imageUrl = image ? safeUrl(scalar(image), sourceUrl) : null;
     records.push({ id: stableId(school.slug, sport.slug, url), title: plainTitle, url, ...dateValue(date),
-      imageUrl, imageAlt: imageUrl ? tidy(alt) : null, publisher: `${cleanText(school.name, 100)} Athletics`, discoverySourceUrl: sourceUrl });
+      imageUrl, imageAlt: imageUrl ? tidy(alt) : null, author:cleanAuthor(author), publisher: `${cleanText(school.name, 100)} Athletics`, discoverySourceUrl: sourceUrl });
   };
   for (const element of $('script:not([src])').toArray().slice(0, 200)) {
     const object = jsonAssignment($(element).text(), 'obj');
@@ -170,7 +184,7 @@ export function parseOfficialNews(text, sourceUrl, school, sport) {
     for (const story of object.data) {
       if (!recordObject(story)) throw new Error('Invalid official story');
       add({ title: story.story_headline ?? story.title, path: story.story_path ?? story.url,
-        date: story.story_postdate ?? story.date, image: story.story_image ?? story.image?.url, alt: story.image_alt_text,
+        date: story.story_postdate ?? story.date, image: story.story_image ?? story.image?.url, alt: story.image_alt_text,author:story.story_byline??story.byline,
         labels: [story.sport_title, story.sports_cats, story.sport?.title, story.sport?.shortname].filter(Boolean),
         primaryLabels: [story.sport_title, story.sport?.title, story.sport?.shortname].filter(Boolean) });
     }
@@ -178,17 +192,17 @@ export function parseOfficialNews(text, sourceUrl, school, sport) {
   if (graph) for (const node of graph.nodes) {
     const f = key => graph.field(node, key);
     if (own(node, 'storyHeadline') && own(node, 'storyPath')) {
-      add({ title: f('storyHeadline'), path: f('storyPath'), date: f('storyPostdate'), image: f('storyImage'),
+      add({ title: f('storyHeadline'), path: f('storyPath'), date: f('storyPostdate'), image: f('storyImage'),author:f('storyByline'),
         labels: [f('sportsCats'), f('sportTitle')].filter(Boolean), primaryLabels: [f('sportTitle')].filter(Boolean) });
     } else if (own(node, 'published_at') && own(node, 'permalink')) {
       if (f('visibility') !== 'public') continue;
       const sports = graph.list(node, 'sports') ?? graph.list(node, 'orderedSports') ?? [], media = graph.object(node, 'image');
-      add({ title: f('title'), path: f('permalink'), date: f('published_at'), image: graph.field(media, 'url'), alt: graph.field(media, 'alt'),
+      add({ title: f('title'), path: f('permalink'), date: f('published_at'), image: graph.field(media, 'url'), alt: graph.field(media, 'alt'),author:f('byline'),
         labels: sports.flatMap(item => labelsFor(graph, item)) });
     } else if (own(node, 'sub_headline') && own(node, 'url') && own(node, 'sport')) {
       const media = graph.object(node, 'image');
       const primaryLabels = labelsFor(graph, graph.object(node, 'sport'));
-      add({ title: f('title'), path: f('url'), date: f('date'), image: graph.field(media, 'url'), alt: graph.field(media, 'alt_text'),
+      add({ title: f('title'), path: f('url'), date: f('date'), image: graph.field(media, 'url'), alt: graph.field(media, 'alt_text'),author:f('byline'),
         labels: primaryLabels, primaryLabels });
     }
   }
@@ -200,10 +214,17 @@ export function parseOfficialNews(text, sourceUrl, school, sport) {
     items.each((_, element) => {
       const item = xml(element), image = item.find('media\\:thumbnail, media\\:content, enclosure').filter((_, el) => !xml(el).attr('type') || xml(el).attr('type').startsWith('image/')).first();
       add({ title: item.children('title').text(), path: item.children('link').filter((_, el) => !xml(el).attr('rel') || xml(el).attr('rel') === 'alternate').first().attr('href') || item.children('link').first().text(),
-        date: item.children('pubDate, published, updated').first().text(), image: image.attr('url'), alt: image.find('media\\:title').text(),
+        date: item.children('pubDate, published, updated').first().text(), image: image.attr('url'), alt: image.find('media\\:title').text(),author:item.children('dc\\:creator, author').first().text(),
         labels: item.children('category').map((_, el) => xml(el).attr('term') || xml(el).text()).get() });
     });
   } else {
+    const prestoCards=$('.card:has(.entry-title)');
+    ensureBudget(prestoCards.length);
+    prestoCards.each((_,element)=>{
+      const card=$(element),anchor=card.find('.entry-title a[href]').first(),image=card.find('img').first(),path=anchor.attr('href');
+      if(!path||!matchSportRoute(path,sport)||!/\/releases\//.test(path))return;
+      add({title:anchor.text(),path,date:card.find('.date,.entry-header-date .ms-2').first().text(),image:image.attr('data-src')||image.attr('src'),alt:image.attr('alt'),labels:card.find('.entry-category').map((_,el)=>$(el).text()).get()});
+    });
     const cards = $('.sidearm-news-list-item, .sidearm-story, .c-stories__item, .s-card--type-story, #article-content-blocks > .item');
     ensureBudget(cards.length);
     cards.each((_, element) => {
@@ -248,7 +269,7 @@ export function parseOfficialNews(text, sourceUrl, school, sport) {
     const pictured = record.imageUrl ? record : previous?.imageUrl ? previous : record;
     const imageAlt = pictured.imageAlt ?? (pictured.imageUrl === previous?.imageUrl ? previous.imageAlt : null);
     merged.set(record.id, { ...record, publishedAt: dated.publishedAt, publishedAtPrecision: dated.publishedAtPrecision,
-      imageUrl: pictured.imageUrl, imageAlt });
+      imageUrl: pictured.imageUrl, imageAlt,author:record.author??previous?.author??null });
   }
   return finish([...merged.values()]);
 }
