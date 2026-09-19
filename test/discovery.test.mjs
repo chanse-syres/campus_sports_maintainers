@@ -12,7 +12,7 @@ test('reviewed sport archives replace empty shared collections without manufactu
   const targets = [
     ['arkansas-state-university', { football: 'https://www.astateredwolves.com/sports/football/archives' }],
     ['idaho-state-university', { 'womens-basketball': 'https://www.isubengals.com/sports/womens-basketball/archives' }],
-    ['tennessee-technological-university', { baseball: 'https://www.ttusports.com/sports/bsb/headlines-featured', basketball: 'https://www.ttusports.com/sports/mbkb/headlines-featured', 'womens-basketball': 'https://www.ttusports.com/sports/wbkb/headlines-featured' }],
+    ['tennessee-technological-university', { baseball: 'https://www.ttusports.com/sports/bsb/headlines-featured', basketball: 'https://www.ttusports.com/sports/mbkb/headlines-featured', football: 'https://www.ttusports.com/sports/fball/headlines-featured', 'womens-basketball': 'https://www.ttusports.com/sports/wbkb/headlines-featured' }],
     ['u-s-air-force-academy', { basketball: 'https://goairforcefalcons.com/sports/mens-basketball/archives/', 'womens-basketball': 'https://goairforcefalcons.com/sports/womens-basketball/archives' }],
     ['middle-tennessee-state-university', { baseball: 'https://goblueraiders.com/sports/baseball/archives', 'womens-basketball': 'https://goblueraiders.com/sports/womens-basketball/archives' }],
     ['wake-forest-university', { baseball: 'https://godeacs.com/sports/baseball/archives', basketball: 'https://godeacs.com/sports/mens-basketball/archives/', 'womens-basketball': 'https://godeacs.com/sports/womens-basketball/archives' }],
