@@ -1,7 +1,7 @@
 import { load } from 'cheerio';
 import { readFileSync } from 'node:fs';
 import { safeUrl, cleanText } from './normalize.mjs';
-import { matchSport, matchSportRoute, matchNavigationSport, normalizeSportLabel } from './sports.mjs';
+import { matchSport, matchSportRoute, matchNavigationSport, normalizeSportLabel, sportFamily, sportGender } from './sports.mjs';
 
 const collectionPattern = /\/(?:roster|schedule|archives|news|headlines-featured|coaches|stats|statistics)(?:\/|$)/i;
 const overrides = JSON.parse(readFileSync(new URL('../catalog/source-overrides.json', import.meta.url), 'utf8'));
@@ -14,7 +14,21 @@ function sportRoute(url) {
 }
 function navLabel(text) {
   return text.replace(/^(?:roster|schedule|news|coaches|stats|statistics) for\s+/i, '')
+    .replace(/^(men['’]?s|women['’]?s) sports\s+/i, '$1 ')
+    .replace(/^(.+?),\s*(men['’]?s|women['’]?s) sports$/i, '$2 $1')
+    .replace(/^([mw])-\s*/i, (_, gender) => `${gender.toLowerCase() === 'w' ? "Women's" : "Men's"} `)
     .replace(/\s*:\s*(?:roster|schedule|news|coaches|stats|statistics|home|tickets).*$/i, '').trim();
+}
+
+function routeGender(url) {
+  const parsed = new URL(url);
+  const token = parsed.pathname.match(/^\/sports?\/([^/]+)(?:\/|$)/i)?.[1] ?? parsed.searchParams.get('path') ?? '';
+  const full = token.match(/^(mens|womens)-/i)?.[1];
+  if (full) return full.toLowerCase();
+  // Only observed XC/track abbreviation families; an arbitrary leading m/w
+  // cannot establish gender for an unrelated route.
+  const short = token.match(/^([mw])(?:xc(?:track|t)?|cross|track|tf|itrack|otrack)$/i)?.[1];
+  return short ? short.toLowerCase() === 'w' ? 'womens' : 'mens' : null;
 }
 
 export function officialHosts(athleticsUrl) {
@@ -91,7 +105,7 @@ export function discoverSchoolSources(html, school, sourceUrl = school.athletics
     const item = el.closest('li');
     const parentLabel = cleanText(item.children('a,span,button').first().text(), 160);
     const sectionLabel = item.prevAll('li').toArray().map(node => cleanText($(node).children('span,h2,h3,button').first().text(), 60)).find(label => /^(?:men'?s|women'?s) sports$/i.test(label));
-    const group = (sectionLabel || cleanText(item.parent().closest('li').children('a,span,button').first().text(), 160)).replace(/\s+sports$/i, '');
+    const group = (sectionLabel || cleanText(item.parent().closest('li').children('a,span,button,h2,h3').first().text(), 160)).replace(/\s+sports$/i, '');
     links.push({ url, text, title, parentLabel, group,
       routeSports: new Set(school.sports.filter(sport => matchSportRoute(url, sport)).map(sport => sport.slug)),
       labelSports: new Set(school.sports.filter(sport => [text, title].some(label => matchNavigationSport(label, sport, school.sports))).map(sport => sport.slug)) });
@@ -100,6 +114,8 @@ export function discoverSchoolSources(html, school, sourceUrl = school.athletics
   for (const sport of school.sports) {
     const matches = links.filter(link => {
       const routeMatch = link.routeSports.has(sport.slug);
+      const genderOnRoute = routeGender(link.url);
+      if (genderOnRoute && genderOnRoute !== sportGender(sport)) return false;
       if (link.labelSports.size && !link.labelSports.has(sport.slug)) return false;
       // An explicit URL for the other gender/sport outranks a surrounding menu label.
       // Some Sidearm schools assign the generic mens-rowing route to their
@@ -107,7 +123,17 @@ export function discoverSchoolSources(html, school, sourceUrl = school.athletics
       // that known same-gender variant; it never overrides a gendered route.
       const explicitLightweight = sport.slug === 'mens-lightweight-crew' && link.labelSports.has(sport.slug)
         && /^\/sports\/mens-rowing(?:\/|$)/.test(new URL(link.url).pathname);
-      if (!routeMatch && link.routeSports.size && !explicitLightweight) return false;
+      const families = slugs => new Set(school.sports.filter(item => slugs.has(item.slug)).map(sportFamily));
+      const labelledFamilies = families(link.labelSports), routeFamilies = families(link.routeSports);
+      const routeGenders = new Set(school.sports.filter(item => link.routeSports.has(item.slug)).map(sportGender).filter(Boolean));
+      const routeSeasons = new Set(school.sports.filter(item => link.routeSports.has(item.slug)).map(item => item.slug.match(/-track-(indoor|outdoor)$/)?.[1]).filter(Boolean));
+      const season = sport.slug.match(/-track-(indoor|outdoor)$/)?.[1];
+      const combinedTrack = link.labelSports.has(sport.slug)
+        && labelledFamilies.has('cross country') && labelledFamilies.has('track and field')
+        && (!routeGenders.size || routeGenders.has(sportGender(sport)))
+        && (!season || !routeSeasons.size || routeSeasons.has(season))
+        && [...routeFamilies].every(family => ['cross country', 'track and field'].includes(family));
+      if (!routeMatch && link.routeSports.size && !explicitLightweight && !combinedTrack) return false;
       const gender = /^(?:mens|womens)$/.test(normalizeSportLabel(link.group)) ? link.group : '';
       return routeMatch || [link.text, link.title, link.parentLabel, `${gender} ${link.parentLabel}`, `${gender} ${link.text}`].some(label => matchNavigationSport(label, sport, school.sports));
     });
