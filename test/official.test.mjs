@@ -1,6 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { parseOfficialNews, collectOfficialNews } from '../src/adapters/official.mjs';
+import { refreshNews } from '../src/news.mjs';
+import { SourceError } from '../src/network.mjs';
 
 const school = { slug: 'example', name: 'Example University', athleticsUrl: 'https://athletics.example.edu/' };
 const men = { slug: 'basketball', name: "Men's Basketball", gender: 'men', code: 'MBB' };
@@ -165,6 +167,61 @@ test('archive client follows only its observed same-origin service with verified
   assert.equal(new URL(requested).searchParams.get('sport'), 'mens-basketball');
   assert.equal(result.records[0].discoverySourceUrl, source);
   await assert.rejects(collectOfficialNews(html, source, school, women, async () => { throw Error('Must not fetch'); }), /No recognizable/);
+});
+
+const archiveSport = (extra = {}) => ({ title: "Men's Basketball", global_sport_name_slug: 'mens-basketball', gender: 'm', non_sport: false, ...extra });
+const allSportArchive = 'https://athletics.example.edu/archives';
+
+test('all-sports archive resolves one declared sport archive without losing provenance or dates', async () => {
+  const html = nuxt([archiveSport()]), requests = [];
+  const result = await collectOfficialNews(html, allSportArchive, school, men, async url => { requests.push(url); return script([story()]); });
+  assert.deepEqual(requests, [source]);
+  assert.equal(result.records[0].discoverySourceUrl, allSportArchive);
+  assert.equal(result.records[0].publishedAt, '2026-09-16T00:00:00.000Z');
+  assert.equal(result.reason, `resolved-sport-archive: ${source}`);
+  // A generic archive with matching stories needs no extra request.
+  await collectOfficialNews(html + script([story()]), allSportArchive, school, men, async () => { assert.fail('Unexpected archive fetch'); });
+});
+
+test('all-sports archive rejects unsafe, wrong-gender, non-sport and ambiguous declarations', async () => {
+  const invalid = [
+    [archiveSport({ global_sport_name_slug: '../../private' })],
+    [archiveSport({ global_sport_name_slug: 'https://other.example/news' })],
+    [archiveSport({ gender: 'f' })],
+    [archiveSport({ non_sport: true })],
+    [archiveSport({ title: "Women's Basketball" })],
+    [archiveSport({ global_sport_name_slug: 'womens-basketball' })],
+    [archiveSport(), archiveSport({ global_sport_name_slug: 'mbball' })],
+  ];
+  for (const declarations of invalid) {
+    await assert.rejects(collectOfficialNews(nuxt(declarations), allSportArchive, school, men, async () => { assert.fail('Unverified archive requested'); }), /No recognizable/);
+  }
+  await assert.rejects(collectOfficialNews(nuxt([archiveSport()]), 'https://athletics.example.edu/', school, men, async () => { assert.fail('Only a generic archive may resolve a sport archive'); }), /No recognizable/);
+  let calls = 0;
+  await assert.rejects(collectOfficialNews(nuxt([archiveSport()]), allSportArchive, school, men, async () => { calls++; return nuxt([archiveSport()]); }), /No recognizable/);
+  assert.equal(calls, 1, 'Unrecognized response never recursively retries');
+});
+
+test('shared archive declaration preserves explicit article gender and failure preserves last-good records', async () => {
+  const sport = { slug: 'mens-cross-country', name: "Men's Cross Country", gender: 'men' };
+  const declaration = archiveSport({ title: 'Cross Country', gender: 'g', global_sport_name_slug: 'cross-country' });
+  const html = nuxt([declaration]);
+  const requested = [];
+  const data = await collectOfficialNews(html, allSportArchive, { ...school, sports: [sport, { ...sport, slug: 'womens-cross-country', gender: 'women' }] }, sport, async url => {
+    requested.push(url);
+    return script([story({ sport_title: 'Cross Country', story_path: '/news/2026/9/16/teams-preview' }), story({ sport_title: "Women's Cross Country", story_path: '/news/2026/9/16/womens-preview' })]);
+  });
+  assert.equal(data.records.length, 1);
+  assert.equal(requested.length, 1);
+  const priorAt = '2026-09-16T12:00:00.000Z';
+  const prior = await refreshNews({ school, sport, at: priorAt, sources: [{ url: allSportArchive, collect: async () => data }] });
+  let calls = 0;
+  const next = await refreshNews({ school, sport, at: '2026-09-17T12:00:00.000Z', previous: prior, sources: [{ url: allSportArchive, collect: get => collectOfficialNews(html, allSportArchive, school, sport, get) }], get: async () => { calls++; throw new SourceError('http-403'); } });
+  assert.equal(calls, 1);
+  assert.equal(next.status, 'stale');
+  assert.equal(next.sources[0].reason, 'http-403');
+  assert.equal(next.lastSuccessAt, priorAt);
+  assert.deepEqual(next.records, prior.records);
 });
 test('archive follows observed archive link once and preserves discovery provenance', async () => {
   const home = source.replace('/archives', '');

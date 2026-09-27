@@ -5861,13 +5861,15 @@
           "discoveryStatus": "discovered"
         },
         "mens-water-polo": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.brownbears.com/index.aspx?path=mwpolo",
+          "newsUrl": "https://www.brownbears.com/index.aspx?path=mwpolo",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
+          "routes": [
+            "/index.aspx?path=mwpolo"
+          ],
           "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "discoveryStatus": "discovered"
         },
         "mens-wrestling": {
           "homeUrl": "https://www.brownbears.com/index.aspx?path=wrestling",
@@ -6126,17 +6128,19 @@
           "discoveryStatus": "discovered"
         },
         "womens-water-polo": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.brownbears.com/index.aspx?path=wwpolo",
+          "newsUrl": "https://www.brownbears.com/index.aspx?path=wwpolo",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
+          "routes": [
+            "/index.aspx?path=wwpolo"
+          ],
           "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "discoveryStatus": "discovered"
         }
       },
       "discoveryUrl": "https://www.brownbears.com/",
-      "retrievedAt": "2026-09-17T12:42:48.449Z",
+      "retrievedAt": "2026-09-27T01:36:54.568Z",
       "discoveryVersion": 3
     },
     "bryant-university": {
@@ -8394,13 +8398,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.fullertontitans.com/sports/indoor-track-and-field",
+          "newsUrl": "https://www.fullertontitans.com/sports/indoor-track-and-field/archives",
+          "rosterUrl": "https://www.fullertontitans.com/sports/indoor-track-and-field/roster",
+          "scheduleUrl": "https://www.fullertontitans.com/sports/indoor-track-and-field/schedule",
+          "routes": [
+            "/sports/indoor-track-and-field"
+          ],
+          "aliases": [
+            "Indoor Track & Field"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
           "homeUrl": null,
@@ -8495,13 +8503,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.fullertontitans.com/sports/indoor-track-and-field",
+          "newsUrl": "https://www.fullertontitans.com/sports/indoor-track-and-field/archives",
+          "rosterUrl": "https://www.fullertontitans.com/sports/indoor-track-and-field/roster",
+          "scheduleUrl": "https://www.fullertontitans.com/sports/indoor-track-and-field/schedule",
+          "routes": [
+            "/sports/indoor-track-and-field"
+          ],
+          "aliases": [
+            "Indoor Track & Field"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
           "homeUrl": null,
@@ -8538,7 +8550,7 @@
         }
       },
       "discoveryUrl": "https://www.fullertontitans.com/",
-      "retrievedAt": "2026-09-17T12:42:59.209Z",
+      "retrievedAt": "2026-09-27T01:36:54.568Z",
       "discoveryVersion": 3
     },
     "california-state-university-northridge": {
@@ -11243,13 +11255,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.goccusports.com/sports/track-and-field",
+          "newsUrl": "https://www.goccusports.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field / Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-golf": {
           "homeUrl": "https://www.goccusports.com/sports/mens-golf",
@@ -11291,13 +11307,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.goccusports.com/sports/track-and-field",
+          "newsUrl": "https://www.goccusports.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field / Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://www.goccusports.com/sports/softball",
@@ -11340,13 +11360,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.goccusports.com/sports/track-and-field",
+          "newsUrl": "https://www.goccusports.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field / Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-golf": {
           "homeUrl": "https://www.goccusports.com/sports/womens-golf",
@@ -11402,22 +11426,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.goccusports.com/sports/track-and-field",
+          "newsUrl": "https://www.goccusports.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field / Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.goccusports.com/sports/track-and-field",
+          "newsUrl": "https://www.goccusports.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field / Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.goccusports.com/sports/womens-volleyball",
@@ -11434,7 +11466,7 @@
         }
       },
       "discoveryUrl": "https://www.goccusports.com/",
-      "retrievedAt": "2026-09-17T12:43:08.742Z",
+      "retrievedAt": "2026-09-27T01:36:54.568Z",
       "discoveryVersion": 3
     },
     "colgate-university": {
@@ -14003,22 +14035,30 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://gocreighton.com/sports/mens-cross-country",
+          "newsUrl": "https://gocreighton.com/sports/mens-cross-country",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/mens-cross-country"
+          ],
+          "aliases": [
+            "Cross Country / Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://gocreighton.com/sports/mens-cross-country",
+          "newsUrl": "https://gocreighton.com/sports/mens-cross-country",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/mens-cross-country"
+          ],
+          "aliases": [
+            "Cross Country / Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://gocreighton.com/sports/softball",
@@ -14102,22 +14142,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://gocreighton.com/sports/womens-cross-country",
+          "newsUrl": "https://gocreighton.com/sports/womens-cross-country",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/womens-cross-country"
+          ],
+          "aliases": [
+            "Cross Country / Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://gocreighton.com/sports/womens-cross-country",
+          "newsUrl": "https://gocreighton.com/sports/womens-cross-country",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/womens-cross-country"
+          ],
+          "aliases": [
+            "Cross Country / Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://gocreighton.com/sports/womens-volleyball",
@@ -14134,7 +14182,7 @@
         }
       },
       "discoveryUrl": "https://gocreighton.com/",
-      "retrievedAt": "2026-09-17T12:43:15.930Z",
+      "retrievedAt": "2026-09-27T01:36:54.568Z",
       "discoveryVersion": 3
     },
     "dartmouth-college": {
@@ -14947,13 +14995,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.dsuhornets.com/sports/outdoor-track",
+          "newsUrl": "https://www.dsuhornets.com/sports/outdoor-track/archives",
+          "rosterUrl": "https://www.dsuhornets.com/sports/outdoor-track/roster",
+          "scheduleUrl": "https://www.dsuhornets.com/sports/outdoor-track/schedule",
+          "routes": [
+            "/sports/outdoor-track"
+          ],
+          "aliases": [
+            "Outdoor Track & Field"
+          ],
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://www.dsuhornets.com/sports/softball",
@@ -15133,7 +15185,7 @@
         }
       },
       "discoveryUrl": "https://www.dsuhornets.com/",
-      "retrievedAt": "2026-09-17T12:43:19.024Z",
+      "retrievedAt": "2026-09-27T01:36:54.568Z",
       "discoveryVersion": 3
     },
     "depaul-university": {
@@ -19733,22 +19785,32 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.seminoles.com/sports/track-and-field",
+          "newsUrl": "https://www.seminoles.com/sports/track-and-field",
+          "rosterUrl": "https://www.seminoles.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.seminoles.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "'Indoor Track & Field''",
+            "Indoor Track & Field"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.seminoles.com/sports/track-and-field",
+          "newsUrl": "https://www.seminoles.com/sports/track-and-field",
+          "rosterUrl": "https://www.seminoles.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.seminoles.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "'Outdoor Track & Field''",
+            "Outdoor Track & Field"
+          ],
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://www.seminoles.com/sports/softball",
@@ -19895,7 +19957,7 @@
         }
       },
       "discoveryUrl": "https://www.seminoles.com/",
-      "retrievedAt": "2026-09-17T12:43:32.611Z",
+      "retrievedAt": "2026-09-27T01:36:54.568Z",
       "discoveryVersion": 3
     },
     "fordham-university": {
@@ -21068,13 +21130,18 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.gwsports.com/sports/mens-cross-country",
+          "newsUrl": "https://www.gwsports.com/sports/mens-cross-country/archives",
+          "rosterUrl": "https://www.gwsports.com/sports/mens-cross-country/roster",
+          "scheduleUrl": "https://www.gwsports.com/sports/mens-cross-country/schedule",
+          "routes": [
+            "/sports/mens-cross-country"
+          ],
+          "aliases": [
+            "'Track/Cross Country''",
+            "Track/Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-water-polo": {
           "homeUrl": "https://www.gwsports.com/sports/mens-water-polo",
@@ -21208,22 +21275,32 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.gwsports.com/sports/womens-cross-country",
+          "newsUrl": "https://www.gwsports.com/sports/womens-cross-country/archives",
+          "rosterUrl": "https://www.gwsports.com/sports/womens-cross-country/roster",
+          "scheduleUrl": "https://www.gwsports.com/sports/womens-cross-country/schedule",
+          "routes": [
+            "/sports/womens-cross-country"
+          ],
+          "aliases": [
+            "'Track/Cross Country''",
+            "Track/Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.gwsports.com/sports/womens-cross-country",
+          "newsUrl": "https://www.gwsports.com/sports/womens-cross-country/archives",
+          "rosterUrl": "https://www.gwsports.com/sports/womens-cross-country/roster",
+          "scheduleUrl": "https://www.gwsports.com/sports/womens-cross-country/schedule",
+          "routes": [
+            "/sports/womens-cross-country"
+          ],
+          "aliases": [
+            "'Track/Cross Country''",
+            "Track/Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.gwsports.com/sports/womens-volleyball",
@@ -21241,7 +21318,7 @@
         }
       },
       "discoveryUrl": "https://www.gwsports.com/index.html",
-      "retrievedAt": "2026-09-17T12:43:39.561Z",
+      "retrievedAt": "2026-09-27T01:36:54.568Z",
       "discoveryVersion": 3
     },
     "georgetown-university": {
@@ -21911,13 +21988,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://gseagles.com/sports/cross-country",
+          "newsUrl": "https://gseagles.com/sports/cross-country",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "Track & Field/XC"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-golf": {
           "homeUrl": "https://gseagles.com/sports/womens-golf",
@@ -21986,22 +22067,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://gseagles.com/sports/cross-country",
+          "newsUrl": "https://gseagles.com/sports/cross-country",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "Track & Field/XC"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://gseagles.com/sports/cross-country",
+          "newsUrl": "https://gseagles.com/sports/cross-country",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "Track & Field/XC"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://gseagles.com/sports/womens-volleyball",
@@ -22018,7 +22107,7 @@
         }
       },
       "discoveryUrl": "https://gseagles.com/",
-      "retrievedAt": "2026-09-17T12:43:41.677Z",
+      "retrievedAt": "2026-09-27T01:36:54.568Z",
       "discoveryVersion": 3
     },
     "georgia-state-university": {
@@ -26290,12 +26379,12 @@
           "discoveryStatus": "discovered"
         },
         "womens-rowing": {
-          "homeUrl": "https://www.ionagaels.com/sports/mens-rowing",
-          "newsUrl": "https://www.ionagaels.com/sports/mens-rowing/archives",
-          "rosterUrl": "https://www.ionagaels.com/sports/mens-rowing/roster",
-          "scheduleUrl": "https://www.ionagaels.com/sports/mens-rowing/schedule",
+          "homeUrl": "https://www.ionagaels.com/sports/womens-rowing",
+          "newsUrl": "https://www.ionagaels.com/sports/womens-rowing/archives",
+          "rosterUrl": "https://www.ionagaels.com/sports/womens-rowing/roster",
+          "scheduleUrl": "https://www.ionagaels.com/sports/womens-rowing/schedule",
           "routes": [
-            "/sports/mens-rowing"
+            "/sports/womens-rowing"
           ],
           "aliases": [
             "Rowing"
@@ -26385,7 +26474,7 @@
         }
       },
       "discoveryUrl": "https://www.ionagaels.com/",
-      "retrievedAt": "2026-09-17T12:44:02.050Z",
+      "retrievedAt": "2026-09-27T01:36:54.568Z",
       "discoveryVersion": 3
     },
     "iowa-state": {
@@ -50502,13 +50591,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.sienasaints.com/sports/cross-country",
+          "newsUrl": "https://www.sienasaints.com/sports/cross-country/archives",
+          "rosterUrl": "https://www.sienasaints.com/sports/cross-country/roster",
+          "scheduleUrl": "https://www.sienasaints.com/sports/cross-country/schedule",
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "XC / Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-golf": {
           "homeUrl": "https://www.sienasaints.com/sports/mens-golf",
@@ -50555,22 +50648,30 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.sienasaints.com/sports/cross-country",
+          "newsUrl": "https://www.sienasaints.com/sports/cross-country/archives",
+          "rosterUrl": "https://www.sienasaints.com/sports/cross-country/roster",
+          "scheduleUrl": "https://www.sienasaints.com/sports/cross-country/schedule",
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "XC / Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.sienasaints.com/sports/cross-country",
+          "newsUrl": "https://www.sienasaints.com/sports/cross-country/archives",
+          "rosterUrl": "https://www.sienasaints.com/sports/cross-country/roster",
+          "scheduleUrl": "https://www.sienasaints.com/sports/cross-country/schedule",
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "XC / Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://www.sienasaints.com/sports/softball",
@@ -50597,13 +50698,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.sienasaints.com/sports/cross-country",
+          "newsUrl": "https://www.sienasaints.com/sports/cross-country/archives",
+          "rosterUrl": "https://www.sienasaints.com/sports/cross-country/roster",
+          "scheduleUrl": "https://www.sienasaints.com/sports/cross-country/schedule",
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "XC / Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-golf": {
           "homeUrl": "https://www.sienasaints.com/sports/womens-golf",
@@ -50663,22 +50768,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.sienasaints.com/sports/cross-country",
+          "newsUrl": "https://www.sienasaints.com/sports/cross-country/archives",
+          "rosterUrl": "https://www.sienasaints.com/sports/cross-country/roster",
+          "scheduleUrl": "https://www.sienasaints.com/sports/cross-country/schedule",
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "XC / Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.sienasaints.com/sports/cross-country",
+          "newsUrl": "https://www.sienasaints.com/sports/cross-country/archives",
+          "rosterUrl": "https://www.sienasaints.com/sports/cross-country/roster",
+          "scheduleUrl": "https://www.sienasaints.com/sports/cross-country/schedule",
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "XC / Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.sienasaints.com/sports/womens-volleyball",
@@ -50709,7 +50822,7 @@
       },
       "discoveryUrl": "https://www.sienasaints.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:48:59.808Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "south-carolina-state-university": {
       "athleticsUrl": "https://www.scsuathletics.com/index.aspx",
@@ -52308,13 +52421,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.gojagsports.com/index.aspx?path=cxc",
+          "newsUrl": "https://www.gojagsports.com/index.aspx?path=cxc",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/index.aspx?path=cxc"
+          ],
+          "aliases": [
+            "COMBINED CROSS COUNTRY"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-golf": {
           "homeUrl": "https://www.gojagsports.com/sports/mens-golf",
@@ -52402,13 +52519,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.gojagsports.com/index.aspx?path=cxc",
+          "newsUrl": "https://www.gojagsports.com/index.aspx?path=cxc",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/index.aspx?path=cxc"
+          ],
+          "aliases": [
+            "COMBINED CROSS COUNTRY"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-golf": {
           "homeUrl": "https://www.gojagsports.com/sports/womens-golf",
@@ -52487,7 +52608,7 @@
       },
       "discoveryUrl": "https://www.gojagsports.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:49:04.170Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "southern-utah-university": {
       "athleticsUrl": "https://www.suutbirds.com/",
@@ -53544,13 +53665,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-synchronized-swimming": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://gostanford.com/sports/artistic-swimming",
+          "newsUrl": "https://gostanford.com/sports/artistic-swimming/news",
+          "rosterUrl": "https://gostanford.com/sports/artistic-swimming/roster",
+          "scheduleUrl": "https://gostanford.com/sports/artistic-swimming/schedule",
+          "routes": [
+            "/sports/artistic-swimming"
+          ],
+          "aliases": [
+            "Artistic Swimming"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-tennis": {
           "homeUrl": "https://gostanford.com/sports/womens-tennis",
@@ -53616,7 +53741,7 @@
       },
       "discoveryUrl": "https://gostanford.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:49:06.483Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "stephen-f-austin-state-university": {
       "athleticsUrl": "https://sfajacks.com/",
@@ -53891,13 +54016,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.gohatters.com/sports/cross-country",
+          "newsUrl": "https://www.gohatters.com/sports/cross-country/archives",
+          "rosterUrl": "https://www.gohatters.com/sports/cross-country/roster",
+          "scheduleUrl": "https://www.gohatters.com/sports/cross-country/schedule",
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "Men's Cross Country/Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-golf": {
           "homeUrl": "https://www.gohatters.com/sports/mens-golf",
@@ -53935,13 +54064,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.gohatters.com/sports/cross-country",
+          "newsUrl": "https://www.gohatters.com/sports/cross-country/archives",
+          "rosterUrl": "https://www.gohatters.com/sports/cross-country/roster",
+          "scheduleUrl": "https://www.gohatters.com/sports/cross-country/schedule",
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "Men's Cross Country/Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://www.gohatters.com/sports/softball",
@@ -54051,13 +54184,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.gohatters.com/sports/wxc",
+          "newsUrl": "https://www.gohatters.com/sports/wxc",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/wxc"
+          ],
+          "aliases": [
+            "Women's Cross Country/Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.gohatters.com/sports/womens-volleyball",
@@ -54075,7 +54212,7 @@
       },
       "discoveryUrl": "https://www.gohatters.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:49:09.043Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "stonehill-college": {
       "athleticsUrl": "https://www.stonehillskyhawks.com/",
@@ -57017,13 +57154,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.texastech.com/sports/cross-country",
+          "newsUrl": "https://www.texastech.com/sports/cross-country/archives",
+          "rosterUrl": "https://www.texastech.com/sports/cross-country/roster",
+          "scheduleUrl": "https://www.texastech.com/sports/cross-country/schedule",
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "Men's Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-golf": {
           "homeUrl": "https://www.texastech.com/sports/mens-golf",
@@ -57048,22 +57189,30 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.texastech.com/sports/track-and-field",
+          "newsUrl": "https://www.texastech.com/sports/track-and-field/archives",
+          "rosterUrl": "https://www.texastech.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.texastech.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Men's Track & Field"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.texastech.com/sports/track-and-field",
+          "newsUrl": "https://www.texastech.com/sports/track-and-field/archives",
+          "rosterUrl": "https://www.texastech.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.texastech.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Men's Track & Field"
+          ],
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://www.texastech.com/sports/softball",
@@ -57088,13 +57237,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.texastech.com/sports/cross-country",
+          "newsUrl": "https://www.texastech.com/sports/cross-country/archives",
+          "rosterUrl": "https://www.texastech.com/sports/cross-country/roster",
+          "scheduleUrl": "https://www.texastech.com/sports/cross-country/schedule",
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "Women's Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-golf": {
           "homeUrl": "https://www.texastech.com/sports/womens-golf",
@@ -57130,22 +57283,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.texastech.com/sports/track-and-field",
+          "newsUrl": "https://www.texastech.com/sports/track-and-field/archives",
+          "rosterUrl": "https://www.texastech.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.texastech.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Women's Track & Field"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.texastech.com/sports/track-and-field",
+          "newsUrl": "https://www.texastech.com/sports/track-and-field/archives",
+          "rosterUrl": "https://www.texastech.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.texastech.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Women's Track & Field"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.texastech.com/sports/womens-volleyball",
@@ -57161,7 +57322,7 @@
       },
       "discoveryUrl": "https://www.texastech.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:49:17.294Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "the-citadel": {
       "athleticsUrl": "https://www.citadelsports.com/",
@@ -57551,13 +57712,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-swimming-and-diving": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://ohiostatebuckeyes.com/sports/mens-swim-dive",
+          "newsUrl": "https://ohiostatebuckeyes.com/sports/mens-swim-dive",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/mens-swim-dive"
+          ],
+          "aliases": [
+            "Swim & Dive"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-tennis": {
           "homeUrl": "https://ohiostatebuckeyes.com/sports/mens-tennis",
@@ -57739,13 +57904,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-swimming-and-diving": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://ohiostatebuckeyes.com/sports/womens-swim-dive",
+          "newsUrl": "https://ohiostatebuckeyes.com/sports/womens-swim-dive",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/womens-swim-dive"
+          ],
+          "aliases": [
+            "Swim & Dive"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-synchronized-swimming": {
           "homeUrl": "https://ohiostatebuckeyes.com/sports/synchronized-swimming",
@@ -57755,7 +57924,9 @@
           "routes": [
             "/sports/synchronized-swimming"
           ],
-          "aliases": [],
+          "aliases": [
+            "Artistic Swimming"
+          ],
           "discoveryStatus": "discovered"
         },
         "womens-tennis": {
@@ -57809,7 +57980,7 @@
       },
       "discoveryUrl": "https://ohiostatebuckeyes.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:49:20.360Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "the-university-of-north-carolina-at-charlotte": {
       "athleticsUrl": "https://www.charlotte49ers.com/",
@@ -58152,22 +58323,30 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.uncgspartans.com/sports/track-and-field",
+          "newsUrl": "https://www.uncgspartans.com/sports/track-and-field/archives",
+          "rosterUrl": "https://www.uncgspartans.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.uncgspartans.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.uncgspartans.com/sports/track-and-field",
+          "newsUrl": "https://www.uncgspartans.com/sports/track-and-field/archives",
+          "rosterUrl": "https://www.uncgspartans.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.uncgspartans.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://www.uncgspartans.com/index.aspx?path=softball",
@@ -58240,22 +58419,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.uncgspartans.com/sports/track-and-field",
+          "newsUrl": "https://www.uncgspartans.com/sports/track-and-field/archives",
+          "rosterUrl": "https://www.uncgspartans.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.uncgspartans.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.uncgspartans.com/sports/track-and-field",
+          "newsUrl": "https://www.uncgspartans.com/sports/track-and-field/archives",
+          "rosterUrl": "https://www.uncgspartans.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.uncgspartans.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.uncgspartans.com/index.aspx?path=wvball",
@@ -58273,7 +58460,7 @@
       },
       "discoveryUrl": "https://www.uncgspartans.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:49:22.999Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "the-university-of-southern-mississippi": {
       "athleticsUrl": "https://www.southernmiss.com/",
@@ -61738,13 +61925,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.rolltide.com/sports/xctrack",
+          "newsUrl": "https://www.rolltide.com/sports/xctrack",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/xctrack"
+          ],
+          "aliases": [
+            "Track & Field, Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-golf": {
           "homeUrl": "https://www.rolltide.com/sports/mens-golf",
@@ -61786,22 +61977,30 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.rolltide.com/sports/xctrack",
+          "newsUrl": "https://www.rolltide.com/sports/xctrack",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/xctrack"
+          ],
+          "aliases": [
+            "Track & Field, Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.rolltide.com/sports/xctrack",
+          "newsUrl": "https://www.rolltide.com/sports/xctrack",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/xctrack"
+          ],
+          "aliases": [
+            "Track & Field, Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://www.rolltide.com/sports/softball",
@@ -61830,13 +62029,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.rolltide.com/sports/xctrack",
+          "newsUrl": "https://www.rolltide.com/sports/xctrack",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/xctrack"
+          ],
+          "aliases": [
+            "Track & Field, Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-golf": {
           "homeUrl": "https://www.rolltide.com/sports/womens-golf",
@@ -61917,22 +62120,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.rolltide.com/sports/xctrack",
+          "newsUrl": "https://www.rolltide.com/sports/xctrack",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/xctrack"
+          ],
+          "aliases": [
+            "Track & Field, Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.rolltide.com/sports/xctrack",
+          "newsUrl": "https://www.rolltide.com/sports/xctrack",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/xctrack"
+          ],
+          "aliases": [
+            "Track & Field, Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.rolltide.com/sports/womens-volleyball",
@@ -61950,7 +62161,7 @@
       },
       "discoveryUrl": "https://www.rolltide.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:49:29.050Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "university-of-alabama-at-birmingham": {
       "athleticsUrl": "https://www.uabsports.com/",
@@ -63332,13 +63543,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.ucdavisaggies.com/index.aspx?path=track",
+          "newsUrl": "https://www.ucdavisaggies.com/index.aspx?path=track",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/index.aspx?path=track"
+          ],
+          "aliases": [
+            "Track & Field (Outdoor)"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-water-polo": {
           "homeUrl": "https://www.ucdavisaggies.com/sports/mens-water-polo/schedule",
@@ -63487,22 +63702,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.ucdavisaggies.com/index.aspx?path=itrack",
+          "newsUrl": "https://www.ucdavisaggies.com/index.aspx?path=itrack",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/index.aspx?path=itrack"
+          ],
+          "aliases": [
+            "Track & Field (Indoor)"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.ucdavisaggies.com/index.aspx?path=track",
+          "newsUrl": "https://www.ucdavisaggies.com/index.aspx?path=track",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/index.aspx?path=track"
+          ],
+          "aliases": [
+            "Track & Field (Outdoor)"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.ucdavisaggies.com/index.aspx?path=wvball",
@@ -63531,7 +63754,7 @@
       },
       "discoveryUrl": "https://www.ucdavisaggies.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:49:38.879Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "university-of-california-irvine": {
       "athleticsUrl": "https://ucirvinesports.com/",
@@ -68269,13 +68492,15 @@
           "discoveryStatus": "discovered"
         },
         "mens-wrestling": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
+          "homeUrl": "https://www.hawkeyesports.com/sports/wrestling",
+          "newsUrl": "https://www.hawkeyesports.com/sports/wrestling/news",
+          "rosterUrl": "https://www.hawkeyesports.com/sports/wrestling/roster",
+          "scheduleUrl": "https://www.hawkeyesports.com/sports/wrestling/schedule",
+          "routes": [
+            "/sports/wrestling"
+          ],
           "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://www.hawkeyesports.com/sports/softball",
@@ -68445,7 +68670,7 @@
       },
       "discoveryUrl": "https://www.hawkeyesports.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:49:56.449Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "university-of-kentucky": {
       "athleticsUrl": "https://www.ukathletics.com/",
@@ -70752,13 +70977,18 @@
           "discoveryStatus": "discovered"
         },
         "mens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.goriverhawks.com/sports/mens-track-and-field",
+          "newsUrl": "https://www.goriverhawks.com/sports/mens-track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/mens-track-and-field"
+          ],
+          "aliases": [
+            "Men's Cross Country/Track & Field",
+            "Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-ice-hockey": {
           "homeUrl": "https://www.goriverhawks.com/sports/mens-ice-hockey",
@@ -70853,13 +71083,18 @@
           "discoveryStatus": "discovered"
         },
         "womens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.goriverhawks.com/sports/womens-track-and-field",
+          "newsUrl": "https://www.goriverhawks.com/sports/womens-track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/womens-track-and-field"
+          ],
+          "aliases": [
+            "Women's Cross Country/Track & Field",
+            "Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-lacrosse": {
           "homeUrl": "https://www.goriverhawks.com/sports/womens-lacrosse",
@@ -70916,7 +71151,7 @@
       },
       "discoveryUrl": "https://www.goriverhawks.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:50:05.170Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "university-of-memphis": {
       "athleticsUrl": "https://www.gotigersgo.com/",
@@ -76366,13 +76601,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.meangreensports.com/sports/track-and-field",
+          "newsUrl": "https://www.meangreensports.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/XC"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-golf": {
           "homeUrl": "https://www.meangreensports.com/sports/mens-golf",
@@ -76386,22 +76625,30 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.meangreensports.com/sports/track-and-field",
+          "newsUrl": "https://www.meangreensports.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/XC"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.meangreensports.com/sports/track-and-field",
+          "newsUrl": "https://www.meangreensports.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/XC"
+          ],
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://www.meangreensports.com/sports/softball",
@@ -76428,13 +76675,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.meangreensports.com/sports/track-and-field",
+          "newsUrl": "https://www.meangreensports.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/XC"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-golf": {
           "homeUrl": "https://www.meangreensports.com/sports/womens-golf",
@@ -76487,22 +76738,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.meangreensports.com/sports/track-and-field",
+          "newsUrl": "https://www.meangreensports.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/XC"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.meangreensports.com/sports/track-and-field",
+          "newsUrl": "https://www.meangreensports.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/XC"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.meangreensports.com/sports/womens-volleyball",
@@ -76520,7 +76779,7 @@
       },
       "discoveryUrl": "https://www.meangreensports.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:50:27.561Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "university-of-northern-colorado": {
       "athleticsUrl": "https://uncbears.com/",
@@ -76595,22 +76854,30 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://uncbears.com/sports/mens-indoor-track-field",
+          "newsUrl": "https://uncbears.com/sports/mens-indoor-track-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/mens-indoor-track-field"
+          ],
+          "aliases": [
+            "Track & Field - Indoor"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://uncbears.com/sports/mens-outdoor-track-field",
+          "newsUrl": "https://uncbears.com/sports/mens-outdoor-track-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/mens-outdoor-track-field"
+          ],
+          "aliases": [
+            "Track & Field - Outdoor"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-wrestling": {
           "homeUrl": "https://uncbears.com/sports/wrestling",
@@ -76705,22 +76972,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://uncbears.com/sports/womens-indoor-track-field",
+          "newsUrl": "https://uncbears.com/sports/womens-indoor-track-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/womens-indoor-track-field"
+          ],
+          "aliases": [
+            "Track & Field - Indoor"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://uncbears.com/sports/womens-outdoor-track-field",
+          "newsUrl": "https://uncbears.com/sports/womens-outdoor-track-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/womens-outdoor-track-field"
+          ],
+          "aliases": [
+            "Track & Field - Outdoor"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://uncbears.com/sports/womens-volleyball",
@@ -76739,7 +77014,7 @@
       },
       "discoveryUrl": "https://uncbears.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:50:28.519Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "university-of-northern-iowa": {
       "athleticsUrl": "https://unipanthers.com/",
@@ -81810,22 +82085,32 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.gomocs.com/sports/cross-country",
+          "newsUrl": "https://www.gomocs.com/sports/cross-country",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "Cross Country & Track & Field",
+            "Cross Country / Track & Field"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.gomocs.com/sports/cross-country",
+          "newsUrl": "https://www.gomocs.com/sports/cross-country",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/cross-country"
+          ],
+          "aliases": [
+            "Cross Country & Track & Field",
+            "Cross Country / Track & Field"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.gomocs.com/sports/womens-volleyball",
@@ -81843,7 +82128,7 @@
       },
       "discoveryUrl": "https://www.gomocs.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:50:48.146Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "university-of-tennessee-at-martin": {
       "athleticsUrl": "https://www.utmsports.com/",
@@ -82652,13 +82937,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.texaslonghorns.com/sports/track-and-field",
+          "newsUrl": "https://www.texaslonghorns.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-golf": {
           "homeUrl": "https://www.texaslonghorns.com/sports/mens-golf",
@@ -82696,22 +82985,30 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.texaslonghorns.com/sports/track-and-field",
+          "newsUrl": "https://www.texaslonghorns.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.texaslonghorns.com/sports/track-and-field",
+          "newsUrl": "https://www.texaslonghorns.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "softball": {
           "homeUrl": "https://www.texaslonghorns.com/sports/softball",
@@ -82751,13 +83048,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-cross-country": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.texaslonghorns.com/sports/track-and-field",
+          "newsUrl": "https://www.texaslonghorns.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-golf": {
           "homeUrl": "https://www.texaslonghorns.com/sports/womens-golf",
@@ -82821,22 +83122,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.texaslonghorns.com/sports/track-and-field",
+          "newsUrl": "https://www.texaslonghorns.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.texaslonghorns.com/sports/track-and-field",
+          "newsUrl": "https://www.texaslonghorns.com/sports/track-and-field",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track & Field/Cross Country"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.texaslonghorns.com/sports/womens-volleyball",
@@ -82854,7 +83163,7 @@
       },
       "discoveryUrl": "https://www.texaslonghorns.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:50:51.862Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "university-of-texas-at-el-paso": {
       "athleticsUrl": "https://www.utepminers.com/",
@@ -89332,22 +89641,30 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.wsucougars.com/sports/track-and-field",
+          "newsUrl": "https://www.wsucougars.com/sports/track-and-field/news",
+          "rosterUrl": "https://www.wsucougars.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.wsucougars.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "mens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.wsucougars.com/sports/track-and-field",
+          "newsUrl": "https://www.wsucougars.com/sports/track-and-field/news",
+          "rosterUrl": "https://www.wsucougars.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.wsucougars.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-basketball": {
           "homeUrl": "https://www.wsucougars.com/sports/womens-basketball",
@@ -89437,22 +89754,30 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.wsucougars.com/sports/track-and-field",
+          "newsUrl": "https://www.wsucougars.com/sports/track-and-field/news",
+          "rosterUrl": "https://www.wsucougars.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.wsucougars.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-track-outdoor": {
-          "homeUrl": null,
-          "newsUrl": null,
-          "rosterUrl": null,
-          "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "homeUrl": "https://www.wsucougars.com/sports/track-and-field",
+          "newsUrl": "https://www.wsucougars.com/sports/track-and-field/news",
+          "rosterUrl": "https://www.wsucougars.com/sports/track-and-field/roster",
+          "scheduleUrl": "https://www.wsucougars.com/sports/track-and-field/schedule",
+          "routes": [
+            "/sports/track-and-field"
+          ],
+          "aliases": [
+            "Track"
+          ],
+          "discoveryStatus": "discovered"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.wsucougars.com/sports/womens-volleyball",
@@ -89470,7 +89795,7 @@
       },
       "discoveryUrl": "https://www.wsucougars.com/",
       "discoveryVersion": 3,
-      "retrievedAt": "2026-09-17T12:51:13.117Z"
+      "retrievedAt": "2026-09-27T01:36:54.568Z"
     },
     "weber-state-university": {
       "athleticsUrl": "https://www.weberstatesports.com/",
@@ -92950,5 +93275,5 @@
       "retrievedAt": "2026-09-17T12:51:26.643Z"
     }
   },
-  "retrievedAt": "2026-09-17T13:15:46.023Z"
+  "retrievedAt": "2026-09-27T01:36:54.568Z"
 }

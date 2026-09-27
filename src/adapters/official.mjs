@@ -1,6 +1,6 @@
 import { load } from 'cheerio';
 import { cleanText, safeUrl, stableId } from '../normalize.mjs';
-import { matchSport, matchSportRoute, sportGender, normalizeSportLabel } from '../sports.mjs';
+import { matchSport, matchSportRoute, sportGender, normalizeSportLabel, matchNavigationSport } from '../sports.mjs';
 import { cleanAuthor } from './article-metadata.mjs';
 
 const MAX_BYTES = 8_000_000, MAX_RECORDS = 1000, MAX_SCALAR = 4096;
@@ -106,12 +106,39 @@ function labelConflicts(labels, sport) {
   return false;
 }
 
+function declaredArchive(sourceUrl, school, sport, $) {
+  // An all-sports archive contains only the newest stories. A
+  // missing sport there does not mean its dedicated archive has no news.
+  if (!/^\/archives\/?$/.test(new URL(sourceUrl).pathname)) return null;
+  const graph = nuxt($);
+  if (!graph) return null;
+  const candidates = new Map();
+  for (const node of graph.nodes) {
+    if (!own(node, 'non_sport') || graph.ref(node.non_sport) !== false) continue;
+    const slug = graph.field(node, 'global_sport_name_slug'), title = graph.field(node, 'title');
+    const gender = graph.field(node, 'gender'), expected = sportGender(sport);
+    if (!slug || !/^[a-z][a-z0-9-]{0,79}$/.test(slug) || !title || !['m', 'f', 'g'].includes(gender)) continue;
+    if (gender !== 'g' && ({ m: 'mens', f: 'womens' })[gender] !== expected) continue;
+    if (labelConflicts([title], sport) || labelConflicts([slug], sport) || !matchNavigationSport(title, sport, school.sports ?? [sport])) continue;
+    const url = new URL(`/sports/${slug}/archives`, sourceUrl).href;
+    if (`resolved-sport-archive: ${url}`.length > 160) continue;
+    candidates.set(url, { url, title });
+  }
+  return candidates.size === 1 ? [...candidates.values()][0] : null;
+}
+
 export async function collectOfficialNews(text, sourceUrl, school, sport, get, followedArchive = false) {
   try { return parseOfficialNews(text, sourceUrl, school, sport); }
   catch (error) {
     // Follow only the public JSON service declared in a verified sport archive.
     const { $, scopedUrl } = document(text, sourceUrl, school);
     if (!followedArchive) {
+      const declared = declaredArchive(sourceUrl, school, sport, $);
+      if (declared) {
+        const declaredSport = { ...sport, aliases: [...(sport.aliases ?? []), declared.title] };
+        const result = await collectOfficialNews(await get(declared.url), declared.url, school, declaredSport, get, true);
+        return { ...result, reason: `resolved-sport-archive: ${declared.url}`, records: result.records.map(record => ({ ...record, discoverySourceUrl: sourceUrl })) };
+      }
       const entrance = $('a[href]').toArray().find(element => {
         const label = $(element).text().trim().match(/^Continue to (.+) Home$/i);
         const destination = scopedUrl($(element).attr('href'));

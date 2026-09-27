@@ -7,7 +7,7 @@ const SHORT = {
   'cross country': ['xc', 'cross'], 'track and field': ['track', 'tf'],
   'indoor track and field': ['itrack', 'itf'], 'outdoor track and field': ['otrack', 'otf'],
   'swimming and diving': ['swim', 'swim-dive', 'sd'], rowing: ['row', 'crew'],
-  'ice hockey': ['ice', 'hockey'], gymnastics: ['gym'], 'water polo': ['polo', 'wp'],
+  'ice hockey': ['ice', 'hockey'], gymnastics: ['gym'], 'water polo': ['polo', 'wp', 'wpolo'],
   skiing: ['ski'], wrestling: ['wrest', 'wres'], squash: ['squash'], rugby: ['rugby'],
 };
 
@@ -92,23 +92,30 @@ export function sportFamily(sport) {
     .replace(/^(?:heavyweight )?crew$/, 'rowing').replace(/^lightweight crew$/, 'lightweight rowing');
 }
 const COMBINED_FAMILIES = new Set(['track and field', 'cross country', 'swimming and diving', 'skiing', 'fencing', 'rifle', 'sailing']);
-const COMBINED_TRACK_XC_LABELS = new Set(['track and field xc', 'cross country track', 'cross country and track']);
+const COMBINED_TRACK_XC_LABELS = new Set([
+  'track and field xc', 'track and field cross country', 'track cross country',
+  'cross country track', 'cross country and track', 'cross country track and field',
+  'cross country and track and field', 'xc track', 'xc track and field',
+]);
 export function matchNavigationSport(label, sport, allSports) {
   // Official menus sometimes distinguish indoor/outdoor track with (I)/(O)
   // while both link to one combined program archive. Preserve any explicit
   // gender and never interpret these suffixes on other sports.
-  const season = typeof label === 'string' ? label.match(/^(.+?)\s*\(([io])\)\s*$/i) : null;
+  const season = typeof label === 'string' ? label.match(/^(.+?)\s*(?:\((i|o|indoor|outdoor)\)|[-–—]\s*(indoor|outdoor))\s*$/i) : null;
   if (season) {
     const stem = normalizeSportLabel(season[1]);
     const track = stem.match(/^(?:(mens|womens) )?track(?: and)? field$/);
     if (!track) return false;
     if (track[1] && track[1] !== sportGender(sport)) return false;
-    return baseSport(sport) === `${season[2].toLowerCase() === 'i' ? 'indoor' : 'outdoor'} track and field`;
+    return baseSport(sport) === `${(season[2] ?? season[3]).toLowerCase().startsWith('i') ? 'indoor' : 'outdoor'} track and field`;
   }
   if (matchSport(label, sport)) return true;
   let normalized = normalizeSportLabel(label).replace(/^mens and womens |^womens and mens |^m and w /, '');
   const explicitGender = normalized.match(/^(mens|womens) /)?.[1];
   const combined = normalized.replace(/^(mens|womens) /, '');
+  const seasonPrefix = combined.match(/^(indoor|outdoor) track(?: and)? field$/);
+  if (seasonPrefix) return (!explicitGender || explicitGender === sportGender(sport))
+    && baseSport(sport) === `${seasonPrefix[1]} track and field`;
   // Only complete, observed combined-program labels establish a shared
   // cross-country/track route. Preserve explicit gender and sport family.
   if (COMBINED_TRACK_XC_LABELS.has(combined)) {
@@ -116,6 +123,9 @@ export function matchNavigationSport(label, sport, allSports) {
       && ['cross country', 'track and field'].includes(sportFamily(sport));
   }
   normalized = normalized.replace(/^track(?: field)?$/, 'track and field').replace(/^swimming diving$/, 'swimming and diving')
+    .replace(/^combined cross country$/, 'cross country')
+    .replace(/^swim and dive$/, 'swimming and diving')
+    .replace(/^artistic swimming$/, 'synchronized swimming')
     .replace(/^swimming$/, 'swimming and diving')
     .replace(/^acrobatics tumbling$/, 'acrobatics and tumbling');
   const family = sportFamily(sport);
