@@ -1,30 +1,26 @@
 import assert from 'node:assert/strict';
-import { getSchool, getSport, loadSources } from '../src/config.mjs';
-import { sourcePolicy, reviewedSportNewsUrl } from '../src/discovery.mjs';
-import { fetchSourceText } from '../src/network.mjs';
-import { collectOfficialNews } from '../src/adapters/official.mjs';
+import { maintainSchool } from '../src/maintainer.mjs';
+import { conferenceFootballSources } from '../src/adapters/conference-football.mjs';
 
-// Explicit manual smoke check from the same GitHub runner and HTTP client as
-// maintenance. No credentials, publication, alternate routes, or browser spoofing.
-const registry = await loadSources();
+// Manual runner verification uses the actual maintainer, source-health handling,
+// identity filters and HTTP client. It has no publication permissions.
 const results = [];
-for (const slug of ['central-connecticut-state-university', 'tennessee-technological-university']) {
+for (const [slug, reviewed] of Object.entries(conferenceFootballSources)) {
   try {
-    const school = await getSchool(slug), policy = sourcePolicy(school);
-    const source = registry.schools[slug].sports.football;
-    const sport = { ...getSport(school, 'football'), routes: source.routes, aliases: source.aliases };
-    const url = reviewedSportNewsUrl(source.newsUrl, sport, policy.allowedHosts);
-    assert.ok(url && url === policy.sportNewsUrls.football && new URL(url).search === '?feed=rss_2.0', 'Missing reviewed primary RSS source');
-    const get = value => fetchSourceText(value, { allowedHosts: policy.allowedHosts, timeoutMs: 15_000, maxBytes: 8_000_000 });
-    const text = await get(url);
-    assert.match(text, /^\s*(?:<\?xml[^>]*>\s*)?<rss\b/i, 'Expected the published RSS document');
-    const parsed = await collectOfficialNews(text, url, { ...school, allowedHosts: policy.allowedHosts }, sport, get);
-    const records = parsed.records.filter(record => record.publishedAt && Date.parse(record.publishedAt) <= Date.now() + 86_400_000);
-    assert.ok(records.length > 0 && records.some(record => record.imageUrl), 'Expected dated football stories with photos');
-    results.push({ school: slug, status: 'ok', source: url, stories: records.length,
-      photos: records.filter(record => record.imageUrl).length, latest: records[0].publishedAt });
+    const snapshot = await maintainSchool(slug, { sport: 'football', metadataBudget: 0 });
+    const news = snapshot.sports.football.news;
+    assert.equal(news.status, 'ok', JSON.stringify(news.sources));
+    assert.equal(news.sourceUrl, reviewed.url);
+    const records = news.records.filter(record => record.discoverySourceUrl === reviewed.url);
+    assert.ok(records.length > 0 && records.some(record => record.imageUrl), 'Expected school-specific stories with photos');
+    const dates = records.map(record => Date.parse(record.publishedAt)).filter(Number.isFinite);
+    assert.ok(dates.length && Math.max(...dates) <= Date.now() + 86_400_000, 'Invalid publication dates');
+    assert.ok(Math.max(...dates) >= Date.now() - 14 * 86_400_000, 'No recent school football coverage');
+    results.push({ school: slug, status: 'ok', source: reviewed.url, stories: records.length,
+      photos: records.filter(record => record.imageUrl).length, latest: new Date(Math.max(...dates)).toISOString(),
+      sources: news.sources.map(source => ({ url: source.sourceUrl, status: source.status })) });
   } catch (error) {
-    results.push({ school: slug, status: 'failed', error: error.code ?? error.message });
+    results.push({ school: slug, status: 'failed', error: error.message });
   }
 }
 for (const result of results) console.log(JSON.stringify(result));

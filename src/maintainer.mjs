@@ -10,6 +10,7 @@ import { validateSnapshot } from './validate.mjs';
 import { sourcePolicy } from './discovery.mjs';
 import { webNewsSources } from './adapters/web-news.mjs';
 import { enrichOfficialNews } from './adapters/article-metadata.mjs';
+import { conferenceFootballSource } from './adapters/conference-football.mjs';
 
 export const recruitingCycle = date => date.getUTCFullYear() + (date.getUTCMonth() >= 2 ? 1 : 0);
 const unavailable = (at, reason) => emptyDataset(at, 'unavailable', reason);
@@ -27,8 +28,9 @@ export async function maintainSchool(slug, { now = new Date().toISOString(), pre
   const officialPolicy=sourcePolicy(school);
   const officialSchool={...school,allowedHosts:officialPolicy.allowedHosts};
   const supplemental = new Map(school.sports.map(sport=>[sport.slug,webNewsSources(school,sport,at)]));
+  const conferenceSources = new Map(school.sports.map(sport=>[sport.slug,conferenceFootballSource(school,sport)]));
   const sharedUrls = new Set([...supplemental.values()].flat().map(s=>s.url));
-  const allowedHosts = [...new Set([...officialPolicy.allowedHosts, 'site.api.espn.com', '247sports.com', 'www.247sports.com', ...[...supplemental.values()].flatMap(sources=>sources.flatMap(s=>s.allowedHosts))])];
+  const allowedHosts = [...new Set([...officialPolicy.allowedHosts, 'site.api.espn.com', '247sports.com', 'www.247sports.com', ...[...supplemental.values()].flatMap(sources=>sources.flatMap(s=>s.allowedHosts)), ...[...conferenceSources.values()].filter(Boolean).flatMap(source=>source.allowedHosts)])];
   let requests = 0;
   const cache = new Map();
   const request = get ?? (url => fetchSourceText(url, {allowedHosts,maxBytes:8_000_000,timeoutMs:15_000}));
@@ -53,7 +55,9 @@ export async function maintainSchool(slug, { now = new Date().toISOString(), pre
     const prior = previous?.sports[sport.slug];
     const entry = {sponsored:true,code:sport.code,name:sport.name,gender:sport.gender,conference:conference(sport.conference)};
     const newsSources = [];
-    if(source?.newsUrl) newsSources.push({url:source.newsUrl, collect:async fetch => collectOfficialNews(await fetch(source.newsUrl),source.newsUrl,officialSchool,scopedSport,fetch)});
+    const conferenceSource = conferenceSources.get(sport.slug);
+    if(conferenceSource) newsSources.push(conferenceSource);
+    else if(source?.newsUrl) newsSources.push({url:source.newsUrl, collect:async fetch => collectOfficialNews(await fetch(source.newsUrl),source.newsUrl,officialSchool,scopedSport,fetch)});
     else if(school.athleticsUrl) newsSources.push({url:school.athleticsUrl,collect:async()=>{
       throw new SourceError(official?.status&&official.status!=='ok'?official.status:'official-sport-feed-not-discovered');
     }});

@@ -30,7 +30,7 @@ jobs:
       - run: npm audit --omit=dev --audit-level=high
 
   reviewed_football_feeds:
-    name: Verify reviewed football RSS feeds
+    name: Verify repaired football sources
     if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-24.04
     timeout-minutes: 5

@@ -33,8 +33,13 @@ The JSON report is written to `output/football-health.json`. Without `--enforce`
 
 Football health enforcement covers the selected publication scope. A healthy conference repair is not a national all-clear; use the next full scheduled report for that claim.
 
-## Reviewed football syndication feeds
+## Reviewed conference football sources
 
-Central Connecticut State and Tennessee Tech publish football RSS alternates intended for feed readers. Their reviewed football mappings use those feeds directly instead of the larger HTML archives. CCSU lists its feed in the official `/rss/index` directory; Tennessee Tech declares its RSS alternate in the football archive. The existing parser preserves sport scope, publisher attribution, dates, and photo URLs.
+CCSU and Tennessee Tech's athletics archives and published RSS feeds return HTTP 405 on GitHub's hosted runner. Their athletics hosts are not repaired or reported as successful. `src/adapters/conference-football.mjs` documents the denied URLs and replaces only these two football news collectors with independent official conference publications:
 
-Manually dispatch **Validate public maintainers** to run the bounded **Verify reviewed football RSS feeds** job on GitHub's runner. It uses the same HTTP client and parser as scheduled maintenance and fails on denied or unusable responses. This smoke check does not publish data or change source-health criteria. After a source repair is merged, publish the affected conferences and verify the resulting health reports.
+- CCSU: the Northeast Conference's football archive at `https://necsports.com/archives.aspx?path=football` (the current destination of `northeastconference.org`). The adapter uses the archive's declared public data endpoint and requires football classification plus explicit school identification.
+- Tennessee Tech: `https://soconsports.com/fb/`. The adapter requires published football records tagged with Tennessee Tech's exact conference school ID and an article link actually rendered on the page.
+
+Records retain the conference publisher, real publication dates, article links, and available photos. They are not presented as university-authored articles. School athletics URLs, other sports, and source-health enforcement remain unchanged. A denied or unrecognizable replacement source still degrades the school's news status.
+
+Manually dispatch **Validate public maintainers** to run **Verify repaired football sources** on GitHub's runner. It runs the actual maintainer for these two football programs and requires healthy source observations, school-specific stories, photos, and at least one story published in the last 14 days. This read-only smoke check does not publish data. After merging, publish the Northeast and Southern conferences and verify their health reports and public snapshots separately.

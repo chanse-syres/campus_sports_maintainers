@@ -33,16 +33,6 @@
       "evidenceUrl": "https://www.bubearcats.com/",
       "evidence": "Public HTTP 301 Location points to the current official athletics website."
     },
-    "central-connecticut-state-university": {
-      "ncaaId": 127,
-      "originalUrl": "https://www.ccsubluedevils.com/",
-      "athleticsUrl": "https://www.ccsubluedevils.com/",
-      "sportNewsUrls": {
-        "football": "https://www.ccsubluedevils.com/sports/fball/headlines-featured?feed=rss_2.0"
-      },
-      "evidenceUrl": "https://www.ccsubluedevils.com/rss/index",
-      "evidence": "Official Athletics RSS Feeds directory explicitly links the football headlines-featured RSS feed. On 2026-09-28 the normal maintainer client parsed 18 football records, all with publication dates and photos. Use the publisher-provided syndication feed as the primary source; access denials still fail collection without alternate requests."
-    },
     "chicago-state-university": {
       "ncaaId": 136,
       "originalUrl": "https://www.gocsucougars.com/",
@@ -159,11 +149,11 @@
       "sportNewsUrls": {
         "baseball": "https://www.ttusports.com/sports/bsb/headlines-featured",
         "basketball": "https://www.ttusports.com/sports/mbkb/headlines-featured",
-        "football": "https://www.ttusports.com/sports/fball/headlines-featured?feed=rss_2.0",
+        "football": "https://www.ttusports.com/sports/fball/headlines-featured",
         "womens-basketball": "https://www.ttusports.com/sports/wbkb/headlines-featured"
       },
       "evidenceUrl": "https://www.ttusports.com/sports/bsb/2025-26/schedule",
-      "evidence": "Official sport schedule navigation explicitly links each sport's headlines-featured collection. Baseball, men's basketball, and women's basketball returned 45, 44, and 43 stories on 2026-09-17. The official homepage and football schedule also link the football collection, which returned 42 stories with photos on 2026-09-18. On 2026-09-28, the football archive explicitly declared its RSS alternate at headlines-featured?feed=rss_2.0; the normal maintainer client parsed 24 football records with dates and photos, including the September 26 Wofford recap. Football now uses this published syndication feed as its primary source."
+      "evidence": "Official sport schedule navigation explicitly links each sport's headlines-featured collection. Baseball, men's basketball, and women's basketball returned 45, 44, and 43 stories on 2026-09-17. The official homepage and football schedule also link the football collection, which returned 42 stories with photos on 2026-09-18."
     },
     "texas-state-university": {
       "ncaaId": 670,
