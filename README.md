@@ -52,7 +52,7 @@ node scripts/report-health.mjs --output output --conference big-12 --markdown
 
 The Actions run summary reports article and photo counts, empty schools/programs, and source failures. A successful publication confirms validated output, not complete news coverage. During the initial observation period, review these counts and individual source failures after each run.
 
-Football also has a [post-publication maintenance health check](docs/FOOTBALL_OPERATIONS.md). It covers every cataloged football program in the selected conference scope, fails visibly on missing snapshots or unsuccessful/overdue source observations, and reports old publisher content separately. Valid published data remains available when this health check fails.
+Football also has a separate [post-publication maintenance health workflow](docs/FOOTBALL_OPERATIONS.md), **Check football news sources**. It covers every cataloged football program in the selected conference scope and fails visibly on missing snapshots or unsuccessful/overdue source observations. **Maintain Division I news** reports whether collection and publication completed; upstream source failures remain visible in its summary and warnings without mislabeling a successful publication. Neither workflow changes retained article dates.
 
 ## Updating membership and sources
 

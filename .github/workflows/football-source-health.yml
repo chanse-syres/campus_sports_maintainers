@@ -1,0 +1,65 @@
+name: Check football news sources
+
+on:
+  workflow_run:
+    workflows: [Maintain Division I news]
+    types: [completed]
+    branches: [main]
+
+permissions: {}
+
+jobs:
+  football_health:
+    name: Enforce published football source health
+    if: >-
+      github.repository == 'chanse-syres/campus_sports_maintainers' &&
+      github.event.workflow_run.repository.full_name == github.repository &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.head_branch == 'main' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event.workflow_run.event)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - name: Require successful publication, skip validation-only runs
+        id: publication
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          UPSTREAM_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          publication=$(gh api "repos/$GH_REPO/actions/runs/$UPSTREAM_RUN_ID/jobs?per_page=100" --jq '.jobs[] | select(.name == "publish") | .conclusion')
+          case "$publication" in
+            success) echo 'published=true' >> "$GITHUB_OUTPUT" ;;
+            skipped) echo 'published=false' >> "$GITHUB_OUTPUT" ;;
+            *) echo 'Unable to verify a successful publication job.' >&2; exit 1 ;;
+          esac
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        if: steps.publication.outputs.published == 'true'
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        if: steps.publication.outputs.published == 'true'
+        with:
+          node-version: '24'
+      - run: npm ci --ignore-scripts
+        if: steps.publication.outputs.published == 'true'
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        if: steps.publication.outputs.published == 'true'
+        with:
+          name: football-maintenance-health
+          path: reports/upstream
+          github-token: ${{ github.token }}
+          run-id: ${{ github.event.workflow_run.id }}
+      - name: Enforce source health from the exact publication
+        if: steps.publication.outputs.published == 'true'
+        env:
+          UPSTREAM_RUN_URL: ${{ github.event.workflow_run.html_url }}
+        run: |
+          echo "Source report from $UPSTREAM_RUN_URL" >> "$GITHUB_STEP_SUMMARY"
+          set -o pipefail
+          node scripts/check-football-health-report.mjs --report reports/upstream/football-health.json --enforce | tee -a "$GITHUB_STEP_SUMMARY"

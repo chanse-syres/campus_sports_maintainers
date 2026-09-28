@@ -6,9 +6,11 @@ Oregon State and Texas provide the operational reference: exact school and sport
 
 ## Automated health check
 
-After validated data is published, `scripts/report-football-health.mjs` examines every expected football snapshot in that run's scope. It fails the job for a missing snapshot, degraded news or source state, missing successful observation, or source/snapshot observation older than 12 hours. A future observation time outside a five-minute clock tolerance also fails.
+After validated data is published, `scripts/report-football-health.mjs` examines every expected football snapshot in that run's scope. **Maintain Division I news** saves the report and prints source warnings. A separate **Check football news sources** workflow enforces that exact report: a missing snapshot, degraded news or source state, missing successful observation, or source/snapshot observation older than 12 hours fails the health workflow. A future observation time outside a five-minute clock tolerance also fails.
 
-The check deliberately follows publication: an inaccessible source must not stop healthy colleges' validated updates. A red football health step therefore requires inspecting both the completed publication step and the health report; it does not imply that no data was published. Source failures retain the previous source-backed data and its actual successful observation date.
+The check deliberately follows publication: an inaccessible source must not stop healthy colleges' validated updates. A green maintenance run confirms publication; a red source-health run means coverage needs attention. Source failures retain the previous source-backed data and its actual successful observation date. This separation does not repair or suppress publisher access denials.
+
+The health workflow accepts only successful main-branch maintenance runs from this repository, verifies that the publication job succeeded, and downloads the exact originating run's report with a read-only token. Validation-only manual runs are skipped. Missing or malformed reports fail; neither workflow uses `continue-on-error` to hide report failures.
 
 The job summary lists affected schools, source problems, article counts, and separate observation/publication dates. The `football-maintenance-health` artifact retains the complete JSON report for 14 days, including successful programs. It contains public source metadata only. No website database credential or private application configuration is introduced.
 

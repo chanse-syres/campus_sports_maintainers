@@ -142,7 +142,7 @@ jobs:
         run: node scripts/report-health.mjs --output output --markdown >> "$GITHUB_STEP_SUMMARY"
 
   football_health:
-    name: Check published football source health
+    name: Report published football source health
     needs: [prepare, publish]
     if: needs.publish.result == 'success'
     runs-on: ubuntu-24.04
@@ -162,14 +162,16 @@ jobs:
           pattern: conference-*
           merge-multiple: true
           path: output/v1/conferences/
-      - name: Check football source freshness after publication
+      - name: Report football source freshness after publication
         id: football_health
         run: |
+          set -o pipefail
           if [ -n "$CONFERENCE" ]; then
-            node scripts/report-football-health.mjs --output output --conference "$CONFERENCE" --write-report --markdown --enforce >> "$GITHUB_STEP_SUMMARY"
+            node scripts/report-football-health.mjs --output output --conference "$CONFERENCE" --write-report --markdown | tee -a "$GITHUB_STEP_SUMMARY"
           else
-            node scripts/report-football-health.mjs --output output --write-report --markdown --enforce >> "$GITHUB_STEP_SUMMARY"
+            node scripts/report-football-health.mjs --output output --write-report --markdown | tee -a "$GITHUB_STEP_SUMMARY"
           fi
+          node scripts/check-football-health-report.mjs --report output/football-health.json
         env:
           CONFERENCE: ${{ needs.prepare.outputs.conference }}
       - name: Save football maintenance health
@@ -178,5 +180,5 @@ jobs:
         with:
           name: football-maintenance-health
           path: output/football-health.json
-          if-no-files-found: warn
+          if-no-files-found: error
           retention-days: 14
