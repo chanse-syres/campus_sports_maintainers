@@ -24,10 +24,16 @@ async function collect(rows = [row()], options = {}) {
       calls.push(url);
       if (url === membersUrl) return options.members ?? json([member]);
       if (url === storiesUrl) return options.stories ?? json(rows);
+      if (rows.some(value => new URL(value.story_path, source).href === url)) {
+        const response = options.articles?.[url] ?? '<div class="sidearm-story-template-text">Central Connecticut wins its football game.</div>';
+        if (response instanceof Error) throw response;
+        return response;
+      }
       throw new Error(`Unexpected request: ${url}`);
     });
-  assert.deepEqual(calls, [membersUrl, storiesUrl]);
-  return result;
+  assert.deepEqual(calls.slice(0, 2), [membersUrl, storiesUrl]);
+  assert.ok(calls.length <= 12);
+  return { ...result, calls };
 }
 
 test('NEC follows declared public services and preserves conference provenance, date, and photo', async () => {
@@ -120,4 +126,32 @@ test('NEC propagates service denials without requesting other endpoints', async 
     throw new SourceError('http-405');
   }), error => error.code === 'http-405');
   assert.deepEqual(calls, [membersUrl, storiesUrl]);
+});
+
+test('NEC rejects stale school teasers when the article is unrelated, absent, denied, or ambiguous', async () => {
+  const path = '/news/2026/9/27/field-hockey-necfb-two-sentence-summaries-week-4.aspx';
+  const url = new URL(path, source).href;
+  const summaryOnly = row({ story_headline: '#NECFB Two-Sentence Summaries (Week 4)', story_summary: 'CCSU concluded its 2022 season with a win.', story_path: path, story_postdate: '9/27/2026' });
+  for (const body of [
+    '<div class="sidearm-story-template-text">Other teams played this weekend.</div>',
+    '<nav>CCSU</nav><main>Story body unavailable.</main>',
+    '<div class="sidearm-story-template-text"><script>CCSU</script>Other teams played.</div>',
+    '<div class="sidearm-story-template-text">CCSU</div><div class="sidearm-story-template-text">Other team</div>',
+    new SourceError('http-405'),
+  ]) {
+    const result = await collect([row(), summaryOnly], { articles: { [url]: body } });
+    assert.deepEqual(result.records.map(value => value.title), [row().story_headline]);
+    assert.deepEqual(result.calls, [membersUrl, storiesUrl, url]);
+    await assert.rejects(collect([summaryOnly], { articles: { [url]: body } }), /No recognizable/);
+  }
+});
+
+test('NEC confirms at most ten distinct summary-only articles and trusts direct school headlines', async () => {
+  const summaries = Array.from({ length: 12 }, (_, index) => row({ story_headline: `Football weekly roundup ${index}`,
+    story_summary: 'CCSU is mentioned in the archive teaser.', story_path: `/news/2026/9/20/roundup-${index}.aspx` }));
+  const result = await collect([...summaries, summaries[0], row()]);
+  assert.equal(result.records.length, 11);
+  assert.equal(result.calls.length, 12);
+  assert.deepEqual(result.calls.slice(2), summaries.slice(0, 10).map(value => new URL(value.story_path, source).href));
+  assert.ok(result.records.some(value => value.title === row().story_headline));
 });

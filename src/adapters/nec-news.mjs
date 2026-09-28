@@ -6,6 +6,7 @@ const SOURCE = 'https://necsports.com/archives.aspx?path=football';
 const SCHOOLS = 'https://necsports.com/services/archives.ashx/setup_schools_dropdown';
 const STORIES = 'https://necsports.com/services/archives.ashx/stories?index=1&page_size=30&sport=football&season=0&school=0&search=';
 const MAX_BYTES = 8_000_000;
+const SCHOOL_NAME = /\b(?:CCSU|Central\s+Connecticut(?:\s+State(?:\s+University)?)?)\b/i;
 const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
 function field(value, max = 4096) {
   if (typeof value !== 'string') return '';
@@ -61,16 +62,33 @@ export async function collectNecFootballNews(text, sourceUrl, school, sport, fet
   const matching = members.filter(member => member.id === 146);
   if (matching.length !== 1 || matching[0].ncaa_id !== 127 || matching[0].title !== canonical.name
     || matching[0].abbreviation !== 'CCSU' || matching[0].school_active !== true) throw new Error('Unverified NEC Central Connecticut member');
-  const rows = payload(await fetch(STORIES), 30), records = new Map();
+  const rows = payload(await fetch(STORIES), 30), records = new Map(), confirmed = new Map();
   for (const row of rows) {
     // The school filter omits current conference roundups. Read the declared
     // football archive and require direct school identification on every item.
     if (field(row.sports_cats).trim() !== 'Football') continue;
     const title = cleanText(plain(row.story_headline, 4096), 300);
     const summary = plain(row.story_summary, 20_000);
-    if (!title || !/\b(?:CCSU|Central\s+Connecticut(?:\s+State(?:\s+University)?)?)\b/i.test(`${title} ${summary}`)) continue;
+    const namedInTitle = SCHOOL_NAME.test(title);
+    if (!title || (!namedInTitle && !SCHOOL_NAME.test(summary))) continue;
     const url = safeUrl(field(row.story_path), sourceUrl);
     if (!url || !/^https:\/\/necsports\.com\/news\/20\d{2}\/\d{1,2}\/\d{1,2}\/[^/?#]+\.aspx$/.test(url)) continue;
+    // Some archive teasers retain obsolete text from an earlier season. Only
+    // a direct headline or the current article body establishes school scope.
+    if (!namedInTitle) {
+      if (!confirmed.has(url)) {
+        if (confirmed.size >= 10) continue;
+        confirmed.set(url, false);
+        try {
+          const article = load(document(await fetch(url))), body = article('.sidearm-story-template-text');
+          if (body.length === 1) {
+            body.find('script,style,noscript,iframe').remove();
+            confirmed.set(url, SCHOOL_NAME.test(body.text().replace(/\s+/g, ' ').trim()));
+          }
+        } catch { /* Unknown article scope must not become a school record. */ }
+      }
+      if (!confirmed.get(url)) continue;
+    }
     const candidateImage = safeUrl(field(row.story_image), sourceUrl);
     const imageUrl = candidateImage && new URL(candidateImage).hostname === 'necsports.com'
       && new URL(candidateImage).pathname.startsWith('/images/') ? candidateImage : null;
