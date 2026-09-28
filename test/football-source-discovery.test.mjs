@@ -22,31 +22,66 @@ test('placeholder News navigation cannot select the current schedule as a news c
   }
 });
 
-test('Tennessee Tech football reads the reviewed news archive without requesting the denied old schedule', async () => {
+const soconSource = 'https://soconsports.com/fb/';
+const soconArticle = 'https://soconsports.com/fb/article/60372/';
+const soconImage = 'https://img.boostsport.ai/boost-cms/tennessee-tech-football.jpg';
+const soconFixture = '<a href="/fb/article/60372/">Tennessee Tech football weekly honors</a>'
+  + `<script id="__NEXT_DATA__" type="application/json">${JSON.stringify({ props: { pageProps: {
+    params: { sport: 'fb' }, fallback: { 'contentTypeUid:"article",': [{
+      id: 60372, _content_type_uid: 'article', _status: 'published', _in_progress: false,
+      simple_headline: 'Tennessee Tech football weekly honors', publish_date: '2026-09-14T19:00:00.000Z',
+      image: { url: soconImage }, sport: [{ id: 31, alias: 'fb', title: 'Football' }],
+      school: [{ id: 884, alias: 'TTU', title: 'Tennessee Tech' }],
+    }] },
+  } } })}</script>`;
+
+async function refreshTennesseeTechFootball(response) {
   const slug = 'tennessee-technological-university';
   const canonical = await getSchool(slug), provider = resolveProvider(canonical, 'football');
-  const archive = 'https://www.ttusports.com/sports/fball/headlines-featured';
-  const oldSchedule = 'https://www.ttusports.com/sports/fball/2025-26/schedule';
   const calls = [], feeds = new Map(newsFeedDefinitions().map(feed => [feed.url, feed]));
   const snapshot = await maintainSchool(slug, { sport: 'football', now: '2026-09-18T00:00:00.000Z', metadataBudget: 0, get: async url => {
     calls.push(url);
-    if (url === oldSchedule) throw new SourceError('http-405');
-    if (url === archive) return '<div class="card"><div class="entry-title"><a href="/sports/fball/2026-27/releases/20260914fixture">Tennessee Tech football weekly honors</a></div><div class="entry-category">Football</div><span class="date">September 14, 2026</span><img src="/sports/fball/photos/team.jpg"></div>';
+    if (url === soconSource) return typeof response === 'function' ? response() : response;
     if (url === provider.news?.sourceUrl) return JSON.stringify({ header: provider.news.header, link: { href: provider.news.leagueIndexUrl }, articles: [] });
     const feed = feeds.get(url);
     if (feed) return `<rss version="2.0"><channel><title>${feed.feedTitle.replaceAll('&', '&amp;')}</title></channel></rss>`;
     throw new Error(`Unexpected fixture request: ${url}`);
   } });
-  assert.equal(calls.some(url => url === oldSchedule), false);
-  assert.equal(calls.filter(url => url === archive).length, 1);
+  // Source failures become dataset state, so inspect calls explicitly: an
+  // attempted blocked-athletics fallback must not be hidden by a caught error.
+  assert.equal(calls.some(url => ['ttusports.com', 'www.ttusports.com'].includes(new URL(url).hostname)), false);
+  assert.deepEqual(calls.filter(url => new URL(url).hostname === 'soconsports.com'), [soconSource]);
+  assert.deepEqual(Object.keys(snapshot.sports), ['football']);
   const news = snapshot.sports.football.news;
+  assert.equal(news.sourceUrl, soconSource);
+  return { news, provider, health: news.sources.find(source => source.sourceUrl === soconSource) };
+}
+
+test('Tennessee Tech football reads reviewed SoCon news without requesting blocked athletics pages', async () => {
+  const { news, health } = await refreshTennesseeTechFootball(soconFixture);
   assert.equal(news.status, 'ok');
-  assert.equal(news.sourceUrl, archive);
   assert.equal(news.records.length, 1);
-  assert.equal(news.records[0].discoverySourceUrl, archive);
-  assert.equal(news.records[0].publishedAt, '2026-09-14T00:00:00.000Z');
-  assert.equal(news.records[0].imageUrl, 'https://www.ttusports.com/sports/fball/photos/team.jpg');
-  assert.equal(news.sources.find(source => source.sourceUrl === archive).status, 'ok');
+  assert.equal(news.records[0].url, soconArticle);
+  assert.equal(news.records[0].publisher, 'The Southern Conference');
+  assert.equal(news.records[0].discoverySourceUrl, soconSource);
+  assert.equal(news.records[0].publishedAt, '2026-09-14T19:00:00.000Z');
+  assert.equal(news.records[0].publishedAtPrecision, 'instant');
+  assert.equal(news.records[0].imageUrl, soconImage);
+  assert.equal(health.status, 'ok');
+  assert.equal(health.recordCount, 1);
+  assert.equal(health.lastSuccessAt, '2026-09-18T00:00:00.000Z');
+});
+
+test('denied SoCon news stays degraded despite successful empty ESPN and supplemental feeds', async () => {
+  const { news, health, provider } = await refreshTennesseeTechFootball(() => { throw new SourceError('http-405'); });
+  assert.ok(['unavailable', 'stale'].includes(news.status), news.status);
+  assert.equal(news.reason, 'one-or-more-news-sources-degraded');
+  assert.deepEqual(news.records, []);
+  assert.equal(health.status, 'unavailable');
+  assert.equal(health.reason, 'http-405');
+  assert.equal(health.lastSuccessAt, null);
+  assert.equal(health.recordCount, 0);
+  assert.equal(news.sources.find(source => source.sourceUrl === provider.news.sourceUrl).status, 'empty');
 });
 
 test('legacy football home preserves observed modern football collection links', () => {
