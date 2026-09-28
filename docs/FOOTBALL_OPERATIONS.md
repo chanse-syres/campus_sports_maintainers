@@ -32,3 +32,9 @@ The JSON report is written to `output/football-health.json`. Without `--enforce`
 5. Check the site's corresponding football section against the newly published immutable data commit. A successful collector alone does not prove the frontend is connected.
 
 Football health enforcement covers the selected publication scope. A healthy conference repair is not a national all-clear; use the next full scheduled report for that claim.
+
+## Reviewed football syndication feeds
+
+Central Connecticut State and Tennessee Tech publish football RSS alternates intended for feed readers. Their reviewed football mappings use those feeds directly instead of the larger HTML archives. CCSU lists its feed in the official `/rss/index` directory; Tennessee Tech declares its RSS alternate in the football archive. The existing parser preserves sport scope, publisher attribution, dates, and photo URLs.
+
+Manually dispatch **Validate public maintainers** to run the bounded **Verify reviewed football RSS feeds** job on GitHub's runner. It uses the same HTTP client and parser as scheduled maintenance and fails on denied or unusable responses. This smoke check does not publish data or change source-health criteria. After a source repair is merged, publish the affected conferences and verify the resulting health reports.

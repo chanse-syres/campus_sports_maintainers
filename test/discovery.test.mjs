@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { discoverSchoolSources, discoverEntrance, enrichSportSources, sourcePolicy } from '../src/discovery.mjs';
+import { discoverSchoolSources, discoverEntrance, enrichSportSources, sourcePolicy, reviewedSportNewsUrl } from '../src/discovery.mjs';
 import { getSchool } from '../src/config.mjs';
 import { matchSport, matchNavigationSport } from '../src/sports.mjs';
 const men = { slug: 'basketball', name: 'Basketball', code: 'MBB', gender: 'men' };
@@ -10,9 +10,10 @@ const school = { athleticsUrl: 'https://sports.example.edu/', sports: [men, wome
 
 test('reviewed sport archives replace empty shared collections without manufacturing program navigation', async () => {
   const targets = [
+    ['central-connecticut-state-university', { football: 'https://www.ccsubluedevils.com/sports/fball/headlines-featured?feed=rss_2.0' }],
     ['arkansas-state-university', { football: 'https://www.astateredwolves.com/sports/football/archives' }],
     ['idaho-state-university', { 'womens-basketball': 'https://www.isubengals.com/sports/womens-basketball/archives' }],
-    ['tennessee-technological-university', { baseball: 'https://www.ttusports.com/sports/bsb/headlines-featured', basketball: 'https://www.ttusports.com/sports/mbkb/headlines-featured', football: 'https://www.ttusports.com/sports/fball/headlines-featured', 'womens-basketball': 'https://www.ttusports.com/sports/wbkb/headlines-featured' }],
+    ['tennessee-technological-university', { baseball: 'https://www.ttusports.com/sports/bsb/headlines-featured', basketball: 'https://www.ttusports.com/sports/mbkb/headlines-featured', football: 'https://www.ttusports.com/sports/fball/headlines-featured?feed=rss_2.0', 'womens-basketball': 'https://www.ttusports.com/sports/wbkb/headlines-featured' }],
     ['u-s-air-force-academy', { basketball: 'https://goairforcefalcons.com/sports/mens-basketball/archives/', 'womens-basketball': 'https://goairforcefalcons.com/sports/womens-basketball/archives' }],
     ['middle-tennessee-state-university', { baseball: 'https://goblueraiders.com/sports/baseball/archives', 'womens-basketball': 'https://goblueraiders.com/sports/womens-basketball/archives' }],
     ['wake-forest-university', { baseball: 'https://godeacs.com/sports/baseball/archives', basketball: 'https://godeacs.com/sports/mens-basketball/archives/', 'womens-basketball': 'https://godeacs.com/sports/womens-basketball/archives' }],
@@ -35,6 +36,22 @@ test('reviewed sport archives replace empty shared collections without manufactu
     assert.throws(() => sourcePolicy({ ...canonical, sports: [] }), /scope mismatch/);
     assert.throws(() => sourcePolicy({ ...canonical, athleticsUrl: 'https://other.example/' }), /identity mismatch/);
   }
+});
+
+test('reviewed RSS URLs keep exact host, sport, collection and query restrictions', () => {
+  const sport = { slug: 'football', name: 'Football', gender: 'men', code: 'MFB' };
+  const base = 'https://sports.example.edu/sports/fball/headlines-featured';
+  const hosts = ['sports.example.edu'];
+  assert.equal(reviewedSportNewsUrl(base, sport, hosts), base);
+  assert.equal(reviewedSportNewsUrl(`${base}?feed=rss_2.0`, sport, hosts), `${base}?feed=rss_2.0`);
+  for (const url of [
+    `${base}?feed=rss_2.0&url=https://other.example/`, `${base}?feed=rss_2.0&feed=rss_2.0`,
+    `${base}?feed=xml`, `${base}?page=2`, `${base}?feed=rss_2.0#fragment`,
+    'https://other.example/sports/fball/headlines-featured?feed=rss_2.0',
+    'https://sports.example.edu/sports/wbkb/headlines-featured?feed=rss_2.0',
+    'https://sports.example.edu/sports/fball/roster?feed=rss_2.0',
+    'https://sports.example.edu/sports/fball/2026-27/releases/story?feed=rss_2.0',
+  ]) assert.equal(reviewedSportNewsUrl(url, sport, hosts), null, url);
 });
 
 test('reviewed news route survives deep enrichment without replacing other program endpoints', async () => {

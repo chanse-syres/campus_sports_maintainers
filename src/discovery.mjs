@@ -37,6 +37,18 @@ export function officialHosts(athleticsUrl) {
   return [...new Set([host, host.startsWith('www.') ? host.slice(4) : `www.${host}`])];
 }
 
+export function reviewedSportNewsUrl(value, sport, allowedHosts) {
+  const url = safeUrl(value);
+  if (!sport || !url) return null;
+  const parsed = new URL(url);
+  // Presto publishes these RSS alternates for syndication. Accept that exact
+  // format only, without widening destinations or allowing arbitrary queries.
+  return allowedHosts.includes(parsed.hostname)
+    && /^\/sports?\/[a-z][a-z0-9-]*\/(?:archives|news|headlines-featured)\/?$/.test(parsed.pathname)
+    && (!parsed.search || parsed.search === '?feed=rss_2.0')
+    && !parsed.hash && matchSportRoute(url, sport) ? url : null;
+}
+
 export function sourcePolicy(school) {
   const override = overrides.schools[school.slug];
   if (override && (override.ncaaId !== school.ncaaId || override.originalUrl !== school.athleticsUrl || !safeUrl(override.athleticsUrl) || !safeUrl(override.evidenceUrl))) throw new Error('Official source override identity mismatch');
@@ -46,10 +58,7 @@ export function sourcePolicy(school) {
   if (!sportNewsUrls || typeof sportNewsUrls !== 'object' || Array.isArray(sportNewsUrls)) throw new Error('Invalid official sport news overrides');
   for (const [slug, value] of Object.entries(sportNewsUrls)) {
     const sport = school.sports?.find(item => item.slug === slug);
-    const url = safeUrl(value);
-    if (!sport || !url || !allowedHosts.includes(new URL(url).hostname)
-      || !/^\/sports?\/[a-z][a-z0-9-]*\/(?:archives|news|headlines-featured)\/?$/.test(new URL(url).pathname)
-      || new URL(url).search || new URL(url).hash || !matchSportRoute(url, sport)) throw new Error('Official sport news override scope mismatch');
+    if (!reviewedSportNewsUrl(value, sport, allowedHosts)) throw new Error('Official sport news override scope mismatch');
   }
   return { athleticsUrl: override?.athleticsUrl ?? school.athleticsUrl,
     newsFallbackUrl: override?.newsFallbackUrl ?? null, sportNewsUrls, allowedHosts };

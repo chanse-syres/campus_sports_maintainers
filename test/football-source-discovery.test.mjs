@@ -25,7 +25,7 @@ test('placeholder News navigation cannot select the current schedule as a news c
 test('Tennessee Tech football reads the reviewed news archive without requesting the denied old schedule', async () => {
   const slug = 'tennessee-technological-university';
   const canonical = await getSchool(slug), provider = resolveProvider(canonical, 'football');
-  const archive = 'https://www.ttusports.com/sports/fball/headlines-featured';
+  const archive = 'https://www.ttusports.com/sports/fball/headlines-featured?feed=rss_2.0';
   const oldSchedule = 'https://www.ttusports.com/sports/fball/2025-26/schedule';
   const calls = [], feeds = new Map(newsFeedDefinitions().map(feed => [feed.url, feed]));
   const snapshot = await maintainSchool(slug, { sport: 'football', now: '2026-09-18T00:00:00.000Z', metadataBudget: 0, get: async url => {
