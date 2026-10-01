@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.fausports.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=229"
   },
-  "generatedAt": "2026-10-01T06:09:13.248Z",
+  "generatedAt": "2026-10-01T21:06:27.337Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -25,12 +25,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/baseball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "05dab70ce1fa14906f4aee8e",
+            "title": "Owls Announce Fall Exhibition Schedule",
+            "url": "https://www.fausports.com/news/2026/10/1/baseball-owls-announce-fall-exhibition-schedule",
+            "publishedAt": "2026-10-01T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F10%2F1%2FFall_Schedule.jpg&width=478&height=717&type=webp",
+            "imageAlt": "Fall Baseball",
+            "author": null,
+            "publisher": "Florida Atlantic University Athletics",
+            "discoverySourceUrl": "https://www.fausports.com/sports/baseball",
+            "metadataCheckedAt": "2026-10-01T21:06:27.337Z"
+          },
           {
             "id": "e165f6c239b801a01e89e895",
             "title": "Owls Bring in Fifth-Ranked JUCO Transfer Class",
@@ -63,7 +76,7 @@
             "url": "https://www.fausports.com/news/2026/8/20/mccormack-to-be-inducted-into-irish-american-baseball-hall-of-fame",
             "publishedAt": "2026-08-20T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F8%2F20%2FMcCormack_Irish_HOF.jpg&width=478&height=717&type=webp",
+            "imageUrl": "https://www.fausports.com/images/2026/8/20/McCormack_Irish_HOF.jpg",
             "imageAlt": "John McCormack",
             "author": null,
             "publisher": "Florida Atlantic University Athletics",
@@ -243,32 +256,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/baseball",
             "reason": null,
-            "recordCount": 16
+            "recordCount": 17
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -277,7 +290,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -286,7 +299,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -295,7 +308,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -304,7 +317,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -313,7 +326,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -332,12 +345,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/mens-basketball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "08021c1344defccb85f6aded",
+            "title": "Men’s Basketball’s Throwback Thursday, Volume 5",
+            "url": "https://www.fausports.com/news/2026/10/1/mens-basketballs-throwback-thursday-volume-5",
+            "publishedAt": "2026-10-01T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F10%2F1%2FMBBThrowback5-2.jpg&width=478&height=717&type=webp",
+            "imageAlt": "Men&#39;s Basketball Throwback Thursday",
+            "author": null,
+            "publisher": "Florida Atlantic University Athletics",
+            "discoverySourceUrl": "https://www.fausports.com/sports/mens-basketball",
+            "metadataCheckedAt": "2026-10-01T21:06:27.337Z"
+          },
           {
             "id": "fed4e3fcf968dcf79847533e",
             "title": "Men’s Basketball American Conference Dates Announced",
@@ -383,7 +409,7 @@
             "url": "https://www.fausports.com/news/2026/9/23/go-behind-the-jersey-with-members-of-the-2026-27-mens-basketball-team",
             "publishedAt": "2026-09-23T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F9%2F23%2FBehindtheJersey.jpg&width=478&height=717&type=webp",
+            "imageUrl": "https://www.fausports.com/images/2026/9/23/BehindtheJersey.jpg",
             "imageAlt": "Men&#39;s Basketball &#39;Behind the Jersey&#39;",
             "author": null,
             "publisher": "Florida Atlantic University Athletics",
@@ -625,40 +651,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/mens-basketball",
             "reason": null,
-            "recordCount": 22
+            "recordCount": 23
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -667,7 +693,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -676,7 +702,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -685,7 +711,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -694,7 +720,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -703,7 +729,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -722,12 +748,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/football",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "a16edac3df5d2e648a6de888",
+            "title": "2026 Owls in the NFL - Week 3",
+            "url": "https://www.fausports.com/news/2026/10/1/football-2026-owls-in-the-nfl-week-3",
+            "publishedAt": "2026-10-01T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F10%2F1%2FUntitled-1.jpeg&width=478&height=717&type=webp",
+            "imageAlt": "James Pierre with the Minnesota Vikings",
+            "author": "Ben Paul",
+            "publisher": "Florida Atlantic University Athletics",
+            "discoverySourceUrl": "https://www.fausports.com/sports/football"
+          },
           {
             "id": "432c58ac2b6eaf6740bdfd5f",
             "title": "Schwanz to Join Kittley at this Week’s Coaches Show",
@@ -760,7 +798,7 @@
             "url": "https://www.fausports.com/news/2026/9/28/football-inside-the-owls-burrow-s11-ep-7",
             "publishedAt": "2026-09-28T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F9%2F28%2FSchovanec_Burris.png&width=478&height=717&type=webp",
+            "imageUrl": "https://www.fausports.com/images/2026/9/28/Schovanec_Burris.png",
             "imageAlt": "Schovanec and Burris Inside the Owls&#39; Burrow",
             "author": null,
             "publisher": "Florida Atlantic University Athletics",
@@ -1225,48 +1263,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/football",
             "reason": null,
-            "recordCount": 38
+            "recordCount": 39
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1275,7 +1313,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1284,7 +1322,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1293,7 +1331,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1302,7 +1340,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1311,7 +1349,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1330,8 +1368,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/womens-basketball",
         "season": null,
         "reason": null,
@@ -1573,32 +1611,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/womens-basketball",
             "reason": null,
             "recordCount": 17
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1607,7 +1645,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1616,7 +1654,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1625,7 +1663,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1634,7 +1672,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1643,7 +1681,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1662,8 +1700,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/mens-cross-country",
         "season": null,
         "reason": null,
@@ -1828,24 +1866,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/mens-cross-country",
             "reason": null,
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1854,7 +1892,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1863,7 +1901,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1872,7 +1910,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1881,7 +1919,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1890,7 +1928,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1909,8 +1947,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/mens-golf",
         "season": null,
         "reason": null,
@@ -2127,24 +2165,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/mens-golf",
             "reason": null,
             "recordCount": 16
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2153,7 +2191,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2162,7 +2200,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2171,7 +2209,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2180,7 +2218,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2189,7 +2227,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2208,12 +2246,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/mens-soccer",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "dfbac1f0a8d86a556fc85857",
+            "title": "Owls Return Home for Showdown with Temple",
+            "url": "https://www.fausports.com/news/2026/10/1/mens-soccer-owls-return-home-for-showdown-with-temple",
+            "publishedAt": "2026-10-01T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F10%2F1%2FTemple_Preview.jpg&width=478&height=717&type=webp",
+            "imageAlt": "Alfred Mikkelsen",
+            "author": null,
+            "publisher": "Florida Atlantic University Athletics",
+            "discoverySourceUrl": "https://www.fausports.com/sports/mens-soccer",
+            "metadataCheckedAt": "2026-10-01T21:06:27.337Z"
+          },
           {
             "id": "231ce090033b34f0bc664089",
             "title": "Lausten, Rabot Earn American Conference Recognition",
@@ -2259,7 +2310,7 @@
             "url": "https://www.fausports.com/news/2026/9/23/mens-soccer-gorbell-returns-to-paradise-to-cap-off-college-career",
             "publishedAt": "2026-09-23T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F9%2F23%2FKevin_Gorbell_Feature.jpg&width=478&height=717&type=webp",
+            "imageUrl": "https://www.fausports.com/images/2026/9/23/Kevin_Gorbell_Feature.jpg",
             "imageAlt": "Kevin Gorbell",
             "author": null,
             "publisher": "Florida Atlantic University Athletics",
@@ -2504,32 +2555,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/mens-soccer",
             "reason": null,
-            "recordCount": 22
+            "recordCount": 23
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2538,7 +2589,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2547,7 +2598,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2556,7 +2607,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2565,7 +2616,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2574,7 +2625,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2593,12 +2644,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/swimming-and-diving",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "c38f6ddc93922b521d9bd8f8",
+            "title": "Swim & Dive Slated for Annual TYR Fall Classic",
+            "url": "https://www.fausports.com/news/2026/10/1/swimming-diving-swim-dive-slated-for-annual-tyr-fall-classic",
+            "publishedAt": "2026-10-01T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F10%2F1%2FUntitled-1.jpg&width=478&height=717&type=webp",
+            "imageAlt": "Bilú Bianchi",
+            "author": null,
+            "publisher": "Florida Atlantic University Athletics",
+            "discoverySourceUrl": "https://www.fausports.com/sports/swimming-and-diving",
+            "metadataCheckedAt": "2026-10-01T21:06:27.337Z"
+          },
           {
             "id": "028f1c8f03d2481a04bc5569",
             "title": "Swim & Dive Compete with No. 2 Gators",
@@ -2657,7 +2721,7 @@
             "url": "https://www.fausports.com/news/2026/9/17/swimming-diving-swim-dive-set-to-open-2026-27-season-versus-indian-river",
             "publishedAt": "2026-09-17T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F9%2F17%2FUntitled-1.jpg&width=478&height=717&type=webp",
+            "imageUrl": "https://www.fausports.com/images/2026/9/17/Untitled-1.jpg",
             "imageAlt": "Augusta Ness",
             "author": null,
             "publisher": "Florida Atlantic University Athletics",
@@ -2837,24 +2901,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/swimming-and-diving",
             "reason": null,
-            "recordCount": 18
+            "recordCount": 19
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2863,7 +2927,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2872,7 +2936,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2881,7 +2945,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2890,7 +2954,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2899,7 +2963,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2918,8 +2982,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/mens-tennis",
         "season": null,
         "reason": null,
@@ -3123,24 +3187,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/mens-tennis",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3149,7 +3213,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3158,7 +3222,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3167,7 +3231,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3176,7 +3240,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3185,7 +3249,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3204,8 +3268,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/softball",
         "season": null,
         "reason": null,
@@ -3382,32 +3446,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/softball",
             "reason": null,
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3416,7 +3480,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3425,7 +3489,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3434,7 +3498,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3443,7 +3507,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3452,7 +3516,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3471,8 +3535,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/womens-beach-volleyball",
         "season": null,
         "reason": null,
@@ -3676,24 +3740,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/womens-beach-volleyball",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/beach-volleyball/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3702,7 +3766,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3711,7 +3775,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3720,7 +3784,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3729,7 +3793,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3738,7 +3802,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3757,8 +3821,8 @@
       },
       "news": {
         "status": "stale",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/",
         "season": null,
         "reason": "one-or-more-news-sources-degraded",
@@ -3766,7 +3830,7 @@
         "sources": [
           {
             "status": "unavailable",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
             "lastSuccessAt": null,
             "sourceUrl": "https://www.fausports.com/",
             "reason": "official-sport-feed-not-discovered",
@@ -3774,16 +3838,16 @@
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3792,7 +3856,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3801,7 +3865,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3810,7 +3874,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3819,7 +3883,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3828,7 +3892,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3847,8 +3911,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/womens-golf",
         "season": null,
         "reason": null,
@@ -4078,24 +4142,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/womens-golf",
             "reason": null,
             "recordCount": 17
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4104,7 +4168,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4113,7 +4177,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4122,7 +4186,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4131,7 +4195,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4140,7 +4204,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4159,8 +4223,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/womens-soccer",
         "season": null,
         "reason": null,
@@ -4454,32 +4518,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/womens-soccer",
             "reason": null,
             "recordCount": 22
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4488,7 +4552,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4497,7 +4561,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4506,7 +4570,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4515,7 +4579,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4524,7 +4588,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4543,12 +4607,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/swimming-and-diving",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "85e81bfb881dbc7e2bcdad0e",
+            "title": "Swim & Dive Slated for Annual TYR Fall Classic",
+            "url": "https://www.fausports.com/news/2026/10/1/swimming-diving-swim-dive-slated-for-annual-tyr-fall-classic",
+            "publishedAt": "2026-10-01T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F10%2F1%2FUntitled-1.jpg&width=478&height=717&type=webp",
+            "imageAlt": "Bilú Bianchi",
+            "author": null,
+            "publisher": "Florida Atlantic University Athletics",
+            "discoverySourceUrl": "https://www.fausports.com/sports/swimming-and-diving",
+            "metadataCheckedAt": "2026-10-01T21:06:27.337Z"
+          },
           {
             "id": "2d9168db013c6a002a2367d3",
             "title": "Swim & Dive Compete with No. 2 Gators",
@@ -4607,7 +4684,7 @@
             "url": "https://www.fausports.com/news/2026/9/17/swimming-diving-swim-dive-set-to-open-2026-27-season-versus-indian-river",
             "publishedAt": "2026-09-17T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F9%2F17%2FUntitled-1.jpg&width=478&height=717&type=webp",
+            "imageUrl": "https://www.fausports.com/images/2026/9/17/Untitled-1.jpg",
             "imageAlt": "Augusta Ness",
             "author": null,
             "publisher": "Florida Atlantic University Athletics",
@@ -4787,24 +4864,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/swimming-and-diving",
             "reason": null,
-            "recordCount": 18
+            "recordCount": 19
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4813,7 +4890,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4822,7 +4899,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4831,7 +4908,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4840,7 +4917,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4849,7 +4926,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4868,8 +4945,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/womens-tennis",
         "season": null,
         "reason": null,
@@ -5086,24 +5163,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/womens-tennis",
             "reason": null,
             "recordCount": 16
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5112,7 +5189,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5121,7 +5198,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5130,7 +5207,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5139,7 +5216,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5148,7 +5225,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5167,8 +5244,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/womens-track-and-field",
         "season": null,
         "reason": null,
@@ -5372,24 +5449,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/womens-track-and-field",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5398,7 +5475,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5407,7 +5484,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5416,7 +5493,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5425,7 +5502,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5434,7 +5511,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5453,8 +5530,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/womens-track-and-field",
         "season": null,
         "reason": null,
@@ -5658,24 +5735,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/womens-track-and-field",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5684,7 +5761,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5693,7 +5770,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5702,7 +5779,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5711,7 +5788,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5720,7 +5797,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5739,12 +5816,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-        "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+        "lastSuccessAt": "2026-10-01T21:06:27.337Z",
         "sourceUrl": "https://www.fausports.com/sports/womens-volleyball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "6b5fa41d3d461e94a28474c8",
+            "title": "Owls Open American Home Slate vs. Temple and Rice",
+            "url": "https://www.fausports.com/news/2026/10/1/womens-volleyball-owls-open-american-home-slate-vs-temple-and-rice",
+            "publishedAt": "2026-10-01T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F10%2F1%2FHartman_vs_Alabama_State.png&width=478&height=717&type=webp",
+            "imageAlt": "Anna Hartman vs. Alabama State",
+            "author": null,
+            "publisher": "Florida Atlantic University Athletics",
+            "discoverySourceUrl": "https://www.fausports.com/sports/womens-volleyball",
+            "metadataCheckedAt": "2026-10-01T21:06:27.337Z"
+          },
           {
             "id": "4935fce70a9f74b6f94e4d40",
             "title": "Van Heyst Garners American Honorable Mention Honors",
@@ -5790,12 +5880,12 @@
             "url": "https://www.fausports.com/news/2026/9/24/womens-volleyball-owls-open-american-slate-in-lone-star-state",
             "publishedAt": "2026-09-24T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Ffausports.com%2Fimages%2F2026%2F9%2F24%2FVB_vs_Alabama_State.png&width=478&height=717&type=webp",
+            "imageUrl": "https://www.fausports.com/images/2026/9/24/VB_vs_Alabama_State.png",
             "imageAlt": "Isabelle Northam Celebrating vs. Alabama State",
             "author": null,
             "publisher": "Florida Atlantic University Athletics",
             "discoverySourceUrl": "https://www.fausports.com/sports/womens-volleyball",
-            "metadataCheckedAt": "2026-09-24T20:01:46.975Z"
+            "metadataCheckedAt": "2026-10-01T21:06:27.337Z"
           },
           {
             "id": "0310008f72de9a529ccfd0d1",
@@ -6048,24 +6138,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.fausports.com/sports/womens-volleyball",
             "reason": null,
-            "recordCount": 23
+            "recordCount": 24
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T06:09:13.248Z",
-            "lastSuccessAt": "2026-10-01T06:09:13.248Z",
+            "lastAttemptAt": "2026-10-01T21:06:27.337Z",
+            "lastSuccessAt": "2026-10-01T21:06:27.337Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6074,7 +6164,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6083,7 +6173,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6092,7 +6182,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6101,7 +6191,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6110,7 +6200,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T06:09:13.248Z",
+        "lastAttemptAt": "2026-10-01T21:06:27.337Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
