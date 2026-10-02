@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.smumustangs.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=663"
   },
-  "generatedAt": "2026-10-01T21:06:28.871Z",
+  "generatedAt": "2026-10-02T05:52:49.172Z",
   "sports": {
     "basketball": {
       "sponsored": true,
@@ -25,12 +25,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/mens-basketball/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "bc6c60a514c99e5708893dd4",
+            "title": "Abdul-Malik Olajuwon, son of NBA legend Hakeem, commits to SMU",
+            "url": "https://www.espn.com/mens-college-basketball/story/_/id/50078479/abdul-malik-olajuwon-son-nba-legend-hakeem-commits-smu",
+            "publishedAt": "2026-10-02T02:51:35.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://a.espncdn.com/photo/2014/1008/ncb_i_smu_ms_600x400.jpg",
+            "imageAlt": "SMU",
+            "author": "Jeff Borzello and Paul Biancardi",
+            "publisher": "ESPN",
+            "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100"
+          },
           {
             "id": "157d7a4ff319041ccd9ea8f3",
             "title": "Malik Olajuwon commits to SMU: Son of Hall of Famer Hakeem Olajuwon is first 2027 commitment for Mustangs",
@@ -42,18 +54,6 @@
             "author": "Cameron Salerno",
             "publisher": "CBS Sports",
             "discoverySourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/"
-          },
-          {
-            "id": "bc6c60a514c99e5708893dd4",
-            "title": "Abdul-Malik Olajuwon, son of NBA legend Hakeem, commits to SMU",
-            "url": "https://www.espn.com/mens-college-basketball/story/_/id/50078479/abdul-malik-olajuwon-son-nba-legend-hakeem-commits-smu",
-            "publishedAt": "2026-10-01T19:38:14.000Z",
-            "publishedAtPrecision": "instant",
-            "imageUrl": "https://a.espncdn.com/photo/2014/1008/ncb_i_smu_ms_600x400.jpg",
-            "imageAlt": "SMU",
-            "author": "Jeff Borzello",
-            "publisher": "ESPN",
-            "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100"
           },
           {
             "id": "50b34c8d66603b1334b99b12",
@@ -527,40 +527,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/mens-basketball/archives",
             "reason": null,
             "recordCount": 36
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -569,7 +569,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -578,7 +578,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -587,7 +587,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -596,7 +596,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -605,7 +605,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -624,8 +624,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/football/archives",
         "season": null,
         "reason": null,
@@ -1304,48 +1304,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/football/archives",
             "reason": null,
             "recordCount": 46
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 3
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 3
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1354,7 +1354,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1363,7 +1363,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1372,7 +1372,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1381,7 +1381,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1390,7 +1390,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1409,8 +1409,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/womens-basketball/archives",
         "season": null,
         "reason": null,
@@ -1822,32 +1822,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/womens-basketball/archives",
             "reason": null,
             "recordCount": 31
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1856,7 +1856,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1865,7 +1865,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1874,7 +1874,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1883,7 +1883,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1892,7 +1892,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1911,8 +1911,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/mens-golf/archives",
         "season": null,
         "reason": null,
@@ -2363,24 +2363,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/mens-golf/archives",
             "reason": null,
             "recordCount": 34
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2389,7 +2389,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2398,7 +2398,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2407,7 +2407,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2416,7 +2416,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2425,7 +2425,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2444,8 +2444,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/mens-soccer/archives",
         "season": null,
         "reason": null,
@@ -2961,32 +2961,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/mens-soccer/archives",
             "reason": null,
             "recordCount": 39
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2995,7 +2995,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3004,7 +3004,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3013,7 +3013,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3022,7 +3022,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3031,7 +3031,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3050,8 +3050,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/mens-swimming-and-diving/archives",
         "season": null,
         "reason": null,
@@ -3515,24 +3515,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/mens-swimming-and-diving/archives",
             "reason": null,
             "recordCount": 35
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3541,7 +3541,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3550,7 +3550,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3559,7 +3559,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3568,7 +3568,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3577,7 +3577,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3596,8 +3596,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/mens-tennis/archives",
         "season": null,
         "reason": null,
@@ -4074,24 +4074,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/mens-tennis/archives",
             "reason": null,
             "recordCount": 36
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4100,7 +4100,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4109,7 +4109,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4118,7 +4118,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4127,7 +4127,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4136,7 +4136,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4155,8 +4155,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/womens-cross-country/archives",
         "season": null,
         "reason": null,
@@ -4568,24 +4568,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/womens-cross-country/archives",
             "reason": null,
             "recordCount": 31
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4594,7 +4594,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4603,7 +4603,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4612,7 +4612,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4621,7 +4621,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4630,7 +4630,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4649,19 +4649,19 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/equestrian/archives",
         "season": null,
         "reason": null,
         "records": [
           {
             "id": "9d93ebe1d4666da1a96f88ac",
-            "title": "No. 5 SMU falls short to No. 2 South Carolina",
+            "title": "No. 5 SMU Fell Short To No. 2 South Carolina",
             "url": "https://www.smumustangs.com/news/2026/10/1/equestrian-no-5-smu-falls-short-to-no-2-south-carolina",
             "publishedAt": "2026-10-01T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": null,
+            "imageUrl": "https://www.smumustangs.com/images/2026/10/1/20260416_EQ_Nationals_SouthCarolina_25004.JPG",
             "imageAlt": null,
             "author": null,
             "publisher": "Southern Methodist University Athletics",
@@ -5114,16 +5114,16 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/equestrian/archives",
             "reason": null,
             "recordCount": 35
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5132,7 +5132,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5141,7 +5141,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5150,7 +5150,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5159,7 +5159,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5168,7 +5168,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5187,8 +5187,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/womens-golf/archives",
         "season": null,
         "reason": null,
@@ -5613,24 +5613,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/womens-golf/archives",
             "reason": null,
             "recordCount": 32
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5639,7 +5639,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5648,7 +5648,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5657,7 +5657,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5666,7 +5666,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5675,7 +5675,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5694,8 +5694,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/rowing/archives",
         "season": null,
         "reason": null,
@@ -6081,24 +6081,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/rowing/archives",
             "reason": null,
             "recordCount": 29
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/rowing/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6107,7 +6107,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6116,7 +6116,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6125,7 +6125,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6134,7 +6134,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6143,7 +6143,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6162,8 +6162,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/womens-soccer/archives",
         "season": null,
         "reason": null,
@@ -6653,32 +6653,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/womens-soccer/archives",
             "reason": null,
             "recordCount": 37
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6687,7 +6687,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6696,7 +6696,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6705,7 +6705,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6714,7 +6714,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6723,7 +6723,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6742,8 +6742,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/womens-swimming-and-diving/archives",
         "season": null,
         "reason": null,
@@ -7168,24 +7168,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/womens-swimming-and-diving/archives",
             "reason": null,
             "recordCount": 32
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7194,7 +7194,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7203,7 +7203,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7212,7 +7212,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7221,7 +7221,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7230,7 +7230,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7249,8 +7249,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/womens-tennis/archives",
         "season": null,
         "reason": null,
@@ -7669,7 +7669,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-tennis/archives",
-            "metadataCheckedAt": "2026-09-24T05:03:16.451Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "d6a8ccc793114eb879da090b",
@@ -7682,30 +7682,30 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-tennis/archives",
-            "metadataCheckedAt": "2026-09-24T05:03:16.451Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           }
         ],
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/womens-tennis/archives",
             "reason": null,
             "recordCount": 33
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7714,7 +7714,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7723,7 +7723,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7732,7 +7732,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7741,7 +7741,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7750,7 +7750,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7769,8 +7769,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
         "season": null,
         "reason": null,
@@ -8085,7 +8085,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
-            "metadataCheckedAt": "2026-09-24T13:37:33.561Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "7744e7df477ffeb0128b9630",
@@ -8098,7 +8098,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
-            "metadataCheckedAt": "2026-09-24T13:37:33.561Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "dfd2a555e1cb39899e5394dd",
@@ -8111,7 +8111,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
-            "metadataCheckedAt": "2026-09-24T13:37:33.561Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "f71a9d1abbf4dd82438cc716",
@@ -8124,7 +8124,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
-            "metadataCheckedAt": "2026-09-24T13:37:33.561Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "953da14b3d82ee0d8b600198",
@@ -8137,7 +8137,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
-            "metadataCheckedAt": "2026-09-24T13:37:33.561Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "f2d7e281a1052612705b61f7",
@@ -8195,24 +8195,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
             "reason": null,
             "recordCount": 32
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8221,7 +8221,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8230,7 +8230,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8239,7 +8239,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8248,7 +8248,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8257,7 +8257,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8276,8 +8276,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
         "season": null,
         "reason": null,
@@ -8436,7 +8436,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
-            "metadataCheckedAt": "2026-09-24T13:37:33.561Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "aa00459eb28e3cbb1897b278",
@@ -8449,7 +8449,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
-            "metadataCheckedAt": "2026-09-24T13:37:33.561Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "e5669aab5d1da549a87bd1f4",
@@ -8462,7 +8462,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
-            "metadataCheckedAt": "2026-09-24T13:37:33.561Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "7786d9c4f55cdf9e31bcd652",
@@ -8475,7 +8475,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
-            "metadataCheckedAt": "2026-09-24T13:37:33.561Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "ab77f9aece30133ff1fd9585",
@@ -8488,7 +8488,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
-            "metadataCheckedAt": "2026-09-24T13:37:33.561Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "75644f0c6558b7761e78f9f2",
@@ -8702,24 +8702,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/womens-track-and-field/archives",
             "reason": null,
             "recordCount": 32
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8728,7 +8728,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8737,7 +8737,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8746,7 +8746,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8755,7 +8755,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8764,7 +8764,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8783,8 +8783,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-        "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+        "lastSuccessAt": "2026-10-02T05:52:49.172Z",
         "sourceUrl": "https://www.smumustangs.com/sports/womens-volleyball/archives",
         "season": null,
         "reason": null,
@@ -8878,7 +8878,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-volleyball/archives",
-            "metadataCheckedAt": "2026-09-23T23:00:07.669Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "0f25f0d43a0255d38602754a",
@@ -8891,7 +8891,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-volleyball/archives",
-            "metadataCheckedAt": "2026-09-23T23:00:07.669Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "890449fdec99b2ac4fce9cb4",
@@ -8904,7 +8904,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-volleyball/archives",
-            "metadataCheckedAt": "2026-09-24T05:03:16.451Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "848453ea9428c8364962390f",
@@ -8917,7 +8917,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-volleyball/archives",
-            "metadataCheckedAt": "2026-09-24T05:03:16.451Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "cbe7305741f693904c129831",
@@ -8930,7 +8930,7 @@
             "author": null,
             "publisher": "Southern Methodist University Athletics",
             "discoverySourceUrl": "https://www.smumustangs.com/sports/womens-volleyball/archives",
-            "metadataCheckedAt": "2026-09-24T05:03:16.451Z"
+            "metadataCheckedAt": "2026-10-02T05:52:49.172Z"
           },
           {
             "id": "d735fe548f5882ba01b8b4b0",
@@ -9362,24 +9362,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.smumustangs.com/sports/womens-volleyball/archives",
             "reason": null,
             "recordCount": 41
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-01T21:06:28.871Z",
-            "lastSuccessAt": "2026-10-01T21:06:28.871Z",
+            "lastAttemptAt": "2026-10-02T05:52:49.172Z",
+            "lastSuccessAt": "2026-10-02T05:52:49.172Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 3
@@ -9388,7 +9388,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9397,7 +9397,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9406,7 +9406,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9415,7 +9415,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9424,7 +9424,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-01T21:06:28.871Z",
+        "lastAttemptAt": "2026-10-02T05:52:49.172Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
