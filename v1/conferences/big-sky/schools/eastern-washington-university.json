@@ -12,7 +12,7 @@
     "athleticsUrl": "https://goeags.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=207"
   },
-  "generatedAt": "2026-10-02T20:57:58.037Z",
+  "generatedAt": "2026-10-03T05:35:35.186Z",
   "sports": {
     "basketball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/mens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "43cef6f3caefc626ef0f760e",
@@ -172,7 +172,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "5b0378ca5e1d5a5d8d0adfc3",
@@ -185,7 +185,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "bc21280fc58f97dd84a255ea",
@@ -198,7 +198,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "6465bbaa76db13f459c3b2bb",
@@ -211,7 +211,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "9f086549d3393ba5421c57b6",
@@ -224,7 +224,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "c11f2afd04d5694fa5d8420d",
@@ -1321,41 +1321,41 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/mens-basketball/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1364,7 +1364,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1373,7 +1373,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1382,7 +1382,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1391,7 +1391,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1400,7 +1400,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1418,12 +1418,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/football/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "eadede0e6906b56095426e1c",
@@ -1631,7 +1631,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/football/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "67edef638f5ead484aa77116",
@@ -1644,7 +1644,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/football/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "387d6cc33f3d4709a3138fc5",
@@ -1657,7 +1657,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/football/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "b9f2e3989c7e010829bac5cd",
@@ -1670,7 +1670,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/football/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "9e224921def8f9c7c5cfdac5",
@@ -1683,7 +1683,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/football/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "376de6d8bc4cfd1803e6d6bd",
@@ -2676,49 +2676,49 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/football/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 96
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2727,7 +2727,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2736,7 +2736,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2745,7 +2745,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2754,7 +2754,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2763,7 +2763,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2781,12 +2781,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/womens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "d0130553b474424dc25fd6a1",
@@ -2929,7 +2929,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "63736e95d775241f577fd6bd",
@@ -2942,7 +2942,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "7262c7dea7181089f7f4acfe",
@@ -2955,7 +2955,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "3c672cf811a2045f16e22d78",
@@ -2968,7 +2968,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "2b6385e7706cc4bf8169a236",
@@ -2981,7 +2981,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "70f5ec8e9409fc8a90c8374f",
@@ -4078,33 +4078,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/womens-basketball/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4113,7 +4113,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4122,7 +4122,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4131,7 +4131,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4140,7 +4140,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4149,7 +4149,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4167,12 +4167,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/cross-country/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "ff6bc5fba2c6ccd40bfa23db",
@@ -4185,7 +4185,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-09-26T05:17:37.185Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "131305fadb8fcfdd6fb3195d",
@@ -4302,7 +4302,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "59a510edf3c5868c3f083ceb",
@@ -4315,7 +4315,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "893711bf38437073819b861d",
@@ -4328,7 +4328,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "6f090187f51fff7beaf0a64c",
@@ -4341,7 +4341,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "4c609c3d1a963cc5c6799efe",
@@ -5230,25 +5230,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/cross-country/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 81
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5257,7 +5257,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5266,7 +5266,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5275,7 +5275,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5284,7 +5284,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5293,7 +5293,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5311,12 +5311,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/mens-golf/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "baaa5b0839e2042322625b67",
@@ -5472,7 +5472,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/mens-golf/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "6dd5ef693e91f0203e52a262",
@@ -5485,7 +5485,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/mens-golf/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "4bf959779c2cfc086f5f8152",
@@ -5498,7 +5498,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/mens-golf/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "a79143f476467e5fb50317bd",
@@ -5511,7 +5511,7 @@
             "author": null,
             "publisher": "Eastern Washington University Athletics",
             "discoverySourceUrl": "https://goeags.com/sports/mens-golf/archives",
-            "metadataCheckedAt": "2026-09-25T23:30:09.313Z"
+            "metadataCheckedAt": "2026-10-03T05:35:35.186Z"
           },
           {
             "id": "11b9e987241750cf0c2a09e2",
@@ -5867,25 +5867,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/mens-golf/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 42
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5894,7 +5894,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5903,7 +5903,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5912,7 +5912,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5921,7 +5921,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5930,7 +5930,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5948,12 +5948,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "39dac44b0f4acd8f2e9fcf84",
@@ -7128,25 +7128,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 90
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7155,7 +7155,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7164,7 +7164,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7173,7 +7173,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7182,7 +7182,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7191,7 +7191,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7209,12 +7209,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "c19c04d9824a049766751a28",
@@ -8382,25 +8382,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 90
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8409,7 +8409,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8418,7 +8418,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8427,7 +8427,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8436,7 +8436,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8445,7 +8445,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8463,12 +8463,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/cross-country/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "cf49eec34fb7c1818a921215",
@@ -9684,25 +9684,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/cross-country/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 96
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -9711,7 +9711,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9720,7 +9720,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9729,7 +9729,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9738,7 +9738,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9747,7 +9747,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9765,12 +9765,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/womens-golf/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "4f4bc11e8f380141df268f58",
@@ -11061,25 +11061,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/womens-golf/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 103
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11088,7 +11088,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11097,7 +11097,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11106,7 +11106,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11115,7 +11115,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11124,7 +11124,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11142,12 +11142,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/womens-soccer/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "9320864504ad0dd492bac61d",
@@ -12487,33 +12487,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/womens-soccer/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 108
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -12522,7 +12522,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12531,7 +12531,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12540,7 +12540,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12549,7 +12549,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12558,7 +12558,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12576,12 +12576,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/womens-tennis/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "785c84f4d9adf59f5247e52c",
@@ -13810,25 +13810,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/womens-tennis/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -13837,7 +13837,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13846,7 +13846,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13855,7 +13855,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13864,7 +13864,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13873,7 +13873,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13891,12 +13891,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "e68df7fb270606902650a2d6",
@@ -14849,25 +14849,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 79
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -14876,7 +14876,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14885,7 +14885,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14894,7 +14894,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14903,7 +14903,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14912,7 +14912,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14930,12 +14930,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "2d1b09acf123d3032ef9121d",
@@ -15888,25 +15888,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 79
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -15915,7 +15915,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15924,7 +15924,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15933,7 +15933,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15942,7 +15942,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15951,7 +15951,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15969,12 +15969,12 @@
         "name": "Big Sky Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": "2026-10-02T20:57:58.037Z",
         "sourceUrl": "https://goeags.com/sports/womens-volleyball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "1b58d655e5be9f408b7c9c2a",
@@ -17299,25 +17299,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
             "lastSuccessAt": "2026-10-02T20:57:58.037Z",
             "sourceUrl": "https://goeags.com/sports/womens-volleyball/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 110
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-02T20:57:58.037Z",
-            "lastSuccessAt": "2026-10-02T20:57:58.037Z",
+            "lastAttemptAt": "2026-10-03T05:35:35.186Z",
+            "lastSuccessAt": "2026-10-03T05:35:35.186Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -17326,7 +17326,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17335,7 +17335,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17344,7 +17344,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17353,7 +17353,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17362,7 +17362,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-02T20:57:58.037Z",
+        "lastAttemptAt": "2026-10-03T05:35:35.186Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
