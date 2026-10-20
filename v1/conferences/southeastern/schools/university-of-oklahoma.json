@@ -12,7 +12,7 @@
     "athleticsUrl": "https://soonersports.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=522"
   },
-  "generatedAt": "2026-10-20T20:25:45.179Z",
+  "generatedAt": "2026-10-20T23:34:16.618Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,20 +24,33 @@
         "name": "Southeastern Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=baseball",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
+          {
+            "id": "78d56549b442430517968a2b",
+            "title": "Fall Games vs. Texas Tech Moved to Norman",
+            "url": "https://soonersports.com/news/2026/10/20/baseball-fall-games-vs-texas-tech-moved-to-norman",
+            "publishedAt": "2026-10-20T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd4sjo25z9q3iq.cloudfront.net%2Fimages%2F2026%2F10%2F20%2F20261008_BB_Game_MissouriState_RK_DSC06046.JPG&width=540&height=304&type=webp",
+            "imageAlt": "Lead, BSB 26_Fall Ball Location Change",
+            "author": null,
+            "publisher": "University of Oklahoma Athletics",
+            "discoverySourceUrl": "https://soonersports.com/index.aspx?path=baseball",
+            "metadataCheckedAt": "2026-10-20T23:34:16.618Z"
+          },
           {
             "id": "7e161334dad20f1260218b8d",
             "title": "Kimrey Family Stadium Groundbreaking Set for Friday, Oct. 16",
             "url": "https://soonersports.com/news/2026/10/13/baseball-kimrey-family-stadium-groundbreaking-set-for-friday-oct-16",
             "publishedAt": "2026-10-13T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd4sjo25z9q3iq.cloudfront.net%2Fimages%2F2026%2F10%2F13%2FLead__Groundbreaking.jpg&width=540&height=304&type=webp",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd4sjo25z9q3iq.cloudfront.net%2Fimages%2F2026%2F10%2F13%2FLead__Groundbreaking.jpg&width=560&height=315&type=webp",
             "imageAlt": "Lead, KFS Groundbreaking Announcement",
             "author": null,
             "publisher": "University of Oklahoma Athletics",
@@ -76,7 +89,7 @@
             "url": "https://soonersports.com/news/2026/9/17/a-night-with-champions-celebrating-baseballs-2026-national-championship",
             "publishedAt": "2026-09-17T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd4sjo25z9q3iq.cloudfront.net%2Fimages%2F2026%2F9%2F17%2FNWC_Lead.jpg&width=560&height=315&type=webp",
+            "imageUrl": "https://d4sjo25z9q3iq.cloudfront.net/images/2026/9/17/NWC_Lead.jpg",
             "imageAlt": "Lead, BSB 26 Night with Champions",
             "author": null,
             "publisher": "University of Oklahoma Athletics",
@@ -454,33 +467,33 @@
         ],
         "sources": [
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=baseball",
-            "reason": "http-503",
-            "recordCount": 12
+            "reason": null,
+            "recordCount": 13
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 20
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 2
@@ -489,7 +502,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -498,7 +511,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -507,7 +520,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -516,7 +529,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -525,7 +538,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -543,12 +556,12 @@
         "name": "Southeastern Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=mbball",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "c6f2720c85fd5f3162afd85b",
@@ -722,41 +735,41 @@
         ],
         "sources": [
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=mbball",
-            "reason": "http-503",
+            "reason": null,
             "recordCount": 13
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -765,7 +778,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -774,7 +787,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -783,7 +796,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -792,7 +805,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -801,7 +814,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -819,12 +832,12 @@
         "name": "Southeastern Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=football",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "ce41ca911fd753f84ee06632",
@@ -1693,49 +1706,49 @@
         ],
         "sources": [
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=football",
-            "reason": "http-503",
+            "reason": null,
             "recordCount": 26
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 28
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 13
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 2
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1744,7 +1757,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1753,7 +1766,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1762,7 +1775,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1771,7 +1784,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1780,7 +1793,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1798,12 +1811,12 @@
         "name": "Southeastern Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=wbball",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "6fdcc230ed30c4ff912a172b",
@@ -1965,33 +1978,33 @@
         ],
         "sources": [
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=wbball",
-            "reason": "http-503",
+            "reason": null,
             "recordCount": 13
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2000,7 +2013,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2009,7 +2022,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2018,7 +2031,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2027,7 +2040,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2036,7 +2049,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2054,12 +2067,12 @@
         "name": "Southeastern Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=xc",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "c3e25009d1816d1aca263c61",
@@ -2181,25 +2194,25 @@
         ],
         "sources": [
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=xc",
-            "reason": "http-503",
+            "reason": null,
             "recordCount": 9
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2208,7 +2221,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2217,7 +2230,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2226,7 +2239,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2235,7 +2248,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2244,7 +2257,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2262,20 +2275,32 @@
         "name": "Southeastern Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=mgolf",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
+          {
+            "id": "528838abd945bf5f56e7e60b",
+            "title": "Sooners Finish Eighth at Williams Cup",
+            "url": "https://soonersports.com/news/2026/10/20/mens-golf-sooners-finish-eighth-at-williams-cup",
+            "publishedAt": "2026-10-20T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd4sjo25z9q3iq.cloudfront.net%2Fimages%2F2026%2F10%2F20%2F20241021_MG_StephensCup_BV_OUB02233_hWTRD.JPG&width=540&height=304&type=webp",
+            "imageAlt": "OKLAHOMA CITY, OK - October 21, 2024 - Ryder Cowan during the Stephens Cup at the Oklahoma City Golf &amp; Country Club in Oklahoma City, Oklahoma. Photo By Brendall Vargas/University of Oklahoma",
+            "author": "OU Athletics Communications",
+            "publisher": "University of Oklahoma Athletics",
+            "discoverySourceUrl": "https://soonersports.com/index.aspx?path=mgolf"
+          },
           {
             "id": "4e1f230208ddcdfee684bc72",
             "title": "Oklahoma Golf Heads East for Williams Cup",
             "url": "https://soonersports.com/news/2026/10/16/mens-golf-oklahoma-golf-heads-east-for-williams-cup",
             "publishedAt": "2026-10-16T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd4sjo25z9q3iq.cloudfront.net%2Fimages%2F2026%2F9%2F18%2F20260915_MG_Game_InvernessIntercollegiate_CRD_OUD07804.JPG&width=540&height=304&type=webp",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd4sjo25z9q3iq.cloudfront.net%2Fimages%2F2026%2F9%2F18%2F20260915_MG_Game_InvernessIntercollegiate_CRD_OUD07804.JPG&width=560&height=315&type=webp",
             "imageAlt": "Bradley Sawka, lead",
             "author": "OU Athletics Communications",
             "publisher": "University of Oklahoma Athletics",
@@ -2323,7 +2348,7 @@
             "url": "https://soonersports.com/news/2026/9/23/mens-golf-oklahomas-ryder-cowan-selected-as-sec-golfer-of-the-week",
             "publishedAt": "2026-09-23T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd4sjo25z9q3iq.cloudfront.net%2Fimages%2F2026%2F9%2F23%2F20260911_MG_Game_InvernessIntercollegiate_CRD_OUD04735.JPG&width=560&height=315&type=webp",
+            "imageUrl": "https://d4sjo25z9q3iq.cloudfront.net/images/2026/9/23/20260911_MG_Game_InvernessIntercollegiate_CRD_OUD04735.JPG",
             "imageAlt": "Ryder Cowan, lead",
             "author": "OU Athletics Communications",
             "publisher": "University of Oklahoma Athletics",
@@ -2440,25 +2465,25 @@
         ],
         "sources": [
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=mgolf",
-            "reason": "http-503",
-            "recordCount": 13
+            "reason": null,
+            "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
@@ -2467,7 +2492,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2476,7 +2501,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2485,7 +2510,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2494,7 +2519,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2503,7 +2528,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2521,12 +2546,12 @@
         "name": "Mountain Pacific Sports Federation - Men's Water Polo"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=mgym",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "37cb27a31f95741f7ad1d9e0",
@@ -2609,25 +2634,25 @@
         ],
         "sources": [
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=mgym",
-            "reason": "http-503",
+            "reason": null,
             "recordCount": 6
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/gymnastics-men/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2636,7 +2661,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2645,7 +2670,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2654,7 +2679,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2663,7 +2688,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2672,7 +2697,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2690,12 +2715,12 @@
         "name": "Southeastern Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=mten",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "1ae862a3dd56979c8d136916",
@@ -2817,25 +2842,25 @@
         ],
         "sources": [
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=mten",
-            "reason": "http-503",
+            "reason": null,
             "recordCount": 9
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2844,7 +2869,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2853,7 +2878,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2862,7 +2887,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2871,7 +2896,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2880,7 +2905,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2899,8 +2924,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=mtrack",
         "season": null,
         "reason": null,
@@ -3063,24 +3088,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=mtrack",
             "reason": null,
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3089,7 +3114,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3098,7 +3123,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3107,7 +3132,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3116,7 +3141,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3125,7 +3150,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3144,8 +3169,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=mtrack",
         "season": null,
         "reason": null,
@@ -3308,24 +3333,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=mtrack",
             "reason": null,
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3334,7 +3359,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3343,7 +3368,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3352,7 +3377,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3361,7 +3386,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3370,7 +3395,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3389,8 +3414,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=wr",
         "season": null,
         "reason": null,
@@ -3580,16 +3605,16 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=wr",
             "reason": null,
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3598,7 +3623,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3607,7 +3632,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3616,7 +3641,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3625,7 +3650,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3634,7 +3659,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3653,8 +3678,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=softball",
         "season": null,
         "reason": null,
@@ -3813,32 +3838,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=softball",
             "reason": null,
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3847,7 +3872,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3856,7 +3881,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3865,7 +3890,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3874,7 +3899,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3883,7 +3908,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3901,12 +3926,12 @@
         "name": "Southeastern Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=xc",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "eb844dbec047cebf79dcfd27",
@@ -4028,25 +4053,25 @@
         ],
         "sources": [
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T05:18:54.801Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=xc",
-            "reason": "http-503",
+            "reason": null,
             "recordCount": 9
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4055,7 +4080,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4064,7 +4089,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4073,7 +4098,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4082,7 +4107,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4091,7 +4116,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4110,8 +4135,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=wgolf",
         "season": null,
         "reason": null,
@@ -4300,24 +4325,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=wgolf",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4326,7 +4351,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4335,7 +4360,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4344,7 +4369,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4353,7 +4378,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4362,7 +4387,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4381,8 +4406,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=wgym",
         "season": null,
         "reason": null,
@@ -4558,24 +4583,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=wgym",
             "reason": null,
             "recordCount": 11
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/gymnastics-women/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 2
@@ -4584,7 +4609,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4593,7 +4618,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4602,7 +4627,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4611,7 +4636,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4620,7 +4645,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4639,8 +4664,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=rowing",
         "season": null,
         "reason": null,
@@ -4737,24 +4762,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=rowing",
             "reason": null,
             "recordCount": 7
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/rowing/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4763,7 +4788,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4772,7 +4797,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4781,7 +4806,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4790,7 +4815,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4799,7 +4824,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4818,8 +4843,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=soc",
         "season": null,
         "reason": null,
@@ -5158,32 +5183,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=soc",
             "reason": null,
             "recordCount": 27
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5192,7 +5217,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5201,7 +5226,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5210,7 +5235,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5219,7 +5244,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5228,7 +5253,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5247,8 +5272,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=wten",
         "season": null,
         "reason": null,
@@ -5346,24 +5371,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=wten",
             "reason": null,
             "recordCount": 7
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5372,7 +5397,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5381,7 +5406,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5390,7 +5415,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5399,7 +5424,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5408,7 +5433,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5427,8 +5452,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/sports/track-and-field/archives",
         "season": null,
         "reason": null,
@@ -5866,24 +5891,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/sports/track-and-field/archives",
             "reason": null,
             "recordCount": 33
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5892,7 +5917,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5901,7 +5926,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5910,7 +5935,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5919,7 +5944,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5928,7 +5953,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5947,8 +5972,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/sports/track-and-field/archives",
         "season": null,
         "reason": null,
@@ -6386,24 +6411,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/sports/track-and-field/archives",
             "reason": null,
             "recordCount": 33
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6412,7 +6437,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6421,7 +6446,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6430,7 +6455,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6439,7 +6464,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6448,7 +6473,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6467,8 +6492,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-        "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+        "lastSuccessAt": "2026-10-20T23:34:16.618Z",
         "sourceUrl": "https://soonersports.com/index.aspx?path=vb",
         "season": null,
         "reason": null,
@@ -6789,24 +6814,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://soonersports.com/index.aspx?path=vb",
             "reason": null,
             "recordCount": 24
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-20T20:25:45.179Z",
-            "lastSuccessAt": "2026-10-20T20:25:45.179Z",
+            "lastAttemptAt": "2026-10-20T23:34:16.618Z",
+            "lastSuccessAt": "2026-10-20T23:34:16.618Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6815,7 +6840,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6824,7 +6849,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6833,7 +6858,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6842,7 +6867,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6851,7 +6876,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-20T20:25:45.179Z",
+        "lastAttemptAt": "2026-10-20T23:34:16.618Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
