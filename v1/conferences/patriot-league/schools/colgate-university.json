@@ -12,7 +12,7 @@
     "athleticsUrl": "https://gocolgateraiders.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=153"
   },
-  "generatedAt": "2026-10-21T14:20:23.288Z",
+  "generatedAt": "2026-10-21T20:35:42.099Z",
   "sports": {
     "basketball": {
       "sponsored": true,
@@ -24,13 +24,26 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": "2026-10-21T14:20:23.288Z",
         "sourceUrl": "https://colgateathletics.com/sports/mens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
+          {
+            "id": "d46471effed5c39498b5f7b0",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/mens-basketball/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "e6e2c0315ac9f8495f3fe26d",
             "title": "Colgate Basketball Single Game Tickets on Sale Now",
@@ -1374,49 +1387,49 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/mens-basketball/archives",
             "reason": null,
-            "recordCount": 103
+            "recordCount": 104
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
             "lastSuccessAt": "2026-10-21T14:20:23.288Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "redirect-limit",
             "recordCount": 0
           }
         ]
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1425,7 +1438,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1434,7 +1447,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1443,7 +1456,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1452,7 +1465,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1471,12 +1484,38 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/football/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "e86c2012f0e0a5eec0e21ad5",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/football/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
+          {
+            "id": "3bb92053422b5fa06ebaa798",
+            "title": "Thirteen Colgate Football Notes at Richmond",
+            "url": "https://colgateathletics.com/news/2026/10/21/thirteen-colgate-football-notes-at-richmond.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/C1_04456.jpg",
+            "imageAlt": "Football Celebration",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/football/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "44de231fa392ef896826a321",
             "title": "Football Suffers Setback Against Georgetown",
@@ -2963,48 +3002,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/football/archives",
             "reason": null,
-            "recordCount": 114
+            "recordCount": 116
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3013,7 +3052,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3022,7 +3061,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3031,7 +3070,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3040,7 +3079,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3049,7 +3088,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3068,12 +3107,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/womens-basketball/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "2f6e2085958349ad37a6271f",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/womens-basketball/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "8143d9d46b9367889e2c62e1",
             "title": "Colgate Basketball Single Game Tickets on Sale Now",
@@ -4391,32 +4443,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/womens-basketball/archives",
             "reason": null,
-            "recordCount": 101
+            "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4425,7 +4477,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4434,7 +4486,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4443,7 +4495,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4452,7 +4504,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4461,7 +4513,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4480,8 +4532,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/field-hockey/archives",
         "season": null,
         "reason": null,
@@ -5933,24 +5985,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/field-hockey/archives",
             "reason": null,
             "recordCount": 111
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/fieldhockey/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5959,7 +6011,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5968,7 +6020,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5977,7 +6029,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5986,7 +6038,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5995,7 +6047,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6014,8 +6066,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/mens-cross-country/archives",
         "season": null,
         "reason": null,
@@ -7220,24 +7272,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/mens-cross-country/archives",
             "reason": null,
             "recordCount": 92
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7246,7 +7298,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7255,7 +7307,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7264,7 +7316,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7273,7 +7325,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7282,7 +7334,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7301,8 +7353,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/mens-golf/archives",
         "season": null,
         "reason": null,
@@ -8741,24 +8793,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/mens-golf/archives",
             "reason": null,
             "recordCount": 110
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8767,7 +8819,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8776,7 +8828,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8785,7 +8837,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8794,7 +8846,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8803,7 +8855,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8822,12 +8874,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/mens-ice-hockey/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "95a6f623155de4ac447cf264",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/mens-ice-hockey/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "21e32027efb599257b5c52e1",
             "title": "Men's Hockey Drops Series to New Hampshire",
@@ -10184,32 +10249,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/mens-ice-hockey/archives",
             "reason": null,
-            "recordCount": 104
+            "recordCount": 105
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/icehockey-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10218,7 +10283,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10227,7 +10292,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10236,7 +10301,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10245,7 +10310,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10254,7 +10319,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10273,12 +10338,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/mens-lacrosse/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "25e94c4605f3b726e840d578",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/mens-lacrosse/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "73a0c6ae564ea3e5c6a7bb5e",
             "title": "Colgate Athletics Announces Hall of Honor Class of 2026",
@@ -11557,24 +11635,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/mens-lacrosse/archives",
             "reason": null,
-            "recordCount": 98
+            "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11583,7 +11661,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11592,7 +11670,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11601,7 +11679,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11610,7 +11688,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11619,7 +11697,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11637,12 +11715,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": "2026-10-21T14:20:23.288Z",
         "sourceUrl": "https://colgateathletics.com/sports/mens-soccer/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "fff8f6bea3fbe406904a1f99",
@@ -13078,41 +13156,41 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/mens-soccer/archives",
             "reason": null,
             "recordCount": 110
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
             "lastSuccessAt": "2026-10-21T14:20:23.288Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "redirect-limit",
             "recordCount": 0
           }
         ]
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13121,7 +13199,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13130,7 +13208,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13139,7 +13217,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13148,7 +13226,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13167,8 +13245,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/mens-swimming-and-diving/archives",
         "season": null,
         "reason": null,
@@ -14126,24 +14204,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/mens-swimming-and-diving/archives",
             "reason": null,
             "recordCount": 73
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -14152,7 +14230,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14161,7 +14239,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14170,7 +14248,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14179,7 +14257,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14188,7 +14266,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14207,12 +14285,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/mens-tennis/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "ad7597ec2aba6146c2fbc0b4",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/mens-tennis/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "479bfb2d9cff7769b3996f0b",
             "title": "Raiders of the Week: Nick Pompo and Chloe Goofers",
@@ -15543,24 +15634,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/mens-tennis/archives",
             "reason": null,
-            "recordCount": 102
+            "recordCount": 103
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -15569,7 +15660,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15578,7 +15669,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15587,7 +15678,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15596,7 +15687,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15605,7 +15696,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15624,8 +15715,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/mens-track-and-field/archives",
         "season": null,
         "reason": null,
@@ -16687,24 +16778,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/mens-track-and-field/archives",
             "reason": null,
             "recordCount": 81
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -16713,7 +16804,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16722,7 +16813,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16731,7 +16822,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16740,7 +16831,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16749,7 +16840,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16768,8 +16859,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/mens-track-and-field/archives",
         "season": null,
         "reason": null,
@@ -17831,24 +17922,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/mens-track-and-field/archives",
             "reason": null,
             "recordCount": 81
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -17857,7 +17948,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17866,7 +17957,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17875,7 +17966,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17884,7 +17975,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17893,7 +17984,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17912,12 +18003,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/softball/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "5e108e9181e238dd195428db",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/softball/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "1dc99bd11dcf40624f4cd249",
             "title": "Colgate Athletics Announces Hall of Honor Class of 2026",
@@ -19157,32 +19261,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/softball/archives",
             "reason": null,
-            "recordCount": 95
+            "recordCount": 96
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -19191,7 +19295,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19200,7 +19304,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19209,7 +19313,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19218,7 +19322,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19227,7 +19331,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19246,12 +19350,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/womens-cross-country/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "389fcc2ca73a688876df47d2",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/womens-cross-country/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "f84d09bbc99a29c87f5ecf64",
             "title": "Cross Country Runs at Lehigh Paul Short Invitational",
@@ -20049,24 +20166,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/womens-cross-country/archives",
             "reason": null,
-            "recordCount": 61
+            "recordCount": 62
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -20075,7 +20192,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20084,7 +20201,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20093,7 +20210,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20102,7 +20219,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20111,7 +20228,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20130,12 +20247,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/womens-ice-hockey/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "10ee282784d218fd5eb3f15c",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/womens-ice-hockey/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "23e1c2390766d37d03f98673",
             "title": "Raiders of the Week: Alex Hill and Linda Vocetková",
@@ -21631,32 +21761,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/womens-ice-hockey/archives",
             "reason": null,
-            "recordCount": 111
+            "recordCount": 112
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/womens-college-hockey/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 4
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/icehockey-women/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -21665,7 +21795,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21674,7 +21804,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21683,7 +21813,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21692,7 +21822,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21701,7 +21831,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21720,12 +21850,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/womens-lacrosse/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "16c8ba7fdc2a81ea287ee8ee",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/womens-lacrosse/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "69a0b4727169cabfd2a490f9",
             "title": "Women's Lacrosse Announces Incoming Class",
@@ -22978,24 +23121,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/womens-lacrosse/archives",
             "reason": null,
-            "recordCount": 96
+            "recordCount": 97
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -23004,7 +23147,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23013,7 +23156,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23022,7 +23165,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23031,7 +23174,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23040,7 +23183,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23059,12 +23202,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/womens-crew/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "39042ad93007a114026deab5",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/womens-crew/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "58a7720236a8f11812db161c",
             "title": "Club 4+ Competes at Head of the Charles",
@@ -24330,24 +24486,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/womens-crew/archives",
             "reason": null,
-            "recordCount": 97
+            "recordCount": 98
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/rowing/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -24356,7 +24512,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24365,7 +24521,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24374,7 +24530,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24383,7 +24539,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24392,7 +24548,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24411,8 +24567,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/womens-soccer/archives",
         "season": null,
         "reason": null,
@@ -25825,32 +25981,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/womens-soccer/archives",
             "reason": null,
             "recordCount": 108
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -25859,7 +26015,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25868,7 +26024,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25877,7 +26033,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25886,7 +26042,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25895,7 +26051,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25914,8 +26070,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/womens-swimming-and-diving/archives",
         "season": null,
         "reason": null,
@@ -27055,24 +27211,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/womens-swimming-and-diving/archives",
             "reason": null,
             "recordCount": 87
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -27081,7 +27237,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -27090,7 +27246,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -27099,7 +27255,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -27108,7 +27264,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -27117,7 +27273,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -27136,8 +27292,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/womens-tennis/archives",
         "season": null,
         "reason": null,
@@ -28433,24 +28589,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/womens-tennis/archives",
             "reason": null,
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -28459,7 +28615,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -28468,7 +28624,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -28477,7 +28633,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -28486,7 +28642,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -28495,7 +28651,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -28514,12 +28670,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/womens-track-and-field/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "089f91bf4e3852b9c3eab679",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/womens-track-and-field/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "dbc83b9ce939ceaff505211b",
             "title": "Colgate Athletics Announces Hall of Honor Class of 2026",
@@ -29083,24 +29252,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/womens-track-and-field/archives",
             "reason": null,
-            "recordCount": 43
+            "recordCount": 44
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -29109,7 +29278,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29118,7 +29287,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29127,7 +29296,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29136,7 +29305,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29145,7 +29314,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29164,12 +29333,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/womens-track-and-field/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "ccdbf294fa64d219b4718c4f",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/womens-track-and-field/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "0fa808ddfd20c9e61488096d",
             "title": "Colgate Athletics Announces Hall of Honor Class of 2026",
@@ -29733,24 +29915,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/womens-track-and-field/archives",
             "reason": null,
-            "recordCount": 43
+            "recordCount": 44
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -29759,7 +29941,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29768,7 +29950,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29777,7 +29959,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29786,7 +29968,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29795,7 +29977,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29814,12 +29996,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://colgateathletics.com/sports/womens-volleyball/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "265a0300c88152c07ebffdb1",
+            "title": "Colgate Welcomes 13 Inductees to Hall of Honor",
+            "url": "https://colgateathletics.com/news/2026/10/21/features-colgate-welcomes-13-inductees-to-hall-of-honor.aspx",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://d2hfhpnojplght.cloudfront.net/images/2026/10/21/Hall_of_Honor_1_16x9.jpg",
+            "imageAlt": "Hall of Honor inductees 2026",
+            "author": "Colgate University Athletics",
+            "publisher": "Colgate University Athletics",
+            "discoverySourceUrl": "https://colgateathletics.com/sports/womens-volleyball/archives",
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
+          },
           {
             "id": "cc81e8f9ee190735583ba0db",
             "title": "Raiders of the Week: Alex Hill and Linda Vocetková",
@@ -31293,24 +31488,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://colgateathletics.com/sports/womens-volleyball/archives",
             "reason": null,
-            "recordCount": 113
+            "recordCount": 114
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -31319,7 +31514,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -31328,7 +31523,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -31337,7 +31532,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -31346,7 +31541,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -31355,7 +31550,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,

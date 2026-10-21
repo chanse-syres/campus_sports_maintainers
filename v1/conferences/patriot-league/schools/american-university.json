@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.aueagles.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=23"
   },
-  "generatedAt": "2026-10-21T14:20:23.288Z",
+  "generatedAt": "2026-10-21T20:35:42.099Z",
   "sports": {
     "basketball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": "2026-10-21T14:20:23.288Z",
         "sourceUrl": "https://www.aueagles.com/sports/mens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "129dc86223e72a8fcd4a2588",
@@ -874,7 +874,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "6b64178f0199cd54e62a9701",
@@ -887,7 +887,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "ecbc91e54e7ea123ee69a4d8",
@@ -900,7 +900,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "ce4bff4a3028f0e3e0342475",
@@ -913,7 +913,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "8a062038d8f69f5bee238c24",
@@ -926,7 +926,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "779b161a391902c122b482dd",
@@ -1387,49 +1387,49 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/mens-basketball/archives",
             "reason": null,
             "recordCount": 104
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
             "lastSuccessAt": "2026-10-21T14:20:23.288Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "redirect-limit",
             "recordCount": 0
           }
         ]
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1438,7 +1438,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1447,7 +1447,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1456,7 +1456,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1465,7 +1465,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1484,8 +1484,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/womens-basketball/archives",
         "season": null,
         "reason": null,
@@ -2294,7 +2294,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "9f1de15c96b4921595838da3",
@@ -2307,7 +2307,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "77d9c14461434ec0da7e592e",
@@ -2320,7 +2320,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "7bfaf96a62dfb1f15abfb15b",
@@ -2333,7 +2333,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "325ef17b0c5e2ef63936935f",
@@ -2346,7 +2346,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "f4765fa6d6b78c1bd7d583a5",
@@ -2807,32 +2807,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/womens-basketball/archives",
             "reason": null,
             "recordCount": 101
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2841,7 +2841,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2850,7 +2850,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2859,7 +2859,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2868,7 +2868,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2877,7 +2877,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2896,8 +2896,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/field-hockey/archives",
         "season": null,
         "reason": null,
@@ -3784,7 +3784,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/field-hockey/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "59c2ead0e036f60a6ce78a0c",
@@ -3797,7 +3797,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/field-hockey/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "a56e86b2ab4f68afad0d542b",
@@ -3810,7 +3810,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/field-hockey/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "971ee72fe51589b87921d095",
@@ -3823,7 +3823,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/field-hockey/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "6650dd35017c074e33d34ce9",
@@ -3836,7 +3836,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/field-hockey/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "93d3e62177ac84dbba067564",
@@ -4414,24 +4414,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/field-hockey/archives",
             "reason": null,
             "recordCount": 116
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/fieldhockey/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4440,7 +4440,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4449,7 +4449,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4458,7 +4458,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4467,7 +4467,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4476,7 +4476,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4495,8 +4495,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/cross-country/archives",
         "season": null,
         "reason": null,
@@ -5331,7 +5331,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "56326f44c2ec0dd39a9b7371",
@@ -5344,7 +5344,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "945161eefc696121b92c182b",
@@ -5357,7 +5357,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "97c7c80953ced9640337f2f4",
@@ -5370,7 +5370,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "1d69e07b3ee9dc57d02132a0",
@@ -5383,7 +5383,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "460bdc73e27678d3cad47299",
@@ -5831,24 +5831,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/cross-country/archives",
             "reason": null,
             "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5857,7 +5857,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5866,7 +5866,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5875,7 +5875,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5884,7 +5884,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5893,7 +5893,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5911,12 +5911,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": "2026-10-21T14:20:23.288Z",
         "sourceUrl": "https://www.aueagles.com/sports/mens-soccer/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "30439094d55c7f711cca9d67",
@@ -6605,7 +6605,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/mens-soccer/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "dec2a20bc24230c2a1096399",
@@ -6618,7 +6618,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/mens-soccer/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "6a259024f710cd5403771561",
@@ -6631,7 +6631,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/mens-soccer/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "6a6a1fdff046bafe114de4fb",
@@ -6644,7 +6644,7 @@
             "author": null,
             "publisher": "American University Athletics",
             "discoverySourceUrl": "https://www.aueagles.com/sports/mens-soccer/archives",
-            "metadataCheckedAt": "2026-10-14T14:16:25.928Z"
+            "metadataCheckedAt": "2026-10-21T20:35:42.099Z"
           },
           {
             "id": "148a4326cef30a1172642871",
@@ -7365,41 +7365,41 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/mens-soccer/archives",
             "reason": null,
             "recordCount": 111
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
             "lastSuccessAt": "2026-10-21T14:20:23.288Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "redirect-limit",
             "recordCount": 0
           }
         ]
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7408,7 +7408,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7417,7 +7417,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7426,7 +7426,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7435,7 +7435,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7454,8 +7454,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/swimming-and-diving/archives",
         "season": null,
         "reason": null,
@@ -8790,24 +8790,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/swimming-and-diving/archives",
             "reason": null,
             "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8816,7 +8816,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8825,7 +8825,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8834,7 +8834,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8843,7 +8843,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8852,7 +8852,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8871,8 +8871,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/track-and-field/archives",
         "season": null,
         "reason": null,
@@ -10180,24 +10180,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/track-and-field/archives",
             "reason": null,
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10206,7 +10206,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10215,7 +10215,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10224,7 +10224,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10233,7 +10233,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10242,7 +10242,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10261,8 +10261,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/track-and-field/archives",
         "season": null,
         "reason": null,
@@ -11554,24 +11554,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/track-and-field/archives",
             "reason": null,
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11580,7 +11580,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11589,7 +11589,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11598,7 +11598,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11607,7 +11607,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11616,7 +11616,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11635,8 +11635,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/wrestling/archives",
         "season": null,
         "reason": null,
@@ -12884,16 +12884,16 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/wrestling/archives",
             "reason": null,
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -12902,7 +12902,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12911,7 +12911,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12920,7 +12920,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12929,7 +12929,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12938,7 +12938,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12957,8 +12957,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/cross-country/archives",
         "season": null,
         "reason": null,
@@ -14241,24 +14241,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/cross-country/archives",
             "reason": null,
             "recordCount": 105
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -14267,7 +14267,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14276,7 +14276,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14285,7 +14285,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14294,7 +14294,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14303,7 +14303,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14322,8 +14322,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/womens-lacrosse/archives",
         "season": null,
         "reason": null,
@@ -15532,24 +15532,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/womens-lacrosse/archives",
             "reason": null,
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -15558,7 +15558,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15567,7 +15567,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15576,7 +15576,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15585,7 +15585,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15594,7 +15594,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15613,8 +15613,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/womens-soccer/archives",
         "season": null,
         "reason": null,
@@ -16931,32 +16931,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/womens-soccer/archives",
             "reason": null,
             "recordCount": 109
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -16965,7 +16965,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16974,7 +16974,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16983,7 +16983,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16992,7 +16992,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17001,7 +17001,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17020,8 +17020,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/swimming-and-diving/archives",
         "season": null,
         "reason": null,
@@ -18290,24 +18290,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/swimming-and-diving/archives",
             "reason": null,
             "recordCount": 105
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -18316,7 +18316,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18325,7 +18325,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18334,7 +18334,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18343,7 +18343,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18352,7 +18352,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18371,8 +18371,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/track-and-field/archives",
         "season": null,
         "reason": null,
@@ -19581,24 +19581,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/track-and-field/archives",
             "reason": null,
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -19607,7 +19607,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19616,7 +19616,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19625,7 +19625,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19634,7 +19634,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19643,7 +19643,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19662,8 +19662,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/track-and-field/archives",
         "season": null,
         "reason": null,
@@ -20872,24 +20872,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/track-and-field/archives",
             "reason": null,
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -20898,7 +20898,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20907,7 +20907,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20916,7 +20916,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20925,7 +20925,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20934,7 +20934,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20953,8 +20953,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-        "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+        "lastSuccessAt": "2026-10-21T20:35:42.099Z",
         "sourceUrl": "https://www.aueagles.com/sports/womens-volleyball/archives",
         "season": null,
         "reason": null,
@@ -22379,24 +22379,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.aueagles.com/sports/womens-volleyball/archives",
             "reason": null,
             "recordCount": 118
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-21T14:20:23.288Z",
-            "lastSuccessAt": "2026-10-21T14:20:23.288Z",
+            "lastAttemptAt": "2026-10-21T20:35:42.099Z",
+            "lastSuccessAt": "2026-10-21T20:35:42.099Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -22405,7 +22405,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22414,7 +22414,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22423,7 +22423,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22432,7 +22432,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22441,7 +22441,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-21T14:20:23.288Z",
+        "lastAttemptAt": "2026-10-21T20:35:42.099Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
