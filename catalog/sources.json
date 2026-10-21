@@ -49303,21 +49303,25 @@
         },
         "womens-track-indoor": {
           "homeUrl": null,
-          "newsUrl": null,
+          "newsUrl": "https://www.gobearkats.com/sports/womens-track-and-field/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
+          "routes": [
+            "/sports/womens-track-and-field"
+          ],
           "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "womens-track-outdoor": {
           "homeUrl": null,
-          "newsUrl": null,
+          "newsUrl": "https://www.gobearkats.com/sports/womens-track-and-field/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
+          "routes": [
+            "/sports/womens-track-and-field"
+          ],
           "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.gobearkats.com/sports/womens-volleyball",
@@ -60787,22 +60791,32 @@
           "discoveryStatus": "discovered"
         },
         "coed-rifle": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.navysports.com/sports/rifle",
+          "newsUrl": "https://www.navysports.com/sports/rifle/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/rifle"
+          ],
+          "aliases": [
+            "Rifle (Coed)",
+            "Rifle"
+          ],
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "coed-sailing": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.navysports.com/sports/intersail",
+          "newsUrl": "https://www.navysports.com/sports/intersail/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/intersail"
+          ],
+          "aliases": [
+            "Sailing - Intercollegiate (Coed)",
+            "Intercollegiate Sailing"
+          ],
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "football": {
           "homeUrl": "https://www.navysports.com/sports/football",
@@ -85385,8 +85399,8 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": "https://www.gohuskies.com/sports/track-and-field",
-          "newsUrl": "https://www.gohuskies.com/sports/track-and-field",
+          "homeUrl": null,
+          "newsUrl": "https://gohuskies.com/sports/track-and-field/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
           "routes": [
@@ -85395,11 +85409,11 @@
           "aliases": [
             "Track & Field"
           ],
-          "discoveryStatus": "discovered"
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "mens-track-outdoor": {
-          "homeUrl": "https://www.gohuskies.com/sports/track-and-field",
-          "newsUrl": "https://www.gohuskies.com/sports/track-and-field",
+          "homeUrl": null,
+          "newsUrl": "https://gohuskies.com/sports/track-and-field/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
           "routes": [
@@ -85408,7 +85422,7 @@
           "aliases": [
             "Track & Field"
           ],
-          "discoveryStatus": "discovered"
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "softball": {
           "homeUrl": "https://www.gohuskies.com/sports/softball",
@@ -85528,8 +85542,8 @@
           "discoveryStatus": "discovered"
         },
         "womens-track-indoor": {
-          "homeUrl": "https://www.gohuskies.com/sports/track-and-field",
-          "newsUrl": "https://www.gohuskies.com/sports/track-and-field",
+          "homeUrl": null,
+          "newsUrl": "https://gohuskies.com/sports/track-and-field/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
           "routes": [
@@ -85538,11 +85552,11 @@
           "aliases": [
             "Track & Field"
           ],
-          "discoveryStatus": "discovered"
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "womens-track-outdoor": {
-          "homeUrl": "https://www.gohuskies.com/sports/track-and-field",
-          "newsUrl": "https://www.gohuskies.com/sports/track-and-field",
+          "homeUrl": null,
+          "newsUrl": "https://gohuskies.com/sports/track-and-field/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
           "routes": [
@@ -85551,7 +85565,7 @@
           "aliases": [
             "Track & Field"
           ],
-          "discoveryStatus": "discovered"
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "womens-volleyball": {
           "homeUrl": "https://www.gohuskies.com/sports/womens-volleyball",
@@ -86007,13 +86021,17 @@
           "discoveryStatus": "discovered"
         },
         "mens-skiing": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://greenbayphoenix.com/sports/nordic-skiing",
+          "newsUrl": "https://greenbayphoenix.com/sports/nordic-skiing/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/nordic-skiing"
+          ],
+          "aliases": [
+            "Nordic Skiing"
+          ],
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "mens-soccer": {
           "homeUrl": "https://greenbayphoenix.com/sports/mens-soccer",
@@ -86088,13 +86106,17 @@
           "discoveryStatus": "discovered"
         },
         "womens-skiing": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://greenbayphoenix.com/sports/nordic-skiing",
+          "newsUrl": "https://greenbayphoenix.com/sports/nordic-skiing/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/nordic-skiing"
+          ],
+          "aliases": [
+            "Nordic Skiing"
+          ],
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "womens-soccer": {
           "homeUrl": "https://greenbayphoenix.com/sports/womens-soccer",
@@ -87431,30 +87453,34 @@
           "discoveryStatus": "discovered"
         },
         "mens-track-indoor": {
-          "homeUrl": "https://utahtechtrailblazers.com/sports/mens-track-and-field",
-          "newsUrl": "https://utahtechtrailblazers.com/sports/mens-track-and-field",
+          "homeUrl": null,
+          "newsUrl": "https://utahtechtrailblazers.com/sports/mens-track-field/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
           "routes": [
-            "/sports/mens-track-and-field"
+            "/sports/mens-track-and-field",
+            "/sports/mens-track-field"
           ],
           "aliases": [
-            "Track & Field"
+            "Track & Field",
+            "Men's Track & Field"
           ],
-          "discoveryStatus": "discovered"
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "mens-track-outdoor": {
-          "homeUrl": "https://utahtechtrailblazers.com/sports/mens-track-and-field",
-          "newsUrl": "https://utahtechtrailblazers.com/sports/mens-track-and-field",
+          "homeUrl": null,
+          "newsUrl": "https://utahtechtrailblazers.com/sports/mens-track-field/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
           "routes": [
-            "/sports/mens-track-and-field"
+            "/sports/mens-track-and-field",
+            "/sports/mens-track-field"
           ],
           "aliases": [
-            "Track & Field"
+            "Track & Field",
+            "Men's Track & Field"
           ],
-          "discoveryStatus": "discovered"
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "softball": {
           "homeUrl": "https://utahtechtrailblazers.com/sports/softball",
@@ -92973,13 +92999,20 @@
           "discoveryStatus": "discovered"
         },
         "mens-lightweight-crew": {
-          "homeUrl": null,
-          "newsUrl": null,
+          "homeUrl": "https://www.yalebulldogs.com/sports/mens-rowing",
+          "newsUrl": "https://www.yalebulldogs.com/sports/mens-rowing/archives",
           "rosterUrl": null,
           "scheduleUrl": null,
-          "routes": [],
-          "aliases": [],
-          "discoveryStatus": "no-matching-official-navigation"
+          "routes": [
+            "/sports/mens-rowing"
+          ],
+          "aliases": [
+            "Crew (Lightweight)",
+            "Men's Crew (Lightweight)",
+            "Men's Lightweight Crew",
+            "Lightweight Crew"
+          ],
+          "discoveryStatus": "reviewed-sport-news-source"
         },
         "mens-soccer": {
           "homeUrl": "https://www.yalebulldogs.com/sports/mens-soccer",
