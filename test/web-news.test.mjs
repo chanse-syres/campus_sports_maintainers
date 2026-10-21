@@ -80,7 +80,7 @@ test('parser enforces publisher identity and reviewed destinations without publi
   const result = parseWebNews(rss(feed, [
     {title:'Arizona football wins',description:'<b>Article context stays private to routing.</b><script>alert(1)</script>',image:'<media:content url="https://www.ncaa.com/images/arizona.jpg" medium="image"/>'},
     {title:'Arizona football transfer update',url:'https://evil.example.com/fake-story'},
-    {title:'Arizona football weekly notes',url:'https://www.ncaa.com/news/notes',image:'<media:content url="https://evil.example.com/tracker.png" medium="image"/>'},
+    {title:'Arizona football weekly notes',url:'https://www.ncaa.com/news/football/fbs/article/notes',image:'<media:content url="https://evil.example.com/tracker.png" medium="image"/>'},
   ]), feed, school, football, at);
   assert.equal(result.records.length,2);
   assert.equal(result.records[0].imageUrl,'https://www.ncaa.com/images/arizona.jpg');
@@ -102,6 +102,43 @@ test('duplicates, unsafe URLs, future dates, malformed feeds, and external entit
   assert.throws(()=>parseWebNews('<!DOCTYPE rss>'+rss(feed,[]),feed,school,football,at),/Invalid feed/);
   assert.throws(()=>parseWebNews(rss(feed,Array(201).fill({title:'Arizona football wins'})),feed,school,football,at),/budget/);
   assert.throws(()=>webNewsSources({...school,ncaaId:123456},football),/catalog/);
+});
+
+test('NCAA links must retain the reviewed feed sport and gender route', () => {
+  const definition = feeds.find(value => value.id === 'ncaa-basketball');
+  const result = parseWebNews(rss(definition, [
+    { title: 'Arizona opens its season', url: 'https://www.ncaa.com/news/basketball-men/article/arizona-opener' },
+    { title: 'Arizona highlights', url: 'https://www.ncaa.com/video/basketball-men/arizona-highlights' },
+    { title: 'Arizona wins thriller', url: 'https://www.ncaa.com/live-updates/basketball-men/d1/arizona-wins' },
+    { title: 'Arizona opens its season', url: 'https://www.ncaa.com/news/basketball-women/article/arizona-opener' },
+    { title: 'Arizona opens its season', url: 'https://www.ncaa.com/news/soccer-men/article/arizona-opener' },
+    { title: 'Arizona opens its season', url: 'https://www.ncaa.com/news/basketball-men-extra/article/arizona-opener' },
+    { title: 'Arizona opens its season', url: 'https://www.ncaa.com/news/article/arizona-opener?basketball-men=true' },
+    { title: "Arizona women's basketball wins", url: 'https://www.ncaa.com/news/basketball-men/article/misfiled-women' },
+  ]), definition, school, men, at);
+  assert.deepEqual(result.records.map(value => value.url).sort(), [
+    'https://www.ncaa.com/live-updates/basketball-men/d1/arizona-wins',
+    'https://www.ncaa.com/news/basketball-men/article/arizona-opener',
+    'https://www.ncaa.com/video/basketball-men/arizona-highlights',
+  ]);
+  const womensDefinition = feeds.find(value => value.id === 'ncaa-womens-basketball');
+  const womensResult = parseWebNews(rss(womensDefinition, [
+    { title: 'Arizona opens its season', url: 'https://www.ncaa.com/news/basketball-women/article/arizona-opener' },
+    { title: 'Arizona opens its season', url: 'https://www.ncaa.com/news/basketball-men/article/arizona-opener' },
+  ]), womensDefinition, school, women, at);
+  assert.equal(womensResult.records.length, 1);
+  assert.match(womensResult.records[0].url, /\/basketball-women\//);
+});
+
+test('NCAA shared track program announcements remain eligible across indoor/outdoor routes', async () => {
+  const trackSchool = await getSchool('texas-a-and-m-university-college-station');
+  const track = trackSchool.sports.find(value => value.slug === 'mens-track-indoor');
+  const definition = feeds.find(value => value.id === 'ncaa-mens-track-indoor-d1');
+  const result = parseWebNews(rss(definition, [{
+    title: "Texas A&M's Pat Henry retires as the winningest coach in NCAA track and field history",
+    url: 'https://www.ncaa.com/news/trackfield-outdoor-women/article/2026-06-21/texas-ams-pat-henry-retires',
+  }]), definition, trackSchool, track, at);
+  assert.equal(result.records.length, 1);
 });
 
 test('verified Atom feeds parse bounded metadata and respect school scope', () => {

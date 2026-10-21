@@ -31,6 +31,59 @@ function routeGender(url) {
   return short ? short.toLowerCase() === 'w' ? 'womens' : 'mens' : null;
 }
 
+function navigationGender(label) {
+  return normalizeSportLabel(label).match(/^(mens|womens)(?: sports| varsity)?$/)?.[1] ?? '';
+}
+
+// Older Sidearm pages flatten the fallback anchors, losing the menu's gender.
+// Read only the declared JSON navigation object, never execute its script.
+function declaredNavigation($) {
+  const links = [];
+  let visited = 0;
+  const walk = (nodes, group = '', depth = 0) => {
+    if (!Array.isArray(nodes) || depth > 6) return;
+    const columns = new Map();
+    let section = group;
+    for (const node of nodes) {
+      if (++visited > 6000) throw new Error('Navigation record budget exceeded');
+      if (!node || typeof node !== 'object' || Array.isArray(node)) continue;
+      const title = cleanText(typeof node.title === 'string' ? node.title : '', 160);
+      const declared = navigationGender(title);
+      const column = Number.isSafeInteger(node.column) && node.column >= 0 && node.column <= 20 ? node.column : null;
+      if (declared || node.separator === true) {
+        section = declared || group;
+        if (column !== null) columns.set(column, section);
+      }
+      const gender = column === null ? section : columns.get(column) ?? group;
+      if (typeof node.url === 'string' && node.url.length <= 2048 && title) links.push({ href: node.url, title, group: gender });
+      walk(node.items, gender, depth + 1);
+    }
+  };
+  for (const script of $('script').toArray()) {
+    const text = $(script).text();
+    const match = /\bvar\s+obj\s*=\s*\{/.exec(text);
+    if (!match || text.length > 2_000_000) continue;
+    const start = match.index + match[0].lastIndexOf('{');
+    let depth = 0, quoted = false, escaped = false;
+    for (let index = start; index < text.length; index++) {
+      const char = text[index];
+      if (quoted) {
+        if (escaped) escaped = false;
+        else if (char === '\\') escaped = true;
+        else if (char === '"') quoted = false;
+      } else if (char === '"') quoted = true;
+      else if (char === '{') depth++;
+      else if (char === '}' && --depth === 0) {
+        let value;
+        try { value = JSON.parse(text.slice(start, index + 1)); } catch { break; }
+        if (value?.type === 'main-navigation') walk(value.data);
+        break;
+      }
+    }
+  }
+  return links;
+}
+
 export function officialHosts(athleticsUrl) {
   if (!safeUrl(athleticsUrl)) return [];
   const host = new URL(athleticsUrl).hostname;
@@ -49,7 +102,8 @@ export function sourcePolicy(school) {
     const url = safeUrl(value);
     if (!sport || !url || !allowedHosts.includes(new URL(url).hostname)
       || !/^\/sports?\/[a-z][a-z0-9-]*\/(?:archives|news|headlines-featured)\/?$/.test(new URL(url).pathname)
-      || new URL(url).search || new URL(url).hash || !matchSportRoute(url, sport)) throw new Error('Official sport news override scope mismatch');
+      || new URL(url).search || new URL(url).hash
+      || !(matchSportRoute(url, sport) || matchNavigationSport(new URL(url).pathname.split('/')[2], sport, school.sports))) throw new Error('Official sport news override scope mismatch');
   }
   return { athleticsUrl: override?.athleticsUrl ?? school.athleticsUrl,
     newsFallbackUrl: override?.newsFallbackUrl ?? null, sportNewsUrls, allowedHosts };
@@ -96,6 +150,13 @@ export function discoverSchoolSources(html, school, sourceUrl = school.athletics
   const policy = sourcePolicy(school), allowedHosts = policy.allowedHosts;
   if (!allowedHosts.includes(new URL(sourceUrl).hostname)) throw new Error('Navigation host mismatch');
   const $ = load(html), links = [];
+  const addLink = (url, text, title, parentLabel, group) => links.push({ url, text, title, parentLabel, group,
+    routeSports: new Set(school.sports.filter(sport => matchSportRoute(url, sport)).map(sport => sport.slug)),
+    labelSports: new Set(school.sports.filter(sport => [text, title].some(label => matchNavigationSport(label, sport, school.sports))).map(sport => sport.slug)) });
+  for (const link of declaredNavigation($)) {
+    const url = officialLink(link.href, sourceUrl, allowedHosts);
+    if (url) addLink(url, navLabel(link.title), '', '', link.group);
+  }
   for (const anchor of $('a[href]').toArray().slice(0, 6000)) {
     const el = $(anchor), url = officialLink(el.attr('href'), sourceUrl, allowedHosts);
     if (!url) continue;
@@ -104,11 +165,9 @@ export function discoverSchoolSources(html, school, sourceUrl = school.athletics
     // Nearest sport menu item can supply a full gender-specific sport label.
     const item = el.closest('li');
     const parentLabel = cleanText(item.children('a,span,button').first().text(), 160);
-    const sectionLabel = item.prevAll('li').toArray().map(node => cleanText($(node).children('span,h2,h3,button').first().text(), 60)).find(label => /^(?:men'?s|women'?s) sports$/i.test(label));
-    const group = (sectionLabel || cleanText(item.parent().closest('li').children('a,span,button,h2,h3').first().text(), 160)).replace(/\s+sports$/i, '');
-    links.push({ url, text, title, parentLabel, group,
-      routeSports: new Set(school.sports.filter(sport => matchSportRoute(url, sport)).map(sport => sport.slug)),
-      labelSports: new Set(school.sports.filter(sport => [text, title].some(label => matchNavigationSport(label, sport, school.sports))).map(sport => sport.slug)) });
+    const sectionLabel = item.prevAll('li').toArray().map(node => cleanText($(node).children('span,h2,h3,button').first().text(), 60)).find(navigationGender);
+    const group = navigationGender(sectionLabel || cleanText(item.parent().closest('li').children('a,span,button,h2,h3').first().text(), 160));
+    addLink(url, text, title, parentLabel, group);
   }
   const sports = {};
   for (const sport of school.sports) {
@@ -152,7 +211,7 @@ export function discoverSchoolSources(html, school, sourceUrl = school.athletics
     const find = (pattern, label) => scoped.find(link => collectionRoute(link) && (pattern.test(new URL(link.url).pathname) || label.test(link.text)))?.url ?? null;
     sports[sport.slug] = { homeUrl, newsUrl: find(/\/(?:archives|news|headlines-featured)(?:\/|$)/i, /^(?:news|archives?)$/i) ?? homeUrl,
       rosterUrl: find(/\/roster(?:\/|$)/i, /^roster$/i), scheduleUrl: find(/\/schedule(?:\/|$)/i, /^schedule$/i),
-      routes: sportPath ? [sportPath] : [], aliases: home ? [...new Set(matches.filter(inRoute).flatMap(link => [link.text, link.title, link.parentLabel]).filter(label => matchNavigationSport(label, sport, school.sports)))] : [], discoveryStatus: homeUrl ? 'discovered' : 'no-matching-official-navigation' };
+      routes: sportPath ? [sportPath] : [], aliases: home ? [...new Set(matches.filter(inRoute).flatMap(link => [link.text, link.title, link.parentLabel, ...(link.group ? [`${link.group} ${link.text}`] : [])]).filter(label => matchNavigationSport(label, sport, school.sports)))] : [], discoveryStatus: homeUrl ? 'discovered' : 'no-matching-official-navigation' };
     // A reviewed all-sports collection supplies a retrieval URL only. Do not
     // manufacture sport routes or aliases; each article still proves its scope.
     if (!sports[sport.slug].newsUrl && policy.newsFallbackUrl) {

@@ -22,18 +22,17 @@ test('placeholder News navigation cannot select the current schedule as a news c
   }
 });
 
-const soconSource = 'https://soconsports.com/fb/';
-const soconArticle = 'https://soconsports.com/fb/article/60372/';
-const soconImage = 'https://img.boostsport.ai/boost-cms/tennessee-tech-football.jpg';
-const soconFixture = '<a href="/fb/article/60372/">Tennessee Tech football weekly honors</a>'
-  + `<script id="__NEXT_DATA__" type="application/json">${JSON.stringify({ props: { pageProps: {
-    params: { sport: 'fb' }, fallback: { 'contentTypeUid:"article",': [{
-      id: 60372, _content_type_uid: 'article', _status: 'published', _in_progress: false,
-      simple_headline: 'Tennessee Tech football weekly honors', publish_date: '2026-09-14T19:00:00.000Z',
-      image: { url: soconImage }, sport: [{ id: 31, alias: 'fb', title: 'Football' }],
-      school: [{ id: 884, alias: 'TTU', title: 'Tennessee Tech' }],
-    }] },
-  } } })}</script>`;
+const soconSource = 'https://soconsports.com/archives.aspx?path=football';
+const soconArticle = 'https://soconsports.com/news/2026/9/14/football-weekly-honors.aspx';
+const soconImage = 'https://soconsports.com/images/2026/9/14/tennessee-tech-football.jpg';
+const soconMembers = 'https://soconsports.com/services/archives.ashx/setup_schools_dropdown';
+const soconStories = 'https://soconsports.com/services/archives.ashx/stories?index=1&page_size=30&sport=football&season=0&school=0&search=';
+const soconFiltered = soconStories.replace('school=0&', 'school=47&');
+const soconFixture = '<script>var sport_obj = {"id":2,"title":"Football","shortname":"football"};'
+  + '$.get("/services/archives.ashx/stories", { school: this.school, sport: this.sport });'
+  + '$.get("/services/archives.ashx/setup_schools_dropdown", {});</script>';
+const soconRow = { story_headline: 'Tennessee Tech football weekly honors', story_summary: '', sports_cats: 'Football',
+  story_path: soconArticle, story_postdate: '9/14/2026', story_image: soconImage };
 
 async function refreshTennesseeTechFootball(response) {
   const slug = 'tennessee-technological-university';
@@ -42,6 +41,9 @@ async function refreshTennesseeTechFootball(response) {
   const snapshot = await maintainSchool(slug, { sport: 'football', now: '2026-09-18T00:00:00.000Z', metadataBudget: 0, get: async url => {
     calls.push(url);
     if (url === soconSource) return typeof response === 'function' ? response() : response;
+    if (url === soconMembers) return JSON.stringify({ error: null, data: [{ id: 47, ncaa_id: 692, title: 'Tennessee Tech', abbreviation: 'TTU', school_active: true }] });
+    if (url === soconStories) return JSON.stringify({ error: null, data: [soconRow] });
+    if (url === soconFiltered) return JSON.stringify({ error: null, data: [] });
     if (url === provider.news?.sourceUrl) return JSON.stringify({ header: provider.news.header, link: { href: provider.news.leagueIndexUrl }, articles: [] });
     const feed = feeds.get(url);
     if (feed) return `<rss version="2.0"><channel><title>${feed.feedTitle.replaceAll('&', '&amp;')}</title></channel></rss>`;
@@ -50,7 +52,7 @@ async function refreshTennesseeTechFootball(response) {
   // Source failures become dataset state, so inspect calls explicitly: an
   // attempted blocked-athletics fallback must not be hidden by a caught error.
   assert.equal(calls.some(url => ['ttusports.com', 'www.ttusports.com'].includes(new URL(url).hostname)), false);
-  assert.deepEqual(calls.filter(url => new URL(url).hostname === 'soconsports.com'), [soconSource]);
+  assert.deepEqual(calls.filter(url => new URL(url).hostname === 'soconsports.com'), typeof response === 'function' ? [soconSource] : [soconSource, soconMembers, soconStories, soconFiltered]);
   assert.deepEqual(Object.keys(snapshot.sports), ['football']);
   const news = snapshot.sports.football.news;
   assert.equal(news.sourceUrl, soconSource);
@@ -64,8 +66,8 @@ test('Tennessee Tech football reads reviewed SoCon news without requesting block
   assert.equal(news.records[0].url, soconArticle);
   assert.equal(news.records[0].publisher, 'The Southern Conference');
   assert.equal(news.records[0].discoverySourceUrl, soconSource);
-  assert.equal(news.records[0].publishedAt, '2026-09-14T19:00:00.000Z');
-  assert.equal(news.records[0].publishedAtPrecision, 'instant');
+  assert.equal(news.records[0].publishedAt, '2026-09-14T00:00:00.000Z');
+  assert.equal(news.records[0].publishedAtPrecision, 'day');
   assert.equal(news.records[0].imageUrl, soconImage);
   assert.equal(health.status, 'ok');
   assert.equal(health.recordCount, 1);

@@ -107,9 +107,14 @@
     "oral-roberts-university": {
       "ncaaId": 527,
       "originalUrl": "https://www.oruathletics.com/",
-      "athleticsUrl": "https://oruathletics.com/schedule.aspx?path=mbball&season=2025-26",
-      "evidenceUrl": "https://oruathletics.com/schedule.aspx?path=mbball&season=2025-26",
-      "evidence": "Reviewed publicly indexed official athletics page exposes current school sport navigation while the homepage displays a promotional or gameday feature."
+      "athleticsUrl": "https://oruathletics.com/sports/mens-basketball/archives",
+      "evidenceUrl": "https://oruathletics.com/sports/mens-basketball/archives",
+      "evidence": "Official archives navigation declares these canonical sport archives. Reviewed public archive services returned 100 men's basketball stories, 99 women's basketball stories and 99 men's tennis stories on 2026-10-21; the abbreviated sport home URLs now show ticket splash pages.",
+      "sportNewsUrls": {
+        "basketball": "https://oruathletics.com/sports/mens-basketball/archives",
+        "womens-basketball": "https://oruathletics.com/sports/womens-basketball/archives",
+        "mens-tennis": "https://oruathletics.com/sports/mens-tennis/archives"
+      }
     },
     "purdue-university": {
       "ncaaId": 559,
@@ -225,10 +230,20 @@
       "sportNewsUrls": {
         "baseball": "https://godeacs.com/sports/baseball/archives",
         "basketball": "https://godeacs.com/sports/mens-basketball/archives/",
-        "womens-basketball": "https://godeacs.com/sports/womens-basketball/archives"
+        "womens-basketball": "https://godeacs.com/sports/womens-basketball/archives",
+        "field-hockey": "https://godeacs.com/sports/field-hockey/archives",
+        "mens-cross-country": "https://godeacs.com/sports/cross-country/archives",
+        "mens-tennis": "https://godeacs.com/sports/mens-tennis/archives",
+        "mens-track-indoor": "https://godeacs.com/sports/track-and-field/archives",
+        "mens-track-outdoor": "https://godeacs.com/sports/track-and-field/archives",
+        "womens-cross-country": "https://godeacs.com/sports/cross-country/archives",
+        "womens-golf": "https://godeacs.com/sports/womens-golf/archives",
+        "womens-track-indoor": "https://godeacs.com/sports/track-and-field/archives",
+        "womens-track-outdoor": "https://godeacs.com/sports/track-and-field/archives",
+        "womens-volleyball": "https://godeacs.com/sports/womens-volleyball/archives"
       },
-      "evidenceUrl": "https://www.godeacs.com/",
-      "evidence": "Official homepage embeds a recent-news collection with sport metadata. Reviewed baseball and basketball archive URLs each returned the correct sport title and 31-32 structured official stories on 2026-09-17. Each article must independently identify the requested sport; absent sports remain unavailable."
+      "evidenceUrl": "https://godeacs.com/sports/cross-country/archives",
+      "evidence": "Reviewed official archives and their declared program metadata on 2026-10-21. Dedicated collections returned current sport-matched stories with dates and images; combined cross-country and track archives retain current coverage instead of obsolete gender-specific archives. Each article must still independently establish its requested program scope."
     },
     "wofford-college": {
       "ncaaId": 2915,

@@ -162,6 +162,23 @@ export function webNewsSources(school, sport, observedAt = new Date().toISOStrin
 // while retaining independent school/sport checks for every output record.
 const documentCache = new Map();
 let cachedCharacters = 0;
+function matchesArticleScope(url, definition) {
+  const article = new URL(url);
+  if (definition.articlePathPrefix && !article.pathname.startsWith(definition.articlePathPrefix)) return false;
+  // NCAA's sport feeds can include related links from another sport. The
+  // reviewed feed route supplies an additional boundary, especially when a
+  // headline does not state men's/women's basketball or soccer explicitly.
+  const source = new URL(definition.url);
+  const ncaaSport = source.hostname === 'www.ncaa.com'
+    ? source.pathname.match(/^\/news\/([^/]+)\/(?:d[123]|nc|fbs|fcs)\/rss\.xml$/)?.[1]
+    : null;
+  if (!ncaaSport) return true;
+  const route = article.pathname.match(/^\/(?:news|video|live-updates)\/([^/]+)\//)?.[1];
+  // Indoor/outdoor teams share coaches and program announcements; the NCAA
+  // intentionally publishes those announcements into all four track feeds.
+  if (/^trackfield-(?:indoor|outdoor)-(?:men|women)$/.test(ncaaSport)) return /^trackfield-(?:indoor|outdoor)-(?:men|women)$/.test(route ?? '');
+  return route === ncaaSport;
+}
 function readFeed(text, definition) {
   const cached = documentCache.get(definition.id);
   if (cached?.text === text) return cached.entries;
@@ -180,7 +197,7 @@ function readFeed(text, definition) {
     const links = rss ? item.children('link') : item.children('link').filter((_, node) => !$(node).attr('rel') || $(node).attr('rel') === 'alternate');
     if (titles.length !== 1 || links.length !== 1) throw new Error('Ambiguous publisher headline or link');
     const title = plain(titles.text(), 300), url = safeUrl(rss ? links.text().trim() : links.attr('href'));
-    if (!title || !url || !definition.articleHosts.includes(new URL(url).hostname) || (definition.articlePathPrefix && !new URL(url).pathname.startsWith(definition.articlePathPrefix))) continue;
+    if (!title || !url || !definition.articleHosts.includes(new URL(url).hostname) || !matchesArticleScope(url, definition)) continue;
     const descriptions = item.children().filter((_, node) => ['description', 'summary'].includes(node.tagName));
     const categories = item.children('category').map((_, node) => $(node).attr('term') || $(node).text()).get().join(' ');
     const description = `${plain(descriptions.first().text(), 2000)} ${plain(categories, 500)}`;
