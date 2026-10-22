@@ -1,6 +1,6 @@
 import { load } from 'cheerio';
 import { cleanText, safeUrl, stableId } from '../normalize.mjs';
-import { matchSport, matchSportRoute, sportGender, normalizeSportLabel, matchNavigationSport } from '../sports.mjs';
+import { matchSport, matchSportRoute, sportGender, sportFamily, normalizeSportLabel, matchNavigationSport } from '../sports.mjs';
 import { cleanAuthor } from './article-metadata.mjs';
 
 const MAX_BYTES = 8_000_000, MAX_RECORDS = 1000, MAX_SCALAR = 4096;
@@ -51,6 +51,39 @@ function labelsFor(graph, node) {
     .map(key => graph.field(node, key)).filter(Boolean);
 }
 const labelsMatch = (labels, sport) => labels.some(label => matchSport(label, sport) || String(label).split(/[,;]/).some(part => matchSport(part.trim(), sport)));
+const COMBINED_NEWS_FAMILIES = new Set(['cross country', 'track and field', 'swimming and diving', 'skiing', 'fencing', 'rifle', 'sailing']);
+function programMatches(labels, gender, sport, school) {
+  const actual = sportGender({ gender });
+  if (actual && actual !== 'coed' && actual !== sportGender(sport)) return false;
+  if (labelConflicts(labels, sport)) return false;
+  if (['mens', 'womens'].includes(actual) && labelsMatch(labels.map(label => `${actual} ${label}`), sport)) return true;
+  // Some schools deliberately publish both rowing teams as one coed program.
+  // A bare Rowing label without that explicit declaration stays ambiguous.
+  if (['g', 'coed'].includes(gender) && sportFamily(sport) === 'rowing'
+    && labels.some(label => normalizeSportLabel(label) === 'rowing')) return true;
+  return labelsMatch(labels, sport) || (COMBINED_NEWS_FAMILIES.has(sportFamily(sport))
+    && labels.some(label => matchNavigationSport(label, sport, school.sports ?? [])));
+}
+
+// A declared program may rename an old navigation route (xctrack ->
+// cross-country-track). Tie aliases to that exact source route before using
+// them for story URLs; unrelated menu programs never establish article scope.
+function declaredNewsSport(graph, sourceUrl, school, sport) {
+  if (!graph) return sport;
+  const url = new URL(sourceUrl), token = url.pathname.match(/^\/sports?\/([^/]+)(?:\/|$)/)?.[1] ?? url.searchParams.get('path');
+  if (!token) return sport;
+  const aliases = [];
+  for (const node of graph.nodes) {
+    const sidearm = own(node, 'non_sport') && graph.ref(node.non_sport) === false;
+    const wmt = own(node, 'name') && own(node, 'slug') && own(node, 'schedule_id') && own(node, 'gender');
+    if (!sidearm && !wmt) continue;
+    const labels = labelsFor(graph, node);
+    const routes = ['shortname', 'shortName', 'slug', 'global_sport_name_slug', 'globalSportNameSlug'].map(key => graph.field(node, key)).filter(Boolean);
+    if (!routes.includes(token) || !programMatches(labels, graph.field(node, 'gender'), sport, school)) continue;
+    aliases.push(...labels);
+  }
+  return aliases.length ? { ...sport, aliases: [...new Set([...(sport.aliases ?? []), ...aliases])] } : sport;
+}
 function structuredSportMatches(graph, node, sport) {
   return labelsMatch(labelsFor(graph, node), sport);
 }
@@ -99,11 +132,22 @@ function jsonAssignment(script, name) {
 function labelConflicts(labels, sport) {
   const expected = sportGender(sport);
   const genders = labels.flatMap(label => normalizeSportLabel(label).match(/\b(?:mens|womens)\b/g) ?? []);
+  if (expected === 'coed') return genders.length > 0 && !(genders.includes('mens') && genders.includes('womens'));
   if (expected && genders.length && !genders.includes(expected)) return true;
   const normalized = labels.map(normalizeSportLabel);
   if (sport.slug === 'mens-crew' && normalized.some(label => /\blightweight\b/.test(label))) return true;
   if (sport.slug === 'mens-lightweight-crew' && normalized.some(label => /\bheavyweight\b/.test(label))) return true;
   return false;
+}
+
+function primaryFamilyConflicts(labels, sport, school) {
+  const sports = school.sports ?? [], family = sportFamily(sport);
+  const variants = new Set(['football', 'flag football', 'lightweight football']);
+  // Football variants are separate programs even when an archive cross-tags
+  // them. Other publishers deliberately share track/XC and similar coverage.
+  if (!variants.has(family)) return false;
+  return labels.some(label => !matchNavigationSport(label, sport, sports)
+    && sports.some(other => variants.has(sportFamily(other)) && sportFamily(other) !== family && matchNavigationSport(label, other, sports)));
 }
 
 function declaredArchive(sourceUrl, school, sport, $) {
@@ -163,7 +207,8 @@ export async function collectOfficialNews(text, sourceUrl, school, sport, get, f
       const script = $(element).text();
       if (!/["']\/services\/archives\.ashx\/stories["']/.test(script)) continue;
       const metadata = jsonAssignment(script, 'sport_obj');
-      if (!metadata || ![metadata.title, metadata.shortname, metadata.global_sport_name_slug].some(label => matchSport(label, sport)) || !/^[a-z][a-z0-9_-]{0,79}$/.test(metadata.shortname)) throw error;
+      const programLabels = metadata ? [metadata.title, metadata.shortname, metadata.global_sport_name_slug].filter(Boolean) : [];
+      if (!metadata || metadata.non_sport === true || !programMatches(programLabels, metadata.gender, sport, school) || !/^[a-z][a-z0-9_-]{0,79}$/.test(metadata.shortname)) throw error;
       const apiUrl = new URL('/services/archives.ashx/stories', sourceUrl);
       apiUrl.search = new URLSearchParams({ index: '1', page_size: '100', sport: metadata.shortname, season: '0', search: '' });
       const payload = JSON.parse(await get(apiUrl.href));
@@ -190,6 +235,8 @@ function seasonValue($, kind) {
 
 export function parseOfficialNews(text, sourceUrl, school, sport) {
   const { $, scopedUrl } = document(text, sourceUrl, school), graph = nuxt($), records = [], excludedUrls = new Set();
+  sport = declaredNewsSport(graph, sourceUrl, school, sport);
+  const unscopedMetadata = new Map();
   let candidates = 0;
   const add = ({ title, path, date, image, alt, author, labels = [], primaryLabels = [] }) => {
     ensureBudget(++candidates);
@@ -197,9 +244,19 @@ export function parseOfficialNews(text, sourceUrl, school, sport) {
     if (!url || !plainTitle || url === sourceUrl || !/\/[a-z0-9][a-z0-9/_-]*/i.test(new URL(url).pathname)) return;
     // Cross-posted categories must not override the publisher's explicit
     // primary team (for example, a men's recap tagged for both squash teams).
-    if (labelConflicts(primaryLabels, sport)) { excludedUrls.add(url); return; }
+    if (labelConflicts(primaryLabels, sport) || primaryFamilyConflicts(primaryLabels, sport, school)) { excludedUrls.add(url); return; }
     if (labelConflicts(labels, sport)) return;
     if (!labelsMatch(labels, sport) && !matchSportRoute(url, sport)) return;
+    // A current Sidearm story object may omit sport while its visible card
+    // supplies the exact category. Reuse only metadata for that same URL and
+    // title after the card independently establishes scope.
+    const metadata = unscopedMetadata.get(url);
+    if (metadata?.title === plainTitle) {
+      date ||= metadata.date;
+      image ||= metadata.image;
+      alt ||= metadata.alt;
+      author ||= metadata.author;
+    }
     const imageUrl = image ? safeUrl(scalar(image), sourceUrl) : null;
     records.push({ id: stableId(school.slug, sport.slug, url), title: plainTitle, url, ...dateValue(date),
       imageUrl, imageAlt: imageUrl ? tidy(alt) : null, author:cleanAuthor(author), publisher: `${cleanText(school.name, 100)} Athletics`, discoverySourceUrl: sourceUrl });
@@ -227,10 +284,20 @@ export function parseOfficialNews(text, sourceUrl, school, sport) {
       add({ title: f('title'), path: f('permalink'), date: f('published_at'), image: graph.field(media, 'url'), alt: graph.field(media, 'alt'),author:f('byline'),
         labels: sports.flatMap(item => labelsFor(graph, item)) });
     } else if (own(node, 'sub_headline') && own(node, 'url') && own(node, 'sport')) {
+      if (graph.ref(node.app_exclusive) === true) {
+        const url = scopedUrl(f('url'));
+        if (url) excludedUrls.add(url);
+        continue;
+      }
       const media = graph.object(node, 'image');
       const primaryLabels = labelsFor(graph, graph.object(node, 'sport'));
-      add({ title: f('title'), path: f('url'), date: f('date'), image: graph.field(media, 'url'), alt: graph.field(media, 'alt_text'),author:f('byline'),
-        labels: primaryLabels, primaryLabels });
+      const story = { title: f('title'), path: f('url'), date: f('date'), image: graph.field(media, 'url') || f('content_image_url') || f('image_source'), alt: graph.field(media, 'alt_text') || f('image_alt_text'),author:f('byline') };
+      const storyUrl = scopedUrl(story.path);
+      if (!primaryLabels.length && storyUrl) {
+        ensureBudget(unscopedMetadata.size + 1);
+        unscopedMetadata.set(storyUrl, { ...story, title: tidy(story.title) });
+      }
+      add({ ...story, labels: primaryLabels, primaryLabels });
     }
   }
   // A generic RSS feed never inherits the requested sport. Each item's exact

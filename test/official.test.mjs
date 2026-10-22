@@ -266,3 +266,95 @@ test('promotional splash follows only a same-host explicitly labelled sport home
  const result=await collectOfficialNews(`<a href="${home}">Continue to Women's Basketball Home</a>`,'https://athletics.example.edu/sports/wbball',school,women,async url=>{calls++;assert.equal(url,home);return script([story({sport_title:"Women's Basketball"})]);});
  assert.equal(calls,1);assert.equal(result.records.length,1);
 });
+
+const combinedTrack = (gender = 'men') => ({ slug: `${gender === 'women' ? 'womens' : 'mens'}-track-outdoor`, name: `${gender === 'women' ? "Women's" : "Men's"} Track, Outdoor`, gender });
+const combinedDeclaration = (extra = {}) => ({ non_sport: false, title: 'Cross Country & Track', shortname: 'xctrack', global_sport_name_slug: 'cross-country-track', gender: 'g', ...extra });
+const modernStory = (extra = {}) => ({ sub_headline: null, title: 'Team earns national honors', url: '/news/2026/10/20/cross-country-track-national-honors', date: '2026-10-20T18:12:24.46', sport: null, image_source: '/images/honors.jpg', image_alt_text: 'Team at the finish', byline: 'Athletics Communications', app_exclusive: false, ...extra });
+const modernSource = 'https://athletics.example.edu/sports/xctrack';
+
+test('exact declared combined program maps current null-sport Sidearm stories with original metadata', () => {
+  const html = nuxt([combinedDeclaration(), modernStory()]);
+  for (const sport of [combinedTrack(), combinedTrack('women')]) {
+    const record = parseOfficialNews(html, modernSource, school, sport).records[0];
+    assert.equal(record.publishedAt, '2026-10-20T00:00:00.000Z');
+    assert.equal(record.publishedAtPrecision, 'day');
+    assert.equal(record.imageUrl, 'https://athletics.example.edu/images/honors.jpg');
+    assert.equal(record.imageAlt, 'Team at the finish');
+    assert.equal(record.author, 'Athletics Communications');
+  }
+  assert.throws(() => parseOfficialNews(html, modernSource, school, men), /No recognizable/);
+});
+
+test('Nuxt WMT combined program declaration supports its article relationship and precise timestamp', () => {
+  const html = nuxt([
+    { name: 'XC/Track', slug: 'xctrack', schedule_id: 12, gender: null },
+    { title: 'National preview', permalink: '/news/2026/10/20/national-preview', visibility: 'public', published_at: '2026-10-20T18:12:24Z', orderedSports: [{ name: 'XC/Track', slug: 'xctrack' }], image: { url: '/photo.jpg', alt: 'Team' } },
+  ]);
+  const record = parseOfficialNews(html, modernSource, school, combinedTrack()).records[0];
+  assert.equal(record.publishedAt, '2026-10-20T18:12:24.000Z');
+  assert.equal(record.publishedAtPrecision, 'instant');
+  assert.equal(record.imageUrl, 'https://athletics.example.edu/photo.jpg');
+});
+
+test('unrelated navigation, non-sports and opposite-gender declarations never broaden story scope', () => {
+  const invalid = [
+    combinedDeclaration({ shortname: 'other-program' }),
+    combinedDeclaration({ non_sport: true }),
+    combinedDeclaration({ title: "Women's Track/Cross Country", gender: 'f' }),
+    combinedDeclaration({ title: 'Basketball', global_sport_name_slug: 'basketball' }),
+  ];
+  for (const declaration of invalid) assert.throws(() => parseOfficialNews(nuxt([declaration, modernStory()]), modernSource, school, combinedTrack()), /No recognizable/);
+  assert.throws(() => parseOfficialNews(nuxt([combinedDeclaration(), modernStory()]), 'https://athletics.example.edu/', school, combinedTrack()), /No recognizable/);
+  const unrelated = nuxt([combinedDeclaration(), modernStory({ url: '/news/2026/10/20/generic-update' }), modernStory({ url: 'https://attacker.example/news/2026/10/20/cross-country-track-update' })]);
+  assert.throws(() => parseOfficialNews(unrelated, modernSource, school, combinedTrack()), /No recognizable/);
+});
+
+test('primary opposite-gender and app-exclusive stories cannot re-enter through visual cards', () => {
+  const card = title => `<article class="c-stories__item"><a class="c-stories__title" href="/news/2026/10/20/cross-country-track-national-honors">${title}</a><abbr class="c-item-details__sport-text" title="Cross Country & Track">XC</abbr></article>`;
+  for (const extra of [{ sport: { title: "Women's Track and Field" } }, { app_exclusive: true }]) {
+    const html = nuxt([combinedDeclaration(), modernStory(extra)]) + card('Team earns national honors');
+    assert.throws(() => parseOfficialNews(html, modernSource, school, combinedTrack()), /No recognizable/);
+  }
+});
+
+test('category-verified cards may borrow metadata only from their identical public story URL and title', () => {
+  const sport = { slug: 'coed-sailing', name: 'Sailing', gender: 'coed' };
+  const path = '/news/2026/10/20/men-womens-sailing-team-honors';
+  const card = title => `<article class="c-stories__item"><a class="c-stories__title" href="${path}">${title}</a><abbr class="c-item-details__sport-text" title="Men/Women's Sailing">SAIL</abbr></article>`;
+  const data = nuxt([combinedDeclaration({ title: "Men/Women's Sailing", shortname: 'sailing', global_sport_name_slug: 'sailing' }), modernStory({ url: path })]);
+  const sourceUrl = 'https://athletics.example.edu/sports/sailing';
+  const record = parseOfficialNews(data + card('Team earns national honors'), sourceUrl, school, sport).records[0];
+  assert.equal(record.publishedAt, '2026-10-20T00:00:00.000Z');
+  assert.equal(record.imageUrl, 'https://athletics.example.edu/images/honors.jpg');
+  const mismatch = parseOfficialNews(data + card('Different headline'), sourceUrl, school, sport).records[0];
+  assert.equal(mismatch.publishedAt, null);
+  assert.equal(mismatch.imageUrl, null);
+  assert.throws(() => parseOfficialNews(data, sourceUrl, school, sport), /No recognizable/);
+});
+
+test('explicit shared rowing service restores both teams without accepting an unverified single-gender program', async () => {
+  const sourceUrl = 'https://athletics.example.edu/sports/rowing/archives';
+  const rower = { slug: 'mens-crew', name: "Men's Crew", gender: 'men', routes: ['/sports/rowing'] };
+  const html = gender => `<script>var sport_obj = ${JSON.stringify({ title: 'Rowing', shortname: 'c-crew', gender, non_sport: false, global_sport_name_slug: 'rowing' })}; $.get('/services/archives.ashx/stories', {});</script>`;
+  const get = async () => JSON.stringify({ data: [story({ sport_title: 'Rowing', story_path: '/news/2026/10/20/rowing-team-honors' })] });
+  assert.equal((await collectOfficialNews(html('g'), sourceUrl, school, rower, get)).records.length, 1);
+  await assert.rejects(collectOfficialNews(html('f'), sourceUrl, school, rower, async () => assert.fail('Opposite team cannot be fetched')), /No recognizable/);
+  await assert.rejects(collectOfficialNews(html(null), sourceUrl, school, rower, async () => assert.fail('Ambiguous team cannot be fetched')), /No recognizable/);
+});
+
+test('explicit declared service gender disambiguates a generic program title', async () => {
+  const sport = { slug: 'mens-wrestling', name: "Men's Wrestling", gender: 'men', routes: ['/sports/wrestling'], aliases: ['mens Wrestling'] };
+  const sourceUrl = 'https://athletics.example.edu/sports/wrestling/archives';
+  const html = gender => `<script>var sport_obj = ${JSON.stringify({ title: 'Wrestling', shortname: 'wrestling', global_sport_name_slug: 'wrestling', gender })}; $.get('/services/archives.ashx/stories', {});</script>`;
+  const payload = JSON.stringify({ data: [story({ sport_title: 'Wrestling', story_path: '/news/2026/10/20/wrestling-season-preview' })] });
+  assert.equal((await collectOfficialNews(html('m'), sourceUrl, school, sport, async () => payload)).records.length, 1);
+  for (const gender of ['f', null]) await assert.rejects(collectOfficialNews(html(gender), sourceUrl, school, sport, async () => assert.fail('Unverified gender cannot be fetched')), /No recognizable/);
+});
+
+test('explicit shared track and cross-country categories remain valid across their program families', () => {
+  const track = { slug: 'mens-track-outdoor', name: "Men's Track, Outdoor", gender: 'men', aliases: ['Track & Field'], routes: ['/sports/track-and-field'] };
+  const cross = { slug: 'mens-cross-country', name: "Men's Cross Country", gender: 'men', aliases: ['Cross Country'] };
+  const sharedSchool = { ...school, sports: [track, cross] };
+  const html = script([story({ story_headline: '#ORUTrack and #ORUXC Add Distance Runner Sibonokuhle Thwala', story_path: '/news/2026/8/20/cross-country-distance-runner-signs', sport_title: 'Cross Country', sports_cats: 'Cross Country, Track & Field' })]);
+  assert.equal(parseOfficialNews(html, 'https://athletics.example.edu/sports/track-and-field/archives', sharedSchool, track).records.length, 1);
+});

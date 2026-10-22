@@ -79,6 +79,7 @@ export function sportAliases(sport) {
   if (base === 'football') ['m-footbl'].forEach(add);
   if (base === 'baseball') ['base', 'bsb', 'm-basebl'].forEach(add);
   if (base === 'softball') ['soft', 'sball', 'sb', 'w-softbl'].forEach(add);
+  if (base === 'acrobatics and tumbling') ['acrobatics', 'acrobatics tumbling'].forEach(add);
   for (const value of Array.isArray(sport.aliases) ? sport.aliases.slice(0, 100) : []) add(value);
   return [...new Set(values)];
 }
@@ -98,6 +99,11 @@ const COMBINED_TRACK_XC_LABELS = new Set([
   'cross country and track and field', 'xc track', 'xc track and field',
 ]);
 export function matchNavigationSport(label, sport, allSports) {
+  const sailingLabel = normalizeSportLabel(label);
+  if (/^sailing (?:open|coed)$/.test(sailingLabel)) return sportFamily(sport) === 'sailing' && sportGender(sport) === 'coed';
+  if (/^(?:mens (?:and )?womens sailing|sailing open and womens)$/.test(sailingLabel)) {
+    return sportFamily(sport) === 'sailing' && ['coed', 'womens'].includes(sportGender(sport));
+  }
   // Official menus sometimes distinguish indoor/outdoor track with (I)/(O)
   // while both link to one combined program archive. Preserve any explicit
   // gender and never interpret these suffixes on other sports.

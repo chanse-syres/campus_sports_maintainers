@@ -21,7 +21,7 @@ test('reviewed sport archives replace empty shared collections without manufactu
   for (const [slug, expected] of targets) {
     const canonical = await getSchool(slug), policy = sourcePolicy(canonical);
     const discovered = discoverSchoolSources('<main>No sport navigation</main>', canonical);
-    assert.deepEqual(policy.sportNewsUrls, expected);
+    for (const [sport, url] of Object.entries(expected)) assert.equal(policy.sportNewsUrls[sport], url);
     assert.deepEqual(policy.allowedHosts.sort(), [new URL(canonical.athleticsUrl).hostname.replace(/^www\./, ''), `www.${new URL(canonical.athleticsUrl).hostname.replace(/^www\./, '')}`].sort());
     for (const [sport, url] of Object.entries(expected)) {
       assert.equal(discovered.sports[sport].newsUrl, url);

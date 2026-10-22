@@ -16,6 +16,7 @@ const member = { id: 146, ncaa_id: 127, title: school.name, abbreviation: 'CCSU'
 const row = (extra = {}) => ({ story_headline: 'CCSU sets sights on NEC football title', story_summary: '<p>Season preview.</p>',
   sports_cats: 'Football', story_path: '/news/2026/7/25/FB_PreseasonPollRel_26.aspx', story_postdate: '8/3/2026',
   story_image: '/images/2026/7/30/preseason.jpg', ...extra });
+const filteredUrl = storiesUrl.replace('school=0&', 'school=146&');
 const json = rows => JSON.stringify({ error: null, data: rows });
 async function collect(rows = [row()], options = {}) {
   const calls = [];
@@ -24,6 +25,7 @@ async function collect(rows = [row()], options = {}) {
       calls.push(url);
       if (url === membersUrl) return options.members ?? json([member]);
       if (url === storiesUrl) return options.stories ?? json(rows);
+      if (url === filteredUrl) return json(options.filtered ?? []);
       if (rows.some(value => new URL(value.story_path, source).href === url)) {
         const response = options.articles?.[url] ?? '<div class="sidearm-story-template-text">Central Connecticut wins its football game.</div>';
         if (response instanceof Error) throw response;
@@ -32,7 +34,7 @@ async function collect(rows = [row()], options = {}) {
       throw new Error(`Unexpected request: ${url}`);
     });
   assert.deepEqual(calls.slice(0, 2), [membersUrl, storiesUrl]);
-  assert.ok(calls.length <= 12);
+  assert.ok(calls.length <= 15);
   return { ...result, calls };
 }
 
@@ -60,8 +62,8 @@ test('NEC requires direct school identification and exclusive football category'
     row({ story_headline: 'Football honors', story_summary: '<script>CCSU</script>', story_path: '/news/2026/8/9/script.aspx' })];
   const result = await collect(rows);
   assert.equal(result.records.length, 2);
-  assert.ok(result.records[1].url.endsWith('/field-hockey-necfb-two-sentence-summaries-week-4.aspx'));
-  assert.equal(result.records[1].publishedAt, '2026-09-27T00:00:00.000Z');
+  assert.ok(result.records.some(value => value.url.endsWith('/field-hockey-necfb-two-sentence-summaries-week-4.aspx')));
+  assert.equal(result.records.find(value => value.url.endsWith('/field-hockey-necfb-two-sentence-summaries-week-4.aspx')).publishedAt, '2026-09-27T00:00:00.000Z');
 });
 
 test('NEC rejects unreviewed source and catalog identities before requesting services', async () => {
@@ -106,7 +108,7 @@ test('NEC rejects malformed, over-budget, and unusable responses', async () => {
 
 test('NEC discards unsafe URLs and does not invent publication dates', async () => {
   for (const path of ['https://other.example/news/2026/1/1/article.aspx', 'https://127.0.0.1/news/2026/1/1/article.aspx', '/news/2026/1/1/article.aspx?token=secret']) {
-    await assert.rejects(collect([row({ story_path: path })]), /No recognizable/);
+    await assert.rejects(collect([row({ story_path: path })]), /No recognizable/g);
   }
   for (const image of ['https://127.0.0.1/image.jpg', 'https://other.example/image.jpg', '/images/photo.jpg?signature=secret']) {
     assert.equal((await collect([row({ story_image: image })])).records[0].imageUrl, null);
@@ -141,17 +143,54 @@ test('NEC rejects stale school teasers when the article is unrelated, absent, de
   ]) {
     const result = await collect([row(), summaryOnly], { articles: { [url]: body } });
     assert.deepEqual(result.records.map(value => value.title), [row().story_headline]);
-    assert.deepEqual(result.calls, [membersUrl, storiesUrl, url]);
+    assert.deepEqual(result.calls, [membersUrl, storiesUrl, filteredUrl, url]);
     await assert.rejects(collect([summaryOnly], { articles: { [url]: body } }), /No recognizable/);
   }
 });
 
-test('NEC confirms at most ten distinct summary-only articles and trusts direct school headlines', async () => {
+test('NEC bounds distinct article confirmations and trusts direct school headlines', async () => {
   const summaries = Array.from({ length: 12 }, (_, index) => row({ story_headline: `Football weekly roundup ${index}`,
     story_summary: 'CCSU is mentioned in the archive teaser.', story_path: `/news/2026/9/20/roundup-${index}.aspx` }));
   const result = await collect([...summaries, summaries[0], row()]);
   assert.equal(result.records.length, 11);
-  assert.equal(result.calls.length, 12);
-  assert.deepEqual(result.calls.slice(2), summaries.slice(0, 10).map(value => new URL(value.story_path, source).href));
+  assert.equal(result.calls.length, 13);
+  assert.deepEqual(result.calls.slice(3), summaries.slice(0, 10).map(value => new URL(value.story_path, source).href));
   assert.ok(result.records.some(value => value.title === row().story_headline));
+});
+
+test('NEC recovers CCSU baseball and both basketball programs without crossing gender or inferring URL dates', async () => {
+  for (const [slug, id, path, title] of [['baseball', 237, 'baseball', 'Baseball'],
+    ['basketball', 235, 'mbball', "Men's Basketball"], ['womens-basketball', 240, 'wbball', "Women's Basketball"]]) {
+    const selected = school.sports.find(value => value.slug === slug), sourceUrl = `https://necsports.com/archives.aspx?path=${path}`;
+    const html = `<script>var sport_obj = ${JSON.stringify({ id, title, shortname: path })};
+      $.get('/services/archives.ashx/stories', { school: this.school, sport: this.sport });
+      $.get('/services/archives.ashx/setup_schools_dropdown', {});</script>`;
+    const target = row({ story_headline: `CCSU ${title} announces its new schedule`, sports_cats: title, story_postdate: '10/19/2026' });
+    const opposite = row({ story_headline: 'CCSU competing in another sport', sports_cats: slug === 'womens-basketball' ? "Men's Basketball" : "Women's Basketball", story_path: '/news/2026/10/19/other.aspx' });
+    const result = await collectNecFootballNews(html, sourceUrl, school, selected, async url => {
+      if (url === membersUrl) return json([member]);
+      return json(new URL(url).searchParams.get('school') === '0' ? [target, opposite] : []);
+    });
+    assert.deepEqual(result.records.map(value => value.title), [target.story_headline]);
+    assert.equal(result.records[0].publishedAt, '2026-10-19T00:00:00.000Z');
+    assert.ok(result.records[0].url.includes('/2026/7/25/'));
+    assert.equal(result.records[0].discoverySourceUrl, sourceUrl);
+  }
+});
+
+test('NEC school-filtered joint basketball schedules require current school body evidence and exclude general all-sport material', async () => {
+  const selected = school.sports.find(value => value.slug === 'womens-basketball');
+  const sourceUrl = 'https://necsports.com/archives.aspx?path=wbball';
+  const html = `<script>var sport_obj = {"id":240,"title":"Women's Basketball","shortname":"wbball"};
+    $.get('/services/archives.ashx/stories', { school: this.school, sport: this.sport });
+    $.get('/services/archives.ashx/setup_schools_dropdown', {});</script>`;
+  const target = row({ story_headline: "NEC Announces Men's & Women's Basketball Conference Schedules", sports_cats: "Men's Basketball, Women's Basketball", story_summary: '', story_postdate: '7/30/2026' });
+  const unrelated = row({ story_headline: 'Institutional academics award', sports_cats: "Men's Basketball, Women's Basketball, Baseball, General", story_path: '/news/2026/6/29/academic.aspx' });
+  const result = await collectNecFootballNews(html, sourceUrl, school, selected, async url => {
+    if (url === membersUrl) return json([member]);
+    if (new URL(url).pathname === '/services/archives.ashx/stories') return json(new URL(url).searchParams.get('school') === '146' ? [target, unrelated] : []);
+    return '<div class="sidearm-story-template-text">Central Connecticut State University will play its conference schedule in January.</div>';
+  });
+  assert.deepEqual(result.records.map(value => value.title), [target.story_headline]);
+  assert.equal(result.records[0].publishedAt, '2026-07-30T00:00:00.000Z');
 });

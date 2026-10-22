@@ -1,39 +1,39 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { getSchool, getSport } from '../src/config.mjs';
-import { conferenceFootballSource, conferenceFootballSources } from '../src/adapters/conference-football.mjs';
+import { conferenceNewsSource, conferenceNewsSources, conferenceFootballSource } from '../src/adapters/conference-football.mjs';
 
 const targets = [
-  ['central-connecticut-state-university', 'https://necsports.com/archives.aspx?path=football'],
-  ['tennessee-technological-university', 'https://soconsports.com/fb/'],
+  ['central-connecticut-state-university', 'necsports.com'],
+  ['tennessee-technological-university', 'soconsports.com'],
 ];
 
-test('conference replacements are limited to the two reviewed football programs', async () => {
-  assert.deepEqual(Object.keys(conferenceFootballSources).sort(), targets.map(([slug]) => slug).sort());
-  for (const [slug, url] of targets) {
-    const school = await getSchool(slug), football = getSport(school, 'football');
-    const reviewed = conferenceFootballSources[slug], source = conferenceFootballSource(school, football);
+test('conference replacements cover only reviewed sponsored sports at the two verified members', async () => {
+  assert.deepEqual(Object.keys(conferenceNewsSources).sort(), targets.map(([slug]) => slug).sort());
+  assert.equal(conferenceFootballSource, conferenceNewsSource);
+  for (const [slug, host] of targets) {
+    const school = await getSchool(slug), reviewed = conferenceNewsSources[slug];
     assert.equal(reviewed.ncaaId, String(school.ncaaId));
-    assert.equal(reviewed.conference, football.conference.slug);
-    assert.equal(source.url, url);
-    assert.deepEqual(source.allowedHosts, [new URL(url).hostname]);
-    for (const sport of ['basketball', 'womens-basketball', 'baseball']) {
-      assert.equal(conferenceFootballSource(school, getSport(school, sport)), null);
+    for (const [sportSlug, path] of Object.entries(reviewed.sports)) {
+      const sport = getSport(school, sportSlug), source = conferenceNewsSource(school, sport);
+      assert.equal(reviewed.conference, sport.conference.slug);
+      assert.equal(source.url, `https://${host}/archives.aspx?path=${path}`);
+      assert.deepEqual(source.allowedHosts, [host]);
     }
+    for (const sport of school.sports.filter(value => !reviewed.sports[value.slug])) assert.equal(conferenceNewsSource(school, sport), null);
   }
   const other = await getSchool('oregon-state-university');
-  assert.equal(conferenceFootballSource(other, getSport(other, 'football')), null);
+  assert.equal(conferenceNewsSource(other, getSport(other, 'football')), null);
 });
 
-test('conference replacements resolve canonical school and sport identities', async () => {
-  for (const [slug, url] of targets) {
+test('conference replacements resolve canonical school, sport, and conference identities', async () => {
+  for (const [slug, host] of targets) {
     const school = await getSchool(slug), football = getSport(school, 'football');
-    assert.throws(() => conferenceFootballSource({ ...school, ncaaId: 999 }, football), /catalog/);
-    assert.throws(() => conferenceFootballSource({ ...school, name: 'Another university' }, football), /catalog/);
-    assert.throws(() => conferenceFootballSource(school, { ...football, code: 'MBA' }), /identity mismatch/);
-    // Caller-supplied membership cannot choose a different conference source.
+    assert.throws(() => conferenceNewsSource({ ...school, ncaaId: 999 }, football), /catalog/);
+    assert.throws(() => conferenceNewsSource({ ...school, name: 'Another university' }, football), /catalog/);
+    assert.throws(() => conferenceNewsSource(school, { ...football, code: 'MBA' }), /identity mismatch/);
     const forgedSport = { ...football, conference: { slug: 'another-conference', name: 'Another Conference' } };
-    const source = conferenceFootballSource({ ...school, sports: [forgedSport] }, forgedSport);
-    assert.equal(source.url, url);
+    const source = conferenceNewsSource({ ...school, sports: [forgedSport] }, forgedSport);
+    assert.equal(source.url, `https://${host}/archives.aspx?path=football`);
   }
 });
