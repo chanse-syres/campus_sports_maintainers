@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.calbears.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=107"
   },
-  "generatedAt": "2026-10-22T13:54:58.891Z",
+  "generatedAt": "2026-10-22T20:12:59.730Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -25,12 +25,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=baseball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "720913657bc311671c5457dd",
+            "title": "'The Job's Not Done'",
+            "url": "https://www.calbears.com/news/2026/10/22/baseball-the-jobs-not-done",
+            "publishedAt": "2026-10-22T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F10%2F22%2FVaughtnLair.jpg&width=540&height=810&type=webp",
+            "imageAlt": "Inside The Lair Vaughn",
+            "author": "Steve Kroner",
+            "publisher": "University of California, Berkeley Athletics",
+            "discoverySourceUrl": "https://www.calbears.com/index.aspx?path=baseball"
+          },
           {
             "id": "45edabbb9f9afbf673ab5257",
             "title": "Cal Baseball Adds Assistant Coach Bob Ralston",
@@ -73,7 +85,7 @@
             "url": "https://www.calbears.com/news/2026/6/30/8-bears-make-baseball-all-acc-academic-team",
             "publishedAt": "2026-06-30T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F2%2F13%2FZ9B_3224.JPG&width=540&height=304&type=webp",
+            "imageUrl": "https://www.calbears.com/images/2026/2/13/Z9B_3224.JPG",
             "imageAlt": "Oliver de la Torre",
             "author": "Cal Athletics",
             "publisher": "University of California, Berkeley Athletics",
@@ -208,32 +220,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=baseball",
             "reason": null,
-            "recordCount": 14
+            "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -242,7 +254,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -251,7 +263,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -260,7 +272,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -269,7 +281,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -278,7 +290,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -297,8 +309,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=mbball",
         "season": null,
         "reason": null,
@@ -480,40 +492,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=mbball",
             "reason": null,
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -522,7 +534,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -531,7 +543,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -540,7 +552,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -549,7 +561,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -558,7 +570,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -577,8 +589,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=football",
         "season": null,
         "reason": null,
@@ -1153,48 +1165,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=football",
             "reason": null,
             "recordCount": 41
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 6
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1203,7 +1215,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1212,7 +1224,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1221,7 +1233,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1230,7 +1242,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1239,7 +1251,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1258,12 +1270,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=wbball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "92fed4d77ba8a6ee82685832",
+            "title": "Women’s Basketball To Host Annual Block Party",
+            "url": "https://www.calbears.com/news/2026/10/22/womens-basketball-womens-basketball-to-host-annual-block-party",
+            "publishedAt": "2026-10-22T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F10%2F22%2Fbp_web.jpg&width=540&height=304&type=webp",
+            "imageAlt": "WBB: 2026 Block Party",
+            "author": "Cal Athletics",
+            "publisher": "University of California, Berkeley Athletics",
+            "discoverySourceUrl": "https://www.calbears.com/index.aspx?path=wbball"
+          },
           {
             "id": "8f548d2a2d10f6d10209d1ec",
             "title": "Cal Wraps Up First Exhibition Test Against UCLA",
@@ -1318,7 +1342,7 @@
             "url": "https://www.calbears.com/news/2026/9/24/womens-basketball-cal-partners-with-jason-kidd-foundation-for-fireside-chat",
             "publishedAt": "2026-09-24T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F9%2F24%2Ffire_side_web.jpg&width=540&height=304&type=webp",
+            "imageUrl": "https://www.calbears.com/images/2026/9/24/fire_side_web.jpg",
             "imageAlt": "WBB: Fireside chat with Jason Kidd Foundation",
             "author": "Cal Athletics",
             "publisher": "University of California, Berkeley Athletics",
@@ -1436,32 +1460,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=wbball",
             "reason": null,
-            "recordCount": 14
+            "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1470,7 +1494,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1479,7 +1503,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1488,7 +1512,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1497,7 +1521,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1506,7 +1530,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1525,8 +1549,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=fhockey",
         "season": null,
         "reason": null,
@@ -1837,24 +1861,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=fhockey",
             "reason": null,
             "recordCount": 25
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/fieldhockey/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1863,7 +1887,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1872,7 +1896,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1881,7 +1905,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1890,7 +1914,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1899,7 +1923,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1918,8 +1942,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=mcrew",
         "season": null,
         "reason": null,
@@ -2100,16 +2124,16 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=mcrew",
             "reason": null,
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2118,7 +2142,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2127,7 +2151,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2136,7 +2160,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2145,7 +2169,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2154,7 +2178,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2173,8 +2197,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=cross",
         "season": null,
         "reason": null,
@@ -2332,24 +2356,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=cross",
             "reason": null,
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2358,7 +2382,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2367,7 +2391,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2376,7 +2400,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2385,7 +2409,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2394,7 +2418,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2413,8 +2437,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=mgolf",
         "season": null,
         "reason": null,
@@ -2423,7 +2447,7 @@
             "id": "0aba5d8361389fefdd734356",
             "title": "Bears Close Fall Season With Fourth-Place Finish",
             "url": "https://www.calbears.com/news/2026/10/21/mens-golf-bears-close-fall-season-with-fourth-place-finish",
-            "publishedAt": "2026-10-21T00:00:00.000Z",
+            "publishedAt": "2026-10-22T00:00:00.000Z",
             "publishedAtPrecision": "day",
             "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F10%2F21%2F_S5A4586.JPG&width=540&height=304&type=webp",
             "imageAlt": "SihaoCongSTMrys",
@@ -2435,7 +2459,7 @@
             "id": "942ed74d5c812ec244ffddbf",
             "title": "Cal Moves Into Second After Round Two",
             "url": "https://www.calbears.com/news/2026/10/20/mens-golf-cal-moves-into-second-after-round-two",
-            "publishedAt": "2026-10-20T00:00:00.000Z",
+            "publishedAt": "2026-10-21T00:00:00.000Z",
             "publishedAtPrecision": "day",
             "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F10%2F20%2FSihao_Cong_The_Big_Match_2026_26-0924-114637_SW_0027.jpg&width=540&height=304&type=webp",
             "imageAlt": "2026 09 24 ; Berkeley, CA, USA; Big Match vs Stanford, Stephen Woo",
@@ -2447,7 +2471,7 @@
             "id": "18640ea6d96f783940d6d07e",
             "title": "Cal Opens Strong at Saint Mary’s Invitational",
             "url": "https://www.calbears.com/news/2026/10/19/mens-golf-cal-opens-strong-at-saint-marys-invitational",
-            "publishedAt": "2026-10-19T00:00:00.000Z",
+            "publishedAt": "2026-10-20T00:00:00.000Z",
             "publishedAtPrecision": "day",
             "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F10%2F19%2F_S5A5032_CfBNu.JPG&width=540&height=304&type=webp",
             "imageAlt": "MGolf STMarysInvit",
@@ -2641,24 +2665,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=mgolf",
             "reason": null,
             "recordCount": 18
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2667,7 +2691,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2676,7 +2700,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2685,7 +2709,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2694,7 +2718,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2703,7 +2727,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2722,8 +2746,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=mgym",
         "season": null,
         "reason": null,
@@ -2828,24 +2852,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=mgym",
             "reason": null,
             "recordCount": 8
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/gymnastics-men/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2854,7 +2878,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2863,7 +2887,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2872,7 +2896,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2881,7 +2905,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2890,7 +2914,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2909,8 +2933,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=mrugby",
         "season": null,
         "reason": null,
@@ -3112,16 +3136,16 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=mrugby",
             "reason": null,
             "recordCount": 16
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3130,7 +3154,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3139,7 +3163,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3148,7 +3172,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3157,7 +3181,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3166,7 +3190,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3185,12 +3209,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=msoc",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "fb28f18da8d9e1217c81b835",
+            "title": "Bears Prepare For Top-Ranked SMU",
+            "url": "https://www.calbears.com/news/2026/10/22/mens-soccer-bears-prepare-for-top-ranked-smu",
+            "publishedAt": "2026-10-22T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://calbears.com/images/2026/10/22/smu_preview.jpg",
+            "imageAlt": null,
+            "author": null,
+            "publisher": "University of California, Berkeley Athletics",
+            "discoverySourceUrl": "https://www.calbears.com/index.aspx?path=msoc",
+            "metadataCheckedAt": "2026-10-22T20:12:59.730Z"
+          },
           {
             "id": "c0844c2e382ace0722361602",
             "title": "Bears Battle NC State To 2-2 Draw",
@@ -3438,32 +3475,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=msoc",
             "reason": null,
-            "recordCount": 20
+            "recordCount": 21
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3472,7 +3509,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3481,7 +3518,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3490,7 +3527,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3499,7 +3536,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3508,7 +3545,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3527,12 +3564,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=mswim",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "d4e32ffe75601c96e251eb44",
+            "title": "Cal Swimming Slated For Home Meet Against Saint Mary’s",
+            "url": "https://www.calbears.com/news/2026/10/22/mens-swimming-diving-cal-swimming-slated-for-home-meet-against-saint-mary-s",
+            "publishedAt": "2026-10-22T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F10%2F22%2Fsaint_mary_s_swim_preview.jpg&width=540&height=304&type=webp",
+            "imageAlt": "SWIM/DIVE Preview vs. Saint Mary&#39;s",
+            "author": "Cal Athletics",
+            "publisher": "University of California, Berkeley Athletics",
+            "discoverySourceUrl": "https://www.calbears.com/index.aspx?path=mswim"
+          },
           {
             "id": "c5d7e4dd4ab4998e6dfd4954",
             "title": "Bears Earn Top Finishes Across Two Meets",
@@ -3770,24 +3819,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=mswim",
             "reason": null,
-            "recordCount": 19
+            "recordCount": 20
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3796,7 +3845,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3805,7 +3854,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3814,7 +3863,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3823,7 +3872,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3832,7 +3881,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3851,8 +3900,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=mten",
         "season": null,
         "reason": null,
@@ -4065,24 +4114,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=mten",
             "reason": null,
             "recordCount": 16
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4091,7 +4140,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4100,7 +4149,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4109,7 +4158,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4118,7 +4167,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4127,7 +4176,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4146,8 +4195,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=track",
         "season": null,
         "reason": null,
@@ -4265,24 +4314,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=track",
             "reason": null,
             "recordCount": 9
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4291,7 +4340,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4300,7 +4349,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4309,7 +4358,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4318,7 +4367,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4327,7 +4376,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4346,8 +4395,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=track",
         "season": null,
         "reason": null,
@@ -4465,24 +4514,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=track",
             "reason": null,
             "recordCount": 9
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4491,7 +4540,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4500,7 +4549,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4509,7 +4558,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4518,7 +4567,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4527,7 +4576,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4546,8 +4595,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=mwpolo",
         "season": null,
         "reason": null,
@@ -4868,24 +4917,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=mwpolo",
             "reason": null,
             "recordCount": 22
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/waterpolo-men/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 4
@@ -4894,7 +4943,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4903,7 +4952,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4912,7 +4961,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4921,7 +4970,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4930,7 +4979,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4949,8 +4998,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=softball",
         "season": null,
         "reason": null,
@@ -5080,32 +5129,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=softball",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5114,7 +5163,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5123,7 +5172,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5132,7 +5181,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5141,7 +5190,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5150,7 +5199,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5169,8 +5218,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=wbvball",
         "season": null,
         "reason": null,
@@ -5314,24 +5363,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=wbvball",
             "reason": null,
             "recordCount": 11
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/beach-volleyball/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5340,7 +5389,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5349,7 +5398,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5358,7 +5407,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5367,7 +5416,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5376,7 +5425,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5395,8 +5444,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=cross",
         "season": null,
         "reason": null,
@@ -5554,24 +5603,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=cross",
             "reason": null,
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5580,7 +5629,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5589,7 +5638,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5598,7 +5647,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5607,7 +5656,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5616,7 +5665,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5635,8 +5684,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=wgolf",
         "season": null,
         "reason": null,
@@ -5645,7 +5694,7 @@
             "id": "f86bdb186ace5f0d8a2a4932",
             "title": "Bears Take Tenth-Place Tie At Stanford Intercollegiate",
             "url": "https://www.calbears.com/news/2026/10/18/womens-golf-bears-take-tenth-place-tie-at-stanford-intercollegiate",
-            "publishedAt": "2026-10-18T00:00:00.000Z",
+            "publishedAt": "2026-10-19T00:00:00.000Z",
             "publishedAtPrecision": "day",
             "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F10%2F18%2FClaudia.jpg&width=540&height=304&type=webp",
             "imageAlt": "Bears Take Tenth-Place.",
@@ -5807,24 +5856,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=wgolf",
             "reason": null,
             "recordCount": 13
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5833,7 +5882,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5842,7 +5891,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5851,7 +5900,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5860,7 +5909,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5869,7 +5918,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5888,8 +5937,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=wgym",
         "season": null,
         "reason": null,
@@ -6018,24 +6067,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=wgym",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/gymnastics-women/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6044,7 +6093,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6053,7 +6102,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6062,7 +6111,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6071,7 +6120,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6080,7 +6129,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6099,8 +6148,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=wlax",
         "season": null,
         "reason": null,
@@ -6217,24 +6266,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=wlax",
             "reason": null,
             "recordCount": 9
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6243,7 +6292,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6252,7 +6301,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6261,7 +6310,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6270,7 +6319,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6279,7 +6328,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6298,8 +6347,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=wcrew",
         "season": null,
         "reason": null,
@@ -6455,24 +6504,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=wcrew",
             "reason": null,
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/rowing/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6481,7 +6530,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6490,7 +6539,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6499,7 +6548,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6508,7 +6557,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6517,7 +6566,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6536,8 +6585,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=wsoc",
         "season": null,
         "reason": null,
@@ -6824,32 +6873,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=wsoc",
             "reason": null,
             "recordCount": 23
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6858,7 +6907,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6867,7 +6916,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6876,7 +6925,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6885,7 +6934,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6894,7 +6943,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6913,8 +6962,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=wswim",
         "season": null,
         "reason": null,
@@ -6949,7 +6998,7 @@
             "url": "https://www.calbears.com/news/2026/10/9/womens-swimming-diving-bears-make-a-splash-on-day-one-at-triton-invitational",
             "publishedAt": "2026-10-09T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F10%2F9%2Ftritoninvitationalday1.jpg&width=540&height=304&type=webp",
+            "imageUrl": "https://www.calbears.com/images/2026/10/9/tritoninvitationalday1.jpg",
             "imageAlt": "SWIM Triton Invitational Recap Day 1",
             "author": "Cal Athletics",
             "publisher": "University of California, Berkeley Athletics",
@@ -7094,24 +7143,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=wswim",
             "reason": null,
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7120,7 +7169,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7129,7 +7178,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7138,7 +7187,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7147,7 +7196,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7156,7 +7205,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7175,8 +7224,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=wten",
         "season": null,
         "reason": null,
@@ -7366,24 +7415,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=wten",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7392,7 +7441,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7401,7 +7450,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7410,7 +7459,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7419,7 +7468,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7428,7 +7477,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7447,8 +7496,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=track",
         "season": null,
         "reason": null,
@@ -7566,24 +7615,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=track",
             "reason": null,
             "recordCount": 9
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7592,7 +7641,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7601,7 +7650,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7610,7 +7659,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7619,7 +7668,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7628,7 +7677,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7647,8 +7696,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=track",
         "season": null,
         "reason": null,
@@ -7766,24 +7815,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=track",
             "reason": null,
             "recordCount": 9
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7792,7 +7841,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7801,7 +7850,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7810,7 +7859,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7819,7 +7868,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7828,7 +7877,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7847,12 +7896,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=wvball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "bf41e113bd6735a0fddf029d",
+            "title": "Cal Heads To North Carolina For Clash With Tar Heels And Blue Devils",
+            "url": "https://www.calbears.com/news/2026/10/22/volleyball-cal-heads-to-north-carolina-for-clash-with-tar-heels-and-blue-devils",
+            "publishedAt": "2026-10-22T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F10%2F22%2FGAMEWEEK_WEB__2_.png&width=540&height=304&type=webp",
+            "imageAlt": "Cal vb",
+            "author": "Cal Athletics",
+            "publisher": "University of California, Berkeley Athletics",
+            "discoverySourceUrl": "https://www.calbears.com/index.aspx?path=wvball"
+          },
           {
             "id": "85ce2ea8f92b2385b3643fbe",
             "title": "Cal's Anna Flores Named ACC Setter Of The Week",
@@ -7907,7 +7968,7 @@
             "url": "https://www.calbears.com/news/2026/10/11/volleyball-cal-sweeps-notre-dame-in-south-bend",
             "publishedAt": "2026-10-11T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fcalberk.sidearmsports.com%2Fimages%2F2026%2F9%2F16%2FAbby_Zimmerman_Anna_Flores_Cal_vs._St._Marys_26-0830-223151_K_0034.JPG&width=540&height=304&type=webp",
+            "imageUrl": "https://www.calbears.com/images/2026/9/16/Abby_Zimmerman_Anna_Flores_Cal_vs._St._Marys_26-0830-223151_K_0034.JPG",
             "imageAlt": "Cal Volleyball Celebrates",
             "author": "Cal Athletics",
             "publisher": "University of California, Berkeley Athletics",
@@ -8174,24 +8235,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=wvball",
             "reason": null,
-            "recordCount": 26
+            "recordCount": 27
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8200,7 +8261,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8209,7 +8270,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8218,7 +8279,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8227,7 +8288,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8236,7 +8297,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8255,8 +8316,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-        "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+        "lastSuccessAt": "2026-10-22T20:12:59.730Z",
         "sourceUrl": "https://www.calbears.com/index.aspx?path=wwpolo",
         "season": null,
         "reason": null,
@@ -8529,24 +8590,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.calbears.com/index.aspx?path=wwpolo",
             "reason": null,
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-22T13:54:58.891Z",
-            "lastSuccessAt": "2026-10-22T13:54:58.891Z",
+            "lastAttemptAt": "2026-10-22T20:12:59.730Z",
+            "lastSuccessAt": "2026-10-22T20:12:59.730Z",
             "sourceUrl": "https://www.ncaa.com/news/waterpolo-women/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 9
@@ -8555,7 +8616,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8564,7 +8625,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8573,7 +8634,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8582,7 +8643,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8591,7 +8652,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-22T13:54:58.891Z",
+        "lastAttemptAt": "2026-10-22T20:12:59.730Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
