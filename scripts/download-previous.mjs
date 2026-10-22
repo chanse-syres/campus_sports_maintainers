@@ -7,6 +7,8 @@ import { REPOSITORY, listSchools } from '../src/config.mjs';
 import { parsePublicJson, limitedResponse, MAX_FILE_BYTES, MAX_MANIFEST_BYTES, validateManifest } from '../src/manifest.mjs';
 import { checkedDirectory, commitSha, githubRequest, validateFiles } from './publish.mjs';
 
+const TRANSIENT_FETCH_CODES = new Set(['ECONNRESET', 'ETIMEDOUT', 'EAI_AGAIN', 'UND_ERR_CONNECT_TIMEOUT', 'UND_ERR_HEADERS_TIMEOUT', 'UND_ERR_BODY_TIMEOUT', 'UND_ERR_SOCKET']);
+
 export function assertCollectionContext(env) {
   assert.equal(env.GITHUB_ACTIONS, 'true', 'Bootstrap requires GitHub Actions');
   assert.equal(env.GITHUB_REPOSITORY, REPOSITORY, 'Unexpected bootstrap repository');
@@ -14,7 +16,7 @@ export function assertCollectionContext(env) {
   assert.ok(['schedule', 'workflow_dispatch'].includes(env.GITHUB_EVENT_NAME), 'Unexpected bootstrap event');
   assert.equal(env.GITHUB_WORKFLOW_REF, `${REPOSITORY}/.github/workflows/maintainers.yml@refs/heads/main`, 'Unexpected bootstrap workflow');
 }
-export async function downloadPrevious(conference, directory = 'previous', { request, fetchFile, validator, commit, rebootstrap = false, env = process.env } = {}) {
+export async function downloadPrevious(conference, directory = 'previous', { request, fetchFile, validator, commit, rebootstrap = false, env = process.env, pause = ms => new Promise(resolve => setTimeout(resolve, ms)) } = {}) {
   await listSchools(conference);
   assert.ok(typeof conference === 'string', 'Conference is required');
   if (rebootstrap) {
@@ -35,9 +37,23 @@ export async function downloadPrevious(conference, directory = 'previous', { req
   }
   const sha = commitSha(commit);
   const get = fetchFile ?? (async (filename, limit) => {
-    const response = await fetch(`https://raw.githubusercontent.com/${REPOSITORY}/${sha}/v1/conferences/${conference}/${filename}`, { redirect: 'error', signal: AbortSignal.timeout(30_000), credentials: 'omit' });
-    if (!response.ok) { await response.body?.cancel(); throw new Error(`Previous snapshot download failed (HTTP ${response.status})`); }
-    return limitedResponse(response, limit);
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const signal = AbortSignal.timeout(30_000);
+      try {
+        const response = await fetch(`https://raw.githubusercontent.com/${REPOSITORY}/${sha}/v1/conferences/${conference}/${filename}`, { redirect: 'error', signal, credentials: 'omit' });
+        if (!response.ok) {
+          await response.body?.cancel();
+          if (!attempt && response.status >= 500 && response.status <= 599) { await pause(1000); continue; }
+          throw new Error(`Previous snapshot download failed (HTTP ${response.status})`);
+        }
+        return await limitedResponse(response, limit);
+      } catch (error) {
+        const timeout = error?.name === 'TimeoutError' || (error?.name === 'AbortError' && signal.aborted && signal.reason?.name === 'TimeoutError');
+        const transientFetch = error instanceof TypeError && TRANSIENT_FETCH_CODES.has(error.cause?.code);
+        if (attempt || !(timeout || transientFetch)) throw error;
+        await pause(1000);
+      }
+    }
   });
   const manifestBytes = await get('manifest.json', MAX_MANIFEST_BYTES), manifest = await validateManifest(parsePublicJson(manifestBytes), conference, { allowOld: true });
   const schoolBytes = new Map();

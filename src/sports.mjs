@@ -13,7 +13,11 @@ const SHORT = {
 
 export function normalizeSportLabel(value) {
   if (typeof value !== 'string' || value.length > 200) return '';
-  return value.toLowerCase().replace(/^(.*?)\s*\(([mw])\)\s*$/i, (_, label, gender) => `${gender === 'w' ? 'womens' : 'mens'} ${label}`)
+  return value.toLowerCase()
+    // Texas Southern declares this complete women's XC label and route.
+    // Do not infer gender from a suffix on arbitrary labels or paths.
+    .replace(/^cross(?:-| )country-women$/, 'womens cross country')
+    .replace(/^(.*?)\s*\(([mw])\)\s*$/i, (_, label, gender) => `${gender === 'w' ? 'womens' : 'mens'} ${label}`)
     .replace(/^(.*?)\s*[-–—]\s*(men['’]?s|women['’]?s)\s*$/i, (_, label, gender) => `${gender.startsWith('w') ? 'womens' : 'mens'} ${label}`)
     .replace(/[’']/g, '').replace(/&/g, ' and ')
     .replace(/[-_/]/g, ' ').replace(/\b(women|woman|female)\b/g, 'womens')

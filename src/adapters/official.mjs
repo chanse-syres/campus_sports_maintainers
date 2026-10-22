@@ -52,10 +52,22 @@ function labelsFor(graph, node) {
 }
 const labelsMatch = (labels, sport) => labels.some(label => matchSport(label, sport) || String(label).split(/[,;]/).some(part => matchSport(part.trim(), sport)));
 const COMBINED_NEWS_FAMILIES = new Set(['cross country', 'track and field', 'swimming and diving', 'skiing', 'fencing', 'rifle', 'sailing']);
-function programMatches(labels, gender, sport, school) {
-  const actual = sportGender({ gender });
-  if (actual && actual !== 'coed' && actual !== sportGender(sport)) return false;
-  if (labelConflicts(labels, sport)) return false;
+function programMatches(labels, gender, sport, school, titles = []) {
+  const expected = sportGender(sport);
+  const titleGenders = [...new Set(titles.flatMap(label => normalizeSportLabel(label).match(/\b(?:mens|womens)\b/g) ?? []))];
+  // An explicit public program title outranks an inconsistent generic CMS
+  // gender flag. It must still match the requested program, not just gender.
+  const explicitTitle = titleGenders.length === 1 && titles.some(label => matchSport(label, sport));
+  const riflePrograms = (school.sports ?? []).filter(item => sportFamily(item) === 'rifle');
+  // NCAA coed rifle programs can retain legacy men's routes and binary CMS
+  // flags. Only an ungendered rifle title plus an exclusively coed inventory
+  // resolves that mismatch; a men's/women's title never inherits coed scope.
+  const coedRifle = expected === 'coed' && sportFamily(sport) === 'rifle' && !titleGenders.length
+    && titles.some(label => ['rifle', 'coed rifle', 'mixed rifle'].includes(normalizeSportLabel(label)))
+    && riflePrograms.some(item => item.slug === sport.slug) && riflePrograms.every(item => sportGender(item) === 'coed');
+  const actual = coedRifle ? expected : explicitTitle ? titleGenders[0] : sportGender({ gender });
+  if (actual && actual !== 'coed' && actual !== expected) return false;
+  if (labelConflicts(coedRifle ? titles : labels, sport)) return false;
   if (['mens', 'womens'].includes(actual) && labelsMatch(labels.map(label => `${actual} ${label}`), sport)) return true;
   // Some schools deliberately publish both rowing teams as one coed program.
   // A bare Rowing label without that explicit declaration stays ambiguous.
@@ -79,7 +91,8 @@ function declaredNewsSport(graph, sourceUrl, school, sport) {
     if (!sidearm && !wmt) continue;
     const labels = labelsFor(graph, node);
     const routes = ['shortname', 'shortName', 'slug', 'global_sport_name_slug', 'globalSportNameSlug'].map(key => graph.field(node, key)).filter(Boolean);
-    if (!routes.includes(token) || !programMatches(labels, graph.field(node, 'gender'), sport, school)) continue;
+    const titles = ['title', 'name'].map(key => graph.field(node, key)).filter(Boolean);
+    if (!routes.includes(token) || !programMatches(labels, graph.field(node, 'gender'), sport, school, titles)) continue;
     aliases.push(...labels);
   }
   return aliases.length ? { ...sport, aliases: [...new Set([...(sport.aliases ?? []), ...aliases])] } : sport;
@@ -208,7 +221,7 @@ export async function collectOfficialNews(text, sourceUrl, school, sport, get, f
       if (!/["']\/services\/archives\.ashx\/stories["']/.test(script)) continue;
       const metadata = jsonAssignment(script, 'sport_obj');
       const programLabels = metadata ? [metadata.title, metadata.shortname, metadata.global_sport_name_slug].filter(Boolean) : [];
-      if (!metadata || metadata.non_sport === true || !programMatches(programLabels, metadata.gender, sport, school) || !/^[a-z][a-z0-9_-]{0,79}$/.test(metadata.shortname)) throw error;
+      if (!metadata || metadata.non_sport === true || !programMatches(programLabels, metadata.gender, sport, school, [metadata.title].filter(Boolean)) || !/^[a-z][a-z0-9_-]{0,79}$/.test(metadata.shortname)) throw error;
       const apiUrl = new URL('/services/archives.ashx/stories', sourceUrl);
       apiUrl.search = new URLSearchParams({ index: '1', page_size: '100', sport: metadata.shortname, season: '0', search: '' });
       const payload = JSON.parse(await get(apiUrl.href));
