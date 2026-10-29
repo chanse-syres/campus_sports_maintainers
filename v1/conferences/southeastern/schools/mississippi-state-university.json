@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.hailstate.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=430"
   },
-  "generatedAt": "2026-10-29T15:41:30.421Z",
+  "generatedAt": "2026-10-29T21:35:05.928Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -25,12 +25,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/baseball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "b5e766ffbd69349c10893179",
+            "title": "Dear Ol' State: Papelbon, Moreland Preview The Diamond Dawg Classic",
+            "url": "https://www.hailstate.com/news/2026/10/29/baseball-dear-ol-state-papelbon-moreland-preview-the-diamond-dawg-classic-coleman",
+            "publishedAt": "2026-10-29T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F10%2F29%2FPaps_Moreland.png&width=736&height=414&type=webp",
+            "imageAlt": "paps moreland",
+            "author": "Joel Coleman, Senior Writer",
+            "publisher": "Mississippi State University Athletics",
+            "discoverySourceUrl": "https://www.hailstate.com/sports/baseball"
+          },
           {
             "id": "552fef25ab8eec757529e1dc",
             "title": "#StateToTheShow Update: October 23",
@@ -169,7 +181,7 @@
             "url": "https://www.hailstate.com/news/2026/9/8/conference-schedule-announced-for-msu-baseball",
             "publishedAt": "2026-09-08T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F9%2F8%2F20260320_BB_vs_Vanderbilt_Crowd_HW_0664.JPG&width=736&height=414&type=webp",
+            "imageUrl": "https://d11hqkyfmkvgtx.cloudfront.net/images/2026/9/8/20260320_BB_vs_Vanderbilt_Crowd_HW_0664.JPG",
             "imageAlt": "STARKVILLE, MS - March 20, 2026 - Crowd during the game between the Vanderbilt Commodores and the Mississippi State Bulldogs at Dudy Noble Field at Polk-Dement Stadium in Starkville, MS. Photo By Hallie Walker",
             "author": "Logan Lowery, Assistant Director/Communications",
             "publisher": "Mississippi State University Athletics",
@@ -327,32 +339,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/baseball",
             "reason": null,
-            "recordCount": 24
+            "recordCount": 25
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -361,7 +373,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -370,7 +382,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -379,7 +391,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -388,7 +400,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -397,7 +409,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -416,8 +428,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/mens-basketball",
         "season": null,
         "reason": null,
@@ -434,6 +446,19 @@
             "publisher": "Mississippi State University Athletics",
             "discoverySourceUrl": "https://www.hailstate.com/sports/mens-basketball",
             "metadataCheckedAt": "2026-10-29T15:41:30.421Z"
+          },
+          {
+            "id": "cacd2634204c84294bebb0de",
+            "title": "WATCH: Coach Jans Media Session",
+            "url": "https://www.hailstate.com/news/2026/10/29/mens-basketball-watch-coach-jans-press-conference-10-29-26",
+            "publishedAt": "2026-10-29T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F10%2F29%2FUntitled_16_9_Landscape_-_2026-10-29T121903.736.png&width=736&height=414&type=webp",
+            "imageAlt": "jans oct 29",
+            "author": null,
+            "publisher": "Mississippi State University Athletics",
+            "discoverySourceUrl": "https://www.hailstate.com/sports/mens-basketball",
+            "metadataCheckedAt": "2026-10-29T21:35:05.928Z"
           },
           {
             "id": "714d1ada9e49eb55bf56dc22",
@@ -518,7 +543,7 @@
             "url": "https://www.hailstate.com/news/2026/10/15/mens-basketball-watch-coach-jans-press-conference-sec-media-day",
             "publishedAt": "2026-10-15T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F10%2F15%2Fjans_secm.png&width=736&height=414&type=webp",
+            "imageUrl": "https://d11hqkyfmkvgtx.cloudfront.net/images/2026/10/15/jans_secm.png",
             "imageAlt": "jans sec media day",
             "author": null,
             "publisher": "Mississippi State University Athletics",
@@ -878,40 +903,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/mens-basketball",
             "reason": null,
-            "recordCount": 34
+            "recordCount": 35
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -920,7 +945,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -929,7 +954,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -938,7 +963,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -947,7 +972,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -956,7 +981,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -975,8 +1000,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/football",
         "season": null,
         "reason": null,
@@ -2366,48 +2391,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/football",
             "reason": null,
             "recordCount": 73
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 25
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 13
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2416,7 +2441,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2425,7 +2450,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2434,7 +2459,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2443,7 +2468,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2452,7 +2477,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2471,12 +2496,37 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/womens-basketball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "04e757f75887f801d4ad9b12",
+            "title": "Francis Earns Spot On Katrina McClain Power Forward Of The Year Watch List",
+            "url": "https://www.hailstate.com/news/2026/10/29/womens-basketball-francis-earns-spot-on-katrina-mcclain-power-forward-of-the-year-watch-list",
+            "publishedAt": "2026-10-29T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F10%2F29%2F20261001_WB_ProductionDay_Secondary_Francis40_HW_0717.JPG&width=736&height=414&type=webp",
+            "imageAlt": "Madison Francis",
+            "author": "Will Simmons, Assistant Director/Communications",
+            "publisher": "Mississippi State University Athletics",
+            "discoverySourceUrl": "https://www.hailstate.com/sports/womens-basketball"
+          },
+          {
+            "id": "153488bf16336b81c0b3b23a",
+            "title": "WATCH: Coach Purcell Media Session",
+            "url": "https://www.hailstate.com/news/2026/10/29/womens-basketball-watch-coach-purcell-media-session",
+            "publishedAt": "2026-10-29T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F10%2F29%2FWBK_PRESSER_COVER.jpeg&width=736&height=414&type=webp",
+            "imageAlt": "Sam Purcell Media Session - 10/29/26",
+            "author": null,
+            "publisher": "Mississippi State University Athletics",
+            "discoverySourceUrl": "https://www.hailstate.com/sports/womens-basketball",
+            "metadataCheckedAt": "2026-10-29T21:35:05.928Z"
+          },
           {
             "id": "efa05dccdfd1c2ffe3d5691e",
             "title": "Francis Named To Coaches’ Preseason All-SEC Second Team",
@@ -2533,7 +2583,7 @@
             "url": "https://www.hailstate.com/news/2026/8/31/womens-basketball-finalizes-2026-27-schedule",
             "publishedAt": "2026-08-31T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F8%2F31%2F26WB_SM_NonConferenceSchedule-WEB.png&width=736&height=414&type=webp",
+            "imageUrl": "https://d11hqkyfmkvgtx.cloudfront.net/images/2026/8/31/26WB_SM_NonConferenceSchedule-WEB.png",
             "imageAlt": "26-27 WBK Schedule Release",
             "author": null,
             "publisher": "Mississippi State University Athletics",
@@ -2546,7 +2596,7 @@
             "url": "https://www.hailstate.com/news/2026/8/28/womens-basketball-womens-basketball-adds-ludovica-sammartino",
             "publishedAt": "2026-08-28T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F8%2F28%2F20260828_WB_Assets_SammartinoL_HW_0003.JPG&width=736&height=414&type=webp",
+            "imageUrl": "https://d11hqkyfmkvgtx.cloudfront.net/images/2026/8/28/20260828_WB_Assets_SammartinoL_HW_0003.JPG",
             "imageAlt": "Ludovica Sammartino",
             "author": "Will Simmons, Assistant Director/Communications",
             "publisher": "Mississippi State University Athletics",
@@ -2742,32 +2792,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/womens-basketball",
             "reason": null,
-            "recordCount": 20
+            "recordCount": 22
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2776,7 +2826,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2785,7 +2835,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2794,7 +2844,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2803,7 +2853,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2812,7 +2862,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2831,8 +2881,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/mens-golf",
         "season": null,
         "reason": null,
@@ -3082,24 +3132,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/mens-golf",
             "reason": null,
             "recordCount": 20
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3108,7 +3158,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3117,7 +3167,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3126,7 +3176,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3135,7 +3185,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3144,7 +3194,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3163,8 +3213,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/mens-tennis",
         "season": null,
         "reason": null,
@@ -3428,24 +3478,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/mens-tennis",
             "reason": null,
             "recordCount": 21
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3454,7 +3504,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3463,7 +3513,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3472,7 +3522,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3481,7 +3531,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3490,7 +3540,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3509,8 +3559,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -3704,24 +3754,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/track-and-field",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3730,7 +3780,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3739,7 +3789,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3748,7 +3798,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3757,7 +3807,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3766,7 +3816,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3785,8 +3835,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -3980,24 +4030,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/track-and-field",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4006,7 +4056,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4015,7 +4065,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4024,7 +4074,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4033,7 +4083,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4042,7 +4092,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4061,8 +4111,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/softball",
         "season": null,
         "reason": null,
@@ -4291,32 +4341,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/softball",
             "reason": null,
             "recordCount": 17
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4325,7 +4375,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4334,7 +4384,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4343,7 +4393,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4352,7 +4402,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4361,7 +4411,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4380,12 +4430,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/cross-country",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "9b793428793ba091ee665efc",
+            "title": "Mississippi State Heads To Columbia For SEC Championship",
+            "url": "https://www.hailstate.com/news/2026/10/29/cross-country-mississippi-state-heads-to-columbia-for-sec-championship",
+            "publishedAt": "2026-10-29T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F10%2F29%2F20261016_TF_CrimsonClassic_Team_MM_0008.jpg&width=736&height=414&type=webp",
+            "imageAlt": "Cross Country Team Huddle",
+            "author": "Kinsley Hunter, Student Assistant/Communications",
+            "publisher": "Mississippi State University Athletics",
+            "discoverySourceUrl": "https://www.hailstate.com/sports/cross-country"
+          },
           {
             "id": "4643b8b18c2c3bcd14210463",
             "title": "State Secures Podium Finish",
@@ -4465,7 +4527,7 @@
             "url": "https://www.hailstate.com/news/2026/8/24/bulldogs-cross-country-schedule-set",
             "publishedAt": "2026-08-24T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F8%2F24%2F20251114_TF_NCAASouth_Team_RR_0006.jpg&width=736&height=414&type=webp",
+            "imageUrl": "https://d11hqkyfmkvgtx.cloudfront.net/images/2026/8/24/20251114_TF_NCAASouth_Team_RR_0006.jpg",
             "imageAlt": "Cross Country Team 2025",
             "author": "Brian Ogden, Director/Communications",
             "publisher": "Mississippi State University Athletics",
@@ -4632,24 +4694,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/cross-country",
             "reason": null,
-            "recordCount": 20
+            "recordCount": 21
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4658,7 +4720,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4667,7 +4729,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4676,7 +4738,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4685,7 +4747,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4694,7 +4756,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4713,8 +4775,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/womens-golf",
         "season": null,
         "reason": null,
@@ -5040,24 +5102,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/womens-golf",
             "reason": null,
             "recordCount": 26
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5066,7 +5128,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5075,7 +5137,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5084,7 +5146,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5093,7 +5155,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5102,7 +5164,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5121,8 +5183,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/womens-soccer",
         "season": null,
         "reason": null,
@@ -5516,32 +5578,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/womens-soccer",
             "reason": null,
             "recordCount": 32
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5550,7 +5612,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5559,7 +5621,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5568,7 +5630,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5577,7 +5639,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5586,7 +5648,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5605,8 +5667,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/womens-tennis",
         "season": null,
         "reason": null,
@@ -5819,24 +5881,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/womens-tennis",
             "reason": null,
             "recordCount": 17
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5845,7 +5907,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5854,7 +5916,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5863,7 +5925,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5872,7 +5934,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5881,7 +5943,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5900,8 +5962,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -6095,24 +6157,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/track-and-field",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6121,7 +6183,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6130,7 +6192,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6139,7 +6201,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6148,7 +6210,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6157,7 +6219,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6176,8 +6238,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -6371,24 +6433,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/track-and-field",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6397,7 +6459,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6406,7 +6468,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6415,7 +6477,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6424,7 +6486,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6433,7 +6495,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6452,12 +6514,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-        "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+        "lastSuccessAt": "2026-10-29T21:35:05.928Z",
         "sourceUrl": "https://www.hailstate.com/sports/womens-volleyball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "93fe7c123b138168a9b5c94b",
+            "title": "Bulldogs Prepare For Road Battles In Oxford and Tuscaloosa",
+            "url": "https://www.hailstate.com/news/2026/10/29/volleyball-bulldogs-prepare-for-road-battle-in-oxford-and-tuscaloosa",
+            "publishedAt": "2026-10-29T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F10%2F29%2F20261025_VB_vs_Arkansas_Yates4_HW_0078.JPG&width=736&height=414&type=webp",
+            "imageAlt": "Volleyball Warmup",
+            "author": null,
+            "publisher": "Mississippi State University Athletics",
+            "discoverySourceUrl": "https://www.hailstate.com/sports/womens-volleyball",
+            "metadataCheckedAt": "2026-10-29T21:35:05.928Z"
+          },
           {
             "id": "32f00fef685617ca0c13b0af",
             "title": "Bulldogs Are Still Undefeated At Home",
@@ -6536,7 +6611,7 @@
             "url": "https://www.hailstate.com/news/2026/10/13/volleyball-bulldogs-head-to-columbia",
             "publishedAt": "2026-10-13T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd11hqkyfmkvgtx.cloudfront.net%2Fimages%2F2026%2F10%2F13%2F20261011_VB_vs_SouthCarolina_Aguilar1_Stant28_Kline5_Hanson24_HW_0206.JPG&width=736&height=414&type=webp",
+            "imageUrl": "https://d11hqkyfmkvgtx.cloudfront.net/images/2026/10/13/20261011_VB_vs_SouthCarolina_Aguilar1_Stant28_Kline5_Hanson24_HW_0206.JPG",
             "imageAlt": "Volleyball Huddle",
             "author": "Caly Haskins, Assistant Director/Brand Advancement & Social Strategy",
             "publisher": "Mississippi State University Athletics",
@@ -6853,24 +6928,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.hailstate.com/sports/womens-volleyball",
             "reason": null,
-            "recordCount": 32
+            "recordCount": 33
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-10-29T15:41:30.421Z",
-            "lastSuccessAt": "2026-10-29T15:41:30.421Z",
+            "lastAttemptAt": "2026-10-29T21:35:05.928Z",
+            "lastSuccessAt": "2026-10-29T21:35:05.928Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6879,7 +6954,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6888,7 +6963,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6897,7 +6972,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6906,7 +6981,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6915,7 +6990,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-10-29T15:41:30.421Z",
+        "lastAttemptAt": "2026-10-29T21:35:05.928Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
