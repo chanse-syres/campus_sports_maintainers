@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.fightingirish.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=513"
   },
-  "generatedAt": "2026-11-03T12:04:18.644Z",
+  "generatedAt": "2026-11-03T19:37:59.562Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "Atlantic Coast Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T02:26:34.319Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/baseball/news/",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "856988f515caee6f4e401f8b",
@@ -178,32 +178,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/baseball/news/",
             "reason": null,
             "recordCount": 11
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T02:26:34.319Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -212,7 +212,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -221,7 +221,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -230,7 +230,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -239,7 +239,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -248,7 +248,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -267,12 +267,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/mbball/news/",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "38db5520fac60bffbeeb274c",
+            "title": "A Look Back At Notre Dame's Trip To Rome For The Eternal City Tip-Off",
+            "url": "https://fightingirish.com/news/2026/11/03/notre-dame-basketball-heads-to-rome-for-the-eternal-city-tip-off",
+            "publishedAt": "2026-11-03T14:30:00.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://fightingirish.com/imgproxy/Kk-ut6VWojOO47m9uoSyGDacec5iMivfcZORg4Bb3NU/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2ZpZ2h0aW5naXJpc2gtY29tLzIwMjYvMTEvMDMvZmk1UDdrMGJSd2dSUnI0ZmJieWlWNml3dE9Ic3ZjM0NEN1ZyUTdCNS5qcGc.jpg",
+            "imageAlt": null,
+            "author": null,
+            "publisher": "University of Notre Dame Athletics",
+            "discoverySourceUrl": "https://www.fightingirish.com/sports/mbball/news/",
+            "metadataCheckedAt": "2026-11-03T19:37:59.562Z"
+          },
           {
             "id": "053e5daf105518d2400cb17f",
             "title": "KOEHLER POSTER #GoIrish #shorts",
@@ -677,40 +690,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/mbball/news/",
             "reason": null,
-            "recordCount": 28
+            "recordCount": 29
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 2
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -719,7 +732,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -728,7 +741,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -737,7 +750,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -746,7 +759,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -755,7 +768,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -774,12 +787,75 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/football/news/",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "24edc11de8b233a32281d1f9",
+            "title": "Notre Dame replaces Purdue with series vs. Illinois in '27, '28",
+            "url": "https://www.espn.com/college-football/story/_/id/50370732/notre-dame-replaces-purdue-series-vs-illinois-27-28",
+            "publishedAt": "2026-11-03T19:15:36.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://a.espncdn.com/photo/2017/1023/r278541_600x400_3-2.jpg",
+            "imageAlt": null,
+            "author": "Adam Rittenberg",
+            "publisher": "ESPN",
+            "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100"
+          },
+          {
+            "id": "8df90ac7e49e466c31240428",
+            "title": "Notre Dame Announces Meetings with Illinois in 2027, 2028",
+            "url": "https://fightingirish.com/news/2026/11/03/notre-dame-announces-meetings-with-illinois-in-2027-2028",
+            "publishedAt": "2026-11-03T18:00:00.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://fightingirish.com/imgproxy/hhdMopc1heruV65sliCaUX6f5lgejwb1EugFZJo3Wqs/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2ZpZ2h0aW5naXJpc2gtY29tLzIwMjYvMTEvMDMvWHdRWXVLNjh6a2hzRnBZbFhydDZFSFJqYUtQZlg0UWJ2Y2d2dzJoUi5wbmc.png",
+            "imageAlt": null,
+            "author": "Sarah Miesle",
+            "publisher": "University of Notre Dame Athletics",
+            "discoverySourceUrl": "https://www.fightingirish.com/sports/football/news/",
+            "metadataCheckedAt": "2026-11-03T19:37:59.562Z"
+          },
+          {
+            "id": "6aba7eb78fa26d71f28817ff",
+            "title": "Talich Tabbed Burlsworth Trophy Walk-On Of The Week",
+            "url": "https://fightingirish.com/news/2026/11/03/talich-tabbed-burlsworth-trophy-walk-on-of-the-week",
+            "publishedAt": "2026-11-03T17:16:53.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://fightingirish.com/imgproxy/Nf-YgsGHn4jIvMGUvmkjs1j7ql5HDoH5zLoZsSxZvnc/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2ZpZ2h0aW5naXJpc2gtY29tLzIwMjYvMTEvMDMvVkpzUkprZVAwTVRCOXB5M0tUenhsRGdtZEZPd2MyeUlhY3hKRzJScy5wbmc.png",
+            "imageAlt": null,
+            "author": "Nick Yuska",
+            "publisher": "University of Notre Dame Athletics",
+            "discoverySourceUrl": "https://www.fightingirish.com/sports/football/news/",
+            "metadataCheckedAt": "2026-11-03T19:37:59.562Z"
+          },
+          {
+            "id": "51d0a0a1728c5985c369256c",
+            "title": "Absher Named Outland Trophy National Player Of The Week",
+            "url": "https://fightingirish.com/news/2026/11/03/absher-named-outland-trophy-national-player-of-the-week",
+            "publishedAt": "2026-11-03T17:01:00.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://fightingirish.com/imgproxy/HC-PlRLy1AFQpfsb5RkEXbQNbku1dMoc-_3FL4tW2Z0/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2ZpZ2h0aW5naXJpc2gtY29tLzIwMjYvMTEvMDMvRnVmaHg1T2d4RlN1UVVPeTR6a0gwa3Z4TXRZUnJyRWFyczFxWlM5ci5wbmc.png",
+            "imageAlt": null,
+            "author": "Nick Yuska",
+            "publisher": "University of Notre Dame Athletics",
+            "discoverySourceUrl": "https://www.fightingirish.com/sports/football/news/",
+            "metadataCheckedAt": "2026-11-03T19:37:59.562Z"
+          },
+          {
+            "id": "f641a57c70ba5ea74b387d00",
+            "title": "Why there's so much on the line for Notre Dame vs. Miami",
+            "url": "https://www.espn.com/video/clip/_/id/50368856/why-there-much-line-notre-dame-vs-miami",
+            "publishedAt": "2026-11-03T14:44:03.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1103/ss_20261103_091750235_3723687572/ss_20261103_091750235_3723687572.jpg",
+            "imageAlt": null,
+            "author": null,
+            "publisher": "ESPN",
+            "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100"
+          },
           {
             "id": "57017b84673869afa5100d9d",
             "title": "Textbook Complementary Football | Irish Access vs Navy | Notre Dame Football",
@@ -2854,7 +2930,7 @@
             "author": null,
             "publisher": "University of Notre Dame Athletics",
             "discoverySourceUrl": "https://www.fightingirish.com/sports/football/news/",
-            "metadataCheckedAt": "2026-10-27T05:16:56.726Z"
+            "metadataCheckedAt": "2026-11-03T19:37:59.562Z"
           },
           {
             "id": "f71777653ac5a4ea00779dbf",
@@ -2867,7 +2943,7 @@
             "author": null,
             "publisher": "University of Notre Dame Athletics",
             "discoverySourceUrl": "https://www.fightingirish.com/sports/football/news/",
-            "metadataCheckedAt": "2026-10-27T05:16:56.726Z"
+            "metadataCheckedAt": "2026-11-03T19:37:59.562Z"
           },
           {
             "id": "4e946c8863f9ff55bb04974d",
@@ -3132,48 +3208,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/football/news/",
             "reason": null,
-            "recordCount": 128
+            "recordCount": 131
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
-            "recordCount": 26
+            "recordCount": 28
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 23
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 8
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3182,7 +3258,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3191,7 +3267,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3200,7 +3276,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3209,7 +3285,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3218,7 +3294,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3237,12 +3313,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/wbball/news/",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "cab4179dbd859241f5ce752d",
+            "title": "A Look Back At Notre Dame's Trip To Rome For The Eternal City Tip-Off",
+            "url": "https://fightingirish.com/news/2026/11/03/notre-dame-basketball-heads-to-rome-for-the-eternal-city-tip-off",
+            "publishedAt": "2026-11-03T14:30:00.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://fightingirish.com/imgproxy/Kk-ut6VWojOO47m9uoSyGDacec5iMivfcZORg4Bb3NU/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2ZpZ2h0aW5naXJpc2gtY29tLzIwMjYvMTEvMDMvZmk1UDdrMGJSd2dSUnI0ZmJieWlWNml3dE9Ic3ZjM0NEN1ZyUTdCNS5qcGc.jpg",
+            "imageAlt": null,
+            "author": null,
+            "publisher": "University of Notre Dame Athletics",
+            "discoverySourceUrl": "https://www.fightingirish.com/sports/wbball/news/",
+            "metadataCheckedAt": "2026-11-03T19:37:59.562Z"
+          },
           {
             "id": "93cdf8072c6ab637ee126e97",
             "title": "Just a couple kids from New Jersey taking over in Rome ☘️🏀 #goirish #shorts",
@@ -3352,7 +3441,7 @@
             "url": "https://fightingirish.com/news/2026/10/29/notre-dame-basketball-is-back-irish-access-all-access",
             "publishedAt": "2026-10-29T21:43:21.000Z",
             "publishedAtPrecision": "instant",
-            "imageUrl": "https://fightingirish.com/imgproxy/vBtwDqtiZQLsBCOeZdluXywjSatGHDt-S2T3CJbiUiI/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2ZpZ2h0aW5naXJpc2gtY29tLzIwMjYvMTAvMjkvSEdFcUQ4NW9vcUdDNTdjV2ZtMlZ5OHo3MkRLa0VNT2tVVUoyWVk5Yy5qcGc.jpg",
+            "imageUrl": "https://fightingirish.com/imgproxy/a6tmDhHKpHcdJOBFdkP5Udzx39ifSu2_cL0hGcHa6yM/rs:fit:1980:0:0:0/g:ce:0:0/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2ZpZ2h0aW5naXJpc2gtY29tLzIwMjYvMTEvMDMvY21OR2lDY2EwMHkwY0pndVN6akRUR0F1cnRsUm5hT3pJTUVsdUZaTy5qcGc.jpg",
             "imageAlt": null,
             "author": null,
             "publisher": "University of Notre Dame Athletics",
@@ -3842,32 +3931,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/wbball/news/",
             "reason": null,
-            "recordCount": 43
+            "recordCount": 44
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 3
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3876,7 +3965,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3885,7 +3974,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3894,7 +3983,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3903,7 +3992,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3912,7 +4001,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3931,8 +4020,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/cross/news/",
         "season": null,
         "reason": null,
@@ -4188,24 +4277,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/cross/news/",
             "reason": null,
             "recordCount": 19
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4214,7 +4303,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4223,7 +4312,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4232,7 +4321,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4241,7 +4330,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4250,7 +4339,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4269,8 +4358,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/fencing/news/",
         "season": null,
         "reason": null,
@@ -4421,24 +4510,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/fencing/news/",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/fencing/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
@@ -4447,7 +4536,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4456,7 +4545,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4465,7 +4554,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4474,7 +4563,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4483,7 +4572,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4502,8 +4591,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/mgolf/news/",
         "season": null,
         "reason": null,
@@ -4681,24 +4770,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/mgolf/news/",
             "reason": null,
             "recordCount": 13
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4707,7 +4796,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4716,7 +4805,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4725,7 +4814,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4734,7 +4823,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4743,7 +4832,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4762,8 +4851,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/mhockey/news/",
         "season": null,
         "reason": null,
@@ -5201,32 +5290,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/mhockey/news/",
             "reason": null,
             "recordCount": 33
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/icehockey-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5235,7 +5324,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5244,7 +5333,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5253,7 +5342,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5262,7 +5351,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5271,7 +5360,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5290,8 +5379,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/mlax/news/",
         "season": null,
         "reason": null,
@@ -5466,24 +5555,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/mlax/news/",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 3
@@ -5492,7 +5581,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5501,7 +5590,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5510,7 +5599,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5519,7 +5608,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5528,7 +5617,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5547,8 +5636,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/msoc/news/",
         "season": null,
         "reason": null,
@@ -5960,32 +6049,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/msoc/news/",
             "reason": null,
             "recordCount": 31
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5994,7 +6083,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6003,7 +6092,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6012,7 +6101,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6021,7 +6110,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6030,7 +6119,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6049,8 +6138,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/swim/news/",
         "season": null,
         "reason": null,
@@ -6293,24 +6382,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/swim/news/",
             "reason": null,
             "recordCount": 18
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6319,7 +6408,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6328,7 +6417,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6337,7 +6426,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6346,7 +6435,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6355,7 +6444,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6374,8 +6463,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/mten/news/",
         "season": null,
         "reason": null,
@@ -6618,24 +6707,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/mten/news/",
             "reason": null,
             "recordCount": 18
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6644,7 +6733,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6653,7 +6742,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6662,7 +6751,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6671,7 +6760,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6680,7 +6769,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6699,8 +6788,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/track/news/",
         "season": null,
         "reason": null,
@@ -6839,24 +6928,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/track/news/",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6865,7 +6954,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6874,7 +6963,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6883,7 +6972,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6892,7 +6981,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6901,7 +6990,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6920,8 +7009,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/track/news/",
         "season": null,
         "reason": null,
@@ -7060,24 +7149,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/track/news/",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7086,7 +7175,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7095,7 +7184,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7104,7 +7193,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7113,7 +7202,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7122,7 +7211,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7141,8 +7230,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/softball/news/",
         "season": null,
         "reason": null,
@@ -7281,32 +7370,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/softball/news/",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7315,7 +7404,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7324,7 +7413,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7333,7 +7422,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7342,7 +7431,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7351,7 +7440,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7370,8 +7459,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/cross/news/",
         "season": null,
         "reason": null,
@@ -7627,24 +7716,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/cross/news/",
             "reason": null,
             "recordCount": 19
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7653,7 +7742,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7662,7 +7751,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7671,7 +7760,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7680,7 +7769,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7689,7 +7778,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7708,8 +7797,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/fencing/news/",
         "season": null,
         "reason": null,
@@ -7860,24 +7949,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/fencing/news/",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/fencing/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
@@ -7886,7 +7975,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7895,7 +7984,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7904,7 +7993,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7913,7 +8002,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7922,7 +8011,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7941,8 +8030,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/wgolf/news/",
         "season": null,
         "reason": null,
@@ -8120,24 +8209,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/wgolf/news/",
             "reason": null,
             "recordCount": 13
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8146,7 +8235,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8155,7 +8244,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8164,7 +8253,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8173,7 +8262,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8182,7 +8271,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8201,8 +8290,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/wlax/news/",
         "season": null,
         "reason": null,
@@ -8341,24 +8430,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/wlax/news/",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8367,7 +8456,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8376,7 +8465,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8385,7 +8474,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8394,7 +8483,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8403,7 +8492,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8422,8 +8511,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/wrow/news/",
         "season": null,
         "reason": null,
@@ -8562,24 +8651,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/wrow/news/",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/rowing/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8588,7 +8677,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8597,7 +8686,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8606,7 +8695,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8615,7 +8704,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8624,7 +8713,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8643,8 +8732,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/wsoc/news/",
         "season": null,
         "reason": null,
@@ -9107,32 +9196,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/wsoc/news/",
             "reason": null,
             "recordCount": 34
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
@@ -9141,7 +9230,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9150,7 +9239,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9159,7 +9248,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9168,7 +9257,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9177,7 +9266,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9196,8 +9285,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/swim/news/",
         "season": null,
         "reason": null,
@@ -9440,24 +9529,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/swim/news/",
             "reason": null,
             "recordCount": 18
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -9466,7 +9555,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9475,7 +9564,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9484,7 +9573,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9493,7 +9582,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9502,7 +9591,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9521,8 +9610,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/wten/news/",
         "season": null,
         "reason": null,
@@ -9713,24 +9802,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/wten/news/",
             "reason": null,
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -9739,7 +9828,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9748,7 +9837,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9757,7 +9846,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9766,7 +9855,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9775,7 +9864,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9794,8 +9883,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/track/news/",
         "season": null,
         "reason": null,
@@ -9934,24 +10023,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/track/news/",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -9960,7 +10049,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9969,7 +10058,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9978,7 +10067,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9987,7 +10076,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9996,7 +10085,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10015,8 +10104,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/track/news/",
         "season": null,
         "reason": null,
@@ -10155,24 +10244,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/track/news/",
             "reason": null,
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10181,7 +10270,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10190,7 +10279,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10199,7 +10288,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10208,7 +10297,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10217,7 +10306,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10236,8 +10325,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-        "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+        "lastSuccessAt": "2026-11-03T19:37:59.562Z",
         "sourceUrl": "https://www.fightingirish.com/sports/wvball/news/",
         "season": null,
         "reason": null,
@@ -10714,24 +10803,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.fightingirish.com/sports/wvball/news/",
             "reason": null,
             "recordCount": 36
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-03T12:04:18.644Z",
-            "lastSuccessAt": "2026-11-03T12:04:18.644Z",
+            "lastAttemptAt": "2026-11-03T19:37:59.562Z",
+            "lastSuccessAt": "2026-11-03T19:37:59.562Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10740,7 +10829,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10749,7 +10838,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10758,7 +10847,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10767,7 +10856,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10776,7 +10865,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-03T12:04:18.644Z",
+        "lastAttemptAt": "2026-11-03T19:37:59.562Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
