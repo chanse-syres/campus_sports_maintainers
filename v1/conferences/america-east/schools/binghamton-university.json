@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.bubearcats.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=62"
   },
-  "generatedAt": "2026-11-04T12:18:05.182Z",
+  "generatedAt": "2026-11-04T19:53:56.690Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=baseball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "c0ecd97b2cd64afc404cebc5",
@@ -164,33 +164,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=baseball",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -199,7 +199,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -208,7 +208,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -217,7 +217,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -226,7 +226,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -235,7 +235,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -254,8 +254,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mbball",
         "season": null,
         "reason": null,
@@ -446,40 +446,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mbball",
             "reason": null,
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -488,7 +488,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -497,7 +497,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -506,7 +506,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -515,7 +515,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -524,7 +524,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -542,12 +542,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wbball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "18349297ba33b1b8ea1e315b",
@@ -708,33 +708,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wbball",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -743,7 +743,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -752,7 +752,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -761,7 +761,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -770,7 +770,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -779,7 +779,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -798,8 +798,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mcross",
         "season": null,
         "reason": null,
@@ -977,24 +977,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mcross",
             "reason": null,
             "recordCount": 13
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1003,7 +1003,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1012,7 +1012,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1021,7 +1021,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1030,7 +1030,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1039,7 +1039,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1057,12 +1057,12 @@
         "name": "Northeast Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mgolf",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "7af5ea5135b2d13856da502f",
@@ -1379,25 +1379,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mgolf",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 24
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1406,7 +1406,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1415,7 +1415,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1424,7 +1424,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1433,7 +1433,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1442,7 +1442,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1460,12 +1460,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mlax",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "7be08bb28a36dabc60ce3da9",
@@ -1600,25 +1600,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mlax",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 10
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1627,7 +1627,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1636,7 +1636,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1645,7 +1645,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1654,7 +1654,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1663,7 +1663,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1682,8 +1682,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=msoc",
         "season": null,
         "reason": null,
@@ -2095,32 +2095,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=msoc",
             "reason": null,
             "recordCount": 31
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2129,7 +2129,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2138,7 +2138,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2147,7 +2147,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2156,7 +2156,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2165,7 +2165,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2183,12 +2183,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mswim",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "94afbd21d767d993dd11c559",
@@ -2375,25 +2375,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mswim",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2402,7 +2402,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2411,7 +2411,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2420,7 +2420,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2429,7 +2429,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2438,7 +2438,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2457,8 +2457,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mten",
         "season": null,
         "reason": null,
@@ -2649,24 +2649,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mten",
             "reason": null,
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2675,7 +2675,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2684,7 +2684,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2693,7 +2693,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2702,7 +2702,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2711,7 +2711,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2730,8 +2730,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mtrack",
         "season": null,
         "reason": null,
@@ -2857,24 +2857,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mtrack",
             "reason": null,
             "recordCount": 9
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2883,7 +2883,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2892,7 +2892,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2901,7 +2901,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2910,7 +2910,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2919,7 +2919,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2938,8 +2938,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mtrack",
         "season": null,
         "reason": null,
@@ -3065,24 +3065,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=mtrack",
             "reason": null,
             "recordCount": 9
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3091,7 +3091,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3100,7 +3100,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3109,7 +3109,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3118,7 +3118,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3127,7 +3127,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3146,8 +3146,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wrestling",
         "season": null,
         "reason": null,
@@ -3351,16 +3351,16 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wrestling",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3369,7 +3369,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3378,7 +3378,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3387,7 +3387,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3396,7 +3396,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3405,7 +3405,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3424,8 +3424,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=softball",
         "season": null,
         "reason": null,
@@ -3538,32 +3538,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=softball",
             "reason": null,
             "recordCount": 8
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3572,7 +3572,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3581,7 +3581,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3590,7 +3590,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3599,7 +3599,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3608,7 +3608,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3626,12 +3626,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wcross",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "82030d2224b08ab7c5932b66",
@@ -3662,25 +3662,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wcross",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 2
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3689,7 +3689,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3698,7 +3698,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3707,7 +3707,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3716,7 +3716,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3725,7 +3725,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3744,8 +3744,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wlax",
         "season": null,
         "reason": null,
@@ -3897,24 +3897,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wlax",
             "reason": null,
             "recordCount": 11
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3923,7 +3923,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3932,7 +3932,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3941,7 +3941,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3950,7 +3950,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3959,7 +3959,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3978,8 +3978,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/sports/womens-soccer/archives",
         "season": null,
         "reason": null,
@@ -4151,7 +4151,7 @@
             "author": null,
             "publisher": "Binghamton University Athletics",
             "discoverySourceUrl": "https://binghamtonbearcats.com/sports/womens-soccer/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "a004633c59c1a388b7693ee0",
@@ -4632,7 +4632,7 @@
             "author": null,
             "publisher": "Binghamton University Athletics",
             "discoverySourceUrl": "https://binghamtonbearcats.com/sports/womens-soccer/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "a3a88f99cfbda8f793ff7781",
@@ -4645,7 +4645,7 @@
             "author": null,
             "publisher": "Binghamton University Athletics",
             "discoverySourceUrl": "https://binghamtonbearcats.com/sports/womens-soccer/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "1f636fba96df2bb9a31f1517",
@@ -4658,7 +4658,7 @@
             "author": null,
             "publisher": "Binghamton University Athletics",
             "discoverySourceUrl": "https://binghamtonbearcats.com/sports/womens-soccer/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "f1fbe5e61025b1f19abfaec7",
@@ -4671,7 +4671,7 @@
             "author": null,
             "publisher": "Binghamton University Athletics",
             "discoverySourceUrl": "https://binghamtonbearcats.com/sports/womens-soccer/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "b046bc067bc71138a68e2fd2",
@@ -5496,32 +5496,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/sports/womens-soccer/archives",
             "reason": null,
             "recordCount": 116
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5530,7 +5530,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5539,7 +5539,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5548,7 +5548,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5557,7 +5557,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5566,7 +5566,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5585,8 +5585,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wswim",
         "season": null,
         "reason": null,
@@ -5634,24 +5634,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wswim",
             "reason": null,
             "recordCount": 3
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5660,7 +5660,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5669,7 +5669,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5678,7 +5678,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5687,7 +5687,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5696,7 +5696,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5715,8 +5715,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-        "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+        "lastSuccessAt": "2026-11-04T19:53:56.690Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wten",
         "season": null,
         "reason": null,
@@ -5881,24 +5881,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wten",
             "reason": null,
             "recordCount": 12
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5907,7 +5907,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5916,7 +5916,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5925,7 +5925,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5934,7 +5934,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5943,7 +5943,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5961,12 +5961,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wtrack",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "e624381a34a5b692feaef22f",
@@ -5984,25 +5984,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wtrack",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6011,7 +6011,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6020,7 +6020,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6029,7 +6029,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6038,7 +6038,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6047,7 +6047,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6065,12 +6065,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wtrack",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "65f83d8326ca4a39e62f1bea",
@@ -6088,25 +6088,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wtrack",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6115,7 +6115,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6124,7 +6124,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6133,7 +6133,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6142,7 +6142,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6151,7 +6151,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6169,12 +6169,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wvball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "09c9d8b5c168b404aba894ba",
@@ -6621,25 +6621,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://binghamtonbearcats.com/index.aspx?path=wvball",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 34
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6648,7 +6648,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6657,7 +6657,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6666,7 +6666,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6675,7 +6675,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6684,7 +6684,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,

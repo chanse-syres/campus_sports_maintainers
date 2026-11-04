@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.ualbanysports.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=14"
   },
-  "generatedAt": "2026-11-04T12:18:05.182Z",
+  "generatedAt": "2026-11-04T19:53:56.690Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/baseball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "2581f45e5aabbad315c71412",
@@ -770,7 +770,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "2fd668096a78991b787a2778",
@@ -783,7 +783,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "7ce3e384f72ce4421c62f167",
@@ -796,7 +796,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "0e83c688dc644d2526f82fd7",
@@ -809,7 +809,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "cf589e2f71c71b2445d57afe",
@@ -822,7 +822,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "b54ec73d95e54ade32a8ddc6",
@@ -1295,33 +1295,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/baseball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 97
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1330,7 +1330,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1339,7 +1339,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1348,7 +1348,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1357,7 +1357,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1366,7 +1366,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1384,12 +1384,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/mens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "cfdab06f713e59cdad0b9419",
@@ -2208,7 +2208,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "40f8980001ffd0efdb3d0de4",
@@ -2221,7 +2221,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "fd3ccbcc0f0cf3159fbfc9a8",
@@ -2234,7 +2234,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "609fa5b9b173ed5a854c412f",
@@ -2247,7 +2247,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "c5d98bad6106e09b9a5a741d",
@@ -2260,7 +2260,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "9282442bb8166c5848d39ad9",
@@ -2798,41 +2798,41 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/mens-basketball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 108
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2841,7 +2841,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2850,7 +2850,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2859,7 +2859,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2868,7 +2868,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2877,7 +2877,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2895,12 +2895,12 @@
         "name": "Coastal Athletic Association"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/football/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "c0dea745ff22d0abc1dc1cda",
@@ -3745,7 +3745,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "131ac89ef83e568794547fa2",
@@ -3758,7 +3758,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "21afdd09b9fd8a270f1369cd",
@@ -3771,7 +3771,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "0b7615ef09c40e78593c341a",
@@ -3784,7 +3784,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "83d83048e638a49cd30af299",
@@ -3797,7 +3797,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "f8f407b62d17bead81239934",
@@ -4296,49 +4296,49 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/football/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 107
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4347,7 +4347,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4356,7 +4356,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4365,7 +4365,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4374,7 +4374,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4383,7 +4383,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4401,12 +4401,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/womens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "f88b0ecc11c21976de7a0ba4",
@@ -5225,7 +5225,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "37b675e32d4945d4bab42b6c",
@@ -5238,7 +5238,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "70ce91a31586f8cac2919149",
@@ -5251,7 +5251,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "9a7886f0d7f492f969789910",
@@ -5264,7 +5264,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "1fa8f43dd9da2eac23e28888",
@@ -5277,7 +5277,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "011f8240ac9688e308bf6ace",
@@ -5724,33 +5724,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/womens-basketball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 101
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5759,7 +5759,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5768,7 +5768,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5777,7 +5777,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5786,7 +5786,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5795,7 +5795,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5813,12 +5813,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/field-hockey/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "facd6a88ffb6744ba22ff1a6",
@@ -5974,7 +5974,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/field-hockey/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "e47b88e8ad1436bec07d79f9",
@@ -5987,7 +5987,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/field-hockey/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "4933ebffd50a91bfd48269ef",
@@ -6039,7 +6039,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/field-hockey/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "39cb45cf944cf16c0dac31d7",
@@ -6611,7 +6611,7 @@
             "author": null,
             "publisher": "University at Albany Athletics",
             "discoverySourceUrl": "https://ualbanysports.com/sports/field-hockey/archives",
-            "metadataCheckedAt": "2026-10-28T15:13:15.577Z"
+            "metadataCheckedAt": "2026-11-04T19:53:56.690Z"
           },
           {
             "id": "fcabc98a9c53be0549f85849",
@@ -7318,25 +7318,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/field-hockey/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 115
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/fieldhockey/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7345,7 +7345,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7354,7 +7354,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7363,7 +7363,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7372,7 +7372,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7381,7 +7381,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7399,12 +7399,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/mens-cross-country/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "d6293258d53528ab181c548e",
@@ -8735,25 +8735,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/mens-cross-country/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8762,7 +8762,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8771,7 +8771,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8780,7 +8780,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8789,7 +8789,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8798,7 +8798,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8816,12 +8816,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/mens-lacrosse/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "4dad63a8859e9a3248f8c074",
@@ -10152,25 +10152,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/mens-lacrosse/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10179,7 +10179,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10188,7 +10188,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10197,7 +10197,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10206,7 +10206,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10215,7 +10215,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10233,12 +10233,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/mens-soccer/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "3f9ddf1547ab71b8c769b24c",
@@ -11815,33 +11815,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/mens-soccer/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 121
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11850,7 +11850,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11859,7 +11859,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11868,7 +11868,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11877,7 +11877,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11886,7 +11886,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11904,12 +11904,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/mens-track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "ab0d5519d52681aebf8ec9e2",
@@ -13174,25 +13174,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/mens-track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 97
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -13201,7 +13201,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13210,7 +13210,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13219,7 +13219,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13228,7 +13228,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13237,7 +13237,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13255,12 +13255,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/mens-track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "f42605e6e854a440084b46c3",
@@ -14454,25 +14454,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/mens-track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 97
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -14481,7 +14481,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14490,7 +14490,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14499,7 +14499,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14508,7 +14508,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14517,7 +14517,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14535,12 +14535,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/softball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "fe078352bf87b7a2460bf14a",
@@ -15697,33 +15697,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/softball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 96
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -15732,7 +15732,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15741,7 +15741,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15750,7 +15750,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15759,7 +15759,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15768,7 +15768,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15786,12 +15786,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/womens-cross-country/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "c610cc4544df17df9f306e41",
@@ -16240,25 +16240,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/womens-cross-country/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 37
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -16267,7 +16267,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16276,7 +16276,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16285,7 +16285,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16294,7 +16294,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16303,7 +16303,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16321,12 +16321,12 @@
         "name": "Metro Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/womens-golf/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "d139a824bba0ae4cb0c64723",
@@ -17591,25 +17591,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/womens-golf/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 105
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -17618,7 +17618,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17627,7 +17627,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17636,7 +17636,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17645,7 +17645,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17654,7 +17654,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17672,12 +17672,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/womens-lacrosse/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "eca5f8996bfe7f9fca91c1b9",
@@ -18846,25 +18846,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/womens-lacrosse/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 97
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -18873,7 +18873,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18882,7 +18882,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18891,7 +18891,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18900,7 +18900,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18909,7 +18909,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18927,12 +18927,12 @@
         "name": "Coastal Athletic Association"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/rowing",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "22e2dffcd4e970c378aa88b3",
@@ -19105,25 +19105,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/rowing",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 14
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/rowing/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -19132,7 +19132,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19141,7 +19141,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19150,7 +19150,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19159,7 +19159,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19168,7 +19168,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19186,12 +19186,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/womens-soccer/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "76fccbb320fdeef75210eb58",
@@ -20564,33 +20564,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/womens-soccer/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 114
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -20599,7 +20599,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20608,7 +20608,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20617,7 +20617,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20626,7 +20626,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20635,7 +20635,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20653,12 +20653,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/womens-track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "de064479539d2068e3feb6c2",
@@ -21347,25 +21347,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/womens-track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 57
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -21374,7 +21374,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21383,7 +21383,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21392,7 +21392,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21401,7 +21401,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21410,7 +21410,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21428,12 +21428,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/womens-track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "728a9dd48f3844fab62c007f",
@@ -22122,25 +22122,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/womens-track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 57
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -22149,7 +22149,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22158,7 +22158,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22167,7 +22167,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22176,7 +22176,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22185,7 +22185,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22203,12 +22203,12 @@
         "name": "America East Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": "2026-11-04T12:18:05.182Z",
         "sourceUrl": "https://ualbanysports.com/sports/womens-volleyball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "e5d297ae94b69eff9cd80168",
@@ -23605,25 +23605,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
             "lastSuccessAt": "2026-11-04T12:18:05.182Z",
             "sourceUrl": "https://ualbanysports.com/sports/womens-volleyball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 116
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:18:05.182Z",
-            "lastSuccessAt": "2026-11-04T12:18:05.182Z",
+            "lastAttemptAt": "2026-11-04T19:53:56.690Z",
+            "lastSuccessAt": "2026-11-04T19:53:56.690Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -23632,7 +23632,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23641,7 +23641,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23650,7 +23650,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23659,7 +23659,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23668,7 +23668,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:18:05.182Z",
+        "lastAttemptAt": "2026-11-04T19:53:56.690Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,

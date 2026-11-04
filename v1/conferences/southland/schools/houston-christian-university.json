@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.hcuhuskies.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=287"
   },
-  "generatedAt": "2026-11-04T12:40:29.136Z",
+  "generatedAt": "2026-11-04T20:44:15.812Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "Southland Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": "2026-11-04T12:40:29.136Z",
         "sourceUrl": "https://hcuhuskies.com/sports/baseball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "5d605d672a2533672cc7cc52",
@@ -757,7 +757,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "0e5d0a0d77c4e618d9fe7f52",
@@ -770,7 +770,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "28c57c4c4f3e5b7daa943fdf",
@@ -783,7 +783,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "65cfbb95f19f9ea079223f3c",
@@ -796,7 +796,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "fe70876494b5fb91446d584e",
@@ -809,7 +809,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "5ea320e25488d287bffc49f3",
@@ -1334,33 +1334,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
             "lastSuccessAt": "2026-11-04T12:40:29.136Z",
             "sourceUrl": "https://hcuhuskies.com/sports/baseball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1369,7 +1369,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1378,7 +1378,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1387,7 +1387,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1396,7 +1396,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1405,7 +1405,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1423,12 +1423,12 @@
         "name": "Southland Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": "2026-11-04T12:40:29.136Z",
         "sourceUrl": "https://hcuhuskies.com/sports/mens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "831e5b2befb8aead52f1078a",
@@ -2221,7 +2221,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "55631814f9582d899cd16ad0",
@@ -2234,7 +2234,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "67106ca1b5d6468814b43bc2",
@@ -2247,7 +2247,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "2b3806bf66e67b721e7eda30",
@@ -2260,7 +2260,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "635a357115916aa3f27894d0",
@@ -2273,7 +2273,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "df602b0f160571a1221978ab",
@@ -2798,41 +2798,41 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
             "lastSuccessAt": "2026-11-04T12:40:29.136Z",
             "sourceUrl": "https://hcuhuskies.com/sports/mens-basketball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 105
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2841,7 +2841,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2850,7 +2850,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2859,7 +2859,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2868,7 +2868,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2877,7 +2877,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2895,12 +2895,12 @@
         "name": "Southland Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": "2026-11-04T12:40:29.136Z",
         "sourceUrl": "https://hcuhuskies.com/sports/football/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "4c633e18beccdb9016bbf5f2",
@@ -3758,7 +3758,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "3d6cecdde0f53ca912a190a6",
@@ -3771,7 +3771,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "cd9a4b7860c3a1d53dd0eda2",
@@ -3784,7 +3784,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "5402071f9dd4f8a139e7c2e8",
@@ -3797,7 +3797,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "02f67959eac774c799786a5e",
@@ -3810,7 +3810,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "936e90d419efebb719530f83",
@@ -4374,49 +4374,49 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
             "lastSuccessAt": "2026-11-04T12:40:29.136Z",
             "sourceUrl": "https://hcuhuskies.com/sports/football/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 113
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4425,7 +4425,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4434,7 +4434,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4443,7 +4443,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4452,7 +4452,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4461,7 +4461,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4479,12 +4479,12 @@
         "name": "Southland Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": "2026-11-04T12:40:29.136Z",
         "sourceUrl": "https://hcuhuskies.com/sports/womens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "11c107f35869f5d5eadf8f08",
@@ -5251,7 +5251,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "fe7f4dd7dcd7466c6c134192",
@@ -5264,7 +5264,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "7daf121a2552bf10060b7dfc",
@@ -5277,7 +5277,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "f38d4188abcfdb37662c0bbe",
@@ -5290,7 +5290,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "9dfcb4324b83842b47c3796a",
@@ -5303,7 +5303,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "1b5fe15609d8ca598cebbba1",
@@ -5815,33 +5815,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
             "lastSuccessAt": "2026-11-04T12:40:29.136Z",
             "sourceUrl": "https://hcuhuskies.com/sports/womens-basketball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5850,7 +5850,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5859,7 +5859,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5868,7 +5868,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5877,7 +5877,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5886,7 +5886,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5905,12 +5905,25 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-        "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+        "lastSuccessAt": "2026-11-04T20:44:15.812Z",
         "sourceUrl": "https://hcuhuskies.com/sports/cross-country/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "c3b276d6f3980b5cd1d42446",
+            "title": "GEN: HCU Set to Recognize 2026 Hall of Honor Class this Weekend",
+            "url": "https://hcuhuskies.com/news/2026/11/4/baseball-gen-hcu-set-to-recognize-2026-hall-of-honor-class-this-weekend.aspx",
+            "publishedAt": "2026-11-04T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://hcuhuskies.com/images/2026/11/4/Release_Image.jpg",
+            "imageAlt": "2026 HCU Hall of Honor",
+            "author": null,
+            "publisher": "Houston Christian University Athletics",
+            "discoverySourceUrl": "https://hcuhuskies.com/sports/cross-country/archives",
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
+          },
           {
             "id": "af64077303c15463452e01ac",
             "title": "XC: Huskies Shine in Lake Charles at SLC Championships",
@@ -6533,7 +6546,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "3d4053c472555d9acec6f18a",
@@ -6546,7 +6559,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "fdf92db53d32b5299df7d063",
@@ -6559,7 +6572,7 @@
             "author": null,
             "publisher": "Houston Christian University Athletics",
             "discoverySourceUrl": "https://hcuhuskies.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-28T15:38:50.363Z"
+            "metadataCheckedAt": "2026-11-04T20:44:15.812Z"
           },
           {
             "id": "0c7f3c6f7936112f17988289",
@@ -7189,24 +7202,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://hcuhuskies.com/sports/cross-country/archives",
             "reason": null,
-            "recordCount": 98
+            "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7215,7 +7228,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7224,7 +7237,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7233,7 +7246,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7242,7 +7255,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7251,7 +7264,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7270,12 +7283,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-        "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+        "lastSuccessAt": "2026-11-04T20:44:15.812Z",
         "sourceUrl": "https://hcuhuskies.com/sports/mens-golf/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "3516e78385d4626fbb0457a6",
+            "title": "GEN: HCU Set to Recognize 2026 Hall of Honor Class this Weekend",
+            "url": "https://hcuhuskies.com/news/2026/11/4/baseball-gen-hcu-set-to-recognize-2026-hall-of-honor-class-this-weekend.aspx",
+            "publishedAt": "2026-11-04T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://hcuhuskies.com/images/2026/11/4/Release_Image.jpg",
+            "imageAlt": "2026 HCU Hall of Honor",
+            "author": null,
+            "publisher": "Houston Christian University Athletics",
+            "discoverySourceUrl": "https://hcuhuskies.com/sports/mens-golf/archives"
+          },
           {
             "id": "9ba751a0ce56fca2f2ed1267",
             "title": "MGOLF: Joines’ Top-Five Finish Leads Huskies at LaTour Intercollegiate",
@@ -8658,24 +8683,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://hcuhuskies.com/sports/mens-golf/archives",
             "reason": null,
-            "recordCount": 106
+            "recordCount": 107
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8684,7 +8709,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8693,7 +8718,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8702,7 +8727,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8711,7 +8736,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8720,7 +8745,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8738,12 +8763,12 @@
         "name": "Ohio Valley Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": "2026-11-04T12:40:29.136Z",
         "sourceUrl": "https://hcuhuskies.com/sports/mens-soccer/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "e83a5e6dd6a4007d778097c9",
@@ -10386,33 +10411,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
             "lastSuccessAt": "2026-11-04T12:40:29.136Z",
             "sourceUrl": "https://hcuhuskies.com/sports/mens-soccer/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 126
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10421,7 +10446,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10430,7 +10455,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10439,7 +10464,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10448,7 +10473,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10457,7 +10482,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10475,12 +10500,12 @@
         "name": "Southland Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": "2026-11-04T12:40:29.136Z",
         "sourceUrl": "https://hcuhuskies.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "024c6d9f2c65eaadd16c9b5a",
@@ -11785,25 +11810,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
             "lastSuccessAt": "2026-11-04T12:40:29.136Z",
             "sourceUrl": "https://hcuhuskies.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11812,7 +11837,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11821,7 +11846,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11830,7 +11855,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11839,7 +11864,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11848,7 +11873,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11866,12 +11891,12 @@
         "name": "Southland Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": "2026-11-04T12:40:29.136Z",
         "sourceUrl": "https://hcuhuskies.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "e24c523f86491d399ba58b4b",
@@ -13175,25 +13200,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
             "lastSuccessAt": "2026-11-04T12:40:29.136Z",
             "sourceUrl": "https://hcuhuskies.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -13202,7 +13227,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13211,7 +13236,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13220,7 +13245,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13229,7 +13254,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13238,7 +13263,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13257,12 +13282,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-        "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+        "lastSuccessAt": "2026-11-04T20:44:15.812Z",
         "sourceUrl": "https://hcuhuskies.com/sports/softball/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "8657e40e07390ae699fa866a",
+            "title": "GEN: HCU Set to Recognize 2026 Hall of Honor Class this Weekend",
+            "url": "https://hcuhuskies.com/news/2026/11/4/baseball-gen-hcu-set-to-recognize-2026-hall-of-honor-class-this-weekend.aspx",
+            "publishedAt": "2026-11-04T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://hcuhuskies.com/images/2026/11/4/Release_Image.jpg",
+            "imageAlt": "2026 HCU Hall of Honor",
+            "author": null,
+            "publisher": "Houston Christian University Athletics",
+            "discoverySourceUrl": "https://hcuhuskies.com/sports/softball/archives"
+          },
           {
             "id": "1c4ddf2a22c5953c0497e84d",
             "title": "SB: Five Huskies named Academic All-Conference",
@@ -14507,32 +14544,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://hcuhuskies.com/sports/softball/archives",
             "reason": null,
-            "recordCount": 100
+            "recordCount": 101
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -14541,7 +14578,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14550,7 +14587,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14559,7 +14596,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14568,7 +14605,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14577,7 +14614,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14595,12 +14632,12 @@
         "name": "Southland Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": "2026-11-04T12:40:29.136Z",
         "sourceUrl": "https://hcuhuskies.com/sports/womens-beach-volleyball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "b71166994dc9ff2788ed7cab",
@@ -15805,25 +15842,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
             "lastSuccessAt": "2026-11-04T12:40:29.136Z",
             "sourceUrl": "https://hcuhuskies.com/sports/womens-beach-volleyball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/beach-volleyball/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -15832,7 +15869,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15841,7 +15878,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15850,7 +15887,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15859,7 +15896,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15868,7 +15905,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15887,12 +15924,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-        "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+        "lastSuccessAt": "2026-11-04T20:44:15.812Z",
         "sourceUrl": "https://hcuhuskies.com/sports/cross-country/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "61dad63bc238b4940be5532e",
+            "title": "GEN: HCU Set to Recognize 2026 Hall of Honor Class this Weekend",
+            "url": "https://hcuhuskies.com/news/2026/11/4/baseball-gen-hcu-set-to-recognize-2026-hall-of-honor-class-this-weekend.aspx",
+            "publishedAt": "2026-11-04T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://hcuhuskies.com/images/2026/11/4/Release_Image.jpg",
+            "imageAlt": "2026 HCU Hall of Honor",
+            "author": null,
+            "publisher": "Houston Christian University Athletics",
+            "discoverySourceUrl": "https://hcuhuskies.com/sports/cross-country/archives"
+          },
           {
             "id": "798e89ae00475b15c0fdbf4d",
             "title": "XC: Huskies Shine in Lake Charles at SLC Championships",
@@ -17145,24 +17194,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://hcuhuskies.com/sports/cross-country/archives",
             "reason": null,
-            "recordCount": 104
+            "recordCount": 105
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -17171,7 +17220,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17180,7 +17229,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17189,7 +17238,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17198,7 +17247,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17207,7 +17256,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17226,12 +17275,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-        "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+        "lastSuccessAt": "2026-11-04T20:44:15.812Z",
         "sourceUrl": "https://hcuhuskies.com/sports/womens-golf/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "ae607a4a20aca497b1f70097",
+            "title": "GEN: HCU Set to Recognize 2026 Hall of Honor Class this Weekend",
+            "url": "https://hcuhuskies.com/news/2026/11/4/baseball-gen-hcu-set-to-recognize-2026-hall-of-honor-class-this-weekend.aspx",
+            "publishedAt": "2026-11-04T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://hcuhuskies.com/images/2026/11/4/Release_Image.jpg",
+            "imageAlt": "2026 HCU Hall of Honor",
+            "author": null,
+            "publisher": "Houston Christian University Athletics",
+            "discoverySourceUrl": "https://hcuhuskies.com/sports/womens-golf/archives"
+          },
           {
             "id": "b78b3ff797ae4c8d2a3dba11",
             "title": "WGOLF: HCU Moves Up Four Spots on Final Day at Diamante Intercollegiate",
@@ -18520,24 +18581,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://hcuhuskies.com/sports/womens-golf/archives",
             "reason": null,
-            "recordCount": 107
+            "recordCount": 108
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -18546,7 +18607,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18555,7 +18616,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18564,7 +18625,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18573,7 +18634,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18582,7 +18643,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18600,12 +18661,12 @@
         "name": "Southland Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": "2026-11-04T12:40:29.136Z",
         "sourceUrl": "https://hcuhuskies.com/sports/womens-soccer/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "4281bc199c1ae6fc1c5d53a2",
@@ -20014,33 +20075,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
             "lastSuccessAt": "2026-11-04T12:40:29.136Z",
             "sourceUrl": "https://hcuhuskies.com/sports/womens-soccer/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 117
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -20049,7 +20110,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20058,7 +20119,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20067,7 +20128,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20076,7 +20137,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20085,7 +20146,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20103,12 +20164,12 @@
         "name": "Southland Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": "2026-11-04T12:40:29.136Z",
         "sourceUrl": "https://hcuhuskies.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "b8ff0b0f64469c23621c19d3",
@@ -21313,25 +21374,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
             "lastSuccessAt": "2026-11-04T12:40:29.136Z",
             "sourceUrl": "https://hcuhuskies.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -21340,7 +21401,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21349,7 +21410,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21358,7 +21419,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21367,7 +21428,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21376,7 +21437,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21394,12 +21455,12 @@
         "name": "Southland Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": "2026-11-04T12:40:29.136Z",
         "sourceUrl": "https://hcuhuskies.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "767a273bb7af0c485e7ffa22",
@@ -22604,25 +22665,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
             "lastSuccessAt": "2026-11-04T12:40:29.136Z",
             "sourceUrl": "https://hcuhuskies.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -22631,7 +22692,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22640,7 +22701,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22649,7 +22710,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22658,7 +22719,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22667,7 +22728,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22686,12 +22747,24 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-        "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+        "lastSuccessAt": "2026-11-04T20:44:15.812Z",
         "sourceUrl": "https://hcuhuskies.com/sports/womens-volleyball/archives",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "fe4d9d6b170bbb133c118377",
+            "title": "GEN: HCU Set to Recognize 2026 Hall of Honor Class this Weekend",
+            "url": "https://hcuhuskies.com/news/2026/11/4/baseball-gen-hcu-set-to-recognize-2026-hall-of-honor-class-this-weekend.aspx",
+            "publishedAt": "2026-11-04T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://hcuhuskies.com/images/2026/11/4/Release_Image.jpg",
+            "imageAlt": "2026 HCU Hall of Honor",
+            "author": null,
+            "publisher": "Houston Christian University Athletics",
+            "discoverySourceUrl": "https://hcuhuskies.com/sports/womens-volleyball/archives"
+          },
           {
             "id": "a5eef62cd0168ee023be2924",
             "title": "VB: Huskies to Face UIW in Back-to-Back Matches",
@@ -24160,24 +24233,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://hcuhuskies.com/sports/womens-volleyball/archives",
             "reason": null,
-            "recordCount": 122
+            "recordCount": 123
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:40:29.136Z",
-            "lastSuccessAt": "2026-11-04T12:40:29.136Z",
+            "lastAttemptAt": "2026-11-04T20:44:15.812Z",
+            "lastSuccessAt": "2026-11-04T20:44:15.812Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -24186,7 +24259,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24195,7 +24268,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24204,7 +24277,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24213,7 +24286,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24222,7 +24295,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:40:29.136Z",
+        "lastAttemptAt": "2026-11-04T20:44:15.812Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,

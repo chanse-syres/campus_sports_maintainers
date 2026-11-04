@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.baylorbears.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=51"
   },
-  "generatedAt": "2026-11-04T12:21:26.438Z",
+  "generatedAt": "2026-11-04T19:58:04.088Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/baseball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "b7c9f05f5c7b1c2fcd8a12a6",
@@ -269,48 +269,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/baseball",
             "reason": null,
             "recordCount": 18
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -319,7 +319,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -328,7 +328,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -337,7 +337,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -346,7 +346,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -355,7 +355,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -373,12 +373,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/mens-basketball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "f0e36e42b89c23c16abd4c99",
@@ -565,7 +565,7 @@
             "author": null,
             "publisher": "Baylor University Athletics",
             "discoverySourceUrl": "https://www.baylorbears.com/sports/mens-basketball",
-            "metadataCheckedAt": "2026-10-28T15:17:04.689Z"
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
           },
           {
             "id": "390de18cfe4b3a9cf5496647",
@@ -792,56 +792,56 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/mens-basketball",
             "reason": null,
             "recordCount": 24
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 6
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
@@ -850,7 +850,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -859,7 +859,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -868,7 +868,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -877,7 +877,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -886,7 +886,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -904,13 +904,25 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/football",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
+          {
+            "id": "6f75d22a249c46f43524184e",
+            "title": "Iowa State vs. Baylor: Prediction, Pick and Preview",
+            "url": "https://www.heartlandcollegesports.com/2026/11/04/iowa-state-baylor-prediction-pick-odds-week-10-2026/",
+            "publishedAt": "2026-11-04T17:40:22.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://www.heartlandcollegesports.com/wp-content/uploads/2026/11/GAMEDAY-PREVIEWS-TEMPLATE-21-150x150.jpg",
+            "imageAlt": "Baylor vs. Iowa State Prediction and Preview",
+            "author": "Pete Mundo",
+            "publisher": "Heartland College Sports",
+            "discoverySourceUrl": "https://www.heartlandcollegesports.com/feed/"
+          },
           {
             "id": "35b6ffb8e38f804bfc6e22bb",
             "title": "How the Bear Bell went from storage to gameday tradition",
@@ -2760,7 +2772,7 @@
             "author": null,
             "publisher": "Baylor University Athletics",
             "discoverySourceUrl": "https://www.baylorbears.com/sports/football",
-            "metadataCheckedAt": "2026-10-28T15:17:04.689Z"
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
           },
           {
             "id": "ffea4234799b98a20b8980d7",
@@ -3235,7 +3247,7 @@
             "author": null,
             "publisher": "Baylor University Athletics",
             "discoverySourceUrl": "https://www.baylorbears.com/sports/football",
-            "metadataCheckedAt": "2026-10-28T15:17:04.689Z"
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
           },
           {
             "id": "1128679e1d49528c56f66564",
@@ -3248,7 +3260,7 @@
             "author": null,
             "publisher": "Baylor University Athletics",
             "discoverySourceUrl": "https://www.baylorbears.com/sports/football",
-            "metadataCheckedAt": "2026-10-28T15:17:04.689Z"
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
           },
           {
             "id": "31526e060255470efd65fe49",
@@ -3334,7 +3346,7 @@
             "author": null,
             "publisher": "Baylor University Athletics",
             "discoverySourceUrl": "https://www.baylorbears.com/sports/football",
-            "metadataCheckedAt": "2026-10-28T15:17:04.689Z"
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
           },
           {
             "id": "62ae641ff1bcededabbf9900",
@@ -3347,7 +3359,7 @@
             "author": null,
             "publisher": "Baylor University Athletics",
             "discoverySourceUrl": "https://www.baylorbears.com/sports/football",
-            "metadataCheckedAt": "2026-10-28T15:17:04.689Z"
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
           },
           {
             "id": "34a3fd04193bdb397e2d9c48",
@@ -5171,64 +5183,64 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/football",
             "reason": null,
             "recordCount": 69
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 13
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 52
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 6
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
-            "recordCount": 43
+            "recordCount": 44
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 165
@@ -5237,7 +5249,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5246,7 +5258,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5255,7 +5267,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5264,7 +5276,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5273,7 +5285,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5291,12 +5303,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/womens-basketball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "c47fb1a3337e81b2a7cd891b",
@@ -5536,7 +5548,7 @@
             "author": null,
             "publisher": "Baylor University Athletics",
             "discoverySourceUrl": "https://www.baylorbears.com/sports/womens-basketball",
-            "metadataCheckedAt": "2026-10-28T15:17:04.689Z"
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
           },
           {
             "id": "2888534d5635da8d6c05aa3a",
@@ -5562,7 +5574,7 @@
             "author": null,
             "publisher": "Baylor University Athletics",
             "discoverySourceUrl": "https://www.baylorbears.com/sports/womens-basketball",
-            "metadataCheckedAt": "2026-10-28T15:17:04.689Z"
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
           },
           {
             "id": "033d7f7d7e70d094ffdb7e31",
@@ -5814,48 +5826,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/womens-basketball",
             "reason": null,
             "recordCount": 32
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 2
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 6
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5864,7 +5876,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5873,7 +5885,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5882,7 +5894,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5891,7 +5903,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5900,7 +5912,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5918,12 +5930,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/cross-country",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "3c41ab6429830d336c12747c",
@@ -6187,40 +6199,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/cross-country",
             "reason": null,
             "recordCount": 20
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6229,7 +6241,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6238,7 +6250,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6247,7 +6259,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6256,7 +6268,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6265,7 +6277,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6283,12 +6295,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/mens-golf",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "79e0b99143c420490b232454",
@@ -6580,40 +6592,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/mens-golf",
             "reason": null,
             "recordCount": 21
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 2
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6622,7 +6634,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6631,7 +6643,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6640,7 +6652,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6649,7 +6661,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6658,7 +6670,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6676,12 +6688,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/mens-tennis",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "94a7630377892e119b591e68",
@@ -6983,40 +6995,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/mens-tennis",
             "reason": null,
             "recordCount": 21
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 2
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7025,7 +7037,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7034,7 +7046,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7043,7 +7055,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7052,7 +7064,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7061,7 +7073,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7079,12 +7091,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/track-and-field",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "e2a74e9addc7105d05217ad0",
@@ -7272,40 +7284,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/track-and-field",
             "reason": null,
             "recordCount": 14
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7314,7 +7326,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7323,7 +7335,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7332,7 +7344,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7341,7 +7353,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7350,7 +7362,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7368,12 +7380,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/track-and-field",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "530cc7992538fc62d7a261b4",
@@ -7561,40 +7573,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/track-and-field",
             "reason": null,
             "recordCount": 14
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7603,7 +7615,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7612,7 +7624,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7621,7 +7633,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7630,7 +7642,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7639,7 +7651,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7657,12 +7669,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/softball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "3a491e61be03e71d973b8259",
@@ -7878,48 +7890,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/softball",
             "reason": null,
             "recordCount": 17
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7928,7 +7940,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7937,7 +7949,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7946,7 +7958,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7955,7 +7967,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7964,7 +7976,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7982,12 +7994,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/acrobatics-tumbling",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "f25ccbfdabc94b5939ba8519",
@@ -8000,7 +8012,7 @@
             "author": null,
             "publisher": "Baylor University Athletics",
             "discoverySourceUrl": "https://www.baylorbears.com/sports/acrobatics-tumbling",
-            "metadataCheckedAt": "2026-10-28T15:17:04.689Z"
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
           },
           {
             "id": "5dd247fceab969d3f694d190",
@@ -8175,32 +8187,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/acrobatics-tumbling",
             "reason": null,
             "recordCount": 14
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8209,7 +8221,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8218,7 +8230,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8227,7 +8239,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8236,7 +8248,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8245,7 +8257,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8263,12 +8275,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/cross-country",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "d31127a6d1d726655f12fd99",
@@ -8532,40 +8544,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/cross-country",
             "reason": null,
             "recordCount": 20
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8574,7 +8586,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8583,7 +8595,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8592,7 +8604,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8601,7 +8613,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8610,7 +8622,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8628,13 +8640,26 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/equestrian",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
+          {
+            "id": "2d5e68881b2ffc6a163d2109",
+            "title": "No. 8 EQ Closes Out Fall Home Slate, Hosts No. 1 Auburn",
+            "url": "https://www.baylorbears.com/news/2026/11/5/equestrian-no-8-eq-closes-out-fall-home-slate-hosts-no-1-auburn",
+            "publishedAt": "2026-11-04T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://baylorbears.com/images/2026/11/4/muth.jpg",
+            "imageAlt": null,
+            "author": null,
+            "publisher": "Baylor University Athletics",
+            "discoverySourceUrl": "https://www.baylorbears.com/sports/equestrian",
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
+          },
           {
             "id": "2953ae41ac0b913c2ad8a7aa",
             "title": "No. 9 EQ Drops Heartbreaker to No. 6 TCU",
@@ -8925,32 +8950,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/equestrian",
             "reason": null,
-            "recordCount": 22
+            "recordCount": 23
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8959,7 +8984,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8968,7 +8993,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8977,7 +9002,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8986,7 +9011,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8995,7 +9020,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9013,12 +9038,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/womens-golf",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "c9e9c4d5fab5acf7b9d66e10",
@@ -9286,40 +9311,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/womens-golf",
             "reason": null,
             "recordCount": 19
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 2
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -9328,7 +9353,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9337,7 +9362,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9346,7 +9371,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9355,7 +9380,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9364,7 +9389,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9382,12 +9407,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/womens-soccer",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "8969aea2f03bbd840b5489cc",
@@ -10128,48 +10153,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/womens-soccer",
             "reason": null,
             "recordCount": 39
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 18
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10178,7 +10203,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10187,7 +10212,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10196,7 +10221,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10205,7 +10230,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10214,7 +10239,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10232,12 +10257,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/womens-tennis",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "eafbb72da51e85538b378b4e",
@@ -10301,7 +10326,7 @@
             "author": null,
             "publisher": "Baylor University Athletics",
             "discoverySourceUrl": "https://www.baylorbears.com/sports/womens-tennis",
-            "metadataCheckedAt": "2026-10-28T15:17:04.689Z"
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
           },
           {
             "id": "b2668720ebc919908fbedda7",
@@ -10489,40 +10514,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/womens-tennis",
             "reason": null,
             "recordCount": 18
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10531,7 +10556,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10540,7 +10565,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10549,7 +10574,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10558,7 +10583,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10567,7 +10592,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10585,12 +10610,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/track-and-field",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "340bc2c28dca3897701a53f9",
@@ -10778,40 +10803,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/track-and-field",
             "reason": null,
             "recordCount": 14
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10820,7 +10845,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10829,7 +10854,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10838,7 +10863,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10847,7 +10872,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10856,7 +10881,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10874,12 +10899,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/track-and-field",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "088c1cbd711c1c9e391ec4c1",
@@ -11067,40 +11092,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/track-and-field",
             "reason": null,
             "recordCount": 14
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11109,7 +11134,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11118,7 +11143,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11127,7 +11152,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11136,7 +11161,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11145,7 +11170,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11163,12 +11188,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": "2026-11-04T12:21:26.438Z",
         "sourceUrl": "https://www.baylorbears.com/sports/womens-volleyball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "c418f5dd5701dbbfbfa86751",
@@ -11181,6 +11206,19 @@
             "author": "Bennett Parker",
             "publisher": "The Baylor Lariat",
             "discoverySourceUrl": "https://baylorlariat.com/category/sports/feed/"
+          },
+          {
+            "id": "6bc9ce56f51e5ba2778349e0",
+            "title": "No. 24 VB Opens Sunflower State Swing at No. 15 Kansas",
+            "url": "https://www.baylorbears.com/news/2026/11/4/volleyball-no-24-vb-opens-sunflower-state-swing-at-no-15-kansas",
+            "publishedAt": "2026-11-04T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://baylorbears.com/images/2026/11/4/Baylor_Volleyball_Celebrates_Kansas.png",
+            "imageAlt": null,
+            "author": null,
+            "publisher": "Baylor University Athletics",
+            "discoverySourceUrl": "https://www.baylorbears.com/sports/womens-volleyball",
+            "metadataCheckedAt": "2026-11-04T19:58:04.088Z"
           },
           {
             "id": "cf3b756d39cde6eb521b10d4",
@@ -11891,40 +11929,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.baylorbears.com/sports/womens-volleyball",
             "reason": null,
-            "recordCount": 37
+            "recordCount": 38
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
             "lastSuccessAt": "2026-11-04T12:21:26.438Z",
             "sourceUrl": "https://baylorlariat.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "timeout",
             "recordCount": 22
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:21:26.438Z",
-            "lastSuccessAt": "2026-11-04T12:21:26.438Z",
+            "lastAttemptAt": "2026-11-04T19:58:04.088Z",
+            "lastSuccessAt": "2026-11-04T19:58:04.088Z",
             "sourceUrl": "https://www.si.com/college/baylor/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11933,7 +11971,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11942,7 +11980,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11951,7 +11989,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11960,7 +11998,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11969,7 +12007,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:21:26.438Z",
+        "lastAttemptAt": "2026-11-04T19:58:04.088Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,

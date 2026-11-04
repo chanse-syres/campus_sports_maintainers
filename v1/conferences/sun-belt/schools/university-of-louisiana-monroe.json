@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.ulmwarhawks.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=498"
   },
-  "generatedAt": "2026-11-04T12:43:38.123Z",
+  "generatedAt": "2026-11-04T20:48:29.100Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "Sun Belt Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": "2026-11-04T12:43:38.123Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/baseball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "2a81b428dd8716037970f598",
@@ -42,7 +42,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "a4d9d7a6bdf53c70365d2e00",
@@ -770,7 +770,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "da58c6a5e2153a6937dfe41e",
@@ -783,7 +783,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "797b892355b21e2a1a8acc30",
@@ -796,7 +796,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "8789cf4d2af9b99af5adc7e4",
@@ -809,7 +809,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "aeb38c73ae0f997cc3b410d9",
@@ -1360,33 +1360,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
             "lastSuccessAt": "2026-11-04T12:43:38.123Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/baseball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1395,7 +1395,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1404,7 +1404,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1413,7 +1413,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1422,7 +1422,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1431,7 +1431,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1450,8 +1450,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-        "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+        "lastSuccessAt": "2026-11-04T20:48:29.100Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/mens-basketball/archives",
         "season": null,
         "reason": null,
@@ -1532,7 +1532,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "bd45ddb4d3feceb62c71121c",
@@ -2260,7 +2260,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "135c75404865cce52f9f14c7",
@@ -2273,7 +2273,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "d0eb05a096818ccbfe257dc1",
@@ -2286,7 +2286,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "4b5f8144c914607f4e9934db",
@@ -2299,7 +2299,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "64b76590868379663927ca24",
@@ -2838,40 +2838,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/mens-basketball/archives",
             "reason": null,
             "recordCount": 106
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2880,7 +2880,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2889,7 +2889,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2898,7 +2898,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2907,7 +2907,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2916,7 +2916,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2935,8 +2935,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-        "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+        "lastSuccessAt": "2026-11-04T20:48:29.100Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/football/archives",
         "season": null,
         "reason": null,
@@ -3806,7 +3806,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "24999c4d685c8f514ed47206",
@@ -3819,7 +3819,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "9c0278db977d7dfc5444278d",
@@ -3832,7 +3832,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "e58e1c4756f243fa3d12b732",
@@ -3845,7 +3845,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "991c47d016766ff7bdf109c5",
@@ -3858,7 +3858,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "31cf3320a1035d0a4aaf1126",
@@ -4449,48 +4449,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/football/archives",
             "reason": null,
             "recordCount": 112
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 4
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4499,7 +4499,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4508,7 +4508,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4517,7 +4517,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4526,7 +4526,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4535,7 +4535,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4554,8 +4554,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-        "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+        "lastSuccessAt": "2026-11-04T20:48:29.100Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/womens-basketball/archives",
         "season": null,
         "reason": null,
@@ -4597,7 +4597,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "a5a1b52ac437accc43362d8c",
@@ -5325,7 +5325,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "0e5ff5cfe2cdc2ed85399327",
@@ -5338,7 +5338,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "8994d8606047084f036475d9",
@@ -5351,7 +5351,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "a7b99012ce1172cea5ca7f92",
@@ -5364,7 +5364,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "fa1063769c7dcb4cff346ae5",
@@ -5851,32 +5851,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/womens-basketball/archives",
             "reason": null,
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5885,7 +5885,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5894,7 +5894,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5903,7 +5903,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5912,7 +5912,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5921,7 +5921,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5940,8 +5940,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-        "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+        "lastSuccessAt": "2026-11-04T20:48:29.100Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/cross-country/archives",
         "season": null,
         "reason": null,
@@ -6594,7 +6594,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "0f0a9fc639c5a3d5695d7d6d",
@@ -6607,7 +6607,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "c774234f791c9f2741146329",
@@ -6620,7 +6620,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "ffe221e2c74cb7c1b6fbdd76",
@@ -6633,7 +6633,7 @@
             "author": null,
             "publisher": "University of Louisiana Monroe Athletics",
             "discoverySourceUrl": "https://www.ulmwarhawks.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-10-28T15:41:28.820Z"
+            "metadataCheckedAt": "2026-11-04T20:48:29.100Z"
           },
           {
             "id": "42df583405babdbf278cce88",
@@ -7367,24 +7367,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/cross-country/archives",
             "reason": null,
             "recordCount": 109
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7393,7 +7393,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7402,7 +7402,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7411,7 +7411,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7420,7 +7420,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7429,7 +7429,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7448,8 +7448,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-        "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+        "lastSuccessAt": "2026-11-04T20:48:29.100Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/mens-golf/archives",
         "season": null,
         "reason": null,
@@ -8797,24 +8797,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/mens-golf/archives",
             "reason": null,
             "recordCount": 103
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8823,7 +8823,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8832,7 +8832,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8841,7 +8841,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8850,7 +8850,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8859,7 +8859,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8877,12 +8877,12 @@
         "name": "Sun Belt Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": "2026-11-04T12:43:38.123Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "0341601782865666f520e346",
@@ -10187,25 +10187,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
             "lastSuccessAt": "2026-11-04T12:43:38.123Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10214,7 +10214,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10223,7 +10223,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10232,7 +10232,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10241,7 +10241,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10250,7 +10250,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10268,12 +10268,12 @@
         "name": "Sun Belt Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": "2026-11-04T12:43:38.123Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "e4cb01770841564d276e8938",
@@ -11578,25 +11578,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
             "lastSuccessAt": "2026-11-04T12:43:38.123Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11605,7 +11605,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11614,7 +11614,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11623,7 +11623,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11632,7 +11632,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11641,7 +11641,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11660,8 +11660,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-        "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+        "lastSuccessAt": "2026-11-04T20:48:29.100Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/softball/archives",
         "season": null,
         "reason": null,
@@ -12946,32 +12946,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/softball/archives",
             "reason": null,
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -12980,7 +12980,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12989,7 +12989,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12998,7 +12998,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13007,7 +13007,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13016,7 +13016,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13034,12 +13034,12 @@
         "name": "Sun Belt Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": "2026-11-04T12:43:38.123Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/womens-beach-volleyball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "62e56eaef63c4e85f4b0d766",
@@ -14262,25 +14262,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
             "lastSuccessAt": "2026-11-04T12:43:38.123Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/womens-beach-volleyball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/beach-volleyball/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -14289,7 +14289,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14298,7 +14298,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14307,7 +14307,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14316,7 +14316,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14325,7 +14325,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14344,8 +14344,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-        "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+        "lastSuccessAt": "2026-11-04T20:48:29.100Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/cross-country/archives",
         "season": null,
         "reason": null,
@@ -15662,24 +15662,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/cross-country/archives",
             "reason": null,
             "recordCount": 109
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -15688,7 +15688,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15697,7 +15697,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15706,7 +15706,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15715,7 +15715,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15724,7 +15724,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15743,8 +15743,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-        "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+        "lastSuccessAt": "2026-11-04T20:48:29.100Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/womens-golf/archives",
         "season": null,
         "reason": null,
@@ -17037,24 +17037,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/womens-golf/archives",
             "reason": null,
             "recordCount": 107
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -17063,7 +17063,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17072,7 +17072,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17081,7 +17081,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17090,7 +17090,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17099,7 +17099,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17118,8 +17118,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-        "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+        "lastSuccessAt": "2026-11-04T20:48:29.100Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/womens-soccer/archives",
         "season": null,
         "reason": null,
@@ -18568,32 +18568,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/womens-soccer/archives",
             "reason": null,
             "recordCount": 120
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -18602,7 +18602,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18611,7 +18611,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18620,7 +18620,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18629,7 +18629,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18638,7 +18638,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18656,12 +18656,12 @@
         "name": "Sun Belt Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": "2026-11-04T12:43:38.123Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "c4d0ecf0bc0847cf5894b6c0",
@@ -19866,25 +19866,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
             "lastSuccessAt": "2026-11-04T12:43:38.123Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -19893,7 +19893,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19902,7 +19902,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19911,7 +19911,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19920,7 +19920,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19929,7 +19929,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19947,12 +19947,12 @@
         "name": "Sun Belt Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": "2026-11-04T12:43:38.123Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "916d4816c0efb41a8e8429bc",
@@ -21157,25 +21157,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
             "lastSuccessAt": "2026-11-04T12:43:38.123Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/track-and-field/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -21184,7 +21184,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21193,7 +21193,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21202,7 +21202,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21211,7 +21211,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21220,7 +21220,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21238,12 +21238,12 @@
         "name": "Sun Belt Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": "2026-11-04T12:43:38.123Z",
         "sourceUrl": "https://www.ulmwarhawks.com/sports/womens-volleyball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "ca498124547a45b57c22c907",
@@ -22736,25 +22736,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
             "lastSuccessAt": "2026-11-04T12:43:38.123Z",
             "sourceUrl": "https://www.ulmwarhawks.com/sports/womens-volleyball/archives",
-            "reason": null,
+            "reason": "timeout",
             "recordCount": 124
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-04T12:43:38.123Z",
-            "lastSuccessAt": "2026-11-04T12:43:38.123Z",
+            "lastAttemptAt": "2026-11-04T20:48:29.100Z",
+            "lastSuccessAt": "2026-11-04T20:48:29.100Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -22763,7 +22763,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22772,7 +22772,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22781,7 +22781,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22790,7 +22790,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22799,7 +22799,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-04T12:43:38.123Z",
+        "lastAttemptAt": "2026-11-04T20:48:29.100Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
