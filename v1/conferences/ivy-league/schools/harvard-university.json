@@ -12,7 +12,7 @@
     "athleticsUrl": "https://gocrimson.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=275"
   },
-  "generatedAt": "2026-11-05T01:06:58.917Z",
+  "generatedAt": "2026-11-05T12:43:39.740Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/baseball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "b2a496a8848ac69cb54508ad",
@@ -887,7 +887,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "ab84db90bf1b1397dded984b",
@@ -900,7 +900,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "7a04ef464ab46c4e50bbdd28",
@@ -913,7 +913,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "27987d2df36d16ba9a49be91",
@@ -926,7 +926,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "333a578528060d364d99757c",
@@ -939,7 +939,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "545aee892d02c464d36931b3",
@@ -1321,33 +1321,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/baseball/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1356,7 +1356,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1365,7 +1365,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1374,7 +1374,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1383,7 +1383,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1392,7 +1392,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1410,12 +1410,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "684aea92ae74f913931032a8",
@@ -2376,7 +2376,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "01505d5ddcd0d39d67c62ba1",
@@ -2389,7 +2389,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "cd732ec5062dd268290f0b8f",
@@ -2402,7 +2402,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "8d7f9417f9c455ddd6633829",
@@ -2415,7 +2415,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "f049dcbbefd1331c0bd0554b",
@@ -2428,7 +2428,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "a822d5cf3bd94590e0efd1aa",
@@ -2836,41 +2836,41 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-basketball/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 108
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2879,7 +2879,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2888,7 +2888,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2897,7 +2897,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2906,7 +2906,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2915,7 +2915,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2933,12 +2933,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/football/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "6af1db409645acc51445b7cf",
@@ -3159,7 +3159,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "c9bba5990abe3a2fd71705de",
@@ -3224,7 +3224,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "f6707bd07248403d8fbca42e",
@@ -3237,7 +3237,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "352418d8bef97a164b1133f1",
@@ -3991,7 +3991,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-28T21:22:35.396Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "d4c52656d700181ac90cf24f",
@@ -4004,7 +4004,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/football/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "6beab9c0f4ed98fca955c5c6",
@@ -4672,49 +4672,49 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/football/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 133
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4723,7 +4723,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4732,7 +4732,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4741,7 +4741,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4750,7 +4750,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4759,7 +4759,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4777,12 +4777,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "b380b7865979fed4adbaaa47",
@@ -5717,7 +5717,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "fae91ba50f710975060fe6f0",
@@ -5730,7 +5730,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "7b8f490abcf7bc51c9563bd6",
@@ -5743,7 +5743,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "15627b3b97a12c3fe6d8fd75",
@@ -5756,7 +5756,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "4352714a400da03cd7595134",
@@ -5769,7 +5769,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "3f5bb11fff7e8481c5f79066",
@@ -6164,33 +6164,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-basketball/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 105
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6199,7 +6199,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6208,7 +6208,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6217,7 +6217,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6226,7 +6226,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6235,7 +6235,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6254,7 +6254,7 @@
       },
       "news": {
         "status": "stale",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-10-21T23:39:37.855Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-sailing/archives",
         "season": null,
@@ -6323,7 +6323,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/mens-sailing/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "4f013747e7eaeba6111fc0d3",
@@ -6362,7 +6362,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/mens-sailing/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "fb6b3755a28bd175ecb35a7c",
@@ -6999,7 +6999,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/mens-sailing/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "94c761c267c2e26d671a3ebf",
@@ -7012,7 +7012,7 @@
             "author": null,
             "publisher": "Harvard University Athletics",
             "discoverySourceUrl": "https://gocrimson.com/sports/mens-sailing/archives",
-            "metadataCheckedAt": "2026-10-29T06:11:14.289Z"
+            "metadataCheckedAt": "2026-11-05T12:43:39.740Z"
           },
           {
             "id": "cca4812e8fb341144390efb2",
@@ -7681,7 +7681,7 @@
         "sources": [
           {
             "status": "stale",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-10-21T23:39:37.855Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-sailing/archives",
             "reason": "source-format-changed",
@@ -7689,8 +7689,8 @@
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7699,7 +7699,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7708,7 +7708,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7717,7 +7717,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7726,7 +7726,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7735,7 +7735,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7754,7 +7754,7 @@
       },
       "news": {
         "status": "stale",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-04T12:28:48.594Z",
         "sourceUrl": "https://gocrimson.com/sports/field-hockey/archives",
         "season": null,
@@ -9401,7 +9401,7 @@
         "sources": [
           {
             "status": "stale",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-04T12:28:48.594Z",
             "sourceUrl": "https://gocrimson.com/sports/field-hockey/archives",
             "reason": "source-format-changed",
@@ -9409,16 +9409,16 @@
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/fieldhockey/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
@@ -9427,7 +9427,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9436,7 +9436,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9445,7 +9445,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9454,7 +9454,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9463,7 +9463,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9482,7 +9482,7 @@
       },
       "news": {
         "status": "stale",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-04T12:28:48.594Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-heavyweight-rowing/archives",
         "season": null,
@@ -10779,7 +10779,7 @@
         "sources": [
           {
             "status": "stale",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-04T12:28:48.594Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-heavyweight-rowing/archives",
             "reason": "source-format-changed",
@@ -10787,8 +10787,8 @@
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10797,7 +10797,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10806,7 +10806,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10815,7 +10815,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10824,7 +10824,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10833,7 +10833,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10851,12 +10851,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/cross-country/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "4c85d99ef85836d7aec116a1",
@@ -12211,25 +12211,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/cross-country/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 104
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -12238,7 +12238,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12247,7 +12247,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12256,7 +12256,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12265,7 +12265,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12274,7 +12274,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12292,12 +12292,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-fencing/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "3773917d35fe1e12fa173449",
@@ -13378,25 +13378,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-fencing/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 86
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/fencing/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -13405,7 +13405,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13414,7 +13414,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13423,7 +13423,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13432,7 +13432,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13441,7 +13441,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13459,12 +13459,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-golf/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "2daa4f739884fb3b8072b00a",
@@ -14757,25 +14757,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-golf/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 106
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -14784,7 +14784,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14793,7 +14793,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14802,7 +14802,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14811,7 +14811,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14820,7 +14820,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14838,12 +14838,12 @@
         "name": "ECAC Hockey (Men's)"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-ice-hockey/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "6d98f001e3d79519838e3078",
@@ -16144,33 +16144,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-ice-hockey/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 106
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 2
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/icehockey-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -16179,7 +16179,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16188,7 +16188,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16197,7 +16197,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16206,7 +16206,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16215,7 +16215,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16233,12 +16233,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-lacrosse/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "15b64fe1307c49982a9bf5e6",
@@ -17467,25 +17467,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-lacrosse/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -17494,7 +17494,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17503,7 +17503,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17512,7 +17512,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17521,7 +17521,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17530,7 +17530,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17548,12 +17548,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-lightweight-rowing/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "adc37ad11a9e24fcb48849a4",
@@ -18746,17 +18746,17 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-lightweight-rowing/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -18765,7 +18765,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18774,7 +18774,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18783,7 +18783,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18792,7 +18792,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18801,7 +18801,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18819,12 +18819,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/skiing",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "bc7388d2aea27fd8cf146848",
@@ -18925,25 +18925,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/skiing",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 8
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/skiing/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -18952,7 +18952,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18961,7 +18961,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18970,7 +18970,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18979,7 +18979,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18988,7 +18988,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19006,12 +19006,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-soccer/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "ff826cb009586b5462323223",
@@ -20456,33 +20456,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-soccer/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 120
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -20491,7 +20491,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20500,7 +20500,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20509,7 +20509,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20518,7 +20518,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20527,7 +20527,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20545,12 +20545,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-squash/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "f641acdfda386a7cbe830a47",
@@ -21659,17 +21659,17 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-squash/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 92
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -21678,7 +21678,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21687,7 +21687,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21696,7 +21696,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21705,7 +21705,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21714,7 +21714,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21732,12 +21732,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-swimming-and-diving/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "23499b2d52825117b98f8dae",
@@ -22942,25 +22942,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-swimming-and-diving/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -22969,7 +22969,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22978,7 +22978,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22987,7 +22987,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22996,7 +22996,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23005,7 +23005,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23023,12 +23023,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-tennis/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "141b6837dc50414f81c51d5f",
@@ -24425,25 +24425,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-tennis/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 116
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -24452,7 +24452,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24461,7 +24461,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24470,7 +24470,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24479,7 +24479,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24488,7 +24488,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -24506,12 +24506,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "42face6d3eba43d2d6a90f9e",
@@ -25704,25 +25704,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-track-and-field/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -25731,7 +25731,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25740,7 +25740,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25749,7 +25749,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25758,7 +25758,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25767,7 +25767,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25785,12 +25785,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "1b9b6702e938d5b5ebdfb9e4",
@@ -26983,25 +26983,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-track-and-field/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -27010,7 +27010,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -27019,7 +27019,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -27028,7 +27028,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -27037,7 +27037,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -27046,7 +27046,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -27064,12 +27064,12 @@
         "name": "Eastern Intercollegiate Volleyball Association"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-volleyball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "90494596ba2dbbaa0be6d119",
@@ -28274,25 +28274,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-volleyball/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-men/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -28301,7 +28301,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -28310,7 +28310,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -28319,7 +28319,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -28328,7 +28328,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -28337,7 +28337,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -28355,12 +28355,12 @@
         "name": "Northeast Water Polo Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-water-polo/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "e8ca20229a4e076d83e3ee99",
@@ -29829,25 +29829,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-water-polo/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 122
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/waterpolo-men/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -29856,7 +29856,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29865,7 +29865,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29874,7 +29874,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29883,7 +29883,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29892,7 +29892,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -29910,12 +29910,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/wrestling/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "3b08841e8c1b19dc5dd4954f",
@@ -31120,17 +31120,17 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/wrestling/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -31139,7 +31139,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -31148,7 +31148,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -31157,7 +31157,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -31166,7 +31166,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -31175,7 +31175,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -31193,12 +31193,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/softball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "4a588a9aa228a95311e854b8",
@@ -32439,33 +32439,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/softball/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 103
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -32474,7 +32474,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -32483,7 +32483,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -32492,7 +32492,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -32501,7 +32501,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -32510,7 +32510,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -32528,12 +32528,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/cross-country/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "f61b4f29391a3245f66977f9",
@@ -33822,25 +33822,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/cross-country/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 107
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -33849,7 +33849,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -33858,7 +33858,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -33867,7 +33867,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -33876,7 +33876,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -33885,7 +33885,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -33903,12 +33903,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-fencing/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "9f37db908f156e33e9b3167e",
@@ -34885,25 +34885,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-fencing/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 81
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/fencing/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -34912,7 +34912,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -34921,7 +34921,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -34930,7 +34930,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -34939,7 +34939,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -34948,7 +34948,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -34966,12 +34966,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-golf/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "4385d7da813ef36caad0ea9e",
@@ -36248,25 +36248,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-golf/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 106
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -36275,7 +36275,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -36284,7 +36284,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -36293,7 +36293,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -36302,7 +36302,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -36311,7 +36311,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -36329,12 +36329,12 @@
         "name": "ECAC Hockey (Women's)"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-ice-hockey/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "1d4a72d5e931e8e9760f7d95",
@@ -37695,33 +37695,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-ice-hockey/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 110
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/hockey/womens-college-hockey/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 3
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/icehockey-women/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -37730,7 +37730,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -37739,7 +37739,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -37748,7 +37748,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -37757,7 +37757,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -37766,7 +37766,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -37784,12 +37784,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-lacrosse/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "1c5b5203b7e6bce23cfc4cdc",
@@ -38994,25 +38994,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-lacrosse/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -39021,7 +39021,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -39030,7 +39030,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -39039,7 +39039,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -39048,7 +39048,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -39057,7 +39057,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -39075,12 +39075,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-heavyweight-rowing/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "9a24f8fbfd28c85bf370623e",
@@ -40309,25 +40309,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-heavyweight-rowing/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 102
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/rowing/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -40336,7 +40336,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -40345,7 +40345,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -40354,7 +40354,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -40363,7 +40363,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -40372,7 +40372,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -40390,12 +40390,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-rugby/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "ec771f1761dab1b7014210d5",
@@ -41720,17 +41720,17 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-rugby/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 110
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -41739,7 +41739,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -41748,7 +41748,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -41757,7 +41757,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -41766,7 +41766,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -41775,7 +41775,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -41794,7 +41794,7 @@
       },
       "news": {
         "status": "stale",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-10-21T23:39:37.855Z",
         "sourceUrl": "https://gocrimson.com/sports/mens-sailing/archives",
         "season": null,
@@ -43136,7 +43136,7 @@
         "sources": [
           {
             "status": "stale",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-10-21T23:39:37.855Z",
             "sourceUrl": "https://gocrimson.com/sports/mens-sailing/archives",
             "reason": "source-format-changed",
@@ -43144,8 +43144,8 @@
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -43154,7 +43154,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -43163,7 +43163,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -43172,7 +43172,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -43181,7 +43181,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -43190,7 +43190,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -43208,12 +43208,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/skiing",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "64b1690a1b92196096a1a24f",
@@ -43314,25 +43314,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/skiing",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 8
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/skiing/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -43341,7 +43341,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -43350,7 +43350,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -43359,7 +43359,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -43368,7 +43368,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -43377,7 +43377,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -43395,12 +43395,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-soccer/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "b8d58d246390674bf6a9592e",
@@ -44773,33 +44773,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-soccer/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 114
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -44808,7 +44808,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -44817,7 +44817,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -44826,7 +44826,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -44835,7 +44835,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -44844,7 +44844,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -44862,12 +44862,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-squash/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "621fd65ad45ab2bfb8d99980",
@@ -45964,17 +45964,17 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-squash/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 91
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -45983,7 +45983,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -45992,7 +45992,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -46001,7 +46001,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -46010,7 +46010,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -46019,7 +46019,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -46037,12 +46037,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-swimming-and-diving/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "176147315f06ab9cdd9d0527",
@@ -47247,25 +47247,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-swimming-and-diving/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -47274,7 +47274,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -47283,7 +47283,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -47292,7 +47292,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -47301,7 +47301,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -47310,7 +47310,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -47328,12 +47328,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-tennis/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "f3b42539e90e0cf272458bf6",
@@ -48706,25 +48706,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-tennis/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 114
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -48733,7 +48733,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48742,7 +48742,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48751,7 +48751,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48760,7 +48760,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48769,7 +48769,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48788,8 +48788,8 @@
       },
       "news": {
         "status": "stale",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-        "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+        "lastSuccessAt": "2026-11-05T12:43:39.740Z",
         "sourceUrl": "https://gocrimson.com/",
         "season": null,
         "reason": "one-or-more-news-sources-degraded",
@@ -48797,7 +48797,7 @@
         "sources": [
           {
             "status": "unavailable",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": null,
             "sourceUrl": "https://gocrimson.com/",
             "reason": "official-sport-feed-not-discovered",
@@ -48805,16 +48805,16 @@
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -48823,7 +48823,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48832,7 +48832,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48841,7 +48841,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48850,7 +48850,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48859,7 +48859,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48878,8 +48878,8 @@
       },
       "news": {
         "status": "stale",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-        "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+        "lastSuccessAt": "2026-11-05T12:43:39.740Z",
         "sourceUrl": "https://gocrimson.com/",
         "season": null,
         "reason": "one-or-more-news-sources-degraded",
@@ -48887,7 +48887,7 @@
         "sources": [
           {
             "status": "unavailable",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": null,
             "sourceUrl": "https://gocrimson.com/",
             "reason": "official-sport-feed-not-discovered",
@@ -48895,16 +48895,16 @@
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -48913,7 +48913,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48922,7 +48922,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48931,7 +48931,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48940,7 +48940,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48949,7 +48949,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -48967,12 +48967,12 @@
         "name": "The Ivy League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-volleyball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "a818f5b2a0ba882e65f5ffc7",
@@ -50429,25 +50429,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-volleyball/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 121
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -50456,7 +50456,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -50465,7 +50465,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -50474,7 +50474,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -50483,7 +50483,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -50492,7 +50492,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -50510,12 +50510,12 @@
         "name": "Collegiate Water Polo Association (Women's)"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": "2026-11-05T01:06:58.917Z",
         "sourceUrl": "https://gocrimson.com/sports/womens-water-polo/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "7b61458f85bd8e74a25c2384",
@@ -51732,25 +51732,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
             "lastSuccessAt": "2026-11-05T01:06:58.917Z",
             "sourceUrl": "https://gocrimson.com/sports/womens-water-polo/archives",
-            "reason": null,
+            "reason": "source-format-changed",
             "recordCount": 99
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-05T01:06:58.917Z",
-            "lastSuccessAt": "2026-11-05T01:06:58.917Z",
+            "lastAttemptAt": "2026-11-05T12:43:39.740Z",
+            "lastSuccessAt": "2026-11-05T12:43:39.740Z",
             "sourceUrl": "https://www.ncaa.com/news/waterpolo-women/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 2
@@ -51759,7 +51759,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -51768,7 +51768,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -51777,7 +51777,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -51786,7 +51786,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -51795,7 +51795,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-05T01:06:58.917Z",
+        "lastAttemptAt": "2026-11-05T12:43:39.740Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
