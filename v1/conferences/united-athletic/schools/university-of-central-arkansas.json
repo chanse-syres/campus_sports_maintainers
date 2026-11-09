@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.ucasports.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=1004"
   },
-  "generatedAt": "2026-11-08T21:04:48.205Z",
+  "generatedAt": "2026-11-09T07:20:27.357Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/baseball/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "b0f21d4a108e05f15991bac2",
@@ -367,7 +367,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "764f706a35ff9e8e18051ebb",
@@ -380,7 +380,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "61d5e6e51bd512426fcb236a",
@@ -393,7 +393,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "6657e9d51425c2d85244c302",
@@ -406,7 +406,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "54e578ebc20a508090fb9528",
@@ -419,7 +419,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/baseball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "d7e995073ffea358d9f3fd9f",
@@ -1335,32 +1335,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/baseball/archives",
             "reason": null,
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1369,7 +1369,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1378,7 +1378,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1387,7 +1387,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1396,7 +1396,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1405,7 +1405,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1423,12 +1423,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/mens-basketball/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "279b9aa732ef07a76d0c17fc",
@@ -1479,7 +1479,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "bfbd1d3696a4db75ae374d23",
@@ -1830,7 +1830,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "f12355871ecb7b477e93e632",
@@ -1843,7 +1843,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "685129adcd31016c0d72a5ae",
@@ -1856,7 +1856,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "ec489773ddc607c004f18ec3",
@@ -1869,7 +1869,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "f4d6e7bd06d7658ec08fa3c2",
@@ -2798,40 +2798,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/mens-basketball/archives",
             "reason": null,
             "recordCount": 104
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2840,7 +2840,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2849,7 +2849,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2858,7 +2858,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2867,7 +2867,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2876,7 +2876,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2894,12 +2894,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/football/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "092957db5f336012a698160b",
@@ -3068,7 +3068,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/football/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "e1e65d4bd01d5527582e4a21",
@@ -3341,7 +3341,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/football/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "9159b45a866be9f6b0f24001",
@@ -3354,7 +3354,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/football/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "78c2d7a2c25fc3f446d24a81",
@@ -3367,7 +3367,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/football/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "d0467d4792554af8672620db",
@@ -3380,7 +3380,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/football/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "73a12ba9a0464b46903312b4",
@@ -4387,48 +4387,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/football/archives",
             "reason": null,
             "recordCount": 114
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4437,7 +4437,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4446,7 +4446,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4455,7 +4455,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4464,7 +4464,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4473,7 +4473,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4491,13 +4491,26 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/womens-basketball/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
+          {
+            "id": "dc3106abc5afba937b8fd3c9",
+            "title": "Sugar Bears Battle Warhawks in Monday Night Road Game",
+            "url": "https://www.ucasports.com/news/2026/11/8/womens-basketball-sugar-bears-battle-warhawks-in-monday-night-road-game.aspx",
+            "publishedAt": "2026-11-08T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.ucasports.com/images/2026/11/8/vs.HendrixMB__38_of_97_.jpg",
+            "imageAlt": "WBB",
+            "author": null,
+            "publisher": "University of Central Arkansas Athletics",
+            "discoverySourceUrl": "https://www.ucasports.com/sports/womens-basketball/archives",
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
+          },
           {
             "id": "9b352f358d5ca2262a00692d",
             "title": "Central Arkansas Sugar Bears vs. Baylor Bears: Game Highlights",
@@ -4560,7 +4573,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-11-02T06:55:22.667Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "ced77f2c8a44279f25ca6ac8",
@@ -4911,7 +4924,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "c5c53a0fec7d32c7dc0eff4f",
@@ -4924,7 +4937,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "fe40d499cda27fdd18c9a0f9",
@@ -4937,7 +4950,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "1de00e3a94024333185f84de",
@@ -5866,32 +5879,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/womens-basketball/archives",
             "reason": null,
-            "recordCount": 104
+            "recordCount": 105
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5900,7 +5913,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5909,7 +5922,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5918,7 +5931,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5927,7 +5940,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5936,7 +5949,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5954,12 +5967,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/cross-country/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "50b33ddb1e0b128d1791e943",
@@ -6258,7 +6271,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "40e80ab6eb7f312c340613fe",
@@ -6271,7 +6284,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "c9c028295ac5f1d36c11bdc7",
@@ -6284,7 +6297,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "a9046dff47a4f838a88e5093",
@@ -6297,7 +6310,7 @@
             "author": null,
             "publisher": "University of Central Arkansas Athletics",
             "discoverySourceUrl": "https://www.ucasports.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-11-01T21:07:46.459Z"
+            "metadataCheckedAt": "2026-11-09T07:20:27.357Z"
           },
           {
             "id": "98428529a3dec0da40df9428",
@@ -6680,24 +6693,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/cross-country/archives",
             "reason": null,
             "recordCount": 55
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6706,7 +6719,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6715,7 +6728,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6724,7 +6737,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6733,7 +6746,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6742,7 +6755,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6760,12 +6773,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/mens-golf/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "bae2ff95c2b589337400ed1d",
@@ -8123,24 +8136,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/mens-golf/archives",
             "reason": null,
             "recordCount": 104
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8149,7 +8162,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8158,7 +8171,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8167,7 +8180,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8176,7 +8189,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8185,7 +8198,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8203,12 +8216,12 @@
         "name": "Atlantic Sun Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/mens-soccer/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "b906913f4605f8291dd03558",
@@ -9836,32 +9849,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/mens-soccer/archives",
             "reason": null,
             "recordCount": 125
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -9870,7 +9883,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9879,7 +9892,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9888,7 +9901,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9897,7 +9910,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9906,7 +9919,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9924,12 +9937,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/mens-track-and-field/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "73ab211fce58142c91911049",
@@ -10754,24 +10767,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/mens-track-and-field/archives",
             "reason": null,
             "recordCount": 63
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10780,7 +10793,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10789,7 +10802,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10798,7 +10811,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10807,7 +10820,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10816,7 +10829,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10834,12 +10847,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/mens-track-and-field/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "378b783ef027079b3e5de597",
@@ -11664,24 +11677,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/mens-track-and-field/archives",
             "reason": null,
             "recordCount": 63
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11690,7 +11703,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11699,7 +11712,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11708,7 +11721,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11717,7 +11730,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11726,7 +11739,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11744,12 +11757,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/softball/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "f41caa0803b38a88303c8c75",
@@ -13029,32 +13042,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/softball/archives",
             "reason": null,
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -13063,7 +13076,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13072,7 +13085,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13081,7 +13094,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13090,7 +13103,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13099,7 +13112,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -13117,12 +13130,12 @@
         "name": "Atlantic Sun Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/womens-beach-volleyball/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "26afa91f213193974b5be5d5",
@@ -14328,24 +14341,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/womens-beach-volleyball/archives",
             "reason": null,
             "recordCount": 100
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/beach-volleyball/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -14354,7 +14367,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14363,7 +14376,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14372,7 +14385,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14381,7 +14394,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14390,7 +14403,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14408,12 +14421,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/womens-cross-country/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "8ae3d701b74eaf0807cba67e",
@@ -14959,24 +14972,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/womens-cross-country/archives",
             "reason": null,
             "recordCount": 45
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -14985,7 +14998,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14994,7 +15007,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15003,7 +15016,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15012,7 +15025,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15021,7 +15034,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15039,12 +15052,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/womens-golf/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "5837543b00529d2cf4197ab9",
@@ -16298,24 +16311,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/womens-golf/archives",
             "reason": null,
             "recordCount": 104
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -16324,7 +16337,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16333,7 +16346,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16342,7 +16355,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16351,7 +16364,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16360,7 +16373,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16378,13 +16391,25 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/womens-soccer/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
+          {
+            "id": "7b84641158ea7551a0a45fed",
+            "title": "Women's Soccer Falls in UAC Championship Quarterfinal",
+            "url": "https://www.ucasports.com/news/2026/11/8/womens-soccer-falls-in-uac-championship-quarterfinal.aspx",
+            "publishedAt": "2026-11-08T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.ucasports.com/images/2026/11/8/Recap_3_.jpg",
+            "imageAlt": "Makenna Adam",
+            "author": null,
+            "publisher": "University of Central Arkansas Athletics",
+            "discoverySourceUrl": "https://www.ucasports.com/sports/womens-soccer/archives"
+          },
           {
             "id": "21cdc5fbf9ddf5a9b1789020",
             "title": "Women's Soccer Earns Postseason Honors",
@@ -17913,32 +17938,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/womens-soccer/archives",
             "reason": null,
-            "recordCount": 127
+            "recordCount": 128
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -17947,7 +17972,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17956,7 +17981,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17965,7 +17990,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17974,7 +17999,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -17983,7 +18008,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18001,12 +18026,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/stunt/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "a0fd506d306296d6bd2b0bc4",
@@ -18348,25 +18373,25 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/stunt/archives",
             "reason": null,
             "recordCount": 28
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           }
         ]
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18375,7 +18400,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18384,7 +18409,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18393,7 +18418,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18402,7 +18427,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18420,12 +18445,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/womens-track-and-field/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "f921f42aa0e8f4833fc3f1c7",
@@ -18911,24 +18936,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/womens-track-and-field/archives",
             "reason": null,
             "recordCount": 40
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -18937,7 +18962,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18946,7 +18971,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18955,7 +18980,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18964,7 +18989,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18973,7 +18998,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18991,12 +19016,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/womens-track-and-field/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "fe2dc1896d6a9e83516fc8da",
@@ -19482,24 +19507,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/womens-track-and-field/archives",
             "reason": null,
             "recordCount": 40
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -19508,7 +19533,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19517,7 +19542,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19526,7 +19551,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19535,7 +19560,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19544,7 +19569,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19562,12 +19587,12 @@
         "name": "United Athletic Conference"
       },
       "news": {
-        "status": "stale",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-        "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+        "lastSuccessAt": "2026-11-09T07:20:27.357Z",
         "sourceUrl": "https://www.ucasports.com/sports/womens-volleyball/archives",
         "season": null,
-        "reason": "one-or-more-news-sources-degraded",
+        "reason": null,
         "records": [
           {
             "id": "d7a8c0717f166c98b503a0f7",
@@ -21193,24 +21218,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ucasports.com/sports/womens-volleyball/archives",
             "reason": null,
             "recordCount": 135
           },
           {
-            "status": "stale",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T15:52:27.339Z",
+            "status": "empty",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
-            "reason": "timeout",
+            "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T21:04:48.205Z",
-            "lastSuccessAt": "2026-11-08T21:04:48.205Z",
+            "lastAttemptAt": "2026-11-09T07:20:27.357Z",
+            "lastSuccessAt": "2026-11-09T07:20:27.357Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -21219,7 +21244,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21228,7 +21253,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21237,7 +21262,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21246,7 +21271,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21255,7 +21280,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T21:04:48.205Z",
+        "lastAttemptAt": "2026-11-09T07:20:27.357Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,

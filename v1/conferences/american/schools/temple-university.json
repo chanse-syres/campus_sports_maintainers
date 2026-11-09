@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.owlsports.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=690"
   },
-  "generatedAt": "2026-11-08T20:37:02.496Z",
+  "generatedAt": "2026-11-09T06:52:17.302Z",
   "sports": {
     "basketball": {
       "sponsored": true,
@@ -25,20 +25,45 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/mens-basketball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "37c4c81be4600068d9e4cc99",
+            "title": "Richmond Spiders vs. Temple Owls: Game Highlights",
+            "url": "https://www.espn.com/video/clip/_/id/50427385/game-highlights",
+            "publishedAt": "2026-11-09T00:19:58.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1109/63af1029-9041-47bf-bea6-8c837aa4d0b6/63af1029-9041-47bf-bea6-8c837aa4d0b6.jpg",
+            "imageAlt": null,
+            "author": null,
+            "publisher": "ESPN",
+            "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100"
+          },
+          {
+            "id": "777d6a4c55edb2e599403de8",
+            "title": "Temple Falls to Richmond at the Palestra",
+            "url": "https://www.owlsports.com/news/2026/11/8/mens-basketball-temple-falls-to-richmond-at-the-palestra",
+            "publishedAt": "2026-11-09T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://owlsports.com/images/2026/11/8/baboucarr.png",
+            "imageAlt": null,
+            "author": null,
+            "publisher": "Temple University Athletics",
+            "discoverySourceUrl": "https://www.owlsports.com/sports/mens-basketball",
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
+          },
           {
             "id": "309459c13d80bacb61ab5437",
             "title": "Game Guide: Richmond (The Palestra)",
             "url": "https://www.owlsports.com/news/2026/11/6/mens-basketball-game-guide-richmond-the-palestra",
             "publishedAt": "2026-11-06T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://owlsports.com/images/2026/11/6/dez_white.png",
-            "imageAlt": null,
+            "imageUrl": "https://www.owlsports.com/images/2026/11/6/dez_white.png",
+            "imageAlt": "Dez White",
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/mens-basketball",
@@ -230,40 +255,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/mens-basketball",
             "reason": null,
-            "recordCount": 15
+            "recordCount": 16
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
-            "recordCount": 0
+            "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -272,7 +297,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -281,7 +306,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -290,7 +315,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -299,7 +324,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -308,7 +333,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -327,8 +352,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/football",
         "season": null,
         "reason": null,
@@ -917,48 +942,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/football",
             "reason": null,
             "recordCount": 42
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 4
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -967,7 +992,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -976,7 +1001,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -985,7 +1010,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -994,7 +1019,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1003,7 +1028,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1022,25 +1047,12 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/womens-basketball",
         "season": null,
         "reason": null,
         "records": [
-          {
-            "id": "d95e7131f0a243ec212e4978",
-            "title": "Owls Erupt for 97 Points in Home-Opening Victory Over Navy",
-            "url": "https://www.owlsports.com/news/2026/11/7/womens-basketball-owls-erupt-for-97-points-in-home-opening-victory-over-navy",
-            "publishedAt": "2026-11-08T00:00:00.000Z",
-            "publishedAtPrecision": "day",
-            "imageUrl": "https://owlsports.com/images/2026/11/7/celly.jpg",
-            "imageAlt": null,
-            "author": null,
-            "publisher": "Temple University Athletics",
-            "discoverySourceUrl": "https://www.owlsports.com/sports/womens-basketball",
-            "metadataCheckedAt": "2026-11-08T06:19:11.604Z"
-          },
           {
             "id": "6933f9b38b2520b0e156d84a",
             "title": "Navy Midshipmen vs. Temple Owls: Game Highlights",
@@ -1052,6 +1064,19 @@
             "author": null,
             "publisher": "ESPN",
             "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100"
+          },
+          {
+            "id": "d95e7131f0a243ec212e4978",
+            "title": "Owls Erupt for 97 Points in Home-Opening Victory Over Navy",
+            "url": "https://www.owlsports.com/news/2026/11/7/womens-basketball-owls-erupt-for-97-points-in-home-opening-victory-over-navy",
+            "publishedAt": "2026-11-07T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.owlsports.com/images/2026/11/7/celly.jpg",
+            "imageAlt": "WBB",
+            "author": null,
+            "publisher": "Temple University Athletics",
+            "discoverySourceUrl": "https://www.owlsports.com/sports/womens-basketball",
+            "metadataCheckedAt": "2026-11-08T06:19:11.604Z"
           },
           {
             "id": "7c2c4859bd66d9b72751ce30",
@@ -1102,7 +1127,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/womens-basketball",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "a80eb964ec296f6a3d439fa8",
@@ -1251,32 +1276,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/womens-basketball",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 2
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1285,7 +1310,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1294,7 +1319,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1303,7 +1328,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1312,7 +1337,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1321,7 +1346,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1340,8 +1365,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/field-hockey",
         "season": null,
         "reason": null,
@@ -1383,7 +1408,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/field-hockey",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "d8d33db8d69c9f21d38ab293",
@@ -1396,7 +1421,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/field-hockey",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "ea003a78b4f9d1292dfe4bb7",
@@ -1474,7 +1499,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/field-hockey",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "3396e8acbb6f34ba46d5ce33",
@@ -1513,7 +1538,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/field-hockey",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "f5bfb56a415599bf36dc415b",
@@ -1552,7 +1577,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/field-hockey",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "8aec5d76d63aa2962c8d9d96",
@@ -1727,24 +1752,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/field-hockey",
             "reason": null,
             "recordCount": 29
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/fieldhockey/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1753,7 +1778,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1762,7 +1787,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1771,7 +1796,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1780,7 +1805,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1789,7 +1814,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1808,8 +1833,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/mens-crew",
         "season": null,
         "reason": null,
@@ -1877,7 +1902,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/mens-crew",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "eb63ce4ea944067f1d61707a",
@@ -1903,7 +1928,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/mens-crew",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "ab7f1deca73bc891cae41fd8",
@@ -1987,16 +2012,16 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/mens-crew",
             "reason": null,
             "recordCount": 13
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2005,7 +2030,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2014,7 +2039,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2023,7 +2048,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2032,7 +2057,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2041,7 +2066,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2060,8 +2085,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/mens-cross-country",
         "season": null,
         "reason": null,
@@ -2265,24 +2290,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/mens-cross-country",
             "reason": null,
             "recordCount": 15
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2291,7 +2316,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2300,7 +2325,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2309,7 +2334,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2318,7 +2343,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2327,7 +2352,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2346,8 +2371,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/mens-golf",
         "season": null,
         "reason": null,
@@ -2389,7 +2414,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/mens-golf",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "bdb31f217d5e60d57757a82b",
@@ -2590,24 +2615,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/mens-golf",
             "reason": null,
             "recordCount": 18
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2616,7 +2641,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2625,7 +2650,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2634,7 +2659,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2643,7 +2668,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2652,7 +2677,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2671,8 +2696,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/mens-soccer",
         "season": null,
         "reason": null,
@@ -2714,7 +2739,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/mens-soccer",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "fe5e2575280f379323c61812",
@@ -2792,7 +2817,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/mens-soccer",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "df515240ad2311dadd4fe862",
@@ -2818,7 +2843,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/mens-soccer",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "8d6d6a883a145776048e96d0",
@@ -2948,7 +2973,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/mens-soccer",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "1c2d5242fbad6598f85ebc61",
@@ -3032,32 +3057,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/mens-soccer",
             "reason": null,
             "recordCount": 27
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3066,7 +3091,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3075,7 +3100,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3084,7 +3109,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3093,7 +3118,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3102,7 +3127,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3121,8 +3146,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/mens-tennis",
         "season": null,
         "reason": null,
@@ -3235,24 +3260,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/mens-tennis",
             "reason": null,
             "recordCount": 8
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3261,7 +3286,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3270,7 +3295,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3279,7 +3304,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3288,7 +3313,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3297,7 +3322,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3316,8 +3341,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/womens-cross-country",
         "season": null,
         "reason": null,
@@ -3612,24 +3637,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/womens-cross-country",
             "reason": null,
             "recordCount": 22
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3638,7 +3663,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3647,7 +3672,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3656,7 +3681,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3665,7 +3690,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3674,7 +3699,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3693,8 +3718,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/womens-fencing",
         "season": null,
         "reason": null,
@@ -3794,24 +3819,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/womens-fencing",
             "reason": null,
             "recordCount": 7
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/fencing/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3820,7 +3845,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3829,7 +3854,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3838,7 +3863,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3847,7 +3872,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3856,7 +3881,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3875,8 +3900,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/womens-gymnastics",
         "season": null,
         "reason": null,
@@ -3963,24 +3988,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/womens-gymnastics",
             "reason": null,
             "recordCount": 6
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/gymnastics-women/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3989,7 +4014,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3998,7 +4023,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4007,7 +4032,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4016,7 +4041,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4025,7 +4050,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4044,8 +4069,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/womens-lacrosse",
         "season": null,
         "reason": null,
@@ -4106,24 +4131,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/womens-lacrosse",
             "reason": null,
             "recordCount": 4
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4132,7 +4157,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4141,7 +4166,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4150,7 +4175,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4159,7 +4184,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4168,7 +4193,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4187,8 +4212,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/womens-crew",
         "season": null,
         "reason": null,
@@ -4256,7 +4281,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/womens-crew",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "d3c85f4bc9a035075dd8b5b4",
@@ -4340,24 +4365,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/womens-crew",
             "reason": null,
             "recordCount": 11
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/rowing/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4366,7 +4391,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4375,7 +4400,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4384,7 +4409,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4393,7 +4418,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4402,7 +4427,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4421,8 +4446,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/womens-soccer",
         "season": null,
         "reason": null,
@@ -4568,7 +4593,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/womens-soccer",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "c69f5b09c6a2a8ad8d20759c",
@@ -4659,7 +4684,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/womens-soccer",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "0a3fb822c0db08600a5d34c8",
@@ -4685,7 +4710,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/womens-soccer",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "0a22bb8c936ec0638b05d30d",
@@ -4737,7 +4762,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/womens-soccer",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "719c04a9f8b9047a1e360bc1",
@@ -4873,32 +4898,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/womens-soccer",
             "reason": null,
             "recordCount": 34
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4907,7 +4932,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4916,7 +4941,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4925,7 +4950,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4934,7 +4959,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4943,7 +4968,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4962,8 +4987,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/womens-tennis",
         "season": null,
         "reason": null,
@@ -5076,24 +5101,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/womens-tennis",
             "reason": null,
             "recordCount": 8
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5102,7 +5127,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5111,7 +5136,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5120,7 +5145,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5129,7 +5154,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5138,7 +5163,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5157,8 +5182,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/womens-track-and-field",
         "season": null,
         "reason": null,
@@ -5219,24 +5244,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/womens-track-and-field",
             "reason": null,
             "recordCount": 4
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5245,7 +5270,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5254,7 +5279,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5263,7 +5288,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5272,7 +5297,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5281,7 +5306,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5300,8 +5325,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/womens-track-and-field",
         "season": null,
         "reason": null,
@@ -5362,24 +5387,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/womens-track-and-field",
             "reason": null,
             "recordCount": 4
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5388,7 +5413,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5397,7 +5422,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5406,7 +5431,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5415,7 +5440,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5424,7 +5449,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5443,8 +5468,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-        "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+        "lastSuccessAt": "2026-11-09T06:52:17.302Z",
         "sourceUrl": "https://www.owlsports.com/sports/womens-volleyball",
         "season": null,
         "reason": null,
@@ -5577,7 +5602,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/womens-volleyball",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "45cd004a5fbcf9d68d046a3e",
@@ -5629,7 +5654,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/womens-volleyball",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "f7a0f6536473c6821d04c3ee",
@@ -5668,7 +5693,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/womens-volleyball",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "dca16f6094ffaebaec67218f",
@@ -5707,7 +5732,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/womens-volleyball",
-            "metadataCheckedAt": "2026-11-02T06:26:22.901Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "b0bb79a428eeb8ad0d5ead1a",
@@ -5863,7 +5888,7 @@
             "author": null,
             "publisher": "Temple University Athletics",
             "discoverySourceUrl": "https://www.owlsports.com/sports/womens-volleyball",
-            "metadataCheckedAt": "2026-11-01T15:18:06.418Z"
+            "metadataCheckedAt": "2026-11-09T06:52:17.302Z"
           },
           {
             "id": "eac3d51641209414f681bb2b",
@@ -5882,24 +5907,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.owlsports.com/sports/womens-volleyball",
             "reason": null,
             "recordCount": 33
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-08T20:37:02.496Z",
-            "lastSuccessAt": "2026-11-08T20:37:02.496Z",
+            "lastAttemptAt": "2026-11-09T06:52:17.302Z",
+            "lastSuccessAt": "2026-11-09T06:52:17.302Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5908,7 +5933,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5917,7 +5942,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5926,7 +5951,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5935,7 +5960,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5944,7 +5969,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-08T20:37:02.496Z",
+        "lastAttemptAt": "2026-11-09T06:52:17.302Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
