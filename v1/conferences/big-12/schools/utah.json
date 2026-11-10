@@ -12,7 +12,7 @@
     "athleticsUrl": "https://utahutes.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=732"
   },
-  "generatedAt": "2026-11-09T18:59:14.568Z",
+  "generatedAt": "2026-11-10T02:51:50.423Z",
   "sports": {
     "baseball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/baseball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "ea3b3d51dc8f2bf63bf679e3",
@@ -347,48 +347,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/baseball",
             "reason": null,
             "recordCount": 24
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/baseball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -397,7 +397,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -406,7 +406,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -415,7 +415,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -424,7 +424,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -433,7 +433,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -451,12 +451,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/mens-basketball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "3ec90e6228b722535d076261",
@@ -1038,56 +1038,56 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/mens-basketball",
             "reason": null,
             "recordCount": 39
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 2
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 2
@@ -1096,7 +1096,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1105,7 +1105,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1114,7 +1114,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1123,7 +1123,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1132,7 +1132,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1150,12 +1150,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/football",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "d90d9a85cc970c4efa8deb2f",
@@ -1171,13 +1171,26 @@
             "metadataCheckedAt": "2026-11-09T18:59:14.568Z"
           },
           {
+            "id": "6b8a4b738dcf2659ae454d2f",
+            "title": "Morgan Scalley Weekly Press Conference: Arizona",
+            "url": "https://utahutes.com/news/2026/11/9/football-morgan-scalley-weekly-press-conference-arizona",
+            "publishedAt": "2026-11-09T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Futahutes.com%2Fimages%2F2026%2F11%2F9%2FScalley_PC.jpg&width=540&height=303.75&type=webp",
+            "imageAlt": "Morgan Scalley",
+            "author": null,
+            "publisher": "University of Utah Athletics",
+            "discoverySourceUrl": "https://utahutes.com/sports/football",
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
+          },
+          {
             "id": "bf0e9da3893435884c2dc656",
             "title": "No. 2 Utah Travels to No. 22 Arizona for Primetime Clash",
             "url": "https://utahutes.com/news/2026/11/9/football-no-2-utah-travels-to-no-22-arizona-for-primetime-clash",
             "publishedAt": "2026-11-09T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://utahutes.com/images/2026/11/9/Web_Preview_at_ARIZ.png",
-            "imageAlt": null,
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Futahutes.com%2Fimages%2F2026%2F11%2F9%2FWeb_Preview_at_ARIZ.png&width=540&height=303.75&type=webp",
+            "imageAlt": "FB Web Preview at Arizona",
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/football",
@@ -1443,7 +1456,7 @@
             "url": "https://utahutes.com/news/2026/11/6/football-dampier-named-to-johnny-unitas-golden-arm-award-top-10",
             "publishedAt": "2026-11-06T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Futahutes.com%2Fimages%2F2026%2F11%2F6%2F103126.UU.FB.atCincinnati.AF.397.JPG&width=540&height=303.75&type=webp",
+            "imageUrl": "https://utahutes.com/images/2026/11/6/103126.UU.FB.atCincinnati.AF.397.JPG",
             "imageAlt": "Dampier at Coloradio",
             "author": null,
             "publisher": "University of Utah Athletics",
@@ -1552,7 +1565,7 @@
             "url": "https://utahutes.com/news/2026/11/5/football-utes-in-the-pros-week-9",
             "publishedAt": "2026-11-05T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Futahutes.com%2Fimages%2F2026%2F11%2F5%2Fimg_tag_reuters.com_2026_newsml_MT1USATODAY30250054_1230453066_rBylK.jpg&width=540&height=303.75&type=webp",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Futahutes.com%2Fimages%2F2026%2F11%2F5%2Fimg_tag_reuters.com_2026_newsml_MT1USATODAY30250054_1230453066_rBylK.jpg&width=913&height=513.5625&type=webp",
             "imageAlt": "Detroit Lions quarterback Jared Goff (16) hands the ball to running back Sione Vaki (33) against Minnesota Vikings during the",
             "author": null,
             "publisher": "University of Utah Athletics",
@@ -1661,7 +1674,7 @@
             "url": "https://utahutes.com/news/2026/11/2/football-elijah-davis-named-big-12-defensive-player-of-the-week",
             "publishedAt": "2026-11-02T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Futahutes.com%2Fimages%2F2026%2F11%2F2%2F103126.UU.FB.atCincinnati.AF.487.JPG&width=913&height=513.5625&type=webp",
+            "imageUrl": "https://utahutes.com/images/2026/11/2/103126.UU.FB.atCincinnati.AF.487.JPG",
             "imageAlt": "Elijah Davis Pick-Six Celebration at Cincinnati",
             "author": null,
             "publisher": "University of Utah Athletics",
@@ -1674,12 +1687,12 @@
             "url": "https://utahutes.com/news/2026/11/2/football-morgan-scalley-weekly-press-conference-byu",
             "publishedAt": "2026-11-02T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://utahutes.com/images/2026/11/2/Scalley.jpg",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Futahutes.com%2Fimages%2F2026%2F11%2F2%2FScalley.jpg&width=913&height=513.5625&type=webp",
             "imageAlt": "Morgan Scalley",
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/football",
-            "metadataCheckedAt": "2026-11-03T02:29:53.393Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "36c14561fffe15928f741cc3",
@@ -1743,19 +1756,6 @@
             "discoverySourceUrl": "https://www.heartlandcollegesports.com/feed/"
           },
           {
-            "id": "1b53fae2d27f817087c0df85",
-            "title": "No. 6 Utah Blows Past Cincinnati, Improves to 8-0",
-            "url": "https://utahutes.com/news/2026/10/31/football-no-6-utah-blows-past-cincinnati-improves-to-8-0",
-            "publishedAt": "2026-11-01T00:00:00.000Z",
-            "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Futahutes.com%2Fimages%2F2026%2F10%2F31%2F103126.UU.FB.vsCincinnati.AF.068.jpeg&width=913&height=513.5625&type=webp",
-            "imageAlt": "Devon Dampier at Cincinnati",
-            "author": null,
-            "publisher": "University of Utah Athletics",
-            "discoverySourceUrl": "https://utahutes.com/sports/football",
-            "metadataCheckedAt": "2026-11-08T15:26:01.885Z"
-          },
-          {
             "id": "686d098b9b395f4a69db4567",
             "title": "Big 12 Football Week 9 Games Ranked: Texas Tech-Arizona Leads Loaded Slate",
             "url": "https://www.heartlandcollegesports.com/2026/10/30/big-12-football-week-9-games-ranked-texas-tech-arizona/",
@@ -1766,6 +1766,19 @@
             "author": "Derek Duke",
             "publisher": "Heartland College Sports",
             "discoverySourceUrl": "https://www.heartlandcollegesports.com/feed/"
+          },
+          {
+            "id": "1b53fae2d27f817087c0df85",
+            "title": "No. 6 Utah Blows Past Cincinnati, Improves to 8-0",
+            "url": "https://utahutes.com/news/2026/10/31/football-no-6-utah-blows-past-cincinnati-improves-to-8-0",
+            "publishedAt": "2026-10-31T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://utahutes.com/images/2026/10/31/103126.UU.FB.vsCincinnati.AF.068.jpeg",
+            "imageAlt": "Devon Dampier at Cincinnati",
+            "author": null,
+            "publisher": "University of Utah Athletics",
+            "discoverySourceUrl": "https://utahutes.com/sports/football",
+            "metadataCheckedAt": "2026-11-08T15:26:01.885Z"
           },
           {
             "id": "721834f1cc0683a326831ed0",
@@ -1875,7 +1888,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/football",
-            "metadataCheckedAt": "2026-11-03T02:29:53.393Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "8b4e788a265e67008b2c7284",
@@ -1888,7 +1901,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/football",
-            "metadataCheckedAt": "2026-11-03T02:29:53.393Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "078875afc436c2332109674c",
@@ -1901,7 +1914,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/football",
-            "metadataCheckedAt": "2026-11-03T02:29:53.393Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "24ae01640c53e3fafd15158f",
@@ -4026,64 +4039,64 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/football",
             "reason": null,
-            "recordCount": 69
+            "recordCount": 70
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
-            "reason": "publisher-feed-filtered-verified-school-and-sport",
+            "reason": "source-format-changed",
             "recordCount": 22
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 16
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 13
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 74
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 39
@@ -4092,7 +4105,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4101,7 +4114,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4110,7 +4123,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4119,7 +4132,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4128,7 +4141,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4146,12 +4159,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/womens-basketball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "a80990e0d220b2c2045f0d8d",
@@ -4596,48 +4609,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/womens-basketball",
             "reason": null,
             "recordCount": 33
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4646,7 +4659,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4655,7 +4668,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4664,7 +4677,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4673,7 +4686,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4682,7 +4695,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4700,12 +4713,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/mens-golf",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "f3fd3562ae2828352572e71c",
@@ -5140,40 +5153,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/mens-golf",
             "reason": null,
             "recordCount": 33
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5182,7 +5195,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5191,7 +5204,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5200,7 +5213,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5209,7 +5222,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5218,7 +5231,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5236,12 +5249,12 @@
         "name": "Atlantic Sun Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/mens-lacrosse",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "aefd5a3a8820638585cc2f41",
@@ -5475,7 +5488,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/mens-lacrosse",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "6b9c380dbbf5ab3357f7fe3c",
@@ -5488,7 +5501,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/mens-lacrosse",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "b5809f5b4b11dda0e435360c",
@@ -5501,7 +5514,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/mens-lacrosse",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "21a97f0cf7cdb5368cb4f350",
@@ -5514,7 +5527,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/mens-lacrosse",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "660ed5d9e3a22ebbcbfbfbb2",
@@ -5527,46 +5540,46 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/mens-lacrosse",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           }
         ],
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/mens-lacrosse",
             "reason": null,
             "recordCount": 22
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5575,7 +5588,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5584,7 +5597,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5593,7 +5606,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5602,7 +5615,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5611,7 +5624,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5629,12 +5642,12 @@
         "name": "Independent"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/ski",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "e39fde1f5c47e7cdb8ad4345",
@@ -5868,7 +5881,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/ski",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "9ac8980be851892b12f3eef2",
@@ -5881,7 +5894,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/ski",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "a981ccb4d071d4f3be46f392",
@@ -5894,46 +5907,46 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/ski",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           }
         ],
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/ski",
             "reason": null,
             "recordCount": 20
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/skiing/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5942,7 +5955,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5951,7 +5964,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5960,7 +5973,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5969,7 +5982,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5978,7 +5991,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5996,12 +6009,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/mens-swimming-and-diving",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "a7523ab6c1d153ba56341465",
@@ -6228,40 +6241,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/mens-swimming-and-diving",
             "reason": null,
             "recordCount": 17
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6270,7 +6283,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6279,7 +6292,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6288,7 +6301,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6297,7 +6310,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6306,7 +6319,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6324,12 +6337,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/mens-tennis",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "fdca65359d854f0aa900333b",
@@ -6582,40 +6595,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/mens-tennis",
             "reason": null,
             "recordCount": 20
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6624,7 +6637,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6633,7 +6646,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6642,7 +6655,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6651,7 +6664,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6660,7 +6673,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6678,12 +6691,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/softball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "bb0cc2a4c4581210393abb41",
@@ -6722,7 +6735,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/softball",
-            "metadataCheckedAt": "2026-11-02T06:30:29.787Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "cd7b3c70fc46a42065d64069",
@@ -6735,7 +6748,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/softball",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "adb5fa5e270d8e9eff4c9ffa",
@@ -6748,7 +6761,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/softball",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "7ad21340dd6367d020a4a715",
@@ -6761,7 +6774,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/softball",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "9b2683af6211fbe0dc65c187",
@@ -6774,7 +6787,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/softball",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "cd0deb8334f20bbb23be5ca0",
@@ -6949,48 +6962,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/softball",
             "reason": null,
             "recordCount": 20
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6999,7 +7012,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7008,7 +7021,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7017,7 +7030,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7026,7 +7039,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7035,7 +7048,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7053,12 +7066,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/cross-country",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "cb843d1005b47af7e162fa98",
@@ -7097,7 +7110,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "fc62579fd6c00e65f4a2f4ad",
@@ -7123,7 +7136,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "312bbc44ab88e86200cb1c99",
@@ -7149,7 +7162,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "a38b7ca8d5a806b3628835ec",
@@ -7162,7 +7175,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "361f318660e99489a9310ee6",
@@ -7175,7 +7188,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "b2683ba60113bade42989972",
@@ -7376,40 +7389,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/cross-country",
             "reason": null,
             "recordCount": 24
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7418,7 +7431,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7427,7 +7440,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7436,7 +7449,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7445,7 +7458,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7454,7 +7467,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7472,12 +7485,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/womens-gymnastics",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "18519bc72f7b6ed00170920a",
@@ -7503,7 +7516,7 @@
             "author": null,
             "publisher": "University of Utah Athletics",
             "discoverySourceUrl": "https://utahutes.com/sports/womens-gymnastics",
-            "metadataCheckedAt": "2026-11-02T18:38:02.484Z"
+            "metadataCheckedAt": "2026-11-10T02:51:50.423Z"
           },
           {
             "id": "7536cf12ad6e65672e9ea4bf",
@@ -7691,40 +7704,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/womens-gymnastics",
             "reason": null,
             "recordCount": 16
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/gymnastics-women/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7733,7 +7746,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7742,7 +7755,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7751,7 +7764,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7760,7 +7773,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7769,7 +7782,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7787,12 +7800,12 @@
         "name": "Independent"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/ski",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "b4088029756bf9fa49b7c85e",
@@ -8058,40 +8071,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/ski",
             "reason": null,
             "recordCount": 20
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/skiing/nc/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8100,7 +8113,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8109,7 +8122,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8118,7 +8131,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8127,7 +8140,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8136,7 +8149,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8154,12 +8167,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/womens-soccer",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "2644de8aa3c2af6431d72af2",
@@ -8719,48 +8732,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/womens-soccer",
             "reason": null,
             "recordCount": 38
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 5
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8769,7 +8782,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8778,7 +8791,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8787,7 +8800,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8796,7 +8809,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8805,7 +8818,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8823,12 +8836,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/womens-swimming-and-diving",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "0db35b555e5adf9f94cbcf15",
@@ -8977,40 +8990,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/womens-swimming-and-diving",
             "reason": null,
             "recordCount": 11
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -9019,7 +9032,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9028,7 +9041,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9037,7 +9050,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9046,7 +9059,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9055,7 +9068,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9073,12 +9086,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/womens-tennis",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "4aa543c0db82145e73b4f359",
@@ -9386,40 +9399,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/womens-tennis",
             "reason": null,
             "recordCount": 23
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -9428,7 +9441,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9437,7 +9450,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9446,7 +9459,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9455,7 +9468,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9464,7 +9477,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9482,12 +9495,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/track-and-field",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "fec4296f65f5e912c8504c76",
@@ -9714,40 +9727,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/track-and-field",
             "reason": null,
             "recordCount": 17
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -9756,7 +9769,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9765,7 +9778,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9774,7 +9787,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9783,7 +9796,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9792,7 +9805,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -9810,12 +9823,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/track-and-field",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "d6488f052a2b7c111ae86cca",
@@ -10042,40 +10055,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/track-and-field",
             "reason": null,
             "recordCount": 17
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10084,7 +10097,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10093,7 +10106,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10102,7 +10115,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10111,7 +10124,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10120,7 +10133,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10138,12 +10151,12 @@
         "name": "Big 12 Conference"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": "2026-11-09T18:59:14.568Z",
         "sourceUrl": "https://utahutes.com/sports/womens-volleyball",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "9a38a412ac77c072530dc127",
@@ -10705,40 +10718,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://utahutes.com/sports/womens-volleyball",
             "reason": null,
             "recordCount": 41
           },
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
             "lastSuccessAt": "2026-11-09T18:59:14.568Z",
             "sourceUrl": "https://dailyutahchronicle.com/category/sports/feed/",
-            "reason": "publisher-feed-filtered-school-and-sport",
+            "reason": "http-403",
             "recordCount": 2
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T18:59:14.568Z",
-            "lastSuccessAt": "2026-11-09T18:59:14.568Z",
+            "lastAttemptAt": "2026-11-10T02:51:50.423Z",
+            "lastSuccessAt": "2026-11-10T02:51:50.423Z",
             "sourceUrl": "https://www.si.com/college/utah/feed",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10747,7 +10760,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10756,7 +10769,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10765,7 +10778,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10774,7 +10787,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10783,7 +10796,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T18:59:14.568Z",
+        "lastAttemptAt": "2026-11-10T02:51:50.423Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,

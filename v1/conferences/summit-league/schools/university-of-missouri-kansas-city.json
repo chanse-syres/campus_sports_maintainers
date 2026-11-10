@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.kcroos.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=2707"
   },
-  "generatedAt": "2026-11-09T19:22:19.647Z",
+  "generatedAt": "2026-11-10T03:12:33.580Z",
   "sports": {
     "basketball": {
       "sponsored": true,
@@ -25,12 +25,37 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/mens-basketball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "cf27085d08fd1f9c71da464a",
+            "title": "UM Kansas City Roos vs. Jacksonville Dolphins: Game Highlights",
+            "url": "https://www.espn.com/video/clip/_/id/50438139/game-highlights",
+            "publishedAt": "2026-11-10T02:23:23.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/a483efa3-fea6-443f-a1ea-0a2cd55acb7c/a483efa3-fea6-443f-a1ea-0a2cd55acb7c.jpg",
+            "imageAlt": null,
+            "author": null,
+            "publisher": "ESPN",
+            "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100"
+          },
+          {
+            "id": "781241d5f72a15363653382d",
+            "title": "Kansas City Falls at Jacksonville, 79-61",
+            "url": "https://www.kcroos.com/news/2026/11/9/mens-basketball-kansas-city-falls-at-jacksonville-79-61",
+            "publishedAt": "2026-11-09T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.kcroos.com/images/2026/11/9/IMG_9543.jpg",
+            "imageAlt": "KCMBB_CARL_AT_CREIGHTON",
+            "author": null,
+            "publisher": "University of Missouri-Kansas City Athletics",
+            "discoverySourceUrl": "https://www.kcroos.com/sports/mens-basketball",
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
+          },
           {
             "id": "bff16f9c7097cef6cb09adec",
             "title": "Kansas City Opens Florida Trip Against Jacksonville",
@@ -529,40 +554,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/mens-basketball",
             "reason": null,
-            "recordCount": 38
+            "recordCount": 39
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
-            "recordCount": 0
+            "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -571,7 +596,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -580,7 +605,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -589,7 +614,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -598,7 +623,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -607,7 +632,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -626,12 +651,37 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/womens-basketball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "33418e4e2d3f0fba91c6c944",
+            "title": "Kansas City Roos vs. Arkansas Razorbacks: Game Highlights",
+            "url": "https://www.espn.com/video/clip/_/id/50438455/game-highlights",
+            "publishedAt": "2026-11-10T02:55:30.000Z",
+            "publishedAtPrecision": "instant",
+            "imageUrl": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/242f9337-ecd2-48c0-8d9e-29d364a98f1a/242f9337-ecd2-48c0-8d9e-29d364a98f1a.jpg",
+            "imageAlt": null,
+            "author": null,
+            "publisher": "ESPN",
+            "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100"
+          },
+          {
+            "id": "0f8fab35be0cdb4f78b1775c",
+            "title": "Roos Battle Arkansas in 89-81 Road Loss",
+            "url": "https://www.kcroos.com/news/2026/11/9/womens-basketball-roos-battle-arkansas-in-89-81-road-loss",
+            "publishedAt": "2026-11-09T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://www.kcroos.com/images/2026/11/9/Arkansas_Shoot_Around-2.jpeg",
+            "imageAlt": "KCWBB_LACEY_AT_ARKANSAS",
+            "author": null,
+            "publisher": "University of Missouri-Kansas City Athletics",
+            "discoverySourceUrl": "https://www.kcroos.com/sports/womens-basketball",
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
+          },
           {
             "id": "3523556cc9ed780f6fb47730",
             "title": "Roos Hit the Road for SEC Showdown at Arkansas",
@@ -682,7 +732,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/womens-basketball",
-            "metadataCheckedAt": "2026-11-03T02:52:16.640Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "b75829ded16f094fe3a6eaf4",
@@ -1143,32 +1193,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/womens-basketball",
             "reason": null,
-            "recordCount": 39
+            "recordCount": 40
           },
           {
-            "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "status": "ok",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
-            "recordCount": 0
+            "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1177,7 +1227,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1186,7 +1236,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1195,7 +1245,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1204,7 +1254,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1213,7 +1263,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1232,8 +1282,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/cross-country",
         "season": null,
         "reason": null,
@@ -1697,24 +1747,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/cross-country",
             "reason": null,
             "recordCount": 35
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1723,7 +1773,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1732,7 +1782,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1741,7 +1791,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1750,7 +1800,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1759,7 +1809,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1778,8 +1828,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/mens-golf",
         "season": null,
         "reason": null,
@@ -1840,24 +1890,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/mens-golf",
             "reason": null,
             "recordCount": 4
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1866,7 +1916,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1875,7 +1925,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1884,7 +1934,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1893,7 +1943,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1902,7 +1952,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1921,8 +1971,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/mens-soccer",
         "season": null,
         "reason": null,
@@ -2107,7 +2157,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/mens-soccer",
-            "metadataCheckedAt": "2026-11-03T02:52:16.640Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "87cb461fd324a49b87b8b06b",
@@ -2276,7 +2326,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/mens-soccer",
-            "metadataCheckedAt": "2026-11-03T02:52:16.640Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "ce6c0faee962040946def205",
@@ -2399,32 +2449,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/mens-soccer",
             "reason": null,
             "recordCount": 36
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2433,7 +2483,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2442,7 +2492,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2451,7 +2501,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2460,7 +2510,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2469,7 +2519,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2488,8 +2538,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -2914,24 +2964,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/track-and-field",
             "reason": null,
             "recordCount": 32
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2940,7 +2990,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2949,7 +2999,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2958,7 +3008,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2967,7 +3017,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2976,7 +3026,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2995,8 +3045,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -3421,24 +3471,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/track-and-field",
             "reason": null,
             "recordCount": 32
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3447,7 +3497,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3456,7 +3506,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3465,7 +3515,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3474,7 +3524,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3483,7 +3533,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3502,8 +3552,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/softball",
         "season": null,
         "reason": null,
@@ -3590,32 +3640,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/softball",
             "reason": null,
             "recordCount": 6
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3624,7 +3674,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3633,7 +3683,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3642,7 +3692,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3651,7 +3701,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3660,7 +3710,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3679,8 +3729,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/cross-country",
         "season": null,
         "reason": null,
@@ -3956,7 +4006,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "38b0e8e89b8157584f374cc5",
@@ -3969,7 +4019,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "c5988b47ea10ca77940f1f34",
@@ -3982,7 +4032,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "600b955dfc4b2669fb363bf3",
@@ -3995,7 +4045,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "d46702e2038bd30ddba13bd4",
@@ -4008,7 +4058,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "c86b25700ffe8964c5886bb9",
@@ -4144,24 +4194,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/cross-country",
             "reason": null,
             "recordCount": 35
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4170,7 +4220,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4179,7 +4229,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4188,7 +4238,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4197,7 +4247,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4206,7 +4256,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4225,8 +4275,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/womens-soccer",
         "season": null,
         "reason": null,
@@ -4424,7 +4474,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/womens-soccer",
-            "metadataCheckedAt": "2026-11-02T06:52:59.003Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "6372b2bd9f2dce86697dfecc",
@@ -4463,7 +4513,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/womens-soccer",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "8b18b4b0466268b83940963e",
@@ -4476,7 +4526,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/womens-soccer",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "a42b20771dbd3a43d5dcd827",
@@ -4489,7 +4539,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/womens-soccer",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "73cd9dda0d7f4ef5b89a1765",
@@ -4502,7 +4552,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/womens-soccer",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "ce621e19ee5540d99f8439b5",
@@ -4573,32 +4623,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/womens-soccer",
             "reason": null,
             "recordCount": 26
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4607,7 +4657,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4616,7 +4666,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4625,7 +4675,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4634,7 +4684,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4643,7 +4693,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4662,8 +4712,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/womens-tennis",
         "season": null,
         "reason": null,
@@ -4679,7 +4729,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/womens-tennis",
-            "metadataCheckedAt": "2026-11-03T02:52:16.640Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "c797e87203bd4b5a2907a313",
@@ -4796,7 +4846,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/womens-tennis",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "65f1939b22f22bc5407487c2",
@@ -4809,7 +4859,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/womens-tennis",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "0fb5e60d624852d1afcfb15d",
@@ -4822,7 +4872,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/womens-tennis",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "609bc293c6ab7d994400de6d",
@@ -4835,7 +4885,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/womens-tennis",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "bd8419a7b6525b9ec1d22f5e",
@@ -5127,24 +5177,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/womens-tennis",
             "reason": null,
             "recordCount": 35
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5153,7 +5203,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5162,7 +5212,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5171,7 +5221,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5180,7 +5230,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5189,7 +5239,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5208,8 +5258,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -5251,7 +5301,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/track-and-field",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "c0ec58c4f2d530221fc5e6a5",
@@ -5277,7 +5327,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/track-and-field",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "721786eafc6bb58b42034936",
@@ -5316,7 +5366,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/track-and-field",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "6bdeaa45fecaf1a5c2d72d22",
@@ -5342,7 +5392,7 @@
             "author": null,
             "publisher": "University of Missouri-Kansas City Athletics",
             "discoverySourceUrl": "https://www.kcroos.com/sports/track-and-field",
-            "metadataCheckedAt": "2026-11-02T19:02:54.641Z"
+            "metadataCheckedAt": "2026-11-10T03:12:33.580Z"
           },
           {
             "id": "2c5239b58a678dc8405db374",
@@ -5634,24 +5684,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/track-and-field",
             "reason": null,
             "recordCount": 32
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5660,7 +5710,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5669,7 +5719,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5678,7 +5728,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5687,7 +5737,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5696,7 +5746,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5715,8 +5765,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -6134,24 +6184,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/track-and-field",
             "reason": null,
             "recordCount": 32
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6160,7 +6210,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6169,7 +6219,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6178,7 +6228,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6187,7 +6237,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6196,7 +6246,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6215,8 +6265,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-        "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+        "lastSuccessAt": "2026-11-10T03:12:33.580Z",
         "sourceUrl": "https://www.kcroos.com/sports/womens-volleyball",
         "season": null,
         "reason": null,
@@ -6459,24 +6509,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.kcroos.com/sports/womens-volleyball",
             "reason": null,
             "recordCount": 18
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-09T19:22:19.647Z",
-            "lastSuccessAt": "2026-11-09T19:22:19.647Z",
+            "lastAttemptAt": "2026-11-10T03:12:33.580Z",
+            "lastSuccessAt": "2026-11-10T03:12:33.580Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6485,7 +6535,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6494,7 +6544,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6503,7 +6553,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6512,7 +6562,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6521,7 +6571,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-09T19:22:19.647Z",
+        "lastAttemptAt": "2026-11-10T03:12:33.580Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
