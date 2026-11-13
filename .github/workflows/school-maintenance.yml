@@ -2,10 +2,10 @@ name: Maintain Texas and Oregon State
 
 on:
   schedule:
-    - cron: '15 * * * *'
-    - cron: '45 9,15,21 * * *'
-    - cron: '0 12 * * *'
-    - cron: '30 12 * * *'
+    - cron: '19 * * * *'
+    - cron: '37 11,17,23 * * *'
+    - cron: '7 12 * * *'
+    - cron: '43 12 * * *'
   workflow_dispatch:
     inputs:
       lane:
@@ -37,10 +37,10 @@ jobs:
           set -euo pipefail
           if [[ "$GITHUB_EVENT_NAME" == schedule ]]; then
             case "$SCHEDULE" in
-              '15 * * * *') lane=texas-news ;;
-              '45 9,15,21 * * *') lane=osu-news ;;
-              '0 12 * * *') lane=osu-sports ;;
-              '30 12 * * *') lane=texas-sports ;;
+              '19 * * * *') lane=texas-news ;;
+              '37 11,17,23 * * *') lane=osu-news ;;
+              '7 12 * * *') lane=osu-sports ;;
+              '43 12 * * *') lane=texas-sports ;;
               *) exit 1 ;;
             esac
           else
