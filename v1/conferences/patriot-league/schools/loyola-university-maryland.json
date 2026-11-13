@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.loyolagreyhounds.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=369"
   },
-  "generatedAt": "2026-11-13T01:30:08.945Z",
+  "generatedAt": "2026-11-13T12:39:41.235Z",
   "sports": {
     "basketball": {
       "sponsored": true,
@@ -24,12 +24,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/mens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "d3cb9f493e0d42bbff5cf94b",
@@ -120,7 +120,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "7c322c441c36ede70ca6f3d8",
@@ -1082,7 +1082,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-11-05T22:28:02.971Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "db9d83870dd18143ce2599f1",
@@ -1095,7 +1095,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "b7e4a9f80ba6c50582565027",
@@ -1108,7 +1108,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "fc76be3e0f8348f658c468d1",
@@ -1121,7 +1121,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/mens-basketball/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "ce400f479c47b8776a7e25ab",
@@ -1438,41 +1438,41 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/mens-basketball/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 108
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1481,7 +1481,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1490,7 +1490,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1499,7 +1499,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1508,7 +1508,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1517,7 +1517,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1535,12 +1535,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-basketball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "bdf06218ec05837c4e940c94",
@@ -2643,7 +2643,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-11-05T22:28:02.971Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "e0538538fdb60728ea1ce3a5",
@@ -2656,7 +2656,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-11-05T22:28:02.971Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "40ddba56ff971ee04f53f4e1",
@@ -2669,7 +2669,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "48aad594f88c797b697a3b6d",
@@ -2682,7 +2682,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "c762fcaa2edd87b388c2fb76",
@@ -2695,7 +2695,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/womens-basketball/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "f0baaeb2e82f4e745459bc8a",
@@ -2934,33 +2934,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-basketball/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 105
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 2
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2969,7 +2969,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2978,7 +2978,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2987,7 +2987,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2996,7 +2996,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3005,7 +3005,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3023,12 +3023,12 @@
         "name": "Independent"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/rowing/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "60271b3a34512a95980a08c6",
@@ -3210,7 +3210,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/rowing/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "8ae82029245151ddab1764c6",
@@ -3223,7 +3223,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/rowing/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "eafe2f2c457b427605d4244c",
@@ -3236,7 +3236,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/rowing/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "b043c8a9f71bcd69cc325990",
@@ -3249,7 +3249,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/rowing/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "9b6136b9fc8ed2411568e6df",
@@ -3262,7 +3262,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/rowing/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "241ddc2018839a03e472717f",
@@ -4333,17 +4333,17 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/rowing/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4352,7 +4352,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4361,7 +4361,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4370,7 +4370,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4379,7 +4379,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4388,7 +4388,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4406,12 +4406,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/cross-country/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "2c3a2831e8d39595bbda578e",
@@ -4567,7 +4567,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "f5893b8eb3df0390cc182be5",
@@ -4580,7 +4580,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "3553ed616dd63b40efaf02f2",
@@ -4593,7 +4593,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "5671a033d91b479bb97c9021",
@@ -4606,7 +4606,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "5f6b4e69b571262057ac128b",
@@ -4619,7 +4619,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/cross-country/archives",
-            "metadataCheckedAt": "2026-11-06T07:19:06.966Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "d124e096a9b694f612aaa8b0",
@@ -5599,25 +5599,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/cross-country/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 91
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5626,7 +5626,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5635,7 +5635,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5644,7 +5644,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5653,7 +5653,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5662,7 +5662,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5680,12 +5680,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/mens-golf/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "f09d8f9701426f81e78e7a13",
@@ -6647,7 +6647,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/mens-golf/archives",
-            "metadataCheckedAt": "2026-11-05T01:15:15.087Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "bdbed9ea63e41f79905b67d7",
@@ -6660,7 +6660,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/mens-golf/archives",
-            "metadataCheckedAt": "2026-11-05T12:52:14.313Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "9e2ec613d6a217fbff5c5fd5",
@@ -6673,7 +6673,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/mens-golf/archives",
-            "metadataCheckedAt": "2026-11-05T12:52:14.313Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "0543963ea7d9e731bea2c001",
@@ -6686,7 +6686,7 @@
             "author": null,
             "publisher": "Loyola University Maryland Athletics",
             "discoverySourceUrl": "https://www.loyolagreyhounds.com/sports/mens-golf/archives",
-            "metadataCheckedAt": "2026-11-05T22:28:02.971Z"
+            "metadataCheckedAt": "2026-11-13T12:39:41.235Z"
           },
           {
             "id": "2486aa082819e28b24c389eb",
@@ -7198,25 +7198,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/mens-golf/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 116
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/golf-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -7225,7 +7225,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7234,7 +7234,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7243,7 +7243,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7252,7 +7252,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7261,7 +7261,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -7279,12 +7279,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/mens-lacrosse/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "08341207b30810a47eede70b",
@@ -8589,25 +8589,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/mens-lacrosse/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 100
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -8616,7 +8616,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8625,7 +8625,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8634,7 +8634,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8643,7 +8643,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8652,7 +8652,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -8670,12 +8670,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/mens-soccer/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "cca46910995b9dad65f9827a",
@@ -10279,33 +10279,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/mens-soccer/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 123
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -10314,7 +10314,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10323,7 +10323,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10332,7 +10332,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10341,7 +10341,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10350,7 +10350,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -10368,12 +10368,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/swimming-and-diving/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "d561c385ad9f754efedf1b53",
@@ -11681,25 +11681,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/swimming-and-diving/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 107
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -11708,7 +11708,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11717,7 +11717,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11726,7 +11726,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11735,7 +11735,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11744,7 +11744,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -11762,12 +11762,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/mens-tennis/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "05dc787a473d695ee71bdf5e",
@@ -12838,25 +12838,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/mens-tennis/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 82
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -12865,7 +12865,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12874,7 +12874,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12883,7 +12883,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12892,7 +12892,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12901,7 +12901,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -12919,12 +12919,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/cross-country/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "0002bc4f1a308ae47c87afce",
@@ -14144,25 +14144,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/cross-country/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 101
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -14171,7 +14171,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14180,7 +14180,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14189,7 +14189,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14198,7 +14198,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14207,7 +14207,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -14225,12 +14225,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-lacrosse/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "49a30d032664f78622d1416d",
@@ -15547,25 +15547,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-lacrosse/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 101
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/lacrosse-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -15574,7 +15574,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15583,7 +15583,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15592,7 +15592,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15601,7 +15601,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15610,7 +15610,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -15628,12 +15628,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/rowing/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "541ceb9a2fcc48c5f14b4aea",
@@ -16850,25 +16850,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/rowing/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 101
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/rowing/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -16877,7 +16877,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16886,7 +16886,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16895,7 +16895,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16904,7 +16904,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16913,7 +16913,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -16931,12 +16931,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-soccer/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "8d6c46784b031d69e71dd253",
@@ -18502,33 +18502,33 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-soccer/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 122
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -18537,7 +18537,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18546,7 +18546,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18555,7 +18555,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18564,7 +18564,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18573,7 +18573,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -18591,12 +18591,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/swimming-and-diving/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "a1da2f8afd83244e6fab7d77",
@@ -19885,25 +19885,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/swimming-and-diving/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 107
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -19912,7 +19912,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19921,7 +19921,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19930,7 +19930,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19939,7 +19939,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19948,7 +19948,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -19966,12 +19966,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-tennis/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "4f3da773bed917bb390f8441",
@@ -20957,25 +20957,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-tennis/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 77
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -20984,7 +20984,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -20993,7 +20993,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21002,7 +21002,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21011,7 +21011,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21020,7 +21020,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -21038,12 +21038,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "f02ddd4420b4b30e57a1d597",
@@ -22270,25 +22270,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-track-and-field/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 101
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -22297,7 +22297,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22306,7 +22306,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22315,7 +22315,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22324,7 +22324,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22333,7 +22333,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -22351,12 +22351,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-track-and-field/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "86259116d5e556063c9e270c",
@@ -23573,25 +23573,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-track-and-field/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 101
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -23600,7 +23600,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23609,7 +23609,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23618,7 +23618,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23627,7 +23627,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23636,7 +23636,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -23654,12 +23654,12 @@
         "name": "Patriot League"
       },
       "news": {
-        "status": "ok",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": "2026-11-13T01:30:08.945Z",
         "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-volleyball/archives",
         "season": null,
-        "reason": null,
+        "reason": "one-or-more-news-sources-degraded",
         "records": [
           {
             "id": "72ff209d5e05d6a8cbfc5f19",
@@ -25164,25 +25164,25 @@
         ],
         "sources": [
           {
-            "status": "ok",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+            "status": "stale",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
             "lastSuccessAt": "2026-11-13T01:30:08.945Z",
             "sourceUrl": "https://www.loyolagreyhounds.com/sports/womens-volleyball/archives",
-            "reason": null,
+            "reason": "network-error",
             "recordCount": 125
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T01:30:08.945Z",
-            "lastSuccessAt": "2026-11-13T01:30:08.945Z",
+            "lastAttemptAt": "2026-11-13T12:39:41.235Z",
+            "lastSuccessAt": "2026-11-13T12:39:41.235Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -25191,7 +25191,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25200,7 +25200,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25209,7 +25209,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25218,7 +25218,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -25227,7 +25227,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T01:30:08.945Z",
+        "lastAttemptAt": "2026-11-13T12:39:41.235Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
