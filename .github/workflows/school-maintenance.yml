@@ -126,19 +126,37 @@ jobs:
           count=$(git rev-list --count "$BASELINE..HEAD")
           if (( count > 0 )); then
             [[ -n "$PRIVATE_APP_TOKEN" ]]
-            authorization=$(printf 'x-access-token:%s' "$PRIVATE_APP_TOKEN" | base64 -w0)
-            echo "::add-mask::$authorization"
-            unset PRIVATE_APP_TOKEN
-            export GIT_TERMINAL_PROMPT=0 GIT_CONFIG_COUNT=1
-            export GIT_CONFIG_KEY_0=http.https://github.com/.extraheader
-            export GIT_CONFIG_VALUE_0="Authorization: Basic $authorization"
-            remote=https://github.com/Chanses-Org/osu-recruiting-app-private.git
-            # A normal push fails on a concurrent update. Never replay an unverified tree.
-            if ! git -c core.hooksPath=/dev/null push "$remote" HEAD:refs/heads/main >> "$capture_log" 2>&1; then
-              echo '::error::Private publication failed. A newer main may require a fresh run.'
+            umask 077
+            push_log=$(mktemp "$RUNNER_TEMP/private-school-push.XXXXXXXX")
+            askpass=$(mktemp "$RUNNER_TEMP/private-school-auth.XXXXXXXX")
+            trap 'rm -f -- "$askpass" "$push_log"' EXIT
+            cat > "$askpass" <<'SH'
+          #!/bin/sh
+          case "$1" in
+            *Username*) printf '%s\n' 'x-access-token' ;;
+            *Password*) printf '%s\n' "$PRIVATE_APP_TOKEN" ;;
+            *) exit 1 ;;
+          esac
+          SH
+            chmod 700 "$askpass"
+            export GIT_TERMINAL_PROMPT=0 GIT_ASKPASS="$askpass"
+            remote=https://x-access-token@github.com/Chanses-Org/osu-recruiting-app-private.git
+            if ! git -c credential.helper= -c http.extraHeader= -c core.hooksPath=/dev/null \
+              push "$remote" HEAD:refs/heads/main > "$push_log" 2>&1; then
+              if grep -Eqi 'non-fast-forward|fetch first|cannot lock ref' "$push_log"; then
+                echo '::error::Private main advanced during collection. Start a new run.'
+              elif grep -Eqi 'authentication failed|could not read (username|password)|repository not found|401' "$push_log"; then
+                echo '::error::Git could not authenticate to the private repository.'
+              elif grep -Eqi 'permission|denied|403|write access' "$push_log"; then
+                echo '::error::GitHub denied the private repository push.'
+              elif grep -Eqi 'remote rejected|pre-receive hook|GH00[1-9]|GH013' "$push_log"; then
+                echo '::error::A GitHub repository rule rejected the private data update.'
+              else
+                echo '::error::Git could not publish the private update.'
+              fi
               exit 1
             fi
-            remote_head=$(git ls-remote "$remote" refs/heads/main 2>> "$capture_log" | cut -f1)
+            remote_head=$(git -c credential.helper= -c http.extraHeader= ls-remote "$remote" refs/heads/main 2>> "$capture_log" | cut -f1)
             [[ "$remote_head" == "$(git rev-parse HEAD)" ]]
           fi
           printf 'count=%s\n' "$count" >> "$GITHUB_OUTPUT"
@@ -150,7 +168,7 @@ jobs:
           PUBLISHED_COUNT: ${{ steps.publish.outputs.count }}
         run: |
           printf 'School job: %s\n\nValidated commits published: %s\n' "${LANE:-unknown}" "${PUBLISHED_COUNT:-0}" >> "$GITHUB_STEP_SUMMARY"
-          if [[ "$COLLECT_STATUS" != 0 ]]; then
-            echo '::error::The private maintainer reported an incomplete source or validation stage.'
+          if [[ "$COLLECT_STATUS" != 0 || -z "$PUBLISHED_COUNT" ]]; then
+            echo '::error::The private maintainer did not complete collection and publication.'
             exit 1
           fi
