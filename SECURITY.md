@@ -8,6 +8,8 @@ Collectors use fixed reviewed HTTPS hosts. They reject URL credentials, signed a
 
 Publication accepts only complete conference bundles with exact catalog identities, closed JSON schemas, expected paths, checksums, bounded sizes, and consistent generation times. It rejects symlinks and hardlinks. Updates to the data branch are atomic and non-forced. Source collection receives no write token; the trusted publication job receives only the repository permissions needed to update public data. Third-party Actions are pinned to commit hashes.
 
+The Texas and Oregon State schedule uses a separate GitHub App installed only on the private app repository. Store its signing key in the `private-school-publisher` environment restricted to `main`. The workflow checks out with a short-lived read token and requests a separate contents-write token only after validation. The private checkout, logs, and data changes stay out of public commits, caches, and artifacts. Keep site and database credentials out of this environment.
+
 Repository controls enable secret scanning, push protection, dependency alerts, automated security updates, and private vulnerability reporting. Main-branch protection requires validation, CodeQL checks, and owner review for normal pull requests, with force pushes and deletion disabled. Repository administrators retain their administrative authority. Actions policy allows GitHub-owned actions and the explicitly listed official CodeQL action; arbitrary Marketplace actions are excluded.
 
 ## Operating rules

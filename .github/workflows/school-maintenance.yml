@@ -1,0 +1,156 @@
+name: Maintain Texas and Oregon State
+
+on:
+  schedule:
+    - cron: '15 * * * *'
+    - cron: '45 9,15,21 * * *'
+    - cron: '0 12 * * *'
+    - cron: '30 12 * * *'
+  workflow_dispatch:
+    inputs:
+      lane:
+        description: School maintenance job to run
+        type: choice
+        required: true
+        options: [texas-news, osu-news, osu-sports, texas-sports]
+
+permissions: {}
+
+concurrency:
+  group: private-school-data-writer
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  maintain:
+    if: github.repository == 'chanse-syres/campus_sports_maintainers' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 100
+    environment: private-school-publisher
+    steps:
+      - name: Select the school job
+        id: lane
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          REQUESTED_LANE: ${{ inputs.lane }}
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_EVENT_NAME" == schedule ]]; then
+            case "$SCHEDULE" in
+              '15 * * * *') lane=texas-news ;;
+              '45 9,15,21 * * *') lane=osu-news ;;
+              '0 12 * * *') lane=osu-sports ;;
+              '30 12 * * *') lane=texas-sports ;;
+              *) exit 1 ;;
+            esac
+          else
+            lane="$REQUESTED_LANE"
+          fi
+          case "$lane" in texas-news|osu-news|osu-sports|texas-sports) ;; *) exit 1 ;; esac
+          printf 'name=%s\n' "$lane" >> "$GITHUB_OUTPUT"
+      - name: Authorize private checkout
+        id: reader
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        with:
+          client-id: ${{ vars.PRIVATE_APP_CLIENT_ID }}
+          private-key: ${{ secrets.PRIVATE_APP_SIGNING_KEY }}
+          owner: Chanses-Org
+          repositories: osu-recruiting-app-private
+          permission-contents: read
+      - name: Check out the private app
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Chanses-Org/osu-recruiting-app-private
+          ref: main
+          token: ${{ steps.reader.outputs.token }}
+          persist-credentials: false
+          fetch-depth: 1
+          path: private-app
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Run private collection and validation
+        id: collect
+        working-directory: private-app
+        env:
+          LANE: ${{ steps.lane.outputs.name }}
+        run: |
+          set -euo pipefail
+          umask 077
+          capture_log="$RUNNER_TEMP/private-school-maintainer.log"
+          baseline=$(git rev-parse HEAD)
+          printf 'baseline=%s\n' "$baseline" >> "$GITHUB_OUTPUT"
+          if [[ "$LANE" != texas-news ]]; then
+            if ! npm ci --ignore-scripts > "$capture_log" 2>&1; then
+              echo '::error::Private maintainer dependency installation failed.'
+              exit 1
+            fi
+          fi
+          result=0
+          env -u GITHUB_STEP_SUMMARY -u GITHUB_OUTPUT -u GITHUB_ENV -u GITHUB_PATH \
+            bash scripts/run-migrated-school-maintenance.sh "$LANE" >> "$capture_log" 2>&1 || result=$?
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo '::error::Private collector left unvalidated changes.'
+            exit 1
+          fi
+          count=$(git rev-list --count "$baseline..HEAD")
+          marker=$(tail -n 1 "$capture_log")
+          if [[ "$result" != 0 && "$result" != 1 ]] || [[ "$marker" != "[maintenance] lane=$LANE commits=$count incomplete=$result" ]]; then
+            echo '::error::Private collector did not complete its validation protocol.'
+            exit 1
+          fi
+          printf 'finished=true\nstatus=%s\ncount=%s\n' "$result" "$count" >> "$GITHUB_OUTPUT"
+      - name: Authorize private publication
+        id: writer
+        if: steps.collect.outputs.finished == 'true' && steps.collect.outputs.count != '0'
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        with:
+          client-id: ${{ vars.PRIVATE_APP_CLIENT_ID }}
+          private-key: ${{ secrets.PRIVATE_APP_SIGNING_KEY }}
+          owner: Chanses-Org
+          repositories: osu-recruiting-app-private
+          permission-contents: write
+      - name: Publish validated commits to the private app
+        id: publish
+        if: steps.collect.outputs.finished == 'true'
+        working-directory: private-app
+        env:
+          BASELINE: ${{ steps.collect.outputs.baseline }}
+          PRIVATE_APP_TOKEN: ${{ steps.writer.outputs.token }}
+        run: |
+          set -euo pipefail
+          capture_log="$RUNNER_TEMP/private-school-maintainer.log"
+          [[ "$BASELINE" =~ ^[0-9a-f]{40}$ ]]
+          git merge-base --is-ancestor "$BASELINE" HEAD
+          count=$(git rev-list --count "$BASELINE..HEAD")
+          if (( count > 0 )); then
+            [[ -n "$PRIVATE_APP_TOKEN" ]]
+            authorization=$(printf 'x-access-token:%s' "$PRIVATE_APP_TOKEN" | base64 -w0)
+            echo "::add-mask::$authorization"
+            unset PRIVATE_APP_TOKEN
+            export GIT_TERMINAL_PROMPT=0 GIT_CONFIG_COUNT=1
+            export GIT_CONFIG_KEY_0=http.https://github.com/.extraheader
+            export GIT_CONFIG_VALUE_0="Authorization: Basic $authorization"
+            remote=https://github.com/Chanses-Org/osu-recruiting-app-private.git
+            # A normal push fails on a concurrent update. Never replay an unverified tree.
+            if ! git -c core.hooksPath=/dev/null push "$remote" HEAD:refs/heads/main >> "$capture_log" 2>&1; then
+              echo '::error::Private publication failed. A newer main may require a fresh run.'
+              exit 1
+            fi
+            remote_head=$(git ls-remote "$remote" refs/heads/main 2>> "$capture_log" | cut -f1)
+            [[ "$remote_head" == "$(git rev-parse HEAD)" ]]
+          fi
+          printf 'count=%s\n' "$count" >> "$GITHUB_OUTPUT"
+      - name: Report maintenance result
+        if: always()
+        env:
+          LANE: ${{ steps.lane.outputs.name }}
+          COLLECT_STATUS: ${{ steps.collect.outputs.status }}
+          PUBLISHED_COUNT: ${{ steps.publish.outputs.count }}
+        run: |
+          printf 'School job: %s\n\nValidated commits published: %s\n' "${LANE:-unknown}" "${PUBLISHED_COUNT:-0}" >> "$GITHUB_STEP_SUMMARY"
+          if [[ "$COLLECT_STATUS" != 0 ]]; then
+            echo '::error::The private maintainer reported an incomplete source or validation stage.'
+            exit 1
+          fi
