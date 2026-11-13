@@ -1,4 +1,5 @@
 name: Maintain Texas and Oregon State
+run-name: ${{ github.event_name == 'schedule' && format('School schedule {0}', github.event.schedule) || (inputs.scheduled_slot != '' && format('School catch-up {0} {1}', inputs.lane, inputs.scheduled_slot) || format('School manual {0}', inputs.lane)) }}
 
 on:
   schedule:
@@ -13,6 +14,11 @@ on:
         type: choice
         required: true
         options: [texas-news, osu-news, osu-sports, texas-sports]
+      scheduled_slot:
+        description: UTC slot used by the schedule fallback
+        type: string
+        required: false
+        default: ''
 
 permissions: {}
 
