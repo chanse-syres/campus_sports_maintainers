@@ -27,8 +27,6 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 100
     environment: private-school-publisher
-    env:
-      CAPTURE_LOG: ${{ runner.temp }}/private-school-maintainer.log
     steps:
       - name: Select the school job
         id: lane
@@ -71,18 +69,26 @@ jobs:
         run: |
           set -euo pipefail
           umask 077
-          printf 'baseline=%s\n' "$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          capture_log="$RUNNER_TEMP/private-school-maintainer.log"
+          baseline=$(git rev-parse HEAD)
+          printf 'baseline=%s\n' "$baseline" >> "$GITHUB_OUTPUT"
           if [[ "$LANE" != texas-news ]]; then
-            if ! npm ci --ignore-scripts > "$CAPTURE_LOG" 2>&1; then
+            if ! npm ci --ignore-scripts > "$capture_log" 2>&1; then
               echo '::error::Private maintainer dependency installation failed.'
               exit 1
             fi
           fi
           result=0
           env -u GITHUB_STEP_SUMMARY -u GITHUB_OUTPUT -u GITHUB_ENV -u GITHUB_PATH \
-            bash scripts/run-migrated-school-maintenance.sh "$LANE" >> "$CAPTURE_LOG" 2>&1 || result=$?
+            bash scripts/run-migrated-school-maintenance.sh "$LANE" >> "$capture_log" 2>&1 || result=$?
           if [[ -n "$(git status --porcelain)" ]]; then
             echo '::error::Private collector left unvalidated changes.'
+            exit 1
+          fi
+          count=$(git rev-list --count "$baseline..HEAD")
+          marker=$(tail -n 1 "$capture_log")
+          if [[ "$result" != 0 && "$result" != 1 ]] || [[ "$marker" != "[maintenance] lane=$LANE commits=$count incomplete=$result" ]]; then
+            echo '::error::Private collector did not complete its validation protocol.'
             exit 1
           fi
           printf 'finished=true\nstatus=%s\n' "$result" >> "$GITHUB_OUTPUT"
@@ -95,6 +101,7 @@ jobs:
           PRIVATE_APP_DEPLOY_KEY: ${{ secrets.PRIVATE_APP_DEPLOY_KEY }}
         run: |
           set -euo pipefail
+          capture_log="$RUNNER_TEMP/private-school-maintainer.log"
           [[ "$BASELINE" =~ ^[0-9a-f]{40}$ ]]
           git merge-base --is-ancestor "$BASELINE" HEAD
           count=$(git rev-list --count "$BASELINE..HEAD")
@@ -108,11 +115,11 @@ jobs:
             export GIT_SSH_COMMAND="ssh -F /dev/null -i $ssh_dir/key -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$ssh_dir/known_hosts"
             remote=git@github.com:Chanses-Org/osu-recruiting-app-private.git
             # A normal push fails on a concurrent update. Never replay an unverified tree.
-            if ! git -c core.hooksPath=/dev/null push "$remote" HEAD:refs/heads/main >> "$CAPTURE_LOG" 2>&1; then
+            if ! git -c core.hooksPath=/dev/null push "$remote" HEAD:refs/heads/main >> "$capture_log" 2>&1; then
               echo '::error::Private publication failed. A newer main may require a fresh run.'
               exit 1
             fi
-            remote_head=$(git ls-remote "$remote" refs/heads/main 2>> "$CAPTURE_LOG" | cut -f1)
+            remote_head=$(git ls-remote "$remote" refs/heads/main 2>> "$capture_log" | cut -f1)
             [[ "$remote_head" == "$(git rev-parse HEAD)" ]]
           fi
           printf 'count=%s\n' "$count" >> "$GITHUB_OUTPUT"
