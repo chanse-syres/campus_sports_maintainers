@@ -12,7 +12,7 @@
     "athleticsUrl": "https://www.ubbulls.com/",
     "membershipSourceUrl": "https://web3.ncaa.org/directory/orgDetail?id=86"
   },
-  "generatedAt": "2026-11-13T20:05:58.359Z",
+  "generatedAt": "2026-11-14T01:06:43.803Z",
   "sports": {
     "basketball": {
       "sponsored": true,
@@ -25,19 +25,31 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/mens-basketball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "498cbb99426c3c09eb7b22c9",
+            "title": "Bulls Host Canisius for Sunday Slate",
+            "url": "https://www.ubbulls.com/news/2026/11/13/mens-basketball-bulls-host-canisius-for-sunday-slate",
+            "publishedAt": "2026-11-13T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fubbulls.com%2Fimages%2F2026%2F11%2F11%2FBUTELIAUSKAS-20261109mbb-2614-web.jpg&width=540&height=304&type=webp",
+            "imageAlt": "BUTELIAUSKAS",
+            "author": "Zach Monell",
+            "publisher": "University at Buffalo, the State University of New York Athletics",
+            "discoverySourceUrl": "https://www.ubbulls.com/sports/mens-basketball"
+          },
           {
             "id": "516f2876b296c4fdbc6ff143",
             "title": "Men’s Basketball Adds a Pair of Signees on National Signing Day",
             "url": "https://www.ubbulls.com/news/2026/11/11/mens-basketball-mens-basketball-adds-a-pair-of-signees-on-national-signing-day",
             "publishedAt": "2026-11-11T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fubbulls.com%2Fimages%2F2026%2F11%2F11%2FSigned_MBB_WEB.jpg&width=540&height=304&type=webp",
+            "imageUrl": "https://www.ubbulls.com/images/2026/11/11/Signed_MBB_WEB.jpg",
             "imageAlt": "MBB 2026 NSD",
             "author": "Zach Monell",
             "publisher": "University at Buffalo, the State University of New York Athletics",
@@ -260,7 +272,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/mens-basketball",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "3f9162e3c21dd82faf2e4525",
@@ -362,40 +374,40 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/mens-basketball",
             "reason": null,
-            "recordCount": 26
+            "recordCount": 27
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -404,7 +416,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -413,7 +425,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -422,7 +434,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -431,7 +443,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -440,7 +452,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -459,8 +471,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/football",
         "season": null,
         "reason": null,
@@ -471,12 +483,25 @@
             "url": "https://www.ubbulls.com/news/2026/11/13/football-bulls-host-central-michigan-in-home-finale-on-wednesday",
             "publishedAt": "2026-11-13T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fubbulls.com%2Fimages%2F2026%2F10%2F3%2FKIDS_HIGH-FIVE_TUNNEL-20261003fb-3137-web.jpg&width=540&height=304&type=webp",
-            "imageAlt": "YOUNG UB FANS HIGH-FIVE THE TEAM",
+            "imageUrl": "https://ubbulls.com/images/2026/10/3/KIDS_HIGH-FIVE_TUNNEL-20261003fb-3137-web.jpg",
+            "imageAlt": null,
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/football",
             "metadataCheckedAt": "2026-11-13T20:05:58.359Z"
+          },
+          {
+            "id": "c460311ec046085e31dd22bb",
+            "title": "Coach Lembo's Weekly Press Conference: Week 11",
+            "url": "https://www.ubbulls.com/news/2026/11/13/football-coach-lembos-weekly-press-conference-week-11",
+            "publishedAt": "2026-11-13T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fubbulls.com%2Fimages%2F2026%2F11%2F13%2FLemboPC.jpg&width=540&height=304&type=webp",
+            "imageAlt": "Pete Lembo speaking at a podium",
+            "author": null,
+            "publisher": "University at Buffalo, the State University of New York Athletics",
+            "discoverySourceUrl": "https://www.ubbulls.com/sports/football",
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "90c0a580b409d591cec6996e",
@@ -527,7 +552,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/football",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "c9d54612c0bf7725df448ec9",
@@ -540,7 +565,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/football",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "e077e664e7f4ce859547856f",
@@ -578,7 +603,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/football",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "a93af6b5ff572ee35c42a544",
@@ -591,7 +616,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/football",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "8e7985d18431f0a99552ba59",
@@ -736,6 +761,19 @@
             "metadataCheckedAt": "2026-11-11T23:02:56.181Z"
           },
           {
+            "id": "f3b88b5bae06e9b4dc62cbf1",
+            "title": "Bulls Ground Rockets, 23-8",
+            "url": "https://www.ubbulls.com/news/2026/10/10/football-bulls-ground-rockets-23-8",
+            "publishedAt": "2026-10-11T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://ubbulls.com/images/2026/10/10/1Q__1_.jpg",
+            "imageAlt": null,
+            "author": null,
+            "publisher": "University at Buffalo, the State University of New York Athletics",
+            "discoverySourceUrl": "https://www.ubbulls.com/sports/football",
+            "metadataCheckedAt": "2026-11-08T15:37:15.835Z"
+          },
+          {
             "id": "8c4233cf0096cd54ea591bac",
             "title": "Buffalo Bulls vs. Toledo Rockets: Full Highlights",
             "url": "https://www.espn.com/video/clip/_/id/50151511/full-highlights",
@@ -746,19 +784,6 @@
             "author": null,
             "publisher": "ESPN",
             "discoverySourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100"
-          },
-          {
-            "id": "f3b88b5bae06e9b4dc62cbf1",
-            "title": "Bulls Ground Rockets, 23-8",
-            "url": "https://www.ubbulls.com/news/2026/10/10/football-bulls-ground-rockets-23-8",
-            "publishedAt": "2026-10-10T00:00:00.000Z",
-            "publishedAtPrecision": "day",
-            "imageUrl": "https://www.ubbulls.com/images/2026/10/10/1Q__1_.jpg",
-            "imageAlt": "Chris Climes tackling a Toledo running back",
-            "author": null,
-            "publisher": "University at Buffalo, the State University of New York Athletics",
-            "discoverySourceUrl": "https://www.ubbulls.com/sports/football",
-            "metadataCheckedAt": "2026-11-08T15:37:15.835Z"
           },
           {
             "id": "665293fbbed13e12243cd059",
@@ -1139,48 +1164,48 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/football",
             "reason": null,
-            "recordCount": 47
+            "recordCount": 48
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 5
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.cbssports.com/rss/headlines/college-football/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fbs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/football/fcs/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1189,7 +1214,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1198,7 +1223,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1207,7 +1232,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1216,7 +1241,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1225,7 +1250,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1244,8 +1269,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/womens-basketball",
         "season": null,
         "reason": null,
@@ -1403,7 +1428,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/womens-basketball",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "6c14dfb10db8c61e04cbe82e",
@@ -1416,7 +1441,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/womens-basketball",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "e50abab253565f7c943effb0",
@@ -1429,7 +1454,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/womens-basketball",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "51eb8851eaf63996dc31837f",
@@ -1442,7 +1467,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/womens-basketball",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "ed102c69f141b319a0e894ab",
@@ -1455,7 +1480,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/womens-basketball",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "f1ef4402ae80ed2dc0ed7ec8",
@@ -1604,32 +1629,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/womens-basketball",
             "reason": null,
             "recordCount": 26
           },
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 1
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/basketball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -1638,7 +1663,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1647,7 +1672,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1656,7 +1681,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1665,7 +1690,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1674,7 +1699,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -1693,8 +1718,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/cross-country",
         "season": null,
         "reason": null,
@@ -1736,7 +1761,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "7232607e2e55ad232711114e",
@@ -1775,7 +1800,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "b35e4fe9ca6e7a6d91c44d8e",
@@ -1801,7 +1826,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "d2dd684091d20906d162611a",
@@ -1814,7 +1839,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "759af36594bca3bb3f4b6127",
@@ -1827,7 +1852,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/cross-country",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "e748c7b2518f83678566f13e",
@@ -2002,24 +2027,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/cross-country",
             "reason": null,
             "recordCount": 23
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2028,7 +2053,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2037,7 +2062,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2046,7 +2071,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2055,7 +2080,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2064,7 +2089,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2083,8 +2108,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/mens-tennis",
         "season": null,
         "reason": null,
@@ -2152,7 +2177,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/mens-tennis",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "244ebd97ee622b278ceb1bb8",
@@ -2165,7 +2190,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/mens-tennis",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "e805a1080e1230f8014b4c4c",
@@ -2178,7 +2203,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/mens-tennis",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "0b33f7395eda28019b9094bc",
@@ -2191,7 +2216,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/mens-tennis",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "bb2161a95c34025861b0bd24",
@@ -2204,7 +2229,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/mens-tennis",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "bdc48a2c3a321dab6d0fcc64",
@@ -2366,24 +2391,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/mens-tennis",
             "reason": null,
             "recordCount": 21
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2392,7 +2417,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2401,7 +2426,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2410,7 +2435,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2419,7 +2444,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2428,7 +2453,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2447,8 +2472,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -2477,7 +2502,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/track-and-field",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "293012cf3c8d9e664944b316",
@@ -2490,7 +2515,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/track-and-field",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "e271ea8b48334f1571911c31",
@@ -2717,24 +2742,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/track-and-field",
             "reason": null,
             "recordCount": 20
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -2743,7 +2768,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2752,7 +2777,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2761,7 +2786,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2770,7 +2795,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2779,7 +2804,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -2798,8 +2823,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -3068,24 +3093,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/track-and-field",
             "reason": null,
             "recordCount": 20
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-men/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3094,7 +3119,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3103,7 +3128,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3112,7 +3137,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3121,7 +3146,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3130,7 +3155,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3149,8 +3174,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/wrestling",
         "season": null,
         "reason": null,
@@ -3192,7 +3217,7 @@
             "author": null,
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/wrestling",
-            "metadataCheckedAt": "2026-11-06T21:51:57.360Z"
+            "metadataCheckedAt": "2026-11-14T01:06:43.803Z"
           },
           {
             "id": "984dcdf459f226a66276bc04",
@@ -3419,16 +3444,16 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/wrestling",
             "reason": null,
             "recordCount": 20
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3437,7 +3462,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3446,7 +3471,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3455,7 +3480,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3464,7 +3489,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3473,7 +3498,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3492,8 +3517,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/softball",
         "season": null,
         "reason": null,
@@ -3707,32 +3732,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/softball",
             "reason": null,
             "recordCount": 17
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/baseball/college-softball/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/softball/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -3741,7 +3766,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3750,7 +3775,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3759,7 +3784,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3768,7 +3793,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3777,7 +3802,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -3796,8 +3821,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/cross-country",
         "season": null,
         "reason": null,
@@ -4105,24 +4130,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/cross-country",
             "reason": null,
             "recordCount": 23
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/cross-country-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4131,7 +4156,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4140,7 +4165,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4149,7 +4174,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4158,7 +4183,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4167,7 +4192,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4186,8 +4211,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/womens-soccer",
         "season": null,
         "reason": null,
@@ -4755,32 +4780,32 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/womens-soccer",
             "reason": null,
             "recordCount": 43
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/news?limit=100",
             "reason": "publisher-feed-filtered-verified-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/soccer-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -4789,7 +4814,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4798,7 +4823,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4807,7 +4832,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4816,7 +4841,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4825,7 +4850,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -4844,8 +4869,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/swimming-and-diving",
         "season": null,
         "reason": null,
@@ -5140,24 +5165,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/swimming-and-diving",
             "reason": null,
             "recordCount": 22
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/swimming-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5166,7 +5191,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5175,7 +5200,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5184,7 +5209,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5193,7 +5218,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5202,7 +5227,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5221,8 +5246,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/womens-tennis",
         "season": null,
         "reason": null,
@@ -5556,24 +5581,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/womens-tennis",
             "reason": null,
             "recordCount": 25
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/tennis-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5582,7 +5607,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5591,7 +5616,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5600,7 +5625,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5609,7 +5634,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5618,7 +5643,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5637,8 +5662,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -5907,24 +5932,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/track-and-field",
             "reason": null,
             "recordCount": 20
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-indoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -5933,7 +5958,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5942,7 +5967,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5951,7 +5976,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5960,7 +5985,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5969,7 +5994,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -5988,8 +6013,8 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/track-and-field",
         "season": null,
         "reason": null,
@@ -6258,24 +6283,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/track-and-field",
             "reason": null,
             "recordCount": 20
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/trackfield-outdoor-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6284,7 +6309,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6293,7 +6318,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6302,7 +6327,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6311,7 +6336,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6320,7 +6345,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6339,19 +6364,31 @@
       },
       "news": {
         "status": "ok",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-        "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+        "lastSuccessAt": "2026-11-14T01:06:43.803Z",
         "sourceUrl": "https://www.ubbulls.com/sports/womens-volleyball",
         "season": null,
         "reason": null,
         "records": [
+          {
+            "id": "f2e9e1aa605fdb2ccadaa480",
+            "title": "Bulls Fall in Regular Season Finale",
+            "url": "https://www.ubbulls.com/news/2026/11/13/womens-volleyball-bulls-fall-in-regular-season-finale",
+            "publishedAt": "2026-11-14T00:00:00.000Z",
+            "publishedAtPrecision": "day",
+            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fubbulls.com%2Fimages%2F2026%2F11%2F7%2FHUDDLE-20261107vb-3582-web.jpg&width=540&height=304&type=webp",
+            "imageAlt": "HUDDLE",
+            "author": "Zach Monell",
+            "publisher": "University at Buffalo, the State University of New York Athletics",
+            "discoverySourceUrl": "https://www.ubbulls.com/sports/womens-volleyball"
+          },
           {
             "id": "e6583ff502ebf42d001275ab",
             "title": "Bulls and Bobcats Clash with Postseason Hopes on the Line",
             "url": "https://www.ubbulls.com/news/2026/11/12/womens-volleyball-bulls-and-bobcats-clash-with-postseason-hopes-on-the-line",
             "publishedAt": "2026-11-12T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fubbulls.com%2Fimages%2F2026%2F11%2F7%2FHUDDLE-20261107vb-3593-web.jpg&width=540&height=304&type=webp",
+            "imageUrl": "https://www.ubbulls.com/images/2026/11/7/HUDDLE-20261107vb-3593-web.jpg",
             "imageAlt": "HUDDLE",
             "author": "Zach Monell",
             "publisher": "University at Buffalo, the State University of New York Athletics",
@@ -6565,10 +6602,10 @@
             "id": "8fbe148f2478b3fb4920e925",
             "title": "Volleyball Comes Back for Five-Set Win Over Eastern Michigan",
             "url": "https://www.ubbulls.com/news/2026/10/9/womens-volleyball-volleyball-comes-back-for-five-set-win-over-eastern-michigan",
-            "publishedAt": "2026-10-09T00:00:00.000Z",
+            "publishedAt": "2026-10-10T00:00:00.000Z",
             "publishedAtPrecision": "day",
-            "imageUrl": "https://www.ubbulls.com/images/2026/10/9/FORLIN-20261009vb-3359-web.jpg",
-            "imageAlt": "FORLIN",
+            "imageUrl": "https://ubbulls.com/images/2026/10/9/FORLIN-20261009vb-3359-web.jpg",
+            "imageAlt": null,
             "author": "Zach Monell",
             "publisher": "University at Buffalo, the State University of New York Athletics",
             "discoverySourceUrl": "https://www.ubbulls.com/sports/womens-volleyball"
@@ -6916,24 +6953,24 @@
         "sources": [
           {
             "status": "ok",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ubbulls.com/sports/womens-volleyball",
             "reason": null,
-            "recordCount": 47
+            "recordCount": 48
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.heartlandcollegesports.com/feed/",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
           },
           {
             "status": "empty",
-            "lastAttemptAt": "2026-11-13T20:05:58.359Z",
-            "lastSuccessAt": "2026-11-13T20:05:58.359Z",
+            "lastAttemptAt": "2026-11-14T01:06:43.803Z",
+            "lastSuccessAt": "2026-11-14T01:06:43.803Z",
             "sourceUrl": "https://www.ncaa.com/news/volleyball-women/d1/rss.xml",
             "reason": "publisher-feed-filtered-school-and-sport",
             "recordCount": 0
@@ -6942,7 +6979,7 @@
       },
       "schedule": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6951,7 +6988,7 @@
       },
       "roster": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6960,7 +6997,7 @@
       },
       "recruitingAnnouncements": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6969,7 +7006,7 @@
       },
       "recruitingBoard": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
@@ -6978,7 +7015,7 @@
       },
       "recruitingOffers": {
         "status": "unavailable",
-        "lastAttemptAt": "2026-11-13T20:05:58.359Z",
+        "lastAttemptAt": "2026-11-14T01:06:43.803Z",
         "lastSuccessAt": null,
         "sourceUrl": null,
         "season": null,
