@@ -56,8 +56,13 @@ jobs:
           case "$lane" in texas-news|osu-news|osu-sports|texas-sports) ;; *) exit 1 ;; esac
           # Old dispatcher installations must not keep requesting retired hourly slots.
           if [[ "$lane" == texas-news && -n "$REQUESTED_SLOT" ]]; then
-            if [[ ! "$REQUESTED_SLOT" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}T(02|14):19Z$ ]] ||
-                [[ "$(date -u -d "$REQUESTED_SLOT" +%Y-%m-%dT%H:%MZ 2>/dev/null)" != "$REQUESTED_SLOT" ]]; then
+            valid_slot=
+            if [[ "$REQUESTED_SLOT" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}T(02|14):19Z$ ]]; then
+              format='%Y-%m-%dT%H:%MZ'
+              valid_slot=$(date -u -d "$REQUESTED_SLOT" "+$format" 2>/dev/null ||
+                date -j -u -f "$format" "$REQUESTED_SLOT" "+$format" 2>/dev/null || true)
+            fi
+            if [[ "$valid_slot" != "$REQUESTED_SLOT" ]]; then
               echo '::error::Texas news catch-up requires a valid 02:19Z or 14:19Z schedule slot.'
               exit 1
             fi
