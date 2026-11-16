@@ -47,3 +47,17 @@ test('Texas news accepts its two catch-up slots and explicit manual refreshes, b
     assert.deepEqual(route('workflow_dispatch', '', 'texas-news', slot), { code: 1, output: '' });
   }
 });
+
+test('retrying the publisher rechecks the slot before using private checkout or write credentials', () => {
+  const jobs = [...workflow.matchAll(/^  ([\w-]+):\n((?:    [^\n]*\n|\n)+)/gm)];
+  const maintain = jobs.find(job => job[1] === 'maintain')?.[2] ?? '';
+  const guardIndex = maintain.indexOf('id: slot');
+  const privateIndex = maintain.indexOf('- name: Authorize private checkout');
+  assert.ok(guardIndex >= 0 && privateIndex > guardIndex, 'the guard must run inside the retryable publisher');
+  for (const name of ['Authorize private checkout', 'Authorize private publication', 'Publish validated commits to the private app']) {
+    const start = maintain.indexOf(`- name: ${name}\n`);
+    const body = maintain.slice(start).split('\n      - ')[0];
+    assert.ok(start > guardIndex && /steps\.slot\.outputs\.eligible == 'true'/.test(body),
+      `${name} must be gated by this attempt's decision`);
+  }
+});
