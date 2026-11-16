@@ -33,6 +33,9 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 100
     environment: private-school-publisher
+    permissions:
+      actions: read
+      contents: read
     steps:
       - name: Select the school job
         id: lane
@@ -68,8 +71,25 @@ jobs:
             fi
           fi
           printf 'name=%s\n' "$lane" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          path: slot-admission
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Check completed school slot
+        id: slot
+        working-directory: slot-admission
+        env:
+          SCHOOL_LANE: ${{ steps.lane.outputs.name }}
+          REQUESTED_SLOT: ${{ inputs.scheduled_slot }}
+          SLOT_HISTORY_TOKEN: ${{ github.token }}
+        run: node scripts/school-slot-admission.mjs
       - name: Authorize private checkout
         id: reader
+        if: steps.slot.outputs.eligible == 'true'
         uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
         with:
           client-id: ${{ vars.PRIVATE_APP_CLIENT_ID }}
@@ -78,6 +98,7 @@ jobs:
           repositories: osu-recruiting-app-private
           permission-contents: read
       - name: Check out the private app
+        if: steps.slot.outputs.eligible == 'true'
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: Chanses-Org/osu-recruiting-app-private
@@ -86,12 +107,9 @@ jobs:
           persist-credentials: false
           fetch-depth: 1
           path: private-app
-      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
-        with:
-          node-version: '24'
-          package-manager-cache: false
       - name: Run private collection and validation
         id: collect
+        if: steps.slot.outputs.eligible == 'true'
         working-directory: private-app
         env:
           LANE: ${{ steps.lane.outputs.name }}
@@ -123,7 +141,7 @@ jobs:
           printf 'finished=true\nstatus=%s\ncount=%s\n' "$result" "$count" >> "$GITHUB_OUTPUT"
       - name: Authorize private publication
         id: writer
-        if: steps.collect.outputs.finished == 'true' && steps.collect.outputs.count != '0'
+        if: steps.slot.outputs.eligible == 'true' && steps.collect.outputs.finished == 'true' && steps.collect.outputs.count != '0'
         uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
         with:
           client-id: ${{ vars.PRIVATE_APP_CLIENT_ID }}
@@ -133,7 +151,7 @@ jobs:
           permission-contents: write
       - name: Publish validated commits to the private app
         id: publish
-        if: steps.collect.outputs.finished == 'true'
+        if: steps.slot.outputs.eligible == 'true' && steps.collect.outputs.finished == 'true'
         working-directory: private-app
         env:
           BASELINE: ${{ steps.collect.outputs.baseline }}
@@ -144,6 +162,7 @@ jobs:
           [[ "$BASELINE" =~ ^[0-9a-f]{40}$ ]]
           git merge-base --is-ancestor "$BASELINE" HEAD
           count=$(git rev-list --count "$BASELINE..HEAD")
+          public_delta=false
           if (( count > 0 )); then
             [[ -n "$PRIVATE_APP_TOKEN" ]]
             umask 077
@@ -178,10 +197,17 @@ jobs:
             fi
             remote_head=$(git -c credential.helper= -c http.extraHeader= ls-remote "$remote" refs/heads/main 2>> "$capture_log" | cut -f1)
             [[ "$remote_head" == "$(git rev-parse HEAD)" ]]
+            public_paths=$(git diff --name-only "$BASELINE" HEAD -- src/resources/ public/)
+            if [[ -n "$public_paths" ]]; then public_delta=true; fi
           fi
-          printf 'count=%s\n' "$count" >> "$GITHUB_OUTPUT"
+          printf 'count=%s\npublic_delta=%s\n' "$count" "$public_delta" >> "$GITHUB_OUTPUT"
+      # A partial collection can still push validated data. Record the push
+      # separately from the final job result, which must still report failure.
+      - name: Confirm public data push
+        if: steps.publish.outputs.public_delta == 'true'
+        run: echo 'Validated public data pushed to private main.'
       - name: Report maintenance result
-        if: always()
+        if: always() && steps.slot.outputs.eligible == 'true'
         env:
           LANE: ${{ steps.lane.outputs.name }}
           COLLECT_STATUS: ${{ steps.collect.outputs.status }}
